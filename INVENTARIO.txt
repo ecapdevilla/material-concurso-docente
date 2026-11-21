@@ -133,6 +133,7 @@ Estudio Concurso 2026\15-tecnologia-informatica\tecnologiaestandar.pdf
 Estudio Concurso 2026\16-competencias-blandas\Codigo-Etica-Backup-28022021.pdf
 Estudio Concurso 2026\16-competencias-blandas\etica.pdf
 Estudio Concurso 2026\16-competencias-blandas\seminario liderazgo y motivacion.pdf
+Estudio Concurso 2026\17-guia-integral-competencias\Guia_integral_competencias_ciudadanas_razonamiento_cuantitativo_2026.docx
 Estudio Concurso 2026\index.html
 Estudio Concurso 2026\PROMPT-IA-AYUDA.md
 Estudio Concurso 2026\PROMPT-OTRA-MAQUINA.md
