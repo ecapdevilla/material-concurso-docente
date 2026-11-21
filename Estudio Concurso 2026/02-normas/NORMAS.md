@@ -29,7 +29,7 @@ Prioridad: **A** = imprescindible esta semana. **B** = antes de la prueba. **C**
 | Norma | Tema | Nota |
 |---|---|---|
 | Constitución Política, arts. 67, 68, 125, 130, 209 | Educación, educadores, carrera administrativa, función pública | El Acuerdo cita arts. 125, 130 y 209. Los arts. 67 y 68 son la base del derecho a la educación y de los educadores. |
-| **Ley 1620 de 2013** | Sistema Nacional de Convivencia Escolar y acoso | Frecuente en competencias blandas y ética. No aparece en el Acuerdo; verificar. |
+| **Ley 1620 de 2013** | Sistema Nacional de Convivencia Escolar y acoso | Frecuente en competencias blandas y ética. No aparece en el Acuerdo; verificar. | ✅ descargada (ley-1620-2013-funcionpublica.pdf) |
 | **Ley 1098 de 2006** (Código de Infancia y Adolescencia) | Derechos de niños, niñas y adolescentes | Base ética de la práctica docente. Verificar. |
 | **Ley 1581 de 2012** | Protección de datos | Citada en el Acuerdo (uso de datos en SIMO). | ✅ descargada (norma-49981-funcionpublica.pdf) |
 | **Ley 1346 de 2009** y **Ley 1618 de 2013** | Discapacidad | Citadas en el Acuerdo. |

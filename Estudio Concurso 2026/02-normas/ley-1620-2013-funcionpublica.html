@@ -1,0 +1,1018 @@
+﻿	
+﻿<!doctype html>
+<html lang="es">
+<head>
+
+
+
+<!-- Required meta tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Ley 1620 de 2013 - Gestor Normativo" />
+<meta property="og:description" content="Por la cual se crea el Sistema Nacional de Convivencia Escolar y Formación para el Ejercicio de los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar." />
+<meta property="og:image" content="https://www.funcionpublica.gov.co/documents/28587425/35428802/Logo_gestor_normativo_iconos.jpg/704e6daf-bdde-be35-374c-dee67809d4d1?t=1654122375247" />
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="keywords" content="escolar,atención,sexuales,reproductivos,prevención,ruta,formación,comité,mitigación,sexualidad,sistemas,nacionales,sistema,nacional,convivencia,derechos,humanos,la,educación,violencia">    <meta itemprop="dateModified" content="2022-12-13">
+<title>Ley 1620 de 2013 - Gestor Normativo - Función Pública</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="Expires" content="0">
+<!-- <meta> -->
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="css_nuevo/style_gn.css"/>
+<!--Fontawesome-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+
+<script>
+	//Cambiar tamaño fuente
+	function cambia_tamano_fuente(accion){
+		<!-- console.log('Entró a cambia_tamano_fuente'); -->
+		var vcontenido;
+		
+		//div que contiene el texto de la norma
+		var divspag = document.getElementsByTagName('div'); //descripcion-contenido
+		for ( var j = 0; j < divspag.length; j++) {
+			<!-- console.log('className: ' + divspag[j].className); -->
+			if(divspag[j].className == 'descripcion-contenido'){
+				vcontenido = divspag[j];
+			}
+		}
+		
+		<!-- console.log('ENCONTRADO!!!!: ' + vcontenido.className); -->
+		
+		
+		var elementos_parrafo = vcontenido.getElementsByTagName('p');
+		var tam_actual;
+		for ( var i = 0; i < elementos_parrafo.length; i++) {
+			<!-- console.log(elementos_parrafo[i].style.fontSize); -->
+			tam_actual = parseInt(elementos_parrafo[i].style.fontSize.replace('px',''));
+			<!-- console.log('tam_actual:' + tam_actual); -->
+			if(Number.isNaN(tam_actual))
+				tam_actual = 16;
+			<!-- console.log('tam_actual:' + tam_actual); -->
+			if(accion=='aumenta'){
+					elementos_parrafo[i].style.fontSize = (tam_actual + 1) + 'px';
+			}
+			if(accion=='reduce'){
+					elementos_parrafo[i].style.fontSize = (tam_actual - 1) + 'px';
+			}
+		}
+	}
+	
+	
+
+	
+</script>
+<style>
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+</style>
+
+</head>
+<body>
+
+  
+
+
+<!--header-->
+<header class="header" style="margin-top:-28px;">
+  <div class="header-top d-none d-lg-block">
+    <div class="container logo-nav-container"> <a href="https://www.gov.co/home/" class="img-fluid"><img src="img_nuevo/logo-gov1.png" alt="Logo gov.co"/></a>
+      <nav class="navigation accesibilidad">
+        <ul>
+          <li class="mr-5" style="font-size: 15px;"><a href="https://www.funcionpublica.gov.co/inicio?p_p_id=com_liferay_login_web_portlet_LoginPortlet&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&saveLastPath=false&_com_liferay_login_web_portlet_LoginPortlet_mvcRenderCommandName=%2Flogin%2Flogin">INGRESAR A LA INTRANET</a></li>
+          <li class="mr-1"> <button href="https://www.funcionpublica.gov.co/rss" type="button" role="button" class="btn btn-white" alt="Página principal de Función Pública"><i class="fa fa-rss pr-1 pl-1" aria-hidden="true"></i></button> </li>
+          <li class="mr-1">
+            <button type="button" class="btn btn-white" onclick="cambia_tamano_fuente('aumenta')">A+</button>
+          </li>
+          <li>
+            <button type="button" class="btn btn-white" onclick="cambia_tamano_fuente('reduce')">A-</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!-- 
+  <div class="navbar-right">
+		<div id="iconos_barra">
+			<a class="navbar-link link-intranet" href="/web/intranet/inicio" title="Ingresar a la intranet">INGRESAR A LA INTRANET</a>
+			<a class="opcion" href="/rss" aria-label="Rss" target="_blank"><i class="icon-rss" aria-hidden="true"></i><span class="sr-only">RSS</span></a>
+			<a class="opcion" onclick="aumentarTexto()">A+</a>
+			<a class="opcion" onclick="reducirTexto()">A-</a>
+			<a title="Reestablecer el tama?o de la fuente" class="opcion" onclick="reducirTexto()"><i class="fa fa-refresh" aria-hidden="true"></i></a>
+		</div>					
+	</div> -->
+  
+  
+  <!--Reemplazar img Banner acÃ¡-->
+  <!-- <div class="banner  d-none d-lg-block"><a href="#"><img src="img_nuevo/banner1.png" alt="" width="1440" class="img-fluid" height="120" border="0"/></a></div> -->
+  <!--fin banner--> 
+  <!--logo y buscador-->
+  <div class="container ">
+    <div class="row align-items-center logo2-search">
+      <div class="col-lg-4 col-md-6"> 
+		<a href="https://www.funcionpublica.gov.co" class="logo">
+			<!--<img src="https://www.funcionpublica.gov.co/documents/418537/37421537/logo-CP-2023.png/63ca9626-0978-03ad-1312-b0050ab726b0?t=1684959039170" width="285px" class="img-fluid" alt="Logo Función Pública"/>-->
+			<img src="https://www.funcionpublica.gov.co/image/layout_set_logo?img_id=224510&t=1718837174316" width="285px" class="img-fluid" alt="Logo Función Pública"/>
+		</a> 
+	  </div>
+      <div class="col-lg-4 col-md-6"> 
+		<!--<a href="https://www.funcionpublica.gov.co/" class="logo">
+			<img src="https://www.funcionpublica.gov.co/documents/418537/37421537/layout_set_logo_FP.png/0587270b-880a-4f78-9b74-aaf988700c87?t=1659904736491" width="285px" class="img-fluid" alt="Logo Función Pública"/>
+		</a>--> 
+	  </div>      
+	  <form action="/web/eva/curso-para-veedurias-ciudadanas?p_p_id=com_liferay_portal_search_web_portlet_SearchPortlet&amp;p_p_lifecycle=0&amp;p_p_state=maximized&amp;p_p_mode=view&amp;_com_liferay_portal_search_web_portlet_SearchPortlet_mvcPath=%2Fsearch.jsp&amp;_com_liferay_portal_search_web_portlet_SearchPortlet_redirect=http%3A%2F%2Fwww.funcionpublica.gov.co%2Fweb%2Feva%2Fcurso-para-veedurias-ciudadanas%3Fp_p_id%3Dcom_liferay_portal_search_web_portlet_SearchPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview" class="form " data-fm-namespace="_com_liferay_portal_search_web_portlet_SearchPortlet_" id="_com_liferay_portal_search_web_portlet_SearchPortlet_fm" method="get" name="_com_liferay_portal_search_web_portlet_SearchPortlet_fm"> 
+	  <div class="col d-none d-lg-block  mt-md-4 align-self-end "> <span name="btnsearch" style="cursor: pointer;" class="g-pos-abs g-right-20 d-block g-width-50 h-100"> <i class="admin-search g-absolute-centered"></i> </span>
+	    <input class="field form-control" id="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate" name="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate" value="1535491536559" type="hidden"> 
+		<input name="p_p_id" value="com_liferay_portal_search_web_portlet_SearchPortlet" type="hidden">
+		<input name="p_p_lifecycle" value="0" type="hidden">
+		<input name="p_p_state" value="maximized" type="hidden">
+		<input name="p_p_mode" value="view" type="hidden">
+		<input name="_com_liferay_portal_search_web_portlet_SearchPortlet_mvcPath" value="/search.jsp" type="hidden">
+		<input name="_com_liferay_portal_search_web_portlet_SearchPortlet_redirect" value="/web/eva/curso-para-veedurias-ciudadanas?p_p_id=com_liferay_portal_search_web_portlet_SearchPortlet&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view" type="hidden"> 
+        <input name="_com_liferay_portal_search_web_portlet_SearchPortlet_keywords" class="form-control mr-sm-2 buscador_fp" type="search" placeholder="Buscar..." aria-label="Search">
+		</div>
+	  </form>
+      
+    </div>
+  </div>
+  
+  <!--menu principal-->
+  <div class="container">
+  
+
+  
+  
+  
+  
+    <nav class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand" href="https://www.funcionpublica.gov.co/web/eva">EVA</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item "> <a class="nav-link" href="https://www.funcionpublica.gov.co/web/eva/publicaciones">Publicaciones </a> </li>
+          <li class="nav-item active"> <a class="nav-link" href="https://www.funcionpublica.gov.co/web/eva/gestor-normativo">Gestor Normativo</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="https://www.funcionpublica.gov.co/eva/red">Red de servidores</a> </li>
+          <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Cursos virtuales </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/curso-integridad">Curso de integridad</a> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/programa-de-induccion-y-reinduccion">Programa de inducción y reinducción</a> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/curso-para-veedurias-ciudadanas">Curso para Veedurías Ciudadanas</a> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/curso-gerentes-publicos">Curso para Gerentes PÃºblicos</a> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/curso-mipg">Curso MIPG</a> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/curso-de-empleo-publico">Curso de Empleo PÃºblico</a> </div>
+          </li>
+          <li class="nav-item"> <a class="nav-link" href="https://www.funcionpublica.gov.co/eva/es/formatos-administracion-publica">Formatos</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="https://www.funcionpublica.gov.co/web/eva/contactenos">Contáctenos</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="https://www.funcionpublica.gov.co/web/eva/preguntas-frecuentes">Preguntas frecuentes</a> </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  
+  <!---breadcrumb-->
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb"  id="spanmiga" >
+        <li class="breadcrumb-item"><a href="https://www.funcionpublica.gov.co/web/eva">EVA</a></li>
+        <li class="breadcrumb-item"><a href="https://www.funcionpublica.gov.co/web/eva/gestor-normativo">Gestor Normativo</a></li>
+		<li class="breadcrumb-item active" aria-current="page">Normas de la Función Pública</li>
+      </ol>
+    </nav>
+  </div>
+  </div>
+  <!-- End Breadcrumbs --> 
+
+</header>
+
+<!---End header-->
+	
+	<script>
+	
+
+
+	
+	
+	
+	function Scrolldown() {
+			window.scroll(0,-30); 
+	}
+	function eliminateDuplicates(arr) {
+				//console.log(arr);
+			  var i,
+				  len=arr.length,
+				  out=[],
+				  obj={};
+
+			  for (i=len-1;i>=0;i--) {
+					obj[arr[i]]=0;
+			  }
+			  //console.log(obj);
+			  for (i in obj) {
+					out.push(i);
+					//console.log(i);
+			  }
+			  out.reverse();
+			  return out;
+	}
+		
+	function mostrar_ocultar_jurisprudencia(iddiv){
+		if(document.getElementById("juris"+iddiv).style.display=='none'){
+			document.getElementById("juris"+iddiv).style.display='block';
+		}else{
+			document.getElementById("juris"+iddiv).style.display='none';
+		}
+	}
+	
+	if (sessionStorage.migapan) {
+				sessionStorage.migapan = sessionStorage.migapan + '+Ley 1620/13|52287';
+				var normas = sessionStorage.migapan.split('+');
+				normas = eliminateDuplicates(normas);
+				sessionStorage.migapan = normas.join('+');
+	} else {
+				sessionStorage.migapan = 'Ley 1620/13|52287';
+	}
+	var migadepan = sessionStorage.migapan.split("+");
+	var txt_miga='<li class="breadcrumb-item"><a href="https://www.funcionpublica.gov.co/web/eva">EVA</a></li>'+
+        '<li class="breadcrumb-item"><a href="https://www.funcionpublica.gov.co/web/eva/gestor-normativo">Gestor Normativo</a></li>'+
+	    '<li class="breadcrumb-item"><a href="https://www.funcionpublica.gov.co/eva/gestornormativo/consulta_avanzada.php">Consulta</a></li>';
+	for (j=0;j<migadepan.length;j++) {
+		var xnorma=migadepan[j].split("|");
+		txt_miga+='<li class="breadcrumb-item"><a href="/eva/gestornormativo/norma.php?i='+xnorma[1]+'">'+xnorma[0]+'</a></li>'; 
+	}
+	document.getElementById("spanmiga").innerHTML=txt_miga;
+	//document.getElementById("result").innerHTML = "You have clicked the button " +
+	//sessionStorage.migapan + " time(s) in this session.";
+
+	function mostrarMensajeNoDisponible() {
+		alert("Esta funcionalidad no está disponible por el momento.");
+	}
+	
+	</script>
+	<style>
+		h2,h3,h4 {
+			  text-align: center;
+			      font-size: 1em;
+			}
+		.titulo-norma{
+			  font-size: 2.441em;
+			  text-align: left;
+			}
+		h1 {
+			  text-align: center;
+			      font-size: 1em;
+			}
+		.jurisprudencia a {
+			color: #007bff!important;
+		}
+		ol {
+			padding-inline-start: 20px;
+		}
+	</style>
+  	
+  <main class="main"> 
+  <!-- Breadcrumbs -->
+  
+  <!-- getRealIP 186.82.87.20, 54.198.165.25-->  <!-- cache: cache/52287-20221213195412.fp -->  
+  
+  <div class="container">
+    <h2 class="titulo-norma"><strong>Ley 1620 de 2013</strong></h2>  
+  <div class="row" style="margin-top: 4rem">
+  <!--col left-->
+        <div class="col-lg-3 col-md-12">
+							
+		<a href="norma_pdf.php?i=52287" target="_blank">
+		<!--<a href="#" onclick="mostrarMensajeNoDisponible(); return false;" target="_blank">-->
+			<button type="button" class="btn btn-yellow">Descargar PDF</button>
+		</a>
+					 <!--accordion-->
+      <div class="accordion" id="accordion">
+	  <div class="card-accordion">
+	  <div class="card-header" id="headingOne">
+	  <h5 class="mb-0">
+	  <button class="btn btn-link collapsed  btn-accordion" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Fechas
+        </button>
+	  </h5>
+	  </div>
+	  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+			<p>Fecha de Expedición: 15 de marzo de 2013</p>
+			<p class="subrayado2"></p>
+			<p>Fecha de Entrada en Vigencia: 15 de marzo de 2013</p>
+			<p class="subrayado2"></p>
+			<p>Medio de Publicación: Diario Oficial 48733 de marzo 15 de 2013</p>
+			<p class="subrayado2"></p>
+      </div>
+    </div>
+	  </div>
+	  
+	  <div class="card-accordion">
+			<div class="card-header" id="headingTwo">
+			  <h5 class="mb-0">
+				<button class="btn btn-link collapsed ; btn-accordion" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				 Temas (1)
+				</button>
+			  </h5>
+			</div>
+			
+			<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+			  <div class="card-body">
+			  				  <h5 class="txt-18">SISTEMAS NACIONALES</h5> 
+				  <h6>- Subtema: Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Mitigación de la Violencia Escolar</h6>
+				  
+				  				  <p>Por la cual se crea el Sistema Nacional de Convivencia Escolar y Formación para el Ejercicio de los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar.</p>
+										
+								  			  </div>
+			</div>
+	</div>
+	  
+		
+	
+	 <div class="card-accordion">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+		<button class="btn btn-link collapsed; btn-accordion" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+          Vigencias(0)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse  show" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+	  	  <p class="subrayado2"></p>
+      </div>
+    </div>
+  </div> 
+
+  </div>
+	   <!--end accordion-->
+	  </div>
+	  
+	  <!--end col left-->
+
+<!--col right-->
+<div class="col-lg-9 col-md-12">
+
+			
+											
+						
+						
+											<div class="alert alert-dismissible alert-info">
+												  <!-- <button type="button" class="close" data-dismiss="alert">X</button> -->
+												  <p ><small>Los datos publicados tienen propósitos exclusivamente informativos. El Departamento Administrativo de la Función Pública no se hace responsable de la vigencia de la presente norma. Nos encontramos en un proceso permanente de actualización de los contenidos.</small></p>
+											</div>
+
+
+	<div class="descripcion-contenido">
+		<p align="center"><strong>LEY 1620 DE 2013 </strong></p>
+<p align="center"><strong>(Marzo 15) </strong></p>
+<p align="center"><a href="norma.php?i=54537#0">Reglamentada por el Decreto Nacional 1965 de 2013</a></p>
+<p align="center"><em><strong><a title="vinculo" href="norma.php?i=261956#7">(Adicionado por el art. 7, Ley 2383 de 2024)</a></strong></em></p>
+<p align="center"><strong><em><a title="vinculo" href="norma.php?i=261856#14">(Adicionado por el art. 14, Ley 2503 de 2025)</a></em></strong></p>
+<p align="center"> </p>
+<p align="center"><strong>Por la cual se crea el Sistema Nacional de Convivencia Escolar y Formación para el Ejercicio de los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar.</strong></p>
+<p align="center"><strong>EL CONGRESO DE COLOMBIA </strong></p>
+<p align="center"><strong>DECRETA: </strong></p>
+<p align="center"><strong>CAPÍTULO I </strong></p>
+<p align="center"><strong>Disposiciones Generales </strong></p>
+<p><strong>Artículo 1°. </strong><em><strong>Objeto.</strong></em> El objeto de esta ley es contribuir a la formación de ciudadanos activos que aporten a la construcción de una sociedad democrática, participativa, pluralista e intercultural, en concordancia con el mandato constitucional y la Ley General de Educación Ley <a title="vinculo" href="norma.php?i=292#0115">115 </a>de 1994 mediante la creación del Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar, que promueva y fortalezca la formación ciudadana y el ejercicio de los derechos humanos, sexuales y reproductivos de los estudiantes, de los niveles educativos de preescolar, básica y media y prevenga y mitigue la violencia escolar y el embarazo en la adolescencia.</p>
+<p><strong>Artículo 2°.</strong> En el marco de la presente ley se entiende por:</p>
+<p><strong>Competencias ciudadanas: </strong>Es una de las competencias básicas que se define como el conjunto de conocimientos y de habilidades cognitivas, emocionales y comunicativas que, articulados entre sí, hacen posible que el ciudadano actúe de manera constructiva en una sociedad democrática.</p>
+<p><strong>Educación para el ejercicio de los derechos humanos, sexuales y reproductivos: </strong>Es aquella orientada a formar personas capaces de reconocerse como sujetos activos titulares de derechos humanos, sexuales y reproductivos con la cual desarrollarán competencias para relacionarse consigo mismo y con los demás, con criterios de respeto por sí mismo, por el otro y por el entorno, con el fin de poder alcanzar un estado de bienestar físico, mental y social que les posibilite tomar decisiones asertivas, informadas y autónomas para ejercer una sexualidad libre, satisfactoria, responsable y sana en torno a la construcción de su proyecto de vida y a la transformación de las dinámicas sociales, hacia el establecimiento de relaciones más justas, democráticas y responsables.</p>
+<p><strong>Acoso escolar o </strong><em><strong>bullying</strong></em><strong>: </strong>Conducta negativa, intencional metódica y sistemática de agresión, intimidación, humillación, ridiculización, difamación, coacción, aislamiento deliberado, amenaza o incitación a la violencia o cualquier forma de maltrato psicológico, verbal, físico o por medios electrónicos contra un niño, niña, o adolescente, por parte de un estudiante o varios de sus pares con quienes mantiene una relación de poder asimétrica, que se presenta de forma reiterada o a lo largo de un tiempo determinado.</p>
+<p>También puede ocurrir por parte de docentes contra estudiantes, o por parte de estudiantes contra docentes, ante la indiferencia o complicidad de su entorno. El acoso escolar tiene consecuencias sobre la salud, el bienestar emocional y el rendimiento escolar de los estudiantes y sobre el ambiente de aprendizaje y el clima escolar del establecimiento educativo.</p>
+<p><em><strong>Ciberbullying </strong></em><strong>o ciberacoso escolar: </strong>Forma de intimidación con uso deliberado de tecnologías de información (internet, redes sociales virtuales, telefonía móvil y videojuegos <em>online</em>) para ejercer maltrato psicológico y continuado.</p>
+<p align="center"><strong>CAPÍTULO II </strong></p>
+<p align="center"><strong>Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar </strong></p>
+<p><strong>Artículo 3°. </strong><em><strong>Creación.</strong></em> Créase el Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar, cuyos objetivos serán cumplidos a través de la promoción, orientación y coordinación de estrategias, programas y actividades, en el marco de la corresponsabilidad de los individuos, las instituciones educativas, la familia, la sociedad y el Estado.</p>
+<p>Este Sistema reconoce a los niños, niñas y adolescentes como sujetos de derechos, y a la comunidad educativa en los niveles de preescolar, básica y media como la responsable de formar para el ejercicio de los mismos, conforme a lo dispuesto en la Constitución Política Nacional, las Leyes <a title="vinculo" href="norma.php?i=292#115">115</a> de 1994 y <a title="vinculo" href="norma.php?i=22106#1098">1098 </a>de 2006, las disposiciones del Consejo Nacional de Política Social y demás normas asociadas a violencia escolar, que plantean demandas específicas al sistema escolar.</p>
+<p><strong>Artículo 4°. </strong><em><strong>Objetivos del Sistema.</strong></em> Son objetivos del Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar:</p>
+<p>1. Fomentar, fortalecer y articular acciones de diferentes instancias del Estado para la convivencia escolar, la construcción de ciudadanía y la educación para el ejercicio de los derechos humanos, sexuales y reproductivos de los niños, niñas y adolescentes de los niveles educativos de preescolar, básica y media.</p>
+<p>2. Garantizar la protección integral de los niños, niñas y adolescentes en los espacios educativos, a través de la puesta en marcha y el seguimiento de la ruta de atención integral para la convivencia escolar, teniendo en cuenta los contextos sociales y culturales particulares.</p>
+<p>3. <a id="sp4.3" name="4.3"></a> Fomentar y fortalecer la educación en y para la paz, las competencias ciudadanas, el desarrollo de la identidad, la participación, la responsabilidad democrática, la valoración de las diferencias y el cumplimiento de la ley, para la formación de sujetos activos de derechos.</p>
+<p>4. Promover el desarrollo de estrategias, programas y actividades para que las entidades en los diferentes niveles del Sistema y los establecimientos educativos fortalezcan la ciudadanía activa y la convivencia pacífica, la promoción de derechos y estilos de vida saludable, la prevención, detección, atención y seguimiento de los casos de violencia escolar, acoso escolar o vulneración de derechos sexuales y reproductivos e incidir en la prevención y mitigación de los mismos, en la reducción del embarazo precoz de adolescentes y en el mejoramiento del clima escolar.</p>
+<p>5. Fomentar mecanismos de prevención, protección, detección temprana y denuncia de todas aquellas conductas que atentan contra la convivencia escolar, la ciudadanía y el ejercicio de los derechos humanos, sexuales y reproductivos de los estudiantes de preescolar, básica y media, particularmente, las relacionadas con acoso escolar y violencia escolar incluido el que se pueda generar a través del uso de la internet, según se defina en la ruta de atención integral para la convivencia escolar.</p>
+<p>6. Identificar y fomentar mecanismos y estrategias de mitigación de todas aquellas situaciones y conductas generadoras de situaciones de violencia escolar.</p>
+<p>7. Orientar estrategias y programas de comunicación para la movilización social, relacionadas con la convivencia escolar, la construcción de ciudadanía y la promoción de los derechos humanos, sexuales y reproductivos.</p>
+<p>8. Contribuir a la prevención del embarazo en la adolescencia y a la reducción de enfermedades de transmisión sexual.</p>
+<p><strong>Parágrafo</strong>. Los medios de comunicación realizarán las funciones de promoción de acuerdo con las responsabilidades asignadas en el artículo <a title="vinculo" href="norma.php?i=22106#47">47 </a>de la Ley 1098 de 2006.</p>
+<p><strong>Artículo 5°. </strong><em><strong>Principios del Sistema.</strong></em> Son principios del Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar:</p>
+<p>1. <strong>Participación. </strong>En virtud de este principio las entidades y establecimientos educativos deben garantizar su participación activa para la coordinación y armonización de acciones, en el ejercicio de sus respectivas funciones, que permitan el cumplimiento de los fines del Sistema. Al tenor de la Ley <a title="vinculo" href="norma.php?i=292#0115">115 </a>de 1994 y de los artículos <a title="vinculo" href="norma.php?i=22106#31">31</a>, <a title="vinculo" href="norma.php?i=22106#32">32</a>, <a title="vinculo" href="norma.php?i=22106#43">43 </a>y <a title="vinculo" href="norma.php?i=22106#44">44 </a>de la Ley 1098 de 2006, los establecimientos educativos deben garantizar el derecho a la participación de niños, niñas y adolescentes en el desarrollo de las estrategias y acciones que se adelanten dentro de los mismos en el marco del Sistema. En armonía con los artículos <a title="vinculo" href="norma.php?i=4125#113">113 </a>y <a title="vinculo" href="norma.php?i=4125#288">288 </a>de la Constitución Política, los diferentes estamentos estatales deben actuar en el marco de la coordinación, concurrencia, complementariedad y subsidiariedad; respondiendo a sus funciones misionales.</p>
+<p>2. <strong>Corresponsabilidad. </strong>La familia, los establecimientos educativos, la sociedad y el Estado son corresponsables de la formación ciudadana, la promoción de la convivencia escolar, la educación para el ejercicio de los derechos humanos, sexuales y reproductivos de los niños, niñas y adolescentes desde sus respectivos ámbitos de acción, en torno a los objetivos del Sistema y de conformidad con lo consagrado en el artículo <a title="vinculo" href="norma.php?i=4125#44">44 </a>de la Constitución Política y el Código de la Infancia y la Adolescencia.</p>
+<p>3. <strong>Autonomía: </strong>Los individuos, entidades territoriales e instituciones educativas son autónomos en concordancia con la Constitución Política y dentro de los límites fijados por las leyes, normas y disposiciones.</p>
+<p>4. <strong>Diversidad: </strong>El Sistema se fundamenta en el reconocimiento, respeto y valoración de la dignidad propia y ajena, sin discriminación por razones de género, orientación o identidad sexual, etnia o condición física, social o cultural. Los niños, niñas y adolescentes tienen derecho a recibir una educación y formación que se fundamente en una concepción integral de la persona y la dignidad humana, en ambientes pacíficos, democráticos e incluyentes.</p>
+<p>5. <strong>Integralidad: </strong>La filosofía del sistema será integral y estará orientada hacia la promoción de la educación para la autorregulación del individuo, de la educación para la sanción social y de la educación en el respeto a la Constitución y las leyes.</p>
+<p><strong>Artículo 6°. </strong><em><strong>Estructura del Sistema</strong></em><em>. </em>El Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar tendrá una estructura constituida por instancias en tres niveles: Nacional, Territorial y Escolar, liderados por el sector educativo:</p>
+<p>Nacional: Integrado por el Comité Nacional de Convivencia Escolar.</p>
+<p>Territorial: Integrado por los comités municipales, distritales y departamentales de convivencia escolar, según corresponda.</p>
+<p>Escolar: Integrado por el comité de convivencia del respectivo establecimiento educativo.</p>
+<p>Las organizaciones privadas con o sin ánimo de lucro podrán hacer parte de las estrategias, programas y actividades que, en desarrollo de esta ley, sean implementadas por los comités municipales, distritales o departamentales de convivencia escolar.</p>
+<p><strong>Artículo 7°. </strong><em><strong>Conformación del Comité Nacional de Convivencia Escolar.</strong></em> Para el cumplimiento de las funciones del Sistema Nacional se conformará un Comité Nacional de Convivencia Escolar, el cual estará integrado de manera permanente por:</p>
+<p>El Ministro de Educación Nacional, o el Viceministro de Educación, quien lo presidirá</p>
+<p>El Ministro de Salud y Protección Social o un Viceministro delegado</p>
+<p>El Director del Instituto Colombiano de Bienestar Familiar o un Subdirector delegado</p>
+<p>El ente coordinador del Sistema de Responsabilidad Penal Adolescente</p>
+<p>El Director de la Policía de Infancia y Adolescencia o un Comandante delegado</p>
+<p>El Ministro de Cultura o un Viceministro delegado</p>
+<p>El Ministro de Tecnologías de la Información y las Comunicaciones o un Viceministro delegado</p>
+<p>El Presidente de la Asociación Colombiana de Facultades de Educación (Ascofade)</p>
+<p>El Presidente de la Asociación Nacional de Escuelas Normales Superiores (Asonens)</p>
+<p>El Director Ejecutivo de las Asociación Colombiana de Universidades (Ascun)</p>
+<p>El Defensor del pueblo o su delegado</p>
+<p>El rector de la institución educativa oficial con los más altos puntajes en las pruebas Saber 11 del año anterior.</p>
+<p>El rector de la institución educativa privada con los más altos puntajes en las pruebas Saber 11 del año anterior.</p>
+<p><strong>Parágrafo 1°.</strong> El funcionamiento de dicho Comité será reglamentado por el Gobierno Nacional en un plazo no mayor a seis meses después de promulgada esta ley.</p>
+<p><strong>Parágrafo 2°</strong>. Cuando alguna de las entidades que conforman el Comité Nacional de Convivencia Escolar sea reestructurada, será reemplazada en este Comité por aquella que asuma las funciones relacionadas con este Sistema.</p>
+<p><strong><a id="sp8" name="8"></a> Artículo 8°. <em>Funciones del Comité Nacional de Convivencia Escolar. </em></strong></p>
+<p>1. Definir la operación del Sistema en cada uno de sus niveles e instancias.</p>
+<p>2. Coordinar la gestión del Sistema Nacional en los niveles nacional, territorial y escolar, para el cumplimiento de su objeto.</p>
+<p>3. Armonizar y articular las acciones del Sistema Nacional con las políticas nacionales, sectoriales, estrategias y programas relacionados con la construcción de ciudadanía, la convivencia escolar y los derechos humanos, sexuales y reproductivos y la prevención y mitigación de la violencia escolar.</p>
+<p>4. Formular recomendaciones para garantizar el adecuado desarrollo, complementación y mejoramiento de la ruta de atención integral en los establecimientos educativos en el marco del Sistema Nacional.</p>
+<p>5. Definir, vigilar, evaluar y realizar seguimiento a las acciones del Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar, a partir de los reportes del Sistema de Información Unificado del que trata el artículo 28 de la presente ley.</p>
+<p>6. Garantizar que la Ruta de Atención Integral para la Convivencia Escolar sea adoptada por los niveles, las instancias y entidades que forman parte de la estructura del Sistema y que asuman la responsabilidad de su puesta en marcha en el marco de sus funciones misionales.</p>
+<p>7. Coordinar con la Comisión Nacional Intersectorial para la Promoción de los Derechos Humanos, Sexuales y Reproductivos las acciones que le son propias en el ámbito escolar, en particular aquellas que en el marco de las funciones de la Comisión estén orientadas al logro de los Objetivos del Desarrollo del Milenio, específicamente los referidos a incidir en la reducción del embarazo juvenil y de las enfermedades de transmisión sexual, como un indicador integral de desarrollo social.</p>
+<p>8. Promover y liderar estrategias y acciones de comunicación, que fomenten la reflexión sobre la convivencia escolar, la prevención, mitigación y atención del acoso escolar, la violencia escolar y la disminución del embarazo en la adolescencia, la divulgación de la presente ley y de la Ruta de Atención Integral para la Convivencia Escolar, vinculando a los medios de comunicación nacional, regional y comunitarios.</p>
+<p>9. Coordinar la creación de mecanismos de denuncia y seguimiento en internet, redes sociales y demás tecnologías de información a los casos de <em>ciberbullying</em>.</p>
+<p>10. Las demás que establezca su propio reglamento.</p>
+<p> </p>
+<p>11<a id="8.11"></a>. Coordinar nacionalmente, en conjunto con los centros y las instituciones educativas del país, la formulación de lineamientos pedagógicos, psicopedagógicas y diversas estrategias orientadas a la promoción y prevención en salud mental, y metodológicas relacionadas con la Educación Socioemocional en las instituciones educativas y su debida implementación y actualización.<em><strong><a title="vinculo" href="norma.php?i=261956#7">(Adicionado por el art. 7, Ley 2383 de 2024)</a>.</strong></em></p>
+<p> </p>
+<p>12<a id="8.12"></a>. Desarrollar la investigación sobre la temática y la evaluación y monitoreo de los resultados y progresos realizados a partir de la aplicación de la presente Ley.<strong><em><a title="vinculo" href="norma.php?i=261956#7">(Adicionado por el art. 7, Ley 2383 de 2024)</a>.</em></strong></p>
+<p> </p>
+<p>13<a id="8.13"></a>. Elaborar y proponer los lineamientos generales, pedagógicos y metodológicos de la Educación Socioemocional.<em><strong><a title="vinculo" href="norma.php?i=261956#7">(Adicionado por el art. 7, Ley 2383 de 2024)</a>.</strong></em></p>
+<p> </p>
+<p>14<a id="8.14"></a>. Desarrollar planes piloto para experimentación de nuevas técnicas que permitan identificar factores de éxito y oportunidades de mejora de este.<em><strong><a title="vinculo" href="norma.php?i=261956#7">(Adicionado por el art. 7, Ley 2383 de 2024)</a>.</strong></em></p>
+<p>
+					<button type="button" class="btn btn-outline-secondary btn-sm" onClick="mostrar_ocultar_jurisprudencia(8761)">Norma Anterior</button>
+					<div id="juris8761" class="card border-light mb-12" style="display:none;font-size:small;">
+					  <div style="padding:0.5rem;" class="card-header">Vigencia anterior</div>
+					  <div class="card-body jurisprudencia" >
+						<div style="padding:0.5rem;font-size:small;">
+							<p><strong>Artículo 8.</strong><em> Funciones del Comité Nacional de Convivencia Escolar.</em></p>
+<p> </p>
+<ol>
+<li>Definir la operación del Sistema en cada uno de sus niveles e instancias.</li>
+</ol>
+<p> </p>
+<ol start="2">
+<li>Coordinar la gestión del Sistema Nacional en los niveles nacional, territorial y escolar, para el cumplimiento de su objeto.</li>
+</ol>
+<p> </p>
+<ol start="3">
+<li>Armonizar y articular las acciones del Sistema Nacional con las políticas nacionales, sectoriales, estrategias y programas relacionados con la construcción de ciudadanía, la convivencia escolar y los derechos humanos, sexuales y reproductivos y la prevención y mitigación de la violencia escolar.</li>
+</ol>
+<p> </p>
+<ol start="4">
+<li>Formular recomendaciones para garantizar el adecuado desarrollo, complementación y mejoramiento de la ruta de atención integral en los establecimientos educativos en el marco del Sistema Nacional.</li>
+</ol>
+<p> </p>
+<ol start="5">
+<li>Definir, vigilar, evaluar y realizar seguimiento a las acciones del Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar, a partir de los reportes del Sistema de Información Unificado del que trata el artículo 28 de la presente ley.</li>
+</ol>
+<p> </p>
+<ol start="6">
+<li>Garantizar que la Ruta de Atención Integral para la Convivencia Escolar sea adoptada por los niveles, las instancias y entidades que forman parte de la estructura del Sistema y que asuman la responsabilidad de su puesta en marcha en el marco de sus funciones misionales.</li>
+</ol>
+<p> </p>
+<ol start="7">
+<li>Coordinar con la Comisión Nacional Intersectorial para la Promoción de los Derechos Humanos, Sexuales y Reproductivos las acciones que le son propias en el ámbito escolar, en particular aquellas que en el marco de las funciones de la Comisión estén orientadas al logro de los Objetivos del Desarrollo del Milenio, específicamente los referidos a incidir en la reducción del embarazo juvenil y de las enfermedades de transmisión sexual, como un indicador integral de desarrollo social.</li>
+</ol>
+<p> </p>
+<ol start="8">
+<li>Promover y liderar estrategias y acciones de comunicación, que fomenten la reflexión sobre la convivencia escolar, la prevención, mitigación y atención del acoso escolar, la violencia escolar y la disminución del embarazo en la adolescencia, la divulgación de la presente ley y de la Ruta de Atención Integral para la Convivencia Escolar, vinculando a los medios de comunicación nacional, regional y comunitarios.</li>
+</ol>
+<p> </p>
+<ol start="9">
+<li>Coordinar la creación de mecanismos de denuncia y seguimiento en internet, redes sociales y demás tecnologías de información a los casos de <em>ciberbullying</em>.</li>
+</ol>
+<p> </p>
+<ol start="10">
+<li>Las demás que establezca su propio reglamento.</li>
+</ol>
+<p> </p>
+<p><strong>Parágrafo.</strong> En cuanto a las políticas relacionadas con la promoción, ejercicio y garantía de los derechos sexuales y reproductivos, el Comité Nacional de Convivencia Escolar coordinará lo pertinente con la Comisión Nacional Intersectorial para la Promoción de los Derechos Sexuales y Reproductivos, creada mediante el Decreto 2968 de agosto de 2010, para efectos de la formulación de políticas e implementación de planes, programas y acciones en asuntos que les sean comunes.</p>
+<p> </p>
+						</div>
+					  </div>
+					</div> </p>
+<p> </p>
+<p class="s39">15<a id="8.15"></a>. Formular los lineamientos pedagógicos, metodológicos y curriculares específicos para la Cátedra de Educación Emocional.<em><strong><a title="vinculo" href="norma.php?i=261856#14">(Adicionado por el art. 14, Ley 2503 de 2025)</a></strong></em></p>
+<p> </p>
+<p class="s39">16<a id="8.16"></a>. Realizar mesas de trabajo interdisciplinarias e intersectoriales que integren saberes regionales, prácticas pedagógicas y experiencias comunitarias relevantes para la estructuración de la cátedra de educación emocional en el país.<em><strong><a title="vinculo" href="norma.php?i=261856#14">(Adicionado por el art. 14, Ley 2503 de 2025)</a></strong></em></p>
+<p> </p>
+<p class="s39">17<a id="8.17"></a>. Emitir conceptos técnicos semestrales sobre el desarrollo e impacto de la cátedra de educación emocional en las instituciones educativas del país.<em><strong><a title="vinculo" href="norma.php?i=261856#14">(Adicionado por el art. 14, Ley 2503 de 2025)</a></strong></em></p>
+<p> </p>
+<p class="s39">18<a id="8.18"></a>. Proponer ajustes pedagógicos a la cátedra de educación emocional según los niveles educativos, contextos territoriales y evolución de las necesidades psicoemocionales de la población estudiantil.<em><strong><a title="vinculo" href="norma.php?i=261856#14">(Adicionado por el art. 14, Ley 2503 de 2025)</a></strong></em></p>
+<p class="s39"> </p>
+<p><strong>Parágrafo</strong>. En cuanto a las políticas relacionadas con la promoción, ejercicio y garantía de los derechos sexuales y reproductivos, el Comité Nacional de Convivencia Escolar coordinará lo pertinente con la Comisión Nacional Intersectorial para la Promoción de los Derechos Sexuales y Reproductivos, creada mediante el Decreto <a title="vinculo" href="norma.php?i=40126#2968">2968 </a>de agosto de 2010, para efectos de la formulación de políticas e implementación de planes, programas y acciones en asuntos que les sean comunes.</p>
+<p> </p>
+<p><strong>PARÁGRAFO<a id="8p2"></a> 2 (nuevo).<em><a title="vinculo" href="norma.php?i=261856#14">(Adicionado por el art. 14, Ley 2503 de 2025)</a>.</em> </strong>El Comité Nacional de Convivencia Escolar, tendrá la potestad de convocar e implementar mesas con expertos, con el fin de revisar, retroalimentar y ajustar la propuesta de innovación curricular que se formule para la construcción de la Cátedra de Educación Emocional, incluyendo sus lineamientos, enfoques, metodologías, así como su monitoreo y evaluación.</p>
+<p>
+					<button type="button" class="btn btn-outline-secondary btn-sm" onClick="mostrar_ocultar_jurisprudencia(8741)">Norma Anterior</button>
+					<div id="juris8741" class="card border-light mb-12" style="display:none;font-size:small;">
+					  <div style="padding:0.5rem;" class="card-header">Vigencia anterior</div>
+					  <div class="card-body jurisprudencia" >
+						<div style="padding:0.5rem;font-size:small;">
+							<p><strong>Artículo 8. </strong><em><strong>Funciones del Comité Nacional de Convivencia Escolar.</strong></em></p>
+<ol>
+<li>Definir la operación del Sistema en cada uno de sus niveles e instancias.</li>
+<li>Coordinar la gestión del Sistema Nacional en los niveles nacional, territorial y escolar, para el cumplimiento de su objeto.</li>
+<li>Armonizar y articular las acciones del Sistema Nacional con las políticas nacionales, sectoriales, estrategias y programas relacionados con la construcción de ciudadanía, la convivencia escolar y los derechos humanos, sexuales y reproductivos y la prevención y mitigación de la violencia escolar.</li>
+<li>Formular recomendaciones para garantizar el adecuado desarrollo, complementación y mejoramiento de la ruta de atención integral en los establecimientos educativos en el marco del Sistema Nacional.</li>
+<li>Definir, vigilar, evaluar y realizar seguimiento a las acciones del Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar, a partir de los reportes del Sistema de Información Unificado del que trata el artículo 28 de la presente ley.</li>
+<li>Garantizar que la Ruta de Atención Integral para la Convivencia Escolar sea adoptada por los niveles, las instancias y entidades que forman parte de la estructura del Sistema y que asuman la responsabilidad de su puesta en marcha en el marco de sus funciones misionales.</li>
+<li>Coordinar con la Comisión Nacional Intersectorial para la Promoción de los Derechos Humanos, Sexuales y Reproductivos las acciones que le son propias en el ámbito escolar, en particular aquellas que en el marco de las funciones de la Comisión estén orientadas al logro de los Objetivos del Desarrollo del Milenio, específicamente los referidos a incidir en la reducción del embarazo juvenil y de las enfermedades de transmisión sexual, como un indicador integral de desarrollo social.</li>
+<li>Promover y liderar estrategias y acciones de comunicación, que fomenten la reflexión sobre la convivencia escolar, la prevención, mitigación y atención del acoso escolar, la violencia escolar y la disminución del embarazo en la adolescencia, la divulgación de la presente ley y de la Ruta de Atención Integral para la Convivencia Escolar, vinculando a los medios de comunicación nacional, regional y comunitarios.</li>
+<li>Coordinar la creación de mecanismos de denuncia y seguimiento en internet, redes sociales y demás tecnologías de información a los casos de <em>ciberbullying</em>.</li>
+<li>Las demás que establezca su propio reglamento.</li>
+</ol>
+<p><strong>Parágrafo</strong>. En cuanto a las políticas relacionadas con la promoción, ejercicio y garantía de los derechos sexuales y reproductivos, el Comité Nacional de Convivencia Escolar coordinará lo pertinente con la Comisión Nacional Intersectorial para la Promoción de los Derechos Sexuales y Reproductivos, creada mediante el Decreto <a href="norma.php?i=40126#2968">2968 </a>de agosto de 2010, para efectos de la formulación de políticas e implementación de planes, programas y acciones en asuntos que les sean comunes.</p>
+<p> </p>
+						</div>
+					  </div>
+					</div></p>
+<p> </p>
+<p><strong>Artículo 9°. </strong><em><strong>De los comités municipales, distritales y departamentales de convivencia escolar.</strong></em> Los Consejos Territoriales de Política Social creados de conformidad con el Decreto <a title="vinculo" href="norma.php?i=9753#1137">1137 </a>de 1999 tendrán comités municipales, distritales y departamentales de convivencia escolar, los cuales coordinarán las funciones y acciones del Sistema en el nivel territorial de su respectiva jurisdicción acorde con la estructura definida en el artículo 6° de esta ley.</p>
+<p>Los comités municipales, distritales y departamentales de convivencia escolar son de carácter permanente y están conformados por los representantes de:</p>
+<p>1. El Secretario de Gobierno departamental, distrital o municipal, según corresponda.</p>
+<p>2. El Secretario de Educación departamental, distrital o municipal, según corresponda.</p>
+<p>3. El Secretario de Salud departamental, distrital o municipal, según corresponda.</p>
+<p>4. El Secretario de Cultura o quien haga sus veces, en el nivel departamental, distrital o municipal.</p>
+<p>5. El Director Regional del Instituto Colombiano de Bienestar Familiar en los departamentos o el Coordinador del Centro Zonal del ICBF en los municipios.</p>
+<p>6. El Comisario de Familia.</p>
+<p>7. El Personero Distrital, Municipal o Procurador Regional.</p>
+<p>8. El Defensor del Pueblo regional según corresponda.</p>
+<p>9. El Comandante de la Policía de Infancia y Adolescencia.</p>
+<p>10. El rector de la institución educativa oficial que en el departamento, municipio o distrito haya obtenido los más altos puntajes en las pruebas Saber 11 del año anterior.</p>
+<p>11. El rector de la institución educativa privada que en el departamento, municipio o distrito haya obtenido los más altos puntajes en las pruebas Saber 11 del año anterior.</p>
+<p>La elección del representante de los rectores a estos comités será definida por el Comité Nacional de Convivencia Escolar.</p>
+<p><strong>Parágrafo.</strong> Los consejos territoriales de política social en un plazo no mayor a 6 meses de reglamentada la ley deberán constituir los comités municipales, distritales y departamentales de convivencia escolar.</p>
+<p><strong>Artículo 10. </strong><em><strong>Funciones de los comités municipales, distritales o departamentales de convivencia escolar.</strong></em> Son funciones de estos comités, en el marco del Sistema Nacional:</p>
+<p>1. Armonizar, articular y coordinar las acciones del Sistema con las políticas, estrategias y programas relacionados con su objeto en la respectiva jurisdicción, acorde con los lineamientos que establezca el Comité Nacional de Convivencia Escolar y la Ruta de Atención Integral para la Convivencia Escolar.</p>
+<p>2. Garantizar que la Ruta de Atención Integral para la Convivencia Escolar sea apropiada e implementada adecuadamente en la jurisdicción respectiva, por las entidades que hacen parte del Sistema en el marco de sus responsabilidades.</p>
+<p>3. Contribuir con el fortalecimiento del Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar en su respectiva jurisdicción.</p>
+<p>4. Fomentar el desarrollo de competencias ciudadanas a través de procesos de formación que incluyan además de información, la reflexión y la acción sobre los imaginarios colectivos en relación con la convivencia, la autoridad, la autonomía, la perspectiva de género y el ejercicio de los derechos humanos, sexuales y reproductivos.</p>
+<p>5. Fomentar el desarrollo de proyectos pedagógicos orientados a promover la construcción de ciudadanía, la educación para el ejercicio de los derechos humanos, sexuales y reproductivos.</p>
+<p>6. Promover la comunicación y movilización entre niños, niñas, adolescentes, padres y madres de familia y docentes, alrededor de la convivencia escolar, la construcción de ciudadanía y el ejercicio de los derechos humanos, sexuales y reproductivos y la prevención y mitigación de la violencia escolar y del embarazo en la adolescencia.</p>
+<p>7. Identificar y fomentar procesos territoriales de construcción de ciudadanía en el marco del ejercicio responsable de los derechos humanos, sexuales y reproductivos de los niños, niñas y adolescentes.</p>
+<p>8. Coordinar el registro oportuno y confiable de información regional en el Sistema de Información Unificado de que trata el artículo 28 de esta ley, que permita realizar seguimiento y evaluar las acciones y resultados del Sistema en el nivel municipal, distrital o departamental.</p>
+<p>9. Vigilar, revisar y ajustar periódicamente las estrategias y acciones del Sistema en el nivel municipal, distrital o departamental, de conformidad con los reportes y monitoreo del Sistema de Información Unificado de que trata el artículo 28 de la presente ley y teniendo en cuenta la información que en materia de acoso escolar, violencia escolar y salud sexual y reproductiva sea reportada por las entidades encargadas de tal función.</p>
+<p>10. Formular recomendaciones para garantizar el adecuado funcionamiento del Sistema en el nivel municipal, distrital o departamental.</p>
+<p>11. Las demás que defina el Comité Nacional de Convivencia.</p>
+<p><strong>Artículo 12. </strong><em><strong>Conformación del comité escolar de convivencia.</strong></em> El Comité Escolar de Convivencia estará conformado por:</p>
+<p>El rector del establecimiento educativo, quien preside el comité</p>
+<p>El personero estudiantil</p>
+<p>El docente con función de orientación</p>
+<p>El coordinador cuando exista este cargo</p>
+<p>El presidente del consejo de padres de familia</p>
+<p>El presidente del consejo de estudiantes</p>
+<p>Un (1) docente que lidere procesos o estrategias de convivencia escolar.</p>
+<p><strong>Parágrafo.</strong> El comité podrá invitar con voz pero sin voto a un miembro de la comunidad educativa conocedor de los hechos, con el propósito de ampliar información.</p>
+<p><strong>Artículo 13. </strong><em><strong>Funciones del comité escolar de convivencia.</strong></em> Son funciones del comité:</p>
+<p>1. Identificar, documentar, analizar y resolver los conflictos que se presenten entre docentes y estudiantes, directivos y estudiantes, entre estudiantes y entre docentes.</p>
+<p>2. Liderar en los establecimientos educativos acciones que fomenten la convivencia, la construcción de ciudadanía, el ejercicio de los derechos humanos, sexuales y reproductivos y la prevención y mitigación de la violencia escolar entre los miembros de la comunidad educativa.</p>
+<p>3. Promover la vinculación de los establecimientos educativos a estrategias, programas y actividades de convivencia y construcción deciudadanía que se adelanten en la región y que respondan a las necesidades de su comunidad educativa.</p>
+<p>4. Convocar a un espacio de conciliación para la resolución de situaciones conflictivas que afecten la convivencia escolar, por solicitud de cualquiera de los miembros de la comunidad educativa o de oficio cuando se estime conveniente en procura de evitar perjuicios irremediables a los miembros de la comunidad educativa. El estudiante estará acompañado por el padre, madre de familia, acudiente o un compañero del establecimiento educativo.</p>
+<p>5. Activar la Ruta de Atención Integral para la Convivencia Escolar definida en el artículo 29 de esta ley, frente a situaciones específicas de conflicto, de acoso escolar, frente a las conductas de alto riesgo de violencia escolar o de vulneración de derechos sexuales y reproductivos que no pueden ser resueltos por este comité de acuerdo con lo establecido en el manual de convivencia, porque trascienden del ámbito escolar, y revistan las características de la comisión de una conducta punible, razón por la cual deben ser atendidos por otras instancias o autoridades que hacen parte de la estructura del Sistema y de la Ruta.</p>
+<p>6. Liderar el desarrollo de estrategias e instrumentos destinados a promover y evaluar la convivencia escolar, el ejercicio de los derechos humanos, sexuales y reproductivos.</p>
+<p>7. Hacer seguimiento al cumplimiento de las disposiciones establecidas en el manual de convivencia, y presentar informes a la respectiva instancia que hace parte de la estructura del Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar, de los casos o situaciones que haya conocido el comité.</p>
+<p>8. Proponer, analizar y viabilizar estrategias pedagógicas que permitan la flexibilización del modelo pedagógico y la articulación de diferentes áreas de estudio que lean el contexto educativo y su pertinencia en la comunidad para determinar más y mejores maneras de relacionarse en la construcción de la ciudadanía.</p>
+<p><strong>Parágrafo.</strong> Este comité debe darse su propio reglamento, el cual debe abarcar lo correspondiente a sesiones, y demás aspectos procedimentales, como aquellos relacionados con la elección y permanencia en el comité del docente que lidere procesos o estrategias de convivencia escolar.</p>
+<p align="center"><strong>CAPÍTULO III </strong></p>
+<p align="center"><strong>El sector educativo en el Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar </strong></p>
+<p><strong>Artículo 14. </strong><em><strong>El sector educativo en el Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar.</strong></em> El sector educativo como parte del Sistema Nacional está conformado por: el Ministerio de Educación Nacional, las secretarías de educación de las entidades territoriales certificadas en educación y los establecimientos que prestan el servicio educativo de acuerdo con la Ley <a title="vinculo" href="norma.php?i=292#0115">115 </a>de 1994.</p>
+<p><strong>Artículo 15. </strong><em><strong>Responsabilidades del Ministerio de Educación Nacional en el Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar.</strong></em> Además de las que establece la normatividad vigente y que le son propias, tendrá las siguientes responsabilidades:</p>
+<p>1. Promover y fomentar conjuntamente con las secretarías de educación certificadas, en los establecimientos educativos, la implementación de los programas para el desarrollo de competencias ciudadanas, la educación para el ejercicio de los derechos humanos, sexuales y reproductivos, de conformidad con los lineamientos, estándares y orientaciones que se definan. Dicha implementación se hará a través de proyectos pedagógicos de carácter obligatorio, de conformidad con el artículo 14 de la Ley General de Educación, como parte de los Proyectos Educativos Institucionales PEI o de los Proyectos Educativos Comunitarios PEC, según el caso.</p>
+<p>2. Dar los lineamientos y orientaciones en la utilización de indicadores de convivencia escolar que visibilicen los problemas y potencialicen la toma de decisiones en relación con los proyectos y programas de que trata el artículo 15 de este proyecto de ley.</p>
+<p>3. Producir y distribuir materiales educativos para identificar y utilizar pedagógicamente las situaciones de acoso escolar y violencia escolar, a través de su análisis, reflexiones y discusiones entre estudiantes, que orienten su manejo en los establecimientos educativos en el marco del ejercicio de los derechos humanos, sexuales y reproductivos y de la formación para la ciudadanía.</p>
+<p>4. Incorporar en los procesos de autoevaluación o en los procesos de certificación de calidad de los establecimientos educativos, las variables asociadas a clima escolar, y a la implementación de proyectos pedagógicos para la mitigación de la violencia y acoso escolar, y la educación para la sexualidad, como un criterio de evaluación.</p>
+<p>5. Diseñar, administrar y realizar los reportes periódicos del Sistema Unificado de Información de Convivencia Escolar, definido por esta ley en su artículo 28.</p>
+<p>6. Asistir técnicamente a las secretarías de educación certificadas, para que adelanten procesos de actualización y de formación docente sobre temáticas relacionadas con la promoción de la convivencia escolar, la resolución de conflictos escolares, el ejercicio de los derechos humanos, la promoción de los derechos sexuales y reproductivos, el desarrollo de competencias ciudadanas y el fomento de estilos de vida saludable para la prevención y mitigación del acoso y la violencia escolar, que se incluirán anualmente en los planes operativos de los planes territoriales de formación docente.</p>
+<p>7. Realizar asistencia técnica a los entes territoriales para el desarrollo de acciones de promoción, prevención, atención y seguimiento de situaciones de convivencia escolar; establecer guías generales en la construcción de líneas de bases e indicadores sobre la convivencia escolar que no solo visibilicen los problemas sino que potencialicen los proyectos y programas que promueven la vida y los derechos humanos.</p>
+<p>8. Coordinar con el Instituto Colombiano para la Evaluación de la Educación la incorporación en las pruebas Saber los módulos para las evaluaciones de competencias ciudadanas. La aplicación irá acompañada de un instrumento que permita obtener información adicional acerca del clima y la convivencia escolar en los establecimientos educativos.</p>
+<p>9. Gestionar alianzas con el sector privado para el apoyo a la implementación de las políticas y los programas a que hace referencia el inciso primero del artículo 20 de la presente ley, en favor de la convivencia escolar.</p>
+<p>10. Promover conjuntamente con instituciones de alcance nacional convocatorias orientadas al desarrollo de investigación aplicada en el tema de convivencia escolar y formación para el ejercicio de derechos humanos, sexuales y reproductivos, y la prevención y la mitigación de la violencia escolar.</p>
+<p><strong>Artículo 16. </strong><em><strong>Responsabilidades de las secretarías de educación de las entidades territoriales certificadas en el Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar.</strong></em> Además de las que establece la normatividad vigente y que le son propias, tendrá las siguientes responsabilidades:</p>
+<p>1. Participar activamente en el comité municipal, distrital o departamental de convivencia escolar en la respectiva jurisdicción y contribuir al cumplimiento de las funciones del mismo, en el marco de sus responsabilidades.</p>
+<p>2. Garantizar la oportuna divulgación, armonización, coordinación y ejecución de las estrategias, programas y acciones definidas por el comité municipal, distrital o departamental de convivencia escolar al cual pertenezcan, con las prioridades y acciones de política educativa establecidas en la correspondiente entidad territorial.</p>
+<p>3. Garantizar que la Ruta de Atención Integral para la Convivencia Escolar sea apropiada e implementada por los establecimientos educativos en el marco de sus responsabilidades, con el fin de proteger a los estudiantes contra toda forma de acoso y violencia escolar por parte de los demás compañeros, profesores o directivos docentes.</p>
+<p>4. Gestionar alianzas con el sector privado para la implementación de los programas a que hace referencia el numeral 1 del artículo 15 de la presente ley en favor de la convivencia escolar.</p>
+<p>5. Garantizar el desarrollo de los procesos de actualización y de formación docente y de evaluación de clima escolar de los establecimientos educativos, previstos en los numerales 3 y 6 del artículo 15 de la presente ley.</p>
+<p>6. Promover el desarrollo de las competencias ciudadanas, el ejercicio de los derechos humanos, sexuales y reproductivos, el fomento de estilos de vida saludable y la prevención del acoso escolar y el <em>ciberbullying </em>en las jornadas escolares complementarias.</p>
+<p>7. Hacer seguimiento y apoyar el reporte de aquellos casos de acoso escolar, violencia escolar y vulneración de derechos sexuales y reproductivos de los niños, niñas y adolescentes denunciados por los establecimientos educativos y hacer análisis de casos y de cifras que les permitan tomar decisiones con base en el desarrollo de la Ruta de Atención Integral para la Convivencia Escolar, en lo que es de su competencia, con el fin de prevenir y mitigar dichos casos.</p>
+<p>8. Escuchar las voces de la comunidad educativa y determinar las acciones pertinentes para la región en el marco de las políticas del Ministerio de Educación Nacional.</p>
+<p>9. Acompañar a los establecimientos educativos para que actualicen, divulguen y apliquen el manual de convivencia.</p>
+<p>10. Acompañar a los establecimientos educativos en la implementación del comité escolar de convivencia y realizar seguimiento al cumplimiento de las funciones asignadas al mismo.</p>
+<p><strong>Artículo 17. </strong><em><strong>Responsabilidades de los establecimientos educativos en el Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar. </strong></em>Además de las que establece la normatividad vigente y que le son propias, tendrá las siguientes responsabilidades:</p>
+<p>1. Garantizar a sus estudiantes, educadores, directivos docentes y demás personal de los establecimientos escolares el respeto a la dignidad e integridad física y moral en el marco de la convivencia escolar, los derechos humanos, sexuales y reproductivos.</p>
+<p>2. Implementar el comité escolar de convivencia y garantizar el cumplimiento de sus funciones acorde con lo estipulado en los artículos 11, 12 y 13 de la presente ley.</p>
+<p>3. Desarrollar los componentes de prevención, promoción y protección a través del manual de convivencia, y la aplicación de la Ruta de Atención Integral para la Convivencia Escolar, con el fin de proteger a los estudiantes contra toda forma de acoso, violencia escolar y vulneración de los derechos humanos, sexuales y reproductivos, por parte de los demás compañeros, profesores o directivos docentes.</p>
+<p>4. Revisar y ajustar el proyecto educativo institucional, el manual de convivencia, y el sistema institucional de evaluación de estudiantes anualmente, en un proceso participativo que involucre a los estudiantes y en general a la comunidad educativa, a la luz de los enfoques de derechos, de competencias y diferencial, acorde con la Ley General de Educación, la Ley <a title="vinculo" href="norma.php?i=22106#1098">1098 </a>de 2006 y las normas que las desarrollan.</p>
+<p>5. Revisar anualmente las condiciones de convivencia escolar del establecimiento educativo e identificar factores de riesgo y factores protectores que incidan en la convivencia escolar, protección de derechos humanos, sexuales y reproductivos, en los procesos de autoevaluación institucional o de certificación de calidad, con base en la implementación de la Ruta de Atención Integral y en las decisiones que adopte el comité escolar de convivencia.</p>
+<p>6. Emprender acciones que involucren a toda la comunidad educativa en un proceso de reflexión pedagógica sobre los factores asociados a la violencia y el acoso escolar y la vulneración de los derechos sexuales y reproductivos y el impacto de los mismos, incorporando conocimiento pertinente acerca del cuidado del propio cuerpo y de las relaciones con los demás, inculcando la tolerancia y el respeto mutuo.</p>
+<p>7. Desarrollar estrategias e instrumentos destinados a promover la convivencia escolar a partir de evaluaciones y seguimiento de las formas de acoso y violencia escolar más frecuentes.</p>
+<p>8. Adoptar estrategias para estimular actitudes entre los miembros de la comunidad educativa que promuevan y fortalezcan la convivencia escolar, la mediación y reconciliación y la divulgación de estas experiencias exitosas.</p>
+<p>9. Generar estrategias pedagógicas para articular procesos de formación entre las distintas áreas de estudio.</p>
+<p><strong>Artículo 18. </strong><em><strong>Responsabilidades del director o rector del establecimiento educativo en el Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la educación para la sexualidad y la prevención y de la violencia escolar.</strong></em> Además de las que establece normatividad vigente y que le son propias, tendrá las siguientes responsabilidades:</p>
+<p>1. Liderar el comité escolar de convivencia acorde con lo estipulado en los artículos 11, 12 y 13 de la presente ley.</p>
+<p>2. Incorporar en los procesos de planeación institucional el desarrollo de los componentes de prevención y de promoción, y los protocolos o procedimientos establecidos para la implementación de la ruta de atención integral para la convivencia escolar.</p>
+<p>3. Liderar la revisión y ajuste del proyecto educativo institucional, el manual de convivencia, y el sistema institucional de evaluación anualmente, en un proceso participativo que involucre a los estudiantes y en general a la comunidad educativa, en el marco del Plan de Mejoramiento Institucional.</p>
+<p>4. Reportar aquellos casos de acoso y violencia escolar y vulneración de derechos sexuales y reproductivos de los niños, niñas y adolescentes del establecimiento educativo, en su calidad de presidente del comité escolar de convivencia, acorde con la normatividad vigente y los protocolos definidos en la Ruta de Atención Integral y hacer seguimiento a dichos casos.</p>
+<p><strong>Artículo 19. </strong><em><strong>Responsabilidades de los docentes en el Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar</strong></em><strong>.</strong> Además de las que establece la normatividad vigente y que le son propias, tendrán las siguientes responsabilidades:</p>
+<p>1. Identificar, reportar y realizar el seguimiento a los casos de acoso escolar, violencia escolar y vulneración de derechos sexuales y reproductivos que afecten a estudiantes del establecimiento educativo, acorde con los artículos <a title="vinculo" href="norma.php?i=25669#11">11 </a>y <a title="vinculo" href="norma.php?i=25669#12">12 </a>de la Ley 1146 de 2007 y demás normatividad vigente, con el manual de convivencia y con los protocolos definidos en la Ruta de Atención Integral para la Convivencia Escolar.</p>
+<p>Si la situación de intimidación de la que tienen conocimiento se hace a través de medios electrónicos, igualmente deberá reportar al comité de convivencia para activar el protocolo respectivo.</p>
+<p>2. Transformar las prácticas pedagógicas para contribuir a la construcción de ambientes de aprendizajes democráticos y tolerantes que potencien la participación, la construcción colectiva de estrategias para la resolución de conflictos, el respeto a la dignidad humana, a la vida, a la integridad física y moral de los estudiantes.</p>
+<p>3. Participar de los procesos de actualización y de formación docente y de evaluación del clima escolar del establecimiento educativo.</p>
+<p>4. Contribuir a la construcción y aplicación del manual de convivencia.</p>
+<p><strong>Artículo 20. </strong><em><strong>Proyectos Pedagógicos.</strong></em> Los proyectos a que se refiere el numeral 1 del artículo 15 de la presente ley deberán ser desarrollados en todos los niveles del establecimiento educativo, formulados y gestionados por los docentes de todas las áreas y grados, construidos colectivamente con otros actores de la comunidad educativa, que sin una asignatura específica, respondan a una situación del contexto y que hagan parte del proyecto educativo institucional o del proyecto educativo comunitario.</p>
+<p>Los proyectos pedagógicos de educación para la sexualidad, que tienen como objetivos desarrollar competencias en los estudiantes para tomar decisiones informadas, autónomas, responsables, placenteras, saludables y orientadas al bienestar; y aprender a manejar situaciones&#8220;No&#8221; a propuestas que afecten su integridad física o moral, deberán desarrollarse gradualmente de acuerdo con la edad, desde cada una de las áreas obligatorias señaladas en la Ley <a title="vinculo" href="norma.php?i=292#0115">115 </a>de 1994, relacionados con el cuerpo y el desarrollo humano, la reproducción humana, la salud sexual y reproductiva y los métodos de anticoncepción, así como las reflexiones en torno a actitudes, intereses y habilidades en relación con las emociones, la construcción cultural de la sexualidad, los comportamientos culturales de género, la diversidad sexual, la sexualidad y los estilos de vida sanos, como elementos fundamentales para la construcción del proyecto de vida del estudiante.</p>
+<p>La educación para el ejercicio de los derechos humanos en la escuela implica la vivencia y práctica de los derechos humanos en la cotidianidad escolar, cuyo objetivo es la transformación de los ambientes de aprendizaje, donde los conflictos se asumen como oportunidad pedagógica que permite su solución mediante el diálogo, la concertación y el reconocimiento a la diferencia para que los niños, niñas y adolescentes desarrollen competencias para desempeñarse como sujetos activos de derechos en el contexto escolar, familiar y comunitario. Para esto, el proyecto pedagógico enfatizará en la dignidad humana, los derechos humanos y la aceptación y valoración de la diversidad y las diferencias.</p>
+<p>En el currículo, el establecimiento educativo deberá hacer explícito el tiempo y condiciones destinadas a los proyectos, acorde con lo señalado en los artículos <a title="vinculo" href="norma.php?i=292#76">76 </a>a <a title="vinculo" href="norma.php?i=292#79">79 </a>de la Ley 115 de 1994 en relación con el currículo y planes de estudio.</p>
+<p><strong>Parágrafo.</strong> En todos los casos se deberán respetar las garantías constitucionales en torno a los derechos fundamentales establecidos en el Título II Capítulo I de la Constitución Nacional.</p>
+<p><strong>Artículo 21. </strong><em><strong>Manual de convivencia.</strong></em> En el marco del Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar, y además de lo establecido en el artículo <a title="vinculo" href="norma.php?i=292#87">87 </a>de la Ley 115 de 1994, los manuales de convivencia deben identificar nuevas formas y alternativas para incentivar y fortalecer la convivencia escolar y el ejercicio de los derechos humanos, sexuales y reproductivos de los estudiantes, que permitan aprender del error, respetar la diversidad y dirimir los conflictos de manera pacífica, así como de posibles situaciones y conductas que atenten contra el ejercicio de sus derechos.</p>
+<p>El manual concederá al educador el rol de orientador y mediador en situaciones que atenten contra la convivencia escolar y el ejercicio de los derechos humanos, sexuales y reproductivos, así como funciones en la detección temprana de estas mismas situaciones, a los estudiantes, el manual les concederá un rol activo para participar en la definición de acciones para el manejo de estas situaciones, en el marco de la ruta de atención integral.</p>
+<p>El manual de convivencia deberá incluir la ruta de atención integral y los protocolos de que trata la presente ley.</p>
+<p>Acorde con el artículo <a title="vinculo" href="norma.php?i=292#87">87 </a>de la Ley 115 de 1994, el manual de convivencia define los derechos y obligaciones de los estudiantes de cada uno de los miembros de la comunidad educativa, a través de los cuales se rigen las características y condiciones de interacción y convivencia entre los mismos y señala el debido proceso que debe seguir el establecimiento educativo ante el incumplimiento del mismo. Es una herramienta construida, evaluada y ajustada por la comunidad educativa, con la participación activa de los estudiantes y padres de familia, de obligatorio cumplimiento en los establecimientos educativos públicos y privados y es un componente esencial del proyecto educativo institucional.</p>
+<p>El manual de que trata el presente artículo debe incorporar, además de lo anterior, las definiciones, principios y responsabilidades que establece la presente ley, sobre los cuales se desarrollarán los factores de promoción y prevención y atención de la Ruta de Atención Integral para la Convivencia Escolar.</p>
+<p>El Ministerio de Educación Nacional reglamentará lo relacionado con el manual de convivencia y dará los lineamientos necesarios para que allí se incorporen las disposiciones necesarias para el manejo de conflictos y conductas que afectan la convivencia escolar, y los derechos humanos, sexuales y reproductivos, y para la participación de la familia, de conformidad con el artículo 22 de la presente ley.</p>
+<p><strong>Artículo 22. </strong><em><strong>Participación de la familia.</strong></em> La familia, como parte de la comunidad educativa, en el marco del Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar, además de las obligaciones consagradas en el artículo <a title="vinculo" href="norma.php?i=4125#67">67 </a>de la Constitución Política, en la Ley <a title="vinculo" href="norma.php?i=292#0115">115 </a>de 1994, la Ley <a title="vinculo" href="norma.php?i=22106#1098">1098 </a>de 2006, la Ley <a title="vinculo" href="norma.php?i=43202#1453">1453 </a>de 2011 y demás normas vigentes, deberá:</p>
+<p>1. Proveer a sus hijos espacios y ambientes en el hogar, que generen confianza, ternura, cuidado y protección de sí y de su entorno físico, social y ambiental.</p>
+<p>2. Participar en la formulación, planeación y desarrollo de estrategias que promuevan la convivencia escolar, los derechos humanos, sexuales y reproductivos, la participación y la democracia, y el fomento de estilos de vida saludable.</p>
+<p>3. Acompañar de forma permanente y activa a sus hijos en el proceso pedagógico que adelante el establecimiento educativo para la convivencia y la sexualidad.</p>
+<p>4. Participar en la revisión y ajuste del manual de convivencia a través de las instancias de participación definidas en el proyecto educativo institucional del establecimiento educativo.</p>
+<p>5. Asumir responsabilidades en actividades para el aprovechamiento del tiempo libre de sus hijos para el desarrollo de competencias ciudadanas.</p>
+<p>6. Cumplir con las condiciones y obligaciones establecidas en el manual de convivencia y responder cuando su hijo incumple alguna de las normas allí definidas.</p>
+<p>7. Conocer y seguir la Ruta de Atención Integral cuando se presente un caso de violencia escolar, la vulneración de los derechos sexuales y reproductivos o una situación que lo amerite, de acuerdo con las instrucciones impartidas en el manual de convivencia del respectivo establecimiento educativo.</p>
+<p>8. Utilizar los mecanismos legales existentes y los establecidos en la Ruta de Atención Integral a que se refiere esta ley, para restituir los derechos de sus hijos cuando estos sean agredidos.</p>
+<p align="center"><strong>CAPÍTULO IV </strong></p>
+<p align="center"><strong>De la participación de varias entidades que hacen parte Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar </strong></p>
+<p><strong>Artículo 23. </strong><em><strong>Del Ministerio de Salud y la Protección Social.</strong></em> En el marco del Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar, el Ministerio, en su carácter de coordinador del Sistema General de Seguridad Social en Salud, será el encargado de:</p>
+<p>1. Garantizar que las entidades prestadoras de salud, en el marco de la ruta de atención integral, sean el enlace con el personal especializado de los establecimientos educativos, de que trata el artículo 31 de la presente ley. Estos equipos conformados por la EPS y el establecimiento educativo acompañarán aquellos estudiantes que han sido víctimas así como a sus victimarios y harán trabajo social con sus respectivas familias. El acompañamiento se prestará de conformidad con la reglamentación que para tal fin expidan los Ministerios de Salud y de Educación Nacional.</p>
+<p>2. Ejecutar, en coordinación con las secretarías de educación certificadas, las acciones de promoción de salud sexual y reproductiva y de prevención de embarazos e infecciones de transmisión sexual, a través de los proyectos que adelanten los establecimientos educativos.</p>
+<p>3. Reportar, a través de las instituciones prestadoras de salud y las entidades promotoras de salud, al Sistema Unificado de Información de que trata el artículo 28 de esta ley, aquellos casos de maltrato, violencia escolar o vulneración de derechos sexuales y reproductivos, que sean atendidos por cualquiera de estas y bajo cualquier forma o circunstancia.</p>
+<p>Para estos efectos el Ministerio de Salud reglamentará con el apoyo del Comité Nacional de Convivencia Escolar y del Ministerio de Educación Nacional la tipificación de estos eventos, los protocolos respectivos, la información a reportar y los tiempos para dicho reporte. Las IPS, EPS y las IE garantizarán el derecho a la intimidad y la confidencialidad de las personas involucradas.</p>
+<p>4. Establecer en conjunto con el MEN la reglamentación necesaria para que las entidades promotoras de salud, las administradoras del régimen subsidiado y las instituciones prestadoras de servicios de salud, diseñen e implementen estrategias que puedan ser verificables de manera cuantitativa y cualitativa, para el desarrollo de los servicios de atención integral a los niños, niñas y adolescentes desde el primer control médico periódico y a lo largo de todo el ciclo educativo, así como la atención prioritaria y el inicio del control prenatal para la estudiante embarazada, de conformidad con los parámetros establecidos en la presente ley.</p>
+<p><strong>Artículo 24. </strong><em><strong>Del Instituto Colombiano de Bienestar Familiar</strong></em><strong>.</strong> El Instituto Colombiano de Bienestar Familiar, en su carácter de coordinador del Sistema Nacional de Bienestar Familiar, será el encargado de:</p>
+<p>1. Dar los lineamientos a las autoridades administrativas competentes y a los consejos territoriales de política social, acorde con las funciones y acciones que les corresponde en el Sistema Nacional de Convivencia Escolar, en particular y en relación con los comités municipales, distritales y departamentales de convivencia escolar y con la Ruta de Atención Integral.</p>
+<p>2. Atender y orientar a niños, niñas y adolescentes a través de las autoridades administrativas competentes, en el ejercicio y restablecimiento de sus derechos humanos, sexuales y reproductivos.</p>
+<p>3. Recibir denuncias y adoptar las medidas de emergencia y de protección necesarias en los casos en que los niños, las niñas y los adolescentes sean víctimas de delitos, o en aquellos casos que corresponden a convivencia escolar o vulneración de derechos sexuales y reproductivos y que provienen de la activación de la ruta de atención integral por parte de los rectores de los establecimientos educativos.</p>
+<p>4. Adoptar medidas de prevención o protección, a través de la acción del comisario de familia, una vez agotada la instancia del comité escolar de convivencia de que trata la presente ley.</p>
+<p>5. Realizar seguimiento y reportar al Sistema de Información Unificado de Convivencia Escolar directamente o a través de las autoridades administrativas competentes, los casos que le sean remitidos, atendiendo a los protocolos que se establezcan, de conformidad con la reglamentación que para tal fin se expida.</p>
+<p><strong>Artículo 25. </strong><em><strong>Del Ministerio de Cultura.</strong></em> El Ministerio de Cultura, en el marco del Sistema Nacional de Convivencia Escolar, promoverá estrategias que mediante el arte, la recreación, la cultura y el deporte, aporten a la prevención y mitigación de situaciones de violencia escolar y a la cualificación del uso de tiempo libre de los niños, niñas y adolescentes y a la formulación de iniciativas de convivencia y cultura ciudadana.</p>
+<p><strong>Artículo 26. </strong><em><strong>De los personeros</strong></em>. En el marco del Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar, al personero municipal o distrital en cumplimiento de sus funciones de Ministerio Público, de la guarda y promoción de los derechos humanos, la protección del interés público y la vigilancia de la conducta de quienes desempeñan funciones públicas, le corresponde:</p>
+<p>1. Atender aquellos casos que no hayan podido ser resueltos por el Comité Escolar de Convivencia.</p>
+<p>2. Orientar e instruir a los habitantes de la respectiva jurisdicción en el ejercicio de sus derechos y referir a la autoridad competente, según el caso.</p>
+<p>3. Realizar seguimiento y reportar al Sistema de Información Unificado de Convivencia Escolar, los casos que le sean remitidos, atendiendo a los protocolos que se establezcan en la Ruta de Atención Integral y de conformidad con la reglamentación que para tal fin se expida.</p>
+<p><strong>Artículo 27. </strong><em><strong>De los integrantes del Sistema de Responsabilidad Penal para Adolecentes.</strong></em> En el marco del Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar, corresponde al coordinador del Sistema de Responsabilidad Penal de Adolescentes, y a las autoridades judiciales especializadas y los demás entes administrativos integrantes de este Sistema, intervenir en aquellos casos de violencia escolar que trasciendan el ámbito escolar y revistan las características de la comisión de una conducta punible que de acuerdo con la ruta de atención integral le sean remitidos por el ICBF, las Comisarías de Familia o la Personería.</p>
+<p>En la Ruta de Atención Integral, la Policía de Infancia y Adolescencia es el enlace con los rectores o directores de los establecimientos educativos.</p>
+<p align="center"><strong>CAPÍTULO V </strong></p>
+<p align="center"><strong>Herramientas del Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar </strong></p>
+<p><strong>Artículo 28. </strong><em><strong>Sistema de Información Unificado de Convivencia Escolar.</strong></em> Se crea el Sistema de información unificado de Convivencia Escolar en el marco del Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar, para la identificación, registro y seguimiento de los casos de acoso, violencia escolar y de vulneración de derechos sexuales y reproductivos que afecten a los niños, niñas y adolescentes de los establecimientos educativos. Este sistema garantizará el derecho a la intimidad y la confidencialidad de las personas involucradas, de acuerdo con los parámetros de protección fijados en la Ley Estatutaria 1266 de 2008.</p>
+<p>Las estadísticas e informes que reporte el Sistema de Información junto con los datos de encuestas e investigaciones de otras fuentes servirán de base para la toma de decisiones y para la reorientación de estrategias y programas que fomenten la convivencia escolar y la formación para el ejercicio de los derechos humanos, sexuales y reproductivos de los niños, niñas y adolescentes.</p>
+<p>La estructura del Sistema de Información Unificado de Convivencia Escolar deberá permitir al Comité Nacional de Convivencia Escolar y a los comités municipales, distritales y departamentales de convivencia escolar, contar con información e indicadores de los casos de acoso escolar, violencia escolar y de vulneración de derechos sexuales y reproductivos que afecten a los niños, niñas y adolescentes de los establecimientos educativos, como insumo para la orientación de sus políticas y estrategias.</p>
+<p>El Sistema de información unificado de convivencia escolar actuará de manera articulada con el Sistema de Información Misional SIM del Instituto Colombiano de Bienestar Familiar, con los sistemas de información del Sector Salud que sean pertinentes y Ministro de Tecnologías de la Información y las Comunicaciones, con el objetivo de consolidar información que permita identificar las acciones conjuntas y las específicas adelantadas por parte de cada una de las entidades del Sistema frente a cada caso reportado en el mismo, a favor de la protección de los derechos humanos, sexuales y reproductivos de los niños, niñas y adolescentes.</p>
+<p><strong>Artículo 29. </strong><em><strong>Ruta de Atención Integral para la Convivencia Escolar.</strong></em> La Ruta de Atención Integral para la Convivencia Escolar define los procesos y los protocolos que deberán seguir las entidades e instituciones que conforman el Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar, en todos los casos en que se vea afectada la convivencia escolar y los derechos humanos, sexuales y reproductivos de los estudiantes de las instituciones educativas, articulando una oferta de servicio ágil, integral y complementario.</p>
+<p>En cumplimiento de las funciones señaladas en cada uno de los niveles, las instituciones y entidades que conforman el Sistema deben garantizar la atención inmediata y pertinente de los casos de violencia escolar, acoso o vulneración de derechos sexuales y reproductivos que se presenten en los establecimientos educativos o en sus alrededores y que involucren a niños, niñas y adolescentes de los niveles de educación preescolar, básica y media, así como de casos de embarazo en adolescentes.</p>
+<p><strong>Artículo 30. </strong><em><strong>Componentes de la Ruta de Atención Integral para la Convivencia Escolar</strong></em><em>. </em>La Ruta de Atención Integral tendrá como mínimo cuatro componentes: de promoción, de prevención, de atención y de seguimiento.</p>
+<p>El componente de promoción se centrará en el desarrollo de competencias y el ejercicio de los derechos humanos, sexuales y reproductivos. Este componente determina la calidad del clima escolar y define los criterios de convivencia que deben seguir los miembros de la comunidad educativa en los diferentes espacios del establecimiento educativo y los mecanismos e instancias de participación del mismo, para lo cual podrán realizarse alianzas con otros actores e instituciones de acuerdo con sus responsabilidades.</p>
+<p>El componente de prevención deberá ejecutarse a través de un proceso continuo de formación para el desarrollo integral del niño, niña y adolescente, con el propósito de disminuir en su comportamiento el impacto de las condiciones del contexto económico, social, cultural y familiar. Incide sobre las causas que puedan potencialmente originar la problemática de la violencia escolar, sobre sus factores precipitantes en la familia y en los espacios sustitutivos de vida familiar, que se manifiestan en comportamientos violentos que vulneran los derechos de los demás, y por tanto quienes los manifiestan están en riesgo potencial de ser sujetos de violencia o de ser agentes de la misma en el contexto escolar.</p>
+<p>El componente de atención deberá desarrollar estrategias que permitan asistir al niño, niña, adolescente, al padre, madre de familia o al acudiente, o al educador de manera inmediata, pertinente, ética e integral, cuando se presente un caso de violencia o acoso escolar o de comportamiento agresivo que vulnere los derechos humanos, sexuales y reproductivos, de acuerdo con el protocolo y en el marco de las competencias y responsabilidades de las instituciones y entidades que conforman el Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar. Este componente involucra a actores diferentes a los de la comunidad educativa únicamente cuando la gravedad del hecho denunciado, las circunstancias que lo rodean o los daños físicos y psicológicos de los menores involucrados sobrepasan la función misional del establecimiento educativo.</p>
+<p>El componente de seguimiento se centrará en el reporte oportuno de la información al Sistema de Información Unificado de Convivencia Escolar, del estado de cada uno de los casos de atención reportados.</p>
+<p><strong>Artículo 31. </strong><em><strong>De los protocolos de la Ruta de Atención Integral para la Convivencia Escolar.</strong></em> La Ruta de Atención Integral inicia con la identificación de situaciones que afectan la convivencia por acoso o violencia escolar, los cuales tendrán que ser remitidos al Comité Escolar de Convivencia, para su documentación, análisis y atención a partir de la aplicación del manual de convivencia.</p>
+<p>El componente de atención de la ruta será activado por el Comité de Convivencia Escolar por la puesta en conocimiento por parte de la víctima, estudiantes, docentes, directivos docentes, padres de familia o acudientes, de oficio por el Comité de, Convivencia Escolar o por cualquier persona que conozca de situaciones que afecten la convivencia escolar.</p>
+<p>Los protocolos y procedimientos de la ruta de atención integral deberán considerar como mínimo los siguientes postulados:</p>
+<p>1. La puesta en conocimiento de los hechos por parte de las directivas, docentes y estudiantes involucrados.</p>
+<p>2. El conocimiento de los hechos a los padres de familia o acudientes de las víctimas y de los generadores de los hechos violentos.</p>
+<p>3. Se buscarán las alternativas de solución frente a los hechos presentados procurando encontrar espacios de conciliación, cuando proceda, garantizando el debido proceso, la promoción de las relaciones participativas, incluyentes, solidarias, de la corresponsabilidad y el respeto de los derechos humanos.</p>
+<p>4. Se garantice la atención integral y el seguimiento pertinente para cada caso.</p>
+<p>Una vez agotada esta instancia, las situaciones de alto riesgo de violencia escolar o vulneración de derechos, sexuales y reproductivos de niños, niñas y adolescentes de los establecimientos educativos en los niveles de preescolar, básica y media que no puedan ser resueltas por las vías que establece el manual de convivencia y se requiera la intervención de otras entidades o instancias, serán trasladadas por el rector de la institución, de conformidad con las decisiones del Comité Escolar de Convivencia, al ICBF, la Comisaria de Familia, la Personería Municipal o Distrital o a la Policía de Infancia y Adolescencia, según corresponda.</p>
+<p><strong>Parágrafo.</strong> Los postulados, procesos, protocolos, estrategias y mecanismos de la Ruta de Atención Integral serán reglamentados por el Gobierno Nacional en un plazo no mayor a seis meses después de promulgada esta ley. Para tal efecto se tendrán como base los protocolos y rutas ya establecidos por las entidades e instituciones que pertenecen al Sistema. Estos postulados, procesos, estrategias y mecanismos de la ruta de atención integral se deben actualizar con una periodicidad de dos años, como resultado de evaluaciones que se realicen sobre su funcionamiento.</p>
+<p><strong>Artículo 32.</strong> El Gobierno Nacional definirá los lineamientos normativos, operativos y financieros para que los establecimientos educativos de carácter oficial cuenten con orientación escolar para la convivencia para los estudiantes.</p>
+<p>La mencionada orientación escolar para la convivencia podrá implementarse mediante alianzas estratégicas con las instituciones de educación superior, a través de la creación de espacios de práctica de los estudiantes de último semestre de las carreras de psicología, psiquiatría y programas afines.</p>
+<p>El personal encargado de realizar o apoyar la orientación escolar para la convivencia, en relación con la ruta de atención integral, deberá:</p>
+<p>1. Contribuir con la dirección del establecimiento educativo en el proceso de identificación de factores de riesgo que pueden influir en la vida escolar de los estudiantes.</p>
+<p>2. Documentar y registrar en el Sistema de Información Unificado de Convivencia Escolar los casos de acoso o violencia escolar o vulneración de derechos sexuales y reproductivos.</p>
+<p>3. Participar en el proceso de acompañamiento así como de la evaluación de los resultados de esta orientación.</p>
+<p>4. Actuar como agentes de enlace o agentes que apoyan la remisión de los casos de violencia escolar o vulneración de derechos sexuales y reproductivos a las instituciones o entidades según lo establecido en la Ruta de Atención Integral.</p>
+<p>5. Participar en la definición de los planes individuales y grupales de intervención integral y seguir los protocolos establecidos en la Ruta de Atención Integral.</p>
+<p>6. Apoyar al comité escolar de convivencia en el desarrollo de estrategias e instrumentos destinados a promover y evaluar la convivencia escolar y la promoción de los derechos sexuales y reproductivos, así como documentar los casos que sean revisados en las sesiones del mismo.</p>
+<p>7. Participar en la construcción, redacción, socialización e implementación del manual de convivencia y de los proyectos pedagógicos de que trata el artículo 20 de la presente ley.</p>
+<p>8. Involucrar a las familias, a través de la escuela para padres y madres, en los componentes y protocolos de la ruta de atención integral.</p>
+<p><strong>Artículo 33. </strong><em><strong>Atención en Salud Mental.</strong></em> La atención en Salud Mental a los niños, niñas, adolescentes y las familias afectadas por la violencia escolar o vulneración de derechos sexuales y reproductivos será prioritaria con base en el Plan Obligatorio de Salud, en el marco del Sistema General de Seguridad Social en Salud.</p>
+<p><strong>Artículo 34. </strong><em><strong>Divulgación y difusión.</strong></em> A partir de la entrada en vigencia de la presente ley, el Gobierno Nacional a través de los programas institucionales de televisión y de las páginas web oficiales de las entidades públicas que integran y están vinculadas al Ministerio de Salud y la Protección Social, al Ministerio de Educación Nacional y al Instituto Colombiano de Bienestar Familiar, divulgarán permanentemente el contenido de la presente ley y, en todo caso, el contenido a que hace referencia la Rutade Atención Integral, deberá ser entregado en medio impreso o por vía electrónica a los padres de familia al momento de matricular a sus hijos en cualquier establecimiento educativo del país.</p>
+<p align="center"><strong>CAPÍTULO VI </strong></p>
+<p align="center"><strong>Infracciones administrativas, sanciones e incentivos </strong></p>
+<p><strong>Artículo 35. </strong><em><strong>Sanciones.</strong></em> Las conductas de los actores del sistema en relación con la omisión, incumplimiento o retraso en la implementación de la Ruta o en el funcionamiento de los niveles de la estructura del Sistema se sancionarán de acuerdo con lo establecido en el Código General y de Procedimiento Penal, el Código Único Disciplinario y el Código de la Infancia y la Adolescencia.</p>
+<p><strong>Artículo 36. </strong><em><strong>Sanciones a las instituciones educativas privadas</strong></em><strong>.</strong> Las entidades territoriales certificadas podrán imponer, a las instituciones educativas de carácter privado que incurran en cualquiera de las conductas de que trata el artículo anterior, alguna de las siguientes sanciones:</p>
+<p>1. Amonestación pública que será fijada en lugar visible de la institución educativa y en la respectiva secretaría de educación.</p>
+<p>2. Amonestación pública con indicación de los motivos que dieron origen a la sanción, a través de anuncio en periódico de alta circulación en la localidad, en su defecto, de publicación en lugar visible, durante un máximo de una semana.</p>
+<p>3. Clasificación del establecimiento educativo en el régimen controlado para el año inmediatamente siguiente a la ejecutoria de la resolución que imponga dicha sanción, para efectos del establecimiento de los valores de matrícula.</p>
+<p>4. Cancelación de la licencia de funcionamiento.</p>
+<p><strong>Parágrafo 1°.</strong> Para la aplicación de las anteriores sanciones se deberán atender los criterios de graduación establecidos en el artículo 50 de la Ley 1437 de 2011, así como la afectación a la vida o a la integridad física o psicológica de los estudiantes o la disminución de la calidad de la convivencia escolar.</p>
+<p><strong>Parágrafo 2°.</strong> Los costos en los que incurran las entidades territoriales certificadas en educación por la aplicación de las sanciones contenidos en los numerales 1 y 2 deberán ser asumidos por los respectivos establecimientos educativos.</p>
+<p><strong>Artículo 37. </strong><em><strong>De las infracciones administrativas de las instituciones educativas privadas.</strong></em> Respecto de las instituciones educativas de carácter privado las entidades territoriales certificadas en educación deberán adelantar el procedimiento administrativo sancionatorio de que tratan los artículos 47 al 50 de la Ley 1437 de 2011, cuando incumplan las disposiciones establecidas en la presente ley, especialmente en los siguientes eventos:</p>
+<p>1. Omisión, incumplimiento o aplicación indebida de la ruta de atención integral de la que trata la presente ley,</p>
+<p>2. Falta de ajuste o implementación del Proyecto Educativo Institucional y del Manual de Convivencia, de acuerdo con las orientaciones de la presente ley.</p>
+<p>3. Inoperancia del Comité Escolar de Convivencia.</p>
+<p><strong>Artículo 38. </strong><em><strong>De las Faltas Disciplinarias de los docentes y directivos docentes oficiales.</strong></em> En las instituciones educativas de carácter oficial, los docentes y directivos docentes en el marco de las funciones asignadas a su respectivo cargo, serán responsables por hacer efectiva la implementación del Sistema al interior de las mismas. La omisión o el incumplimiento de este deber constituyen una falta disciplinaria y dará lugar a las sanciones previstas por la ley para estos servidores.</p>
+<p><strong>Artículo 39. </strong><em><strong>Incentivos a los establecimientos educativos.</strong></em> El Ministerio de Educación Nacional, en el marco del Foro Educativo Nacional que establece la Ley <a href="norma.php?i=292#0">115</a> de 1994, anualmente reconocerá los establecimientos educativos que evidencien un impacto positivo con la implementación de estrategias de mejoramiento, orientadas a cualificar la convivencia escolar, la educación para los derechos humanos, la educación para la sexualidad y la prevención y mitigación de la violencia escolar, para lo cual dentro del término de seis meses de expedición de la presente ley, reglamentará la participación, los criterios de selección y los incentivosque recibirán los establecimientos educativos y los miembros de estos que lo ameriten.</p>
+<p><strong>Artículo 40. </strong><em><strong>Término de reglamentación y vigencia.</strong></em> El Gobierno Nacional contará con un plazo máximo de seis (6) meses para expedir la reglamentación que sea necesaria.</p>
+<p>La presente ley rige a partir de su publicación en el <em><strong>Diario Oficial, </strong></em>salvo las disposiciones contenidas en el capítulo VI las cuales entrarán a regir a los dos (2) meses siguientes a la reglamentación señalada en el inciso interior.</p>
+<p align="center"><strong>El Presidente del honorable Senado de la República, </strong></p>
+<p align="center"><em><strong>Roy Leonardo Barreras Montealegre. </strong></em></p>
+<p align="center"><strong>El Secretario General del honorable Senado de la República, </strong></p>
+<p align="center"><em><strong>Gregorio Eljach Pacheco. </strong></em></p>
+<p align="center"><strong>El Presidente de la honorable Cámara de Representantes, </strong></p>
+<p align="center"><em><strong>Augusto Posada Sánchez. </strong></em></p>
+<p align="center"><strong>El Secretario General de la honorable Cámara de Representantes, </strong></p>
+<p align="center"><em><strong>Jorge Humberto Mantilla Serrano. </strong></em></p>
+<p align="center"><strong>REPÚBLICA DE COLOMBIA - GOBIERNO NACIONAL </strong></p>
+<p align="center"><strong>Publíquese y cúmplase. </strong></p>
+<p align="center"><strong>Dada en Bogotá, D. C., a 15 de marzo de 2013. </strong></p>
+<p align="center"><strong>JUAN MANUEL SANTOS CALDERÓN </strong></p>
+<p align="center"><strong>La Ministra de Justicia y del Derecho, </strong></p>
+<p align="center"><em><strong>Ruth Stella Correa Palacio. </strong></em></p>
+<p align="center"><strong>El Ministro de Salud y Protección Social, </strong></p>
+<p align="center"><em><strong>Alejandro Gaviria Uribe. </strong></em></p>
+<p align="center"><strong>La Ministra de Educación Nacional, </strong></p>
+<p align="center"><em><strong>María Fernanda Campo Saavedra. </strong></em></p>
+<p align="center"><strong>La Ministra de Cultura, </strong></p>
+<p align="center"><em><strong>Mariana Garcés Córdoba.</strong></em></p>
+<p><strong>NOTA: Publicado en el Diario Oficial 48733 de marzo 15 de 2013</strong></p>	</div>
+	
+		
+</div>
+<!--end col right-->
+	  
+  </div>
+    </div>
+  
+  </main>
+	
+	
+    <div class="container">
+
+		<style type="text/css">
+		.stl-1-white-blue-second {
+			background-color: transparent;
+			border: 2px solid #1E3559 !important;
+			color: #1E3559;
+			transition-duration: .4s;
+			border-radius: 3px;
+			padding: 10px 30px;
+			font-size: 1.0em;
+			font-weight: 700;
+			display: inline-block;
+		}
+
+		.stl-1-white-blue-second:hover {
+			background-color: #1E3559;
+			color: #fff;
+			border: 2px solid #1E3559;
+			border-radius: 3px;
+			padding: 10px 30px;
+			font-weight: 700;
+			text-decoration: none;
+		}
+
+		.stl-1-white-blue-second:active {
+			background-color: #bfbfbf;
+			color: white;
+		}
+
+		</style>
+		<a href="javascript:history.back(1)">
+			<div class="col-md-4"><button type="submit" class="stl-1-white-blue-second mtop20">Volver Atrás</button>
+			</div>
+		</a>
+</div>
+
+
+<footer class="footer">
+  <div class="menu-gobierno">
+    <div class="container">
+      <div class="row" style="align-items: center">
+        <div class="col-lg-4 col-md-12 text-center mb-5"> <a href="https://www.presidencia.gov.co/" class="logo img-fluid"><img width="40%" src="https://www.funcionpublica.gov.co/documents/418537/37421537/logo-gobierno.png/af775a00-cdd7-3268-7e00-d2d89fabf76b?t=1659904736649" alt="Gobierno de Colombia"/></a> </div>
+        <div class="col-lg-2 col-md-3">
+          <ul>
+            <!-- <li><a href="https://www.presidencia.gov.co/">Presidencia</a></li> -->
+            <li><a href="https://www.vicepresidencia.gov.co/">Vicepresidencia</a></li>
+            <li><a href="https://www.minjusticia.gov.co/">MinJusticia</a></li>
+            <li><a href="https://www.mindefensa.gov.co/irj/portal/Mindefensa">MinDefensa</a></li>
+            <li><a href="https://www.mintrabajo.gov.co/web/guest/inicio">MinTrabajo</a></li>
+            <li><a href="https://www.mininterior.gov.co/">MinInterior</a></li>
+            <li><a href="https://minciencias.gov.co/">MinCiencias</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <ul>
+            <li><a href="https://www.cancilleria.gov.co/">MinRelaciones</a></li>
+            <li><a href="https://www.minhacienda.gov.co/">MinHacienda</a></li>
+            <li><a href="https://www.minsalud.gov.co/portada-covid-19.html">MinSalud</a></li>
+            <li><a href="https://www.minenergia.gov.co/">MinEnergía</a></li>
+            <li><a href="https://www.mincit.gov.co/">MinComercio</a></li>
+            <li><a href="https://www.mindeporte.gov.co/">MinDeporte</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <ul>
+            <li><a href="https://www.mintic.gov.co/portal/inicio/">MinTIC</a></li>
+            <li><a href="https://www.mineducacion.gov.co/portal/">MinEducacion</a></li>
+            <li><a href="https://www.mincultura.gov.co/Paginas/Inicio.aspx">MinCultura</a></li>
+            <li><a href="https://www.minagricultura.gov.co/paginas/default.aspx">MinAgricultura</a></li>
+            <li><a href="https://www.minambiente.gov.co">MinAmbiente</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <ul>
+            <li><a href="https://www.mintransporte.gov.co/">MinTransporte</a></li>
+            <li><a href="http://www.minvivienda.gov.co/">MinVivienda</a></li>
+            <li><a href="https://www.urnadecristal.gov.co/">Urna de Cristal</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2">
+          <div class="row text-center align-items-center">
+            <div class="col-lg-12 col-sm-6 mb-5">
+              <p><a haref="#"><img src="https://www.funcionpublica.gov.co/o/Fpublica-2021-theme/images/logos/logofinal_gov.png" class="img-fluid p-2" alt="Logo gov.co"/></a></p>
+            </div>
+            <div class="col-lg-12 col-sm-6 mb-5">
+              <p><a haref="#"><img src="img_nuevo/colombia-co.png" class="img-fluid" alt="Logo Marca Pais Colombia"/></a></p>
+            </div>
+          </div>
+          <div class="d-none d-lg-block">
+            <p style="text-align: left; text-transform: uppercase; font-size: 17px;">entidad del sector</p>
+            <p class="subrayado1"></p>
+            <br>
+            <br>
+            <p><a haref="#"><img src="img_nuevo/logo-esap.png" class="img-fluid" alt="Logo ESAP"/></a></p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-7">
+          <p style="text-align: left; text-transform: uppercase; font-size: 17px;">función publica</p>
+          <p class="subrayado1"></p>
+          <!--direccion-->
+          <div style="background-image: url(img_nuevo/map2.png); background-repeat: no-repeat;background-position: center top;">
+            <div class="d-flex">
+              <div class="mr-2"> <i class="fa fa-map-marker bg-white-opacity-0_1 g-color-white-opacity-0_6"></i> </div>
+              <p class="ml-1">Carrera 6 # 12-62,<br>
+                Bogotá D.C.</p>
+            </div>
+            <!--phone-->
+            <div class="d-flex mt-1">
+              <div class="mr-2"> <i class="fa fa-phone bg-white-opacity-0_1 g-color-white-opacity-0_6"></i> </div>
+              <p class="ml-1"><strong>Código Postal: </strong>111711<br>
+                <strong>Teléfono Conmutador::</strong> (+57) 601 5956600 <br>
+                <strong>Línea gratuita nacional:</strong> 018000931186 <br>
+              </p>
+            </div>
+          </div>
+          <!--url-->
+          <div class="d-flex">
+            <div class="mr-2"> <i class="fa fa-globe bg-white-opacity-0_1 g-color-white-opacity-0_6"></i> </div>
+            <p class="ml-1" style="word-wrap: break-word"><a href="#">www.funcionpublica.gov.co</a> <br>
+              Correo de Contacto: <a href="mailto:eva@funcionpublica.gov.co">eva@funcionpublica.gov.co</a><br>
+              <span class="d-none d-lg-block d-lg-block d-md-block"> Notificaciones judiciales:<br>
+              <a style="word-wrap: break-word" href="mailto:notificacionesjudiciales@funcionpublica.gov.co?Subject=Notificación%20judicial" target="_top">notificacionesjudiciales@funcionpublica.gov.co</a></span> <br>
+            </p>
+          </div>
+          <p class="mt-2" style="text-align: left; text-transform: uppercase; font-size: 17px;">contacto</p>
+          <p class="subrayado1"></p>
+          <p>Horario de atención presencial grupo de Servicio al ciudadano:<br>
+            Lunes a Viernes, 7:30 a.m a 6:00 p.m</p>
+          <p class="border-footer"></p>
+          <p>Recepción de correspondencia:<br>
+            Lunes a viernes, 8:00 am a 4:00 pm Jornada Continua</p>
+          <p class="subrayado2"></p>
+          <!--<p>Línea gratuita nacional: 018000917770</p>-->
+          <p class="subrayado2"></p>
+        </div>
+        <div class="col-lg-4 col-md-5">
+          <p style="text-align: left; text-transform: uppercase; font-size: 17px;">servicios al ciudadano</p>
+          <p class="subrayado1"></p>
+          <p><a href="mailto:notificacionesjudiciales@funcionpublica.gov.co?Subject=Notificación%20judicial" target="_top">Notificaciones judiciales</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="mailto:actosadministrativos@funcionpublica.gov.co?Subject=Notificaciones o comunicaciones de acto administrativo" target="_top">Notificación de actos administrativos</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/notificaciones-a-terceros" target="_top">Notificaciones a terceros</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/denuncias-por-actos-de-corrupci%C3%B3n">Denuncias por actos de corrupción</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/web/intranet/registrosyencuestas">Participación ciudadana</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/preguntas-frecuentes">Preguntas frecuentes</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/formule-su-peticion">Formule su petición PQRS</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/mapa-del-sitio">Mapa del sitio</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://mail.office365.com/">Ingreso correo institucional</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/estadisticas-sitio">Estadísticas del sitio</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/inicio?p_p_id=com_liferay_login_web_portlet_LoginPortlet&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&saveLastPath=false&_com_liferay_login_web_portlet_LoginPortlet_mvcRenderCommandName=%2Flogin%2Flogin">Acceder</a></p>
+          <p class="subrayado2"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--redes sociales-->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-lg-6"> <a href="https://www.funcionpublica.gov.co/politica-de-privacidad-y-condiciones-de-uso">Política de Privacidad &nbsp; | &nbsp; </a><a href="https://www.funcionpublica.gov.co/politica-de-privacidad-y-condiciones-de-uso"> Términos y condiciones de uso</a> </div>
+        <div class="col-sm-4 col-lg-6 text-left  text-md-right text-xl-right">
+          <nav class="navigation">
+            <ul>
+              <li class="mr-2"><a href="https://www.facebook.com/FuncionPublica" target="_blank" title="Icono facebook"> <i class="fa fa-facebook fa-2x g-color-white-opacity-0_6 link-footer-img"></i></a></li>
+              <li class="mr-2"><a href="https://www.linkedin.com/company/departamento-administrativo-de-la-funci%C3%B3n-p%C3%BAblica" target="_blank" title="Icono Linkedin"> <i class="fa fa-linkedin fa-2x g-color-white-opacity-0_6 link-footer-img" ></i> </a></li>
+              <li class="mr-2"><a href="https://twitter.com/dafp_colombia"  target="_blank" title="Icono Twitter"> <i class="fa fa-twitter fa-2x g-color-white-opacity-0_6 link-footer-img" ></i> </a></li>
+              <li><a href="https://www.instagram.com/funcionpublicacolombia/" target="_blank" title="Icono Instagram"> <i class="fa fa fa-instagram fa-2x g-color-white-opacity-0_6 link-footer-img"></i> </a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Optional JavaScript --> 
+<!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  -->
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  -->
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  <!-- Script para mostrar el modal al cargar la página -->
+  <script>
+    $(document).ready(function(){
+      // Verificar si el sessionStorage tiene la fecha guardada
+      var modalShownTime = sessionStorage.getItem('modalShownTime');
+      if (!modalShownTime) {
+        // Si no hay fecha guardada, guardar la fecha actual
+        sessionStorage.setItem('modalShownTime', new Date().getTime());
+      } else {
+        // Si hay fecha guardada, verificar si han pasado 2 minutos desde entonces
+        var currentTime = new Date().getTime();
+		sessionStorage.setItem('modalShownTimeresta', (currentTime - modalShownTime));
+        if ((currentTime - modalShownTime) < (15 * 1000)) {
+          // Si han pasado menos de 2 minutos, no mostrar el modal
+          return;
+        }
+      }
+      // Verificar si el modal existe antes de mostrarlo
+      if ($('#exampleModal').length) {
+        $('#exampleModal').modal('show');
+		sessionStorage.setItem('modalShownTime', new Date().getTime());
+		
+      }
+    });
+  </script>
+  <!-- Lupa del buscador del Header -->
+<script>
+	 $('[name="btnsearch"]').click(function(){
+	  $('[name="_com_liferay_portal_search_web_portlet_SearchPortlet_fm"]').submit();
+	});
+</script>
+
+<!-- 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'anteriorUA-///71957172-1', 'anteriorUA-///71957172-1');
+  ga('send', 'pageview');
+
+</script>
+-->
+
+			
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DVZ2E88S6R"></script>
+<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-DVZ2E88S6R');
+</script>
+
+
+
+
+</body>
+</html>
+

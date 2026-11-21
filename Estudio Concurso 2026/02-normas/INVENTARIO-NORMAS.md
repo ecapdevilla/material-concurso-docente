@@ -20,7 +20,7 @@
 
 | Norma | Tema | Dónde conseguirla | Prioridad |
 |---|---|---|---|
-| **Ley 1620 de 2013** | Sistema Nacional de Convivencia Escolar y acoso | mineducacion.gov.co > Normatividad | A |
+| **Ley 1620 de 2013** | Sistema Nacional de Convivencia Escolar y acoso | ✅ descargada (ley-1620-2013-funcionpublica.pdf) | A |
 | **Ley 1098 de 2006** | Código de Infancia y Adolescencia | mineducacion.gov.co > Normatividad | A |
 | **Ley 1618 de 2013** | Discapacidad | mineducacion.gov.co > Normatividad | A |
 | **Ley 1346 de 2009** | Convención sobre los derechos de las personas con discapacidad | mineducacion.gov.co > Normatividad | B |
