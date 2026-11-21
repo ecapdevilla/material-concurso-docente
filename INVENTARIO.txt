@@ -50,18 +50,23 @@ Estudio Concurso 2026\01-fuentes-oficiales\cnsc\guia-orientacion-aptitudes-psico
 Estudio Concurso 2026\01-fuentes-oficiales\cnsc\guia-valoracion-antecedentes-2023.pdf
 Estudio Concurso 2026\01-fuentes-oficiales\cnsc\guia-verificacion-requisitos-minimos-2023.pdf
 Estudio Concurso 2026\01-fuentes-oficiales\FUENTES.md
+Estudio Concurso 2026\02-normas\_decreto_1290 Evaluación.pdf
 Estudio Concurso 2026\02-normas\articles-187765_archivo_pdf_decreto_1290.pdf
 Estudio Concurso 2026\02-normas\articles-86098_archivo_pdf.pdf
 Estudio Concurso 2026\02-normas\Decreto 1278 de 2002,.pdf
 Estudio Concurso 2026\02-normas\Decreto 1290 de 2009.pdf
+Estudio Concurso 2026\02-normas\decreto 2277.pdf
 Estudio Concurso 2026\02-normas\decreto-1421-2017-funcionpublica.html
 Estudio Concurso 2026\02-normas\decreto-1421-2017-funcionpublica.pdf
 Estudio Concurso 2026\02-normas\decreto-1965-2013-funcionpublica.html
 Estudio Concurso 2026\02-normas\decreto-1965-2013-funcionpublica.pdf
 Estudio Concurso 2026\02-normas\gestornormativo-home.html
+Estudio Concurso 2026\02-normas\Guia_de_integracion_normativa.pdf
 Estudio Concurso 2026\02-normas\INVENTARIO-NORMAS.md
 Estudio Concurso 2026\02-normas\Ley 115 de 1994.pdf
 Estudio Concurso 2026\02-normas\Ley 715 de 2001.pdf
+Estudio Concurso 2026\02-normas\Ley_1098_de_2006.pdf
+Estudio Concurso 2026\02-normas\Ley_2216_de_2022.pdf
 Estudio Concurso 2026\02-normas\ley-1618-2013-funcionpublica.html
 Estudio Concurso 2026\02-normas\ley-1618-2013-funcionpublica.pdf
 Estudio Concurso 2026\02-normas\ley-1620-2013-funcionpublica.html
@@ -134,9 +139,17 @@ Evidencias y Certificados\hv Docente Ingeniero de sistemas Estiben Capdevilla (1
 Evidencias y Certificados\hv Docente Ingeniero de sistemas Estiben Capdevilla (1).pdf
 Evidencias y Certificados\hv Docente Ingeniero de sistemas Estiben Capdevilla.pdf
 INVENTARIO.txt
+Legislacion y Normativa\_decreto_1290 Evaluación.pdf
+Legislacion y Normativa\articles-172061_archivo_pdf_decreto1860_94 (1).pdf
+Legislacion y Normativa\articles-373226_recurso_2.pdf
+Legislacion y Normativa\articles-85906_archivo_pdf.pdf
 Legislacion y Normativa\decreto 1075-2015unico de educación.pdf
 Legislacion y Normativa\decreto 1278 (1).pdf
 Legislacion y Normativa\decreto 1278.pdf
+Legislacion y Normativa\decreto 2277.pdf
+Legislacion y Normativa\Guia_de_integracion_normativa.pdf
+Legislacion y Normativa\Ley_1098_de_2006.pdf
+Legislacion y Normativa\Ley_2216_de_2022.pdf
 Material Pedagogico\Actividad_Eje_3_Diseno_Instruccional_Meritodocente_1A.docx
 Material Pedagogico\Actividad_Eje_3_Diseno_Instruccional_Meritodocente_ASSURE_1A.docx
 Material Pedagogico\Actividad_Eje_3_Diseno_Instruccional_Meritodocente_SAM_1A.docx
