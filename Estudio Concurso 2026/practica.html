@@ -63,12 +63,42 @@ let respuestas = {};
 let aciertos = 0;
 let errores = 0;
 
+// Cargar progreso desde localStorage
+function cargarProgreso() {
+  const saved = localStorage.getItem('practica_semana1');
+  if (saved) {
+    try {
+      const data = JSON.parse(saved);
+      respuestas = data.respuestas || {};
+      aciertos = data.aciertos || 0;
+      errores = data.errores || 0;
+      idx = data.idx || 0;
+    } catch (e) {
+      console.error('Error al cargar progreso:', e);
+    }
+  }
+}
+
+function guardarProgreso() {
+  const data = {
+    respuestas: respuestas,
+    aciertos: aciertos,
+    errores: errores,
+    idx: idx
+  };
+  localStorage.setItem('practica_semana1', JSON.stringify(data));
+}
+
+cargarProgreso();
+
 fetch('banco-preguntas-semana1.json')
   .then(r => r.json())
   .then(data => {
     preguntas = data.preguntas;
     document.getElementById('qtotal').textContent = preguntas.length;
-    document.getElementById('pendientes').textContent = preguntas.length;
+    const pendientes = preguntas.length - Object.keys(respuestas).length;
+    document.getElementById('pendientes').textContent = pendientes;
+    actualizarStats();
     render();
   })
   .catch(e => {
@@ -131,6 +161,7 @@ function confirmar() {
   respuestas[q.codigo] = { letra: seleccion, correcto: correcto };
   if (correcto) aciertos++; else errores++;
   actualizarStats();
+  guardarProgreso();
   render();
 }
 
@@ -142,8 +173,8 @@ function actualizarStats() {
   document.getElementById('bar').style.width = pct + '%';
 }
 
-function prev() { if (idx > 0) { idx--; render(); } }
-function next() { if (idx < preguntas.length - 1) { idx++; render(); } }
+function prev() { if (idx > 0) { idx--; guardarProgreso(); render(); } }
+function next() { if (idx < preguntas.length - 1) { idx++; guardarProgreso(); render(); } }
 </script>
 </body>
 </html>

@@ -53,13 +53,11 @@ Estudio Concurso 2026\01-fuentes-oficiales\cnsc\guia-verificacion-requisitos-min
 Estudio Concurso 2026\01-fuentes-oficiales\FUENTES.md
 Estudio Concurso 2026\02-normas\articles-187765_archivo_pdf_decreto_1290.pdf
 Estudio Concurso 2026\02-normas\articles-86098_archivo_pdf.pdf
-Estudio Concurso 2026\02-normas\Constitucion-Politica-Colombia-1991.pdf
 Estudio Concurso 2026\02-normas\Decreto 1278 de 2002,.pdf
 Estudio Concurso 2026\02-normas\Decreto 1290 de 2009.pdf
 Estudio Concurso 2026\02-normas\decreto_1384_2026.pdf
 Estudio Concurso 2026\02-normas\decreto-1421-2017-funcionpublica.html
 Estudio Concurso 2026\02-normas\decreto-1421-2017-funcionpublica.pdf
-Estudio Concurso 2026\02-normas\decreto-1743-1994.pdf
 Estudio Concurso 2026\02-normas\decreto-1965-2013-funcionpublica.html
 Estudio Concurso 2026\02-normas\decreto-1965-2013-funcionpublica.pdf
 Estudio Concurso 2026\02-normas\decreto-3782-2007.pdf
@@ -67,9 +65,6 @@ Estudio Concurso 2026\02-normas\gestornormativo-home.html
 Estudio Concurso 2026\02-normas\INVENTARIO-NORMAS.md
 Estudio Concurso 2026\02-normas\Ley 115 de 1994.pdf
 Estudio Concurso 2026\02-normas\Ley 715 de 2001.pdf
-Estudio Concurso 2026\02-normas\Ley_1346_de_2009.pdf
-Estudio Concurso 2026\02-normas\Ley_1437_de_2011.pdf
-Estudio Concurso 2026\02-normas\Ley_2418_de_2024.pdf
 Estudio Concurso 2026\02-normas\ley-1618-2013-funcionpublica.html
 Estudio Concurso 2026\02-normas\ley-1618-2013-funcionpublica.pdf
 Estudio Concurso 2026\02-normas\ley-1620-2013-funcionpublica.html
@@ -108,6 +103,7 @@ Estudio Concurso 2026\11-modelos-deepseek\deepseek_html_20261121_cba360.html
 Estudio Concurso 2026\11-modelos-deepseek\deepseek_html_20261121_dda2aa (1).html
 Estudio Concurso 2026\17-guia-integral-competencias\Guia_integral_competencias_ciudadanas_razonamiento_cuantitativo_2026.docx
 Estudio Concurso 2026\banco-preguntas-semana1.json
+Estudio Concurso 2026\ESTADO-GENERAL.md
 Estudio Concurso 2026\index.html
 Estudio Concurso 2026\practica.html
 Estudio Concurso 2026\PROMPT-OTRA-MAQUINA.md
