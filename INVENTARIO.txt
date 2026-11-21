@@ -11,6 +11,7 @@ Concurso Docente 2016\Cuadernillo de preguntas ensenar - saber pro 2018.pdf
 Concurso Docente 2016\Cuadernillo de preguntas evaluar - saber pro 2018.pdf
 Concurso Docente 2016\Cuadernillo de preguntas formar - saber pro 2018.pdf
 Concurso Docente 2016\Cuadernillo de preguntas razonamiento cuantitativo saber pro 2018.pdf
+descargar_normas.py
 Documentos Recibidos y Oficiales\1. CARTA AL DOCENTE.jpg
 Documentos Recibidos y Oficiales\100 PREGUNTAS SIMULACRO CONCURSO DOCENTE.pdf
 Documentos Recibidos y Oficiales\2. CARTA AL DOCENTE.jpg
@@ -44,34 +45,30 @@ Documentos Recibidos y Oficiales\SIMULACRO PRUEBA GENERAL.pdf
 Documentos Recibidos y Oficiales\simulacro-aptitud-verbal-general.pdf
 Documentos Recibidos y Oficiales\Solicitud Interrapidisimo.pdf
 Estudio Concurso 2026\00-ficha-del-concurso.md
-Estudio Concurso 2026\01-fuentes-oficiales\anexo-tecnico-docentes-y-directivos-docentes-2026.pdf
 Estudio Concurso 2026\01-fuentes-oficiales\barranquilla\acuerdo-239-barranquilla-2948-2026.pdf
 Estudio Concurso 2026\01-fuentes-oficiales\cnsc\anexo-tecnico-docentes-directivos-2026.pdf
 Estudio Concurso 2026\01-fuentes-oficiales\cnsc\guia-orientacion-aptitudes-psicotecnica-poblacion-mayoritaria-2024.pdf
 Estudio Concurso 2026\01-fuentes-oficiales\cnsc\guia-valoracion-antecedentes-2023.pdf
 Estudio Concurso 2026\01-fuentes-oficiales\cnsc\guia-verificacion-requisitos-minimos-2023.pdf
 Estudio Concurso 2026\01-fuentes-oficiales\FUENTES.md
-Estudio Concurso 2026\02-normas\_decreto_1290 Evaluación.pdf
 Estudio Concurso 2026\02-normas\articles-187765_archivo_pdf_decreto_1290.pdf
 Estudio Concurso 2026\02-normas\articles-86098_archivo_pdf.pdf
 Estudio Concurso 2026\02-normas\Constitucion-Politica-Colombia-1991.pdf
 Estudio Concurso 2026\02-normas\Decreto 1278 de 2002,.pdf
 Estudio Concurso 2026\02-normas\Decreto 1290 de 2009.pdf
-Estudio Concurso 2026\02-normas\decreto 2277.pdf
 Estudio Concurso 2026\02-normas\decreto_1384_2026.pdf
 Estudio Concurso 2026\02-normas\decreto-1421-2017-funcionpublica.html
 Estudio Concurso 2026\02-normas\decreto-1421-2017-funcionpublica.pdf
+Estudio Concurso 2026\02-normas\decreto-1743-1994.pdf
 Estudio Concurso 2026\02-normas\decreto-1965-2013-funcionpublica.html
 Estudio Concurso 2026\02-normas\decreto-1965-2013-funcionpublica.pdf
+Estudio Concurso 2026\02-normas\decreto-3782-2007.pdf
 Estudio Concurso 2026\02-normas\gestornormativo-home.html
-Estudio Concurso 2026\02-normas\Guia_de_integracion_normativa.pdf
 Estudio Concurso 2026\02-normas\INVENTARIO-NORMAS.md
 Estudio Concurso 2026\02-normas\Ley 115 de 1994.pdf
 Estudio Concurso 2026\02-normas\Ley 715 de 2001.pdf
-Estudio Concurso 2026\02-normas\Ley_1098_de_2006.pdf
 Estudio Concurso 2026\02-normas\Ley_1346_de_2009.pdf
 Estudio Concurso 2026\02-normas\Ley_1437_de_2011.pdf
-Estudio Concurso 2026\02-normas\Ley_2216_de_2022.pdf
 Estudio Concurso 2026\02-normas\Ley_2418_de_2024.pdf
 Estudio Concurso 2026\02-normas\ley-1618-2013-funcionpublica.html
 Estudio Concurso 2026\02-normas\ley-1618-2013-funcionpublica.pdf
@@ -88,10 +85,6 @@ Estudio Concurso 2026\03-temario\ejemplos-oficiales-2022.md
 Estudio Concurso 2026\03-temario\temario-prueba-aptitudes.md
 Estudio Concurso 2026\04-valoracion-antecedentes\tablas-valoracion.md
 Estudio Concurso 2026\05-plan-estudio\plan-16-semanas.md
-Estudio Concurso 2026\06-banco-practica\Banco_Diagnostico_30_Preguntas_Concurso_Docente_2026_2027.txt
-Estudio Concurso 2026\06-banco-practica\diagnostico_merito_docente_2026-10-31.md
-Estudio Concurso 2026\06-banco-practica\Diagnostico_Merito_Docente_50_Preguntas_Revision.docx
-Estudio Concurso 2026\06-banco-practica\merito_docente_ejemplo_2_preguntas.xlsx
 Estudio Concurso 2026\06-banco-practica\MeritoDocente_Diagnostico50_Paquete.zip
 Estudio Concurso 2026\06-banco-practica\practica-inicial.md
 Estudio Concurso 2026\07-pendientes\pendientes-y-fechas.md
@@ -113,29 +106,8 @@ Estudio Concurso 2026\11-modelos-deepseek\deepseek_html_20261121_8c61d5.html
 Estudio Concurso 2026\11-modelos-deepseek\deepseek_html_20261121_c47dc9.html
 Estudio Concurso 2026\11-modelos-deepseek\deepseek_html_20261121_cba360.html
 Estudio Concurso 2026\11-modelos-deepseek\deepseek_html_20261121_dda2aa (1).html
-Estudio Concurso 2026\12-lectura-critica\Cuadernillo de preguntas Saber-11 - Lectura critica (2).pdf
-Estudio Concurso 2026\12-lectura-critica\LECTURA CRITICA  DOCENTES-2.pdf
-Estudio Concurso 2026\13-razonamiento-cuantitativo\Cuadernillo de preguntas razonamiento cuantitativo saber pro 2018.pdf
-Estudio Concurso 2026\14-ingles\aa3 english 5.pdf
-Estudio Concurso 2026\14-ingles\Actividad ingles.pdf
-Estudio Concurso 2026\14-ingles\EXAMENES-INTERNACIONALES-DE-INGLES-AVALADOS-FUAA.pdf
-Estudio Concurso 2026\14-ingles\INGLES BASICO - NIVEL 2.pdf
-Estudio Concurso 2026\14-ingles\pdfcoffee-ingles.pdf
-Estudio Concurso 2026\15-tecnologia-informatica\05-Seguridad-Informatica.pdf
-Estudio Concurso 2026\15-tecnologia-informatica\1048273177 ACTA DE HOMOLOGACION V6 - ESP EN INFORMATICA PARA LA INNOVACION EDUCATIVA - DE EPD A EIIE - 202680.pdf
-Estudio Concurso 2026\15-tecnologia-informatica\HERRAMIENTAS TIC PARA LA CREACION DE RECURSOS DIDACTICOS.pdf
-Estudio Concurso 2026\15-tecnologia-informatica\INFORMATICA MICROSOFT WORD, EXCEL E INTERNET.pdf
-Estudio Concurso 2026\15-tecnologia-informatica\las-tecnologias-de-la-informacion-y-comunicacion-para-la-2h745swp0h.pdf
-Estudio Concurso 2026\15-tecnologia-informatica\Orientaciones_Curricures_Tecnologia (3).pdf
-Estudio Concurso 2026\15-tecnologia-informatica\Orientaciones_Curricures_Tecnologia_ACTUALIZADO (1).pdf
-Estudio Concurso 2026\15-tecnologia-informatica\Orientaciones_Curricures_Tecnologia_ACTUALIZADO.pdf
-Estudio Concurso 2026\15-tecnologia-informatica\tecnologiaestandar.pdf
-Estudio Concurso 2026\16-competencias-blandas\Codigo-Etica-Backup-28022021.pdf
-Estudio Concurso 2026\16-competencias-blandas\etica.pdf
-Estudio Concurso 2026\16-competencias-blandas\seminario liderazgo y motivacion.pdf
 Estudio Concurso 2026\17-guia-integral-competencias\Guia_integral_competencias_ciudadanas_razonamiento_cuantitativo_2026.docx
 Estudio Concurso 2026\index.html
-Estudio Concurso 2026\PROMPT-IA-AYUDA.md
 Estudio Concurso 2026\PROMPT-OTRA-MAQUINA.md
 Estudio Concurso 2026\README.md
 Evidencias y Certificados\Evidencia Docente Estiben Rafael Capdevilla NSCL 240201056.pdf
@@ -166,6 +138,8 @@ Legislacion y Normativa\decreto 2277.pdf
 Legislacion y Normativa\Decreto_1075_de_2015_Sector_Educación.pdf
 Legislacion y Normativa\decreto_1384_2026.pdf
 Legislacion y Normativa\Decreto_2277_de_1979.pdf
+Legislacion y Normativa\decreto-1743-1994.pdf
+Legislacion y Normativa\decreto-3782-2007.pdf
 Legislacion y Normativa\Guia_de_integracion_normativa.pdf
 Legislacion y Normativa\Ley_1098_de_2006 (1).pdf
 Legislacion y Normativa\Ley_1098_de_2006.pdf
