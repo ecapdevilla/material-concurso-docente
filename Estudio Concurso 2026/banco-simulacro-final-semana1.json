@@ -4,7 +4,7 @@
     "proceso": "2948 de 2026",
     "version": "1.0",
     "fecha": "2026-11-21",
-    "total_preguntas": 0,
+    "total_preguntas": 30,
     "componentes": [
       "Lectura critica",
       "Razonamiento cuantitativo",
@@ -189,6 +189,490 @@
         "D": "Modificacion retroactiva: viola el principio de transparencia y equidad."
       },
       "referencia": "Decreto 1290 de 2009 (evaluacion del aprendizaje: formativa y sumativa); Anexo Tecnico 2026, numeral 2.1 (evaluacion del aprendizaje: instrumentos, rubricas, retroalimentacion); Ley 115 de 1994 (evaluacion)."
+    },
+    {
+      "codigo": "SF-LC-003",
+      "competencia": "Lectura crítica",
+      "subcompetencia": "Identificación de supuestos implícitos",
+      "nivel": "Experto",
+      "caso": "Un editorial afirma: 'Los colegios que implementaron el programa de lectura crítica en 2024 obtuvieron mejores resultados en las pruebas Saber 11 de 2025. Por lo tanto, toda institución educativa debería adoptar este programa para garantizar mejores resultados.'",
+      "enunciado": "¿Cuál es el principal defecto del argumento?",
+      "opciones": {
+        "A": "Generaliza a partir de una muestra limitada sin considerar contextos diversos.",
+        "B": "Confunde correlación con causalidad al asumir que el programa causó la mejora.",
+        "C": "El editorial ignora el costo del programa.",
+        "D": "No presenta datos cuantitativos sobre la mejora."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "El argumento asume que porque el programa se implementó y luego hubo mejora, el programa causó la mejora. No se consideran variables de confusión. La opción A es parcialmente válida pero menos precisa. La opción C es irrelevante. La opción D no es el defecto principal.",
+      "distractores": {
+        "A": "Generalización: parcialmente válido pero menos preciso que B.",
+        "C": "Costo: irrelevante para el defecto argumentativo.",
+        "D": "Datos cuantitativos: no es el defecto principal."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (lectura crítica); Marco de Referencia ICFES (correlación vs. causalidad)."
+    },
+    {
+      "codigo": "SF-RQ-003",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Problemas multietapa",
+      "nivel": "Avanzado",
+      "caso": "Una institución tiene 1.500 estudiantes. El 50 % son de primaria, el 30 % de secundaria y el 20 % de media. En primaria, el 20 % recibe alimentación. En secundaria, el 15 %. En media, el 10 %.",
+      "enunciado": "¿Cuántos estudiantes en total reciben alimentación?",
+      "opciones": {
+        "A": "195",
+        "B": "210",
+        "C": "240",
+        "D": "270"
+      },
+      "respuesta_correcta": "A",
+      "justificacion": "Primaria: 1.200 × 0,50 = 600. Alimentación: 600 × 0,20 = 120. Secundaria: 1.200 × 0,25 = 300. Alimentación: 300 × 0,15 = 45. Media: 1.200 × 0,25 = 300. Alimentación: 300 × 0,10 = 30. Total: 120 + 45 + 30 = 195.",
+      "distractores": {
+        "B": "Error de generalización: aplica el 20 % a todos.",
+        "C": "Error de porcentaje: aplica el 20 % al total.",
+        "D": "Error de porcentaje: aplica el 22,5 % al total."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (razonamiento cuantitativo: problemas multietapa)."
+    },
+    {
+      "codigo": "SF-CB-003",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Convivencia escolar",
+      "nivel": "Intermedio",
+      "caso": "En una institución educativa, dos estudiantes de grado 10º tienen un conflicto por un trabajo en equipo. Uno de ellos envió mensajes ofensivos al otro a través de redes sociales. El manual de convivencia establece que los conflictos entre estudiantes deben ser atendidos por el Comité de Convivencia Escolar.",
+      "enunciado": "¿Cuál es la actuación más procedente para el docente?",
+      "opciones": {
+        "A": "Mediar directamente entre los dos estudiantes sin informar a la coordinación.",
+        "B": "Informar al Comité de Convivencia Escolar para que active el protocolo correspondiente.",
+        "C": "Sancionar al estudiante que envió los mensajes ofensivos de acuerdo con el manual de convivencia.",
+        "D": "Ignorar la situación porque ocurrió fuera del horario de clase."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La Ley 1620 de 2013 (convivencia escolar) establece que la institución educativa debe contar con un Comité de Convivencia Escolar que atienda los conflictos entre estudiantes. El docente debe reportar la situación para que el comité active el protocolo correspondiente.",
+      "distractores": {
+        "A": "Mediación sin protocolo: insuficiente para casos de cyberbullying.",
+        "C": "Sanción sin competencia: el docente individual no tiene potestad disciplinaria.",
+        "D": "Inacción: ignora que el cyberbullying afecta la convivencia escolar."
+      },
+      "referencia": "Ley 1620 de 2013 (convivencia escolar); Anexo Técnico 2026, numeral 2.1 (competencias blandas: resolución de conflictos)."
+    },
+    {
+      "codigo": "SF-CP-003",
+      "competencia": "Conocimientos disciplinares y pedagogicos",
+      "subcompetencia": "Diseño curricular",
+      "nivel": "Intermedio",
+      "caso": "Un docente de tecnología e informática debe diseñar el plan de estudios para el área de tecnología e informática en grado 9º. El docente cuenta con 2 horas semanales durante 36 semanas. El PEI de la institución establece como prioridad el desarrollo del pensamiento computacional y la ciudadanía digital.",
+      "enunciado": "¿Cuál es la distribución más adecuada del tiempo para el semestre?",
+      "opciones": {
+        "A": "18 semanas de pensamiento computacional y 18 semanas de ciudadanía digital.",
+        "B": "24 semanas de pensamiento computacional y 12 semanas de ciudadanía digital.",
+        "C": "12 semanas de pensamiento computacional y 24 semanas de ciudadanía digital.",
+        "D": "36 semanas integrando ambos temas de forma transversal en cada sesión."
+      },
+      "respuesta_correcta": "D",
+      "justificacion": "El diseño curricular por competencias (Anexo Técnico 2026) y el PEI establecen prioridades, pero no requieren una separación rígida de contenidos. La integración transversal de pensamiento computacional y ciudadanía digital en cada sesión permite desarrollar ambos de forma simultánea y coherente.",
+      "distractores": {
+        "A": "División artificial: separa temas que deben integrarse.",
+        "B": "Priorización desequilibrada: favorece el pensamiento computacional.",
+        "C": "Priorización desequilibrada: favorece la ciudadanía digital."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (conocimientos disciplinares: diseño curricular, planeación); Ley 115 de 1994 (currículo)."
+    },
+    {
+      "codigo": "SF-LC-004",
+      "competencia": "Lectura crítica",
+      "subcompetencia": "Identificación de la intención del autor",
+      "nivel": "Intermedio",
+      "caso": "Un artículo de opinión afirma: 'La educación virtual ha demostrado ser tan efectiva como la presencial. Los estudiantes que tomaron clases virtuales en 2024 obtuvieron resultados similares a los de 2019. Por lo tanto, las instituciones deberían mantener la modalidad virtual como opción permanente.'",
+      "enunciado": "¿Cuál es el propósito principal del autor?",
+      "opciones": {
+        "A": "Informar sobre los resultados de las pruebas de 2024.",
+        "B": "Persuadir a las instituciones de que mantengan la educación virtual.",
+        "C": "Comparar la educación virtual con la presencial.",
+        "D": "Criticar la educación presencial."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "El artículo tiene un propósito persuasivo: concluye que 'las instituciones deberían mantener la modalidad virtual como opción permanente'. Aunque presenta información (resultados similares), la intención principal es persuadir.",
+      "distractores": {
+        "A": "Propósito informativo: parcialmente válido pero no es el principal.",
+        "C": "Comparación: es un medio, no el propósito.",
+        "D": "Crítica: no presente en el texto."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (lectura crítica: identificación de la intención del autor)."
+    },
+    {
+      "codigo": "SF-RQ-004",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Razones y tasas",
+      "nivel": "Intermedio",
+      "caso": "En una institución educativa, la tasa de deserción en 2024 fue de 8 % (240 estudiantes de 3.000). En 2025, la tasa fue de 6 % (180 estudiantes de 3.000). El rector afirma que 'la deserción disminuyó en 2 puntos porcentuales, lo que representa una mejora del 25 %'.",
+      "enunciado": "¿La afirmación del rector es correcta?",
+      "opciones": {
+        "A": "Sí, porque la tasa pasó de 8 % a 6 %, una disminución de 2 puntos porcentuales y del 25 %.",
+        "B": "No, porque la disminución en puntos porcentuales es 2, pero la variación porcentual es del 25 % solo si se calcula sobre la tasa, no sobre el número de estudiantes.",
+        "C": "No, porque la deserción disminuyó en 60 estudiantes, lo que representa una variación del 25 % sobre los 240 estudiantes del año anterior.",
+        "D": "Sí, porque 2 puntos porcentuales equivalen siempre al 25 % de variación."
+      },
+      "respuesta_correcta": "C",
+      "justificacion": "La variación porcentual se calcula sobre el valor inicial: (180 − 240) / 240 = −60 / 240 = −0,25 = −25 %. La afirmación del rector es incorrecta en su formulación: la tasa disminuyó 2 puntos porcentuales (8 % → 6 %), pero la variación porcentual de los estudiantes que desertaron es del 25 % (60 de 240).",
+      "distractores": {
+        "A": "Confusión de conceptos: mezcla puntos porcentuales con variación porcentual.",
+        "B": "Confusa: no aclara el error de cálculo.",
+        "D": "Error conceptual: 2 puntos porcentuales no equivalen siempre al 25 %."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (razonamiento cuantitativo: distinguir porcentajes de puntos porcentuales); Guía de orientación CNSC 2024."
+    },
+    {
+      "codigo": "SF-CB-004",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Participación y ciudadanía democrática",
+      "nivel": "Básico",
+      "caso": "En una institución educativa, el consejo de estudiantes propone realizar una jornada de reflexión sobre los derechos de los niños. El rector responde que 'no hay tiempo en el calendario académico' y que 'eso no es parte del currículo oficial'.",
+      "enunciado": "¿Cuál es la actuación más procedente para el rector?",
+      "opciones": {
+        "A": "Rechazar la propuesta porque no está en el currículo oficial.",
+        "B": "Aprobar la propuesta y asignar un espacio dentro del calendario académico para la jornada.",
+        "C": "Delegar la decisión al consejo directivo sin pronunciarse.",
+        "D": "Sugerir que los estudiantes realicen la jornada en horario extracurricular por su cuenta."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La Ley 115 de 1994 (artículo 142) establece que las instituciones educativas deben promover la participación de los estudiantes en la vida institucional. La Ley 1620 de 2013 y el Decreto 1965 de 2013 refuerzan la importancia de la convivencia y la participación. La opción A es incorrecta porque la participación estudiantil no se limita al currículo oficial. La opción C es una evasión de la responsabilidad del rector. La opción D es insuficiente porque no garantiza el acompañamiento institucional.",
+      "distractores": {
+        "A": "Restricción injustificada: la participación no se limita al currículo oficial.",
+        "C": "Evasión: delega la responsabilidad sin pronunciarse.",
+        "D": "Insuficiente: no garantiza el acompañamiento institucional."
+      },
+      "referencia": "Ley 115 de 1994, art. 142 (participación de los estudiantes); Ley 1620 de 2013 (convivencia escolar); Decreto 1965 de 2013."
+    },
+    {
+      "codigo": "SF-CP-004",
+      "competencia": "Conocimientos disciplinares y pedagogicos",
+      "subcompetencia": "Atención a la diversidad y la inclusión",
+      "nivel": "Avanzado",
+      "caso": "Un docente de tecnología e informática tiene un estudiante con discapacidad visual en su clase de grado 8º. El estudiante utiliza un lector de pantalla y necesita adaptaciones para participar en las actividades de programación. El docente tiene acceso a recursos tecnológicos y tiempo para preparar las adaptaciones.",
+      "enunciado": "¿Cuál es la estrategia más adecuada para garantizar la inclusión del estudiante?",
+      "opciones": {
+        "A": "Permitir que el estudiante no participe en las actividades de programación y evaluarlo solo con preguntas teóricas.",
+        "B": "Adaptar las actividades de programación utilizando herramientas de accesibilidad (lectores de pantalla, editores de código accesibles) y proporcionar instrucciones en formato accesible.",
+        "C": "Pedir a un compañero que realice las actividades de programación por el estudiante.",
+        "D": "Simplificar las actividades de programación para que el estudiante pueda realizarlas sin adaptaciones."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "El Decreto 1421 de 2017 y la Ley 1618 de 2013 establecen el derecho a la educación inclusiva y la obligación de realizar ajustes razonables. La opción B es la única que garantiza la participación activa del estudiante con discapacidad visual mediante adaptaciones tecnológicas.",
+      "distractores": {
+        "A": "Exclusión: no garantiza la participación activa del estudiante.",
+        "C": "Delegación: no garantiza el aprendizaje del estudiante.",
+        "D": "Simplificación sin adaptación: no responde a las necesidades específicas."
+      },
+      "referencia": "Decreto 1421 de 2017 (atención educativa a personas con discapacidad); Ley 1618 de 2013 (discapacidad); Anexo Técnico 2026, numeral 2.1 (atención a la diversidad y a la inclusión)."
+    },
+    {
+      "codigo": "SF-LC-005",
+      "competencia": "Lectura crítica",
+      "subcompetencia": "Identificación de supuestos implícitos",
+      "nivel": "Experto",
+      "caso": "Un editorial afirma: 'Los colegios que implementaron el programa de lectura crítica en 2024 obtuvieron mejores resultados en las pruebas Saber 11 de 2025. Por lo tanto, toda institución educativa debería adoptar este programa para garantizar mejores resultados.'",
+      "enunciado": "¿Cuál es el principal defecto del argumento?",
+      "opciones": {
+        "A": "Generaliza a partir de una muestra limitada sin considerar contextos diversos.",
+        "B": "Confunde correlación con causalidad al asumir que el programa causó la mejora.",
+        "C": "El editorial ignora el costo del programa.",
+        "D": "No presenta datos cuantitativos sobre la mejora."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "El argumento asume que porque el programa se implementó y luego hubo mejora, el programa causó la mejora. No se consideran variables de confusión.",
+      "distractores": {
+        "A": "Generalización: parcialmente válido pero menos preciso que B.",
+        "C": "Costo: irrelevante para el defecto argumentativo.",
+        "D": "Datos cuantitativos: no es el defecto principal."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (lectura crítica); Marco de Referencia ICFES (correlación vs. causalidad)."
+    },
+    {
+      "codigo": "SF-RQ-005",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Problemas multietapa",
+      "nivel": "Avanzado",
+      "caso": "Una institución tiene 1.500 estudiantes. El 50 % son de primaria, el 30 % de secundaria y el 20 % de media. En primaria, el 20 % recibe alimentación. En secundaria, el 15 %. En media, el 10 %.",
+      "enunciado": "¿Cuántos estudiantes en total reciben alimentación?",
+      "opciones": {
+        "A": "195",
+        "B": "210",
+        "C": "240",
+        "D": "270"
+      },
+      "respuesta_correcta": "A",
+      "justificacion": "Primaria: 1.200 × 0,50 = 600. Alimentación: 600 × 0,20 = 120. Secundaria: 1.200 × 0,25 = 300. Alimentación: 300 × 0,15 = 45. Media: 1.200 × 0,25 = 300. Alimentación: 300 × 0,10 = 30. Total: 120 + 45 + 30 = 195.",
+      "distractores": {
+        "B": "Error de generalización: aplica el 20 % a todos.",
+        "C": "Error de porcentaje: aplica el 20 % al total.",
+        "D": "Error de porcentaje: aplica el 22,5 % al total."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (razonamiento cuantitativo: problemas multietapa)."
+    },
+    {
+      "codigo": "SF-CB-005",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Ética profesional y conflicto de interés",
+      "nivel": "Experto",
+      "caso": "Un docente de tecnología e informática es invitado por una empresa privada a dictar un taller sobre programación para estudiantes de una institución educativa privada, a cambio de un pago. El taller se realizaría en horario de clase, utilizando las instalaciones de la institución pública donde labora el docente, y los estudiantes de la institución pública también podrían asistir de forma gratuita. El docente consulta al rector, quien le dice que 'no hay problema'.",
+      "enunciado": "¿Cuál es la actuación más procedente para el docente?",
+      "opciones": {
+        "A": "Dictar el taller, ya que el rector autorizó y los estudiantes de la institución pública también se benefician.",
+        "B": "Rechazar la invitación, porque el uso de las instalaciones públicas para una actividad privada remunerada constituye un conflicto de interés.",
+        "C": "Dictar el taller fuera del horario de clase y sin usar las instalaciones de la institución pública, para evitar conflictos.",
+        "D": "Solicitar autorización por escrito al rector y al secretario de educación antes de tomar una decisión."
+      },
+      "respuesta_correcta": "D",
+      "justificacion": "El Decreto 1278 de 2002 (carrera docente) y la Ley 909 de 2004 (empleo público) establecen que los docentes deben evitar conflictos de interés y que el uso de bienes públicos para actividades privadas remuneradas requiere autorización formal. La opción A es incorrecta porque la autorización verbal del rector no es suficiente. La opción B es excesivamente restrictiva. La opción C es incorrecta porque el problema no es solo el horario o las instalaciones, sino el uso de recursos públicos para una actividad privada sin autorización formal. La opción D es la más procedente porque solicita la autorización formal y por escrito.",
+      "distractores": {
+        "A": "Autorización verbal insuficiente.",
+        "B": "Excesivamente restrictiva: prohíbe toda actividad privada.",
+        "C": "Solución parcial: resuelve el horario pero no el problema del uso de recursos públicos."
+      },
+      "referencia": "Decreto 1278 de 2002 (carrera docente, deberes docentes); Ley 909 de 2004 (empleo público, conflictos de interés); Anexo Técnico 2026, numeral 2.1 (competencias blandas: ética, toma de decisiones)."
+    },
+    {
+      "codigo": "SF-CP-005",
+      "competencia": "Conocimientos disciplinares y pedagogicos",
+      "subcompetencia": "Uso pedagógico de las TIC",
+      "nivel": "Intermedio",
+      "caso": "Un docente de tecnología e informática quiere evaluar el aprendizaje de sus estudiantes sobre el concepto de 'algoritmo'. Los estudiantes tienen acceso a computadores y conexión a internet. El docente quiere una evaluación que sea práctica y que evalúe la comprensión, no solo la memorización.",
+      "enunciado": "¿Cuál es la estrategia de evaluación más adecuada?",
+      "opciones": {
+        "A": "Un cuestionario de 20 preguntas de selección múltiple sobre la definición de algoritmo.",
+        "B": "Pedir a los estudiantes que escriban un algoritmo para resolver un problema cotidiano y lo expliquen paso a paso.",
+        "C": "Un examen oral donde los estudiantes reciten la definición de algoritmo.",
+        "D": "Una actividad en la que los estudiantes busquen en internet ejemplos de algoritmos y los copien."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La evaluación formativa y sumativa (Decreto 1290 de 2009) y la didáctica por competencias (Anexo Técnico 2026) exigen que la evaluación mida la comprensión y la aplicación, no solo la memorización. La opción B es la única que evalúa la comprensión práctica del concepto. La opción A evalúa memorización. La opción C evalúa recitación. La opción D evalúa búsqueda, no comprensión.",
+      "distractores": {
+        "A": "Memorización: no evalúa comprensión.",
+        "C": "Recitación: no evalúa comprensión.",
+        "D": "Búsqueda: no evalúa comprensión."
+      },
+      "referencia": "Decreto 1290 de 2009 (evaluación del aprendizaje); Anexo Técnico 2026, numeral 2.1 (evaluación: instrumentos, rúbricas, retroalimentación)."
+    },
+    {
+      "codigo": "SF-LC-006",
+      "competencia": "Lectura crítica",
+      "subcompetencia": "Identificación de la intención del autor",
+      "nivel": "Intermedio",
+      "caso": "Un artículo de opinión afirma: 'La educación virtual ha demostrado ser tan efectiva como la presencial. Los estudiantes que tomaron clases virtuales en 2024 obtuvieron resultados similares a los de 2019. Por lo tanto, las instituciones deberían mantener la modalidad virtual como opción permanente.'",
+      "enunciado": "¿Cuál es el propósito principal del autor?",
+      "opciones": {
+        "A": "Informar sobre los resultados de las pruebas de 2024.",
+        "B": "Persuadir a las instituciones de que mantengan la educación virtual.",
+        "C": "Comparar la educación virtual con la presencial.",
+        "D": "Criticar la educación presencial."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "El artículo tiene un propósito persuasivo: concluye que 'las instituciones deberían mantener la modalidad virtual como opción permanente'. Aunque presenta información (resultados similares), la intención principal es persuadir.",
+      "distractores": {
+        "A": "Propósito informativo: parcialmente válido pero no es el principal.",
+        "C": "Comparación: es un medio, no el propósito.",
+        "D": "Crítica: no presente en el texto."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (lectura crítica: identificación de la intención del autor)."
+    },
+    {
+      "codigo": "SF-RQ-006",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Razones y tasas",
+      "nivel": "Intermedio",
+      "caso": "En una institución educativa, la tasa de deserción en 2024 fue de 8 % (240 estudiantes de 3.000). En 2025, la tasa fue de 6 % (180 estudiantes de 3.000). El rector afirma que 'la deserción disminuyó en 2 puntos porcentuales, lo que representa una mejora del 25 %'.",
+      "enunciado": "¿La afirmación del rector es correcta?",
+      "opciones": {
+        "A": "Sí, porque la tasa pasó de 8 % a 6 %, una disminución de 2 puntos porcentuales y del 25 %.",
+        "B": "No, porque la disminución en puntos porcentuales es 2, pero la variación porcentual es del 25 % solo si se calcula sobre la tasa, no sobre el número de estudiantes.",
+        "C": "No, porque la deserción disminuyó en 60 estudiantes, lo que representa una variación del 25 % sobre los 240 estudiantes del año anterior.",
+        "D": "Sí, porque 2 puntos porcentuales equivalen siempre al 25 % de variación."
+      },
+      "respuesta_correcta": "C",
+      "justificacion": "La variación porcentual se calcula sobre el valor inicial: (180 − 240) / 240 = −60 / 240 = −0,25 = −25 %. La afirmación del rector es incorrecta en su formulación: la tasa disminuyó 2 puntos porcentuales (8 % → 6 %), pero la variación porcentual de los estudiantes que desertaron es del 25 % (60 de 240).",
+      "distractores": {
+        "A": "Confusión de conceptos: mezcla puntos porcentuales con variación porcentual.",
+        "B": "Confusa: no aclara el error de cálculo.",
+        "D": "Error conceptual: 2 puntos porcentuales no equivalen siempre al 25 %."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (razonamiento cuantitativo: distinguir porcentajes de puntos porcentuales); Guía de orientación CNSC 2024."
+    },
+    {
+      "codigo": "SF-CB-006",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Participación y ciudadanía democrática",
+      "nivel": "Básico",
+      "caso": "En una institución educativa, el consejo de estudiantes propone realizar una jornada de reflexión sobre los derechos de los niños. El rector responde que 'no hay tiempo en el calendario académico' y que 'eso no es parte del currículo oficial'.",
+      "enunciado": "¿Cuál es la actuación más procedente para el rector?",
+      "opciones": {
+        "A": "Rechazar la propuesta porque no está en el currículo oficial.",
+        "B": "Aprobar la propuesta y asignar un espacio dentro del calendario académico para la jornada.",
+        "C": "Delegar la decisión al consejo directivo sin pronunciarse.",
+        "D": "Sugerir que los estudiantes realicen la jornada en horario extracurricular por su cuenta."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La Ley 115 de 1994 (artículo 142) establece que las instituciones educativas deben promover la participación de los estudiantes en la vida institucional. La Ley 1620 de 2013 y el Decreto 1965 de 2013 refuerzan la importancia de la convivencia y la participación. La opción A es incorrecta porque la participación estudiantil no se limita al currículo oficial. La opción C es una evasión de la responsabilidad del rector. La opción D es insuficiente porque no garantiza el acompañamiento institucional.",
+      "distractores": {
+        "A": "Restricción injustificada: la participación no se limita al currículo oficial.",
+        "C": "Evasión: delega la responsabilidad sin pronunciarse.",
+        "D": "Insuficiente: no garantiza el acompañamiento institucional."
+      },
+      "referencia": "Ley 115 de 1994, art. 142 (participación de los estudiantes); Ley 1620 de 2013 (convivencia escolar); Decreto 1965 de 2013."
+    },
+    {
+      "codigo": "SF-CP-006",
+      "competencia": "Conocimientos disciplinares y pedagogicos",
+      "subcompetencia": "Atención a la diversidad y la inclusión",
+      "nivel": "Avanzado",
+      "caso": "Un docente de tecnología e informática tiene un estudiante con discapacidad visual en su clase de grado 8º. El estudiante utiliza un lector de pantalla y necesita adaptaciones para participar en las actividades de programación. El docente tiene acceso a recursos tecnológicos y tiempo para preparar las adaptaciones.",
+      "enunciado": "¿Cuál es la estrategia más adecuada para garantizar la inclusión del estudiante?",
+      "opciones": {
+        "A": "Permitir que el estudiante no participe en las actividades de programación y evaluarlo solo con preguntas teóricas.",
+        "B": "Adaptar las actividades de programación utilizando herramientas de accesibilidad (lectores de pantalla, editores de código accesibles) y proporcionar instrucciones en formato accesible.",
+        "C": "Pedir a un compañero que realice las actividades de programación por el estudiante.",
+        "D": "Simplificar las actividades de programación para que el estudiante pueda realizarlas sin adaptaciones."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "El Decreto 1421 de 2017 y la Ley 1618 de 2013 establecen el derecho a la educación inclusiva y la obligación de realizar ajustes razonables. La opción B es la única que garantiza la participación activa del estudiante con discapacidad visual mediante adaptaciones tecnológicas.",
+      "distractores": {
+        "A": "Exclusión: no garantiza la participación activa del estudiante.",
+        "C": "Delegación: no garantiza el aprendizaje del estudiante.",
+        "D": "Simplificación sin adaptación: no responde a las necesidades específicas."
+      },
+      "referencia": "Decreto 1421 de 2017 (atención educativa a personas con discapacidad); Ley 1618 de 2013 (discapacidad); Anexo Técnico 2026, numeral 2.1 (atención a la diversidad y a la inclusión)."
+    },
+    {
+      "codigo": "SF-LC-007",
+      "competencia": "Lectura crítica",
+      "subcompetencia": "Detección de falacias argumentativas",
+      "nivel": "Avanzado",
+      "caso": "Un docente afirma en una reunión de profesores: 'Todos los docentes que asistieron al taller de innovación pedagógica mejoraron sus resultados. Por lo tanto, todos los docentes deberían asistir a este taller para mejorar.'",
+      "enunciado": "¿Cuál es el principal defecto del argumento?",
+      "opciones": {
+        "A": "Generaliza a partir de una muestra no representativa sin considerar que los docentes que asistieron pueden tener características distintas.",
+        "B": "El taller de innovación pedagógica es obligatorio para todos los docentes.",
+        "C": "Los docentes que no asistieron no mejoraron sus resultados.",
+        "D": "El argumento no menciona el costo del taller."
+      },
+      "respuesta_correcta": "A",
+      "justificacion": "El argumento generaliza a partir de una muestra (docentes que asistieron) sin considerar que estos docentes pueden tener características distintas (mayor motivación, mejor formación previa, etc.) que explican la mejora, no el taller en sí.",
+      "distractores": {
+        "B": "Obligatoriedad: no mencionada en el argumento.",
+        "C": "Conclusión no verificada: no se sabe si los que no asistieron mejoraron o no.",
+        "D": "Costo: irrelevante para el defecto argumentativo."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (lectura crítica); Marco de Referencia ICFES (generalización apresurada, variable de confusión)."
+    },
+    {
+      "codigo": "SF-RQ-007",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Análisis de variaciones sucesivas",
+      "nivel": "Experto",
+      "caso": "El precio de un recurso educativo aumenta un 20 % en enero y luego disminuye un 20 % en febrero. Un docente afirma que 'el precio volvió a su valor original'.",
+      "enunciado": "Si el precio inicial era de $100.000, ¿cuál es el precio final?",
+      "opciones": {
+        "A": "$100.000",
+        "B": "$96.000",
+        "C": "$104.000",
+        "D": "$120.000"
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "Aumento del 20 %: $100.000 × 1,20 = $120.000. Disminución del 20 %: $120.000 × 0,80 = $96.000. El precio final es $96.000, no $100.000. El error del docente consiste en sumar porcentajes (+20 % y −20 % = 0 %) sin considerar que los porcentajes se aplican sobre bases diferentes ($100.000 vs. $120.000).",
+      "distractores": {
+        "A": "Error de suma de porcentajes: +20 % − 20 % = 0 %.",
+        "C": "Error de cálculo: aplica el 20 % de aumento sobre $100.000 y el 20 % de disminución sobre $100.000.",
+        "D": "Error de cálculo: solo aplica el aumento, ignora la disminución."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (razonamiento cuantitativo: variaciones porcentuales sucesivas); Guía de orientación CNSC 2024."
+    },
+    {
+      "codigo": "SF-CB-007",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Resolución de conflictos y mediación",
+      "nivel": "Avanzado",
+      "caso": "Dos docentes de una institución educativa tienen un conflicto por el uso de un aula de informática. Uno de ellos reservó el aula para una actividad de programación, pero el otro la está usando para una clase de ciencias. El manual de convivencia establece que los conflictos entre docentes deben ser mediados por el rector o el coordinador académico.",
+      "enunciado": "¿Cuál es la actuación más procedente?",
+      "opciones": {
+        "A": "El docente de tecnología debe ceder el aula al docente de ciencias porque las ciencias son más importantes.",
+        "B": "El docente de ciencias debe ceder el aula al docente de tecnología porque este reservó primero.",
+        "C": "Ambos docentes deben acudir al rector o al coordinador académico para que medie en el conflicto.",
+        "D": "El docente de tecnología debe usar otra aula y reprogramar su actividad."
+      },
+      "respuesta_correcta": "C",
+      "justificacion": "El manual de convivencia establece que los conflictos entre docentes deben ser mediados por el rector o el coordinador académico. La opción C es la más procedente porque acude a la autoridad competente para mediar.",
+      "distractores": {
+        "A": "Resolución unilateral: no acude a la mediación establecida.",
+        "B": "Resolución unilateral: no acude a la mediación establecida.",
+        "D": "Evasión: evita el conflicto sin resolverlo."
+      },
+      "referencia": "Ley 1620 de 2013 (convivencia escolar); Anexo Técnico 2026, numeral 2.1 (competencias blandas: resolución de conflictos)."
+    },
+    {
+      "codigo": "SF-CP-007",
+      "competencia": "Conocimientos disciplinares y pedagogicos",
+      "subcompetencia": "Uso pedagógico de las TIC",
+      "nivel": "Intermedio",
+      "caso": "Un docente de tecnología e informática quiere evaluar el aprendizaje de sus estudiantes sobre el concepto de 'algoritmo'. Los estudiantes tienen acceso a computadores y conexión a internet. El docente quiere una evaluación que sea práctica y que evalúe la comprensión, no solo la memorización.",
+      "enunciado": "¿Cuál es la estrategia de evaluación más adecuada?",
+      "opciones": {
+        "A": "Un cuestionario de 20 preguntas de selección múltiple sobre la definición de algoritmo.",
+        "B": "Pedir a los estudiantes que escriban un algoritmo para resolver un problema cotidiano y lo expliquen paso a paso.",
+        "C": "Un examen oral donde los estudiantes reciten la definición de algoritmo.",
+        "D": "Una actividad en la que los estudiantes busquen en internet ejemplos de algoritmos y los copien."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La evaluación formativa y sumativa (Decreto 1290 de 2009) y la didáctica por competencias (Anexo Técnico 2026) exigen que la evaluación mida la comprensión y la aplicación, no solo la memorización. La opción B es la única que evalúa la comprensión práctica del concepto.",
+      "distractores": {
+        "A": "Memorización: no evalúa comprensión.",
+        "C": "Recitación: no evalúa comprensión.",
+        "D": "Búsqueda: no evalúa comprensión."
+      },
+      "referencia": "Decreto 1290 de 2009 (evaluación del aprendizaje); Anexo Técnico 2026, numeral 2.1 (evaluación: instrumentos, rúbricas, retroalimentación)."
+    },
+    {
+      "codigo": "SF-LC-008",
+      "competencia": "Lectura crítica",
+      "subcompetencia": "Evaluación de la suficiencia de la evidencia",
+      "nivel": "Avanzado",
+      "caso": "Un estudio afirma que 'el 80 % de los docentes que participaron en un programa de formación en TIC reportaron mayor confianza en el uso de herramientas digitales'. El estudio se basó en una encuesta a 50 docentes de una institución educativa.",
+      "enunciado": "¿Cuál es la principal limitación del estudio?",
+      "opciones": {
+        "A": "La muestra es pequeña y no representativa de la población docente general.",
+        "B": "Los docentes mintieron en la encuesta.",
+        "C": "El 80 % no es un porcentaje estadísticamente significativo.",
+        "D": "La formación en TIC no es relevante para el concurso docente."
+      },
+      "respuesta_correcta": "A",
+      "justificacion": "Una muestra de 50 docentes de una sola institución no es representativa de la población docente general. La generalización a toda la población docente es injustificada.",
+      "distractores": {
+        "B": "Suposición no verificada sobre el comportamiento de los docentes.",
+        "C": "Confusión: el problema es el tamaño de la muestra, no el porcentaje.",
+        "D": "Irrelevante: no afecta la validez del estudio."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (lectura crítica: evaluación de argumentos); Marco de Referencia ICFES (generalización apresurada)."
+    },
+    {
+      "codigo": "SF-RQ-008",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Interpretación de gráficos y tablas",
+      "nivel": "Intermedio",
+      "caso": "La siguiente tabla muestra la distribución de estudiantes por estrato socioeconómico: Estrato 1: 120 (40 %), Estrato 2: 90 (30 %), Estrato 3: 60 (20 %), Estrato 4: 30 (10 %). Total: 300 (100 %).",
+      "enunciado": "Si el estrato 1 tiene 120 estudiantes y el total es 300, ¿cuál es el porcentaje correcto para el estrato 1?",
+      "opciones": {
+        "A": "30 %",
+        "B": "40 %",
+        "C": "50 %",
+        "D": "20 %"
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "120 ÷ 300 = 0,40 = 40 %. La tabla ya muestra 40 %, que es correcto.",
+      "distractores": {
+        "A": "Porcentaje del estrato 2: confunde el estrato.",
+        "C": "Error de base: divide entre 240 en lugar de 300.",
+        "D": "Porcentaje del estrato 3: confunde el estrato."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (razonamiento cuantitativo: lectura de tablas y gráficos); Guía de orientación CNSC 2024."
     }
   ]
 }

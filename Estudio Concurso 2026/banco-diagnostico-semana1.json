@@ -4,7 +4,7 @@
     "proceso": "2948 de 2026",
     "version": "1.0",
     "fecha": "2026-11-21",
-    "total_preguntas": 0,
+    "total_preguntas": 20,
     "componentes": [
       "Lectura critica",
       "Razonamiento cuantitativo",
@@ -277,6 +277,182 @@
         "C": "Priorizacion desequilibrada: favorece la ciudadania digital."
       },
       "referencia": "Anexo Tecnico 2026, numeral 2.1 (conocimientos disciplinares: diseño curricular, planeacion); Ley 115 de 1994 (curriculo)."
+    },
+    {
+      "codigo": "D1-LC-004",
+      "competencia": "Lectura crítica",
+      "subcompetencia": "Identificación de la tesis y los argumentos",
+      "nivel": "Básico",
+      "caso": "Un artículo afirma: 'La educación virtual ha demostrado ser tan efectiva como la presencial.'",
+      "enunciado": "¿Cuál es la tesis del artículo?",
+      "opciones": {
+        "A": "La educación virtual es más barata que la presencial.",
+        "B": "La educación virtual es tan efectiva como la presencial.",
+        "C": "Los estudiantes de 2024 obtuvieron mejores resultados que los de 2019.",
+        "D": "La educación presencial es obsoleta."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La tesis es la conclusión principal del texto: 'la educación virtual ha demostrado ser tan efectiva como la presencial'.",
+      "distractores": {
+        "A": "Argumento económico no mencionado.",
+        "C": "Contradice el texto (dice 'similares', no 'mejores').",
+        "D": "Conclusión extrema no presente."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (lectura crítica: identificación de ideas explícitas)."
+    },
+    {
+      "codigo": "D1-RQ-004",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Porcentajes básicos",
+      "nivel": "Básico",
+      "caso": "Una institución tiene 500 estudiantes. El 40 % son de primaria.",
+      "enunciado": "¿Cuántos estudiantes son de primaria?",
+      "opciones": {
+        "A": "150",
+        "B": "200",
+        "C": "250",
+        "D": "300"
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "500 x 0,40 = 200.",
+      "distractores": {
+        "A": "Error de porcentaje: aplica el 30 %.",
+        "C": "Error de porcentaje: aplica el 50 %.",
+        "D": "Error de porcentaje: aplica el 60 %."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (razonamiento cuantitativo: porcentajes)."
+    },
+    {
+      "codigo": "D1-CB-004",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Ética profesional",
+      "nivel": "Básico",
+      "caso": "Un docente observa que un estudiante copia en un examen. El docente no dice nada y permite que el estudiante continúe.",
+      "enunciado": "¿Cuál es el principal problema de la actuación del docente?",
+      "opciones": {
+        "A": "El docente no aplicó la sanción correspondiente.",
+        "B": "El docente no cumplió con su deber de garantizar la integridad académica.",
+        "C": "El docente fue demasiado permisivo.",
+        "D": "El docente no informó al rector."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "El docente tiene el deber de garantizar la integridad académica. Permitir el copio sin actuar viola este deber.",
+      "distractores": {
+        "A": "Sanción: parcialmente válido pero menos preciso.",
+        "C": "Permisivo: subjetivo.",
+        "D": "Reporte al rector: no es el primer paso."
+      },
+      "referencia": "Decreto 1278 de 2002 (deberes docentes); Anexo Técnico 2026, numeral 2.1 (competencias blandas: ética)."
+    },
+    {
+      "codigo": "D1-CP-004",
+      "competencia": "Conocimientos disciplinares y pedagogicos",
+      "subcompetencia": "Diseño curricular",
+      "nivel": "Básico",
+      "caso": "Un docente de tecnología e informática debe diseñar una actividad para enseñar el concepto de 'variable' en programación. Los estudiantes tienen conocimientos básicos de ofimática pero no de programación.",
+      "enunciado": "¿Cuál es la estrategia pedagógica más adecuada?",
+      "opciones": {
+        "A": "Explicar la teoría de variables en Python con ejemplos de código y luego pedir a los estudiantes que escriban un programa simple.",
+        "B": "Comenzar con una analogía cotidiana (una caja con una etiqueta) y luego mostrar cómo se representa en código, usando ejemplos progresivos.",
+        "C": "Pedir a los estudiantes que investiguen en internet qué es una variable y luego compartan sus hallazgos.",
+        "D": "Mostrar un video tutorial de YouTube sobre variables en Python y luego aplicar un cuestionario."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La didáctica por competencias y el diseño curricular (Anexo Técnico 2026) enfatizan la progresión de lo concreto a lo abstracto. La opción B parte de una analogía cotidiana y avanza hacia la representación formal en código.",
+      "distractores": {
+        "A": "Demasiado abstracto: parte de la teoría sin activar conocimientos previos.",
+        "C": "Delegación sin guía: no garantiza la comprensión conceptual.",
+        "D": "Pasiva: no garantiza la construcción activa del conocimiento."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (conocimientos disciplinares: didáctica por competencias, diseño curricular)."
+    },
+    {
+      "codigo": "D1-LC-005",
+      "competencia": "Lectura crítica",
+      "subcompetencia": "Inferencia",
+      "nivel": "Intermedio",
+      "caso": "Un texto afirma: 'La implementación de la jornada única en las instituciones educativas públicas ha mejorado significativamente el rendimiento académico de los estudiantes.'",
+      "enunciado": "¿Qué se puede inferir del texto?",
+      "opciones": {
+        "A": "La jornada única es la única causa de la mejora.",
+        "B": "Existe una asociación entre la jornada única y la mejora del rendimiento, pero no se puede atribuir causalidad.",
+        "C": "La jornada única no tiene ningún efecto sobre el rendimiento.",
+        "D": "La mejora del rendimiento se debe exclusivamente a la jornada única."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "El texto establece una asociación entre dos variables, pero no controla variables de confusión. Por lo tanto, no se puede atribuir causalidad.",
+      "distractores": {
+        "A": "Confunde correlación con causalidad.",
+        "C": "Contradice el texto.",
+        "D": "Confunde correlación con causalidad."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (lectura crítica: inferencia)."
+    },
+    {
+      "codigo": "D1-RQ-005",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Porcentajes y variaciones",
+      "nivel": "Intermedio",
+      "caso": "Una matrícula cae 20 % y luego sube 20 %.",
+      "enunciado": "¿Vuelve al valor inicial?",
+      "opciones": {
+        "A": "Sí, porque +20 % y -20 % se cancelan.",
+        "B": "No, porque los porcentajes se aplican sobre bases diferentes.",
+        "C": "Sí, porque 0,8 x 1,2 = 0,96, que es aproximadamente 1.",
+        "D": "No, porque la matrícula siempre disminuye."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "0,8 x 1,2 = 0,96. La matrícula queda 4 % por debajo del valor inicial. El error consiste en sumar porcentajes sin considerar que se aplican sobre bases diferentes.",
+      "distractores": {
+        "A": "Error de suma de porcentajes.",
+        "C": "Error de aproximación: 0,96 no es 1.",
+        "D": "Error de generalización."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (razonamiento cuantitativo: variaciones porcentuales)."
+    },
+    {
+      "codigo": "D1-CB-005",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Convivencia escolar",
+      "nivel": "Intermedio",
+      "caso": "En una institución educativa, dos estudiantes tienen un conflicto por un trabajo en equipo. Uno de ellos envió mensajes ofensivos al otro a través de redes sociales.",
+      "enunciado": "¿Cuál es la actuación más procedente para el docente?",
+      "opciones": {
+        "A": "Mediar directamente entre los dos estudiantes sin informar a la coordinación.",
+        "B": "Informar al Comité de Convivencia Escolar para que active el protocolo correspondiente.",
+        "C": "Sancionar al estudiante que envió los mensajes ofensivos de acuerdo con el manual de convivencia.",
+        "D": "Ignorar la situación porque ocurrió fuera del horario de clase."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La Ley 1620 de 2013 (convivencia escolar) establece que la institución educativa debe contar con un Comité de Convivencia Escolar que atienda los conflictos entre estudiantes. El docente debe reportar la situación para que el comité active el protocolo correspondiente.",
+      "distractores": {
+        "A": "Mediación sin protocolo: insuficiente para casos de cyberbullying.",
+        "C": "Sanción sin competencia: el docente individual no tiene potestad disciplinaria.",
+        "D": "Inacción: ignora que el cyberbullying afecta la convivencia escolar."
+      },
+      "referencia": "Ley 1620 de 2013 (convivencia escolar); Anexo Técnico 2026, numeral 2.1 (competencias blandas: resolución de conflictos)."
+    },
+    {
+      "codigo": "D1-CP-005",
+      "competencia": "Conocimientos disciplinares y pedagogicos",
+      "subcompetencia": "Evaluación del aprendizaje",
+      "nivel": "Intermedio",
+      "caso": "Un docente de tecnología e informática ha diseñado una rúbrica para evaluar un proyecto de programación en Python. La rúbrica tiene cuatro criterios: (1) funcionalidad del código, (2) calidad del código (legibilidad, comentarios), (3) documentación del proyecto, (4) presentación oral.",
+      "enunciado": "¿Cómo debe el docente aplicar la rúbrica para evaluar a los estudiantes de manera justa?",
+      "opciones": {
+        "A": "Dar la misma nota a todos porque la rúbrica evalúa cuatro criterios y todos cumplen dos.",
+        "B": "Evaluar cada criterio independientemente y sumar los puntajes, sin ajustar por la importancia relativa de cada criterio.",
+        "C": "Aplicar la rúbrica tal como está diseñada, evaluando cada criterio con su peso correspondiente, y documentar la retroalimentación específica para cada estudiante.",
+        "D": "Ajustar los pesos de la rúbrica después de ver los resultados para que el estudiante con código funcional obtenga mejor nota."
+      },
+      "respuesta_correcta": "C",
+      "justificacion": "La evaluación formativa y sumativa (Decreto 1290 de 2009) exige que la evaluación se realice conforme a los criterios previamente establecidos y comunicados a los estudiantes. La opción C respeta este principio.",
+      "distractores": {
+        "A": "Ignora los pesos: no considera la importancia relativa de cada criterio.",
+        "B": "Sin retroalimentación: omite el componente formativo esencial.",
+        "D": "Modificación retroactiva: viola el principio de transparencia y equidad."
+      },
+      "referencia": "Decreto 1290 de 2009 (evaluación del aprendizaje: formativa y sumativa); Anexo Técnico 2026, numeral 2.1 (evaluación: instrumentos, rúbricas, retroalimentación)."
     }
   ]
 }

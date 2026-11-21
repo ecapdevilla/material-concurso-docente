@@ -4,7 +4,7 @@
     "proceso": "2948 de 2026",
     "version": "1.0",
     "fecha": "2026-11-21",
-    "total_preguntas": 0,
+    "total_preguntas": 20,
     "componentes": [
       "Lectura critica",
       "Razonamiento cuantitativo",
@@ -170,6 +170,270 @@
     },
     {
       "codigo": "RF-CP-002",
+      "competencia": "Conocimientos disciplinares y pedagogicos",
+      "subcompetencia": "Evaluación del aprendizaje",
+      "nivel": "Intermedio",
+      "caso": "Un docente de tecnología e informática ha diseñado una rúbrica para evaluar un proyecto de programación en Python. La rúbrica tiene cuatro criterios: (1) funcionalidad del código, (2) calidad del código (legibilidad, comentarios), (3) documentación del proyecto, (4) presentación oral.",
+      "enunciado": "¿Cómo debe el docente aplicar la rúbrica para evaluar a los estudiantes de manera justa?",
+      "opciones": {
+        "A": "Dar la misma nota a todos porque la rúbrica evalúa cuatro criterios y todos cumplen dos.",
+        "B": "Evaluar cada criterio independientemente y sumar los puntajes, sin ajustar por la importancia relativa de cada criterio.",
+        "C": "Aplicar la rúbrica tal como está diseñada, evaluando cada criterio con su peso correspondiente, y documentar la retroalimentación específica para cada estudiante.",
+        "D": "Ajustar los pesos de la rúbrica después de ver los resultados para que el estudiante con código funcional obtenga mejor nota."
+      },
+      "respuesta_correcta": "C",
+      "justificacion": "La evaluación formativa y sumativa (Decreto 1290 de 2009) exige que la evaluación se realice conforme a los criterios previamente establecidos y comunicados a los estudiantes. La opción C respeta este principio.",
+      "distractores": {
+        "A": "Ignora los pesos: no considera la importancia relativa de cada criterio.",
+        "B": "Sin retroalimentación: omite el componente formativo esencial.",
+        "D": "Modificación retroactiva: viola el principio de transparencia y equidad."
+      },
+      "referencia": "Decreto 1290 de 2009 (evaluación del aprendizaje: formativa y sumativa); Anexo Técnico 2026, numeral 2.1 (evaluación: instrumentos, rúbricas, retroalimentación)."
+    },
+    {
+      "codigo": "RF-LC-003",
+      "competencia": "Lectura crítica",
+      "subcompetencia": "Evaluación de argumentos",
+      "nivel": "Avanzado",
+      "caso": "En un debate sobre el uso de inteligencia artificial en el aula, un docente afirma: 'Todas las instituciones que han prohibido el uso de IA en evaluaciones han visto disminuir el plagio; por lo tanto, la prohibición es la única medida efectiva para garantizar la integridad académica.'",
+      "enunciado": "¿Cuál es el principal defecto argumentativo del docente?",
+      "opciones": {
+        "A": "Generaliza a partir de un número limitado de casos sin considerar contextos diversos.",
+        "B": "Confunde la causa con el efecto al atribuir la disminución del plagio únicamente a la prohibición.",
+        "C": "Utiliza un lenguaje emocional que descalifica a quienes defienden el uso de IA.",
+        "D": "No presenta datos cuantitativos sobre la reducción del plagio."
+      },
+      "respuesta_correcta": "A",
+      "justificacion": "El docente concluye que la prohibición es 'la única medida efectiva' a partir de la observación de que 'todas las instituciones que han prohibido' han visto disminuir el plagio. Esto es una generalización apresurada.",
+      "distractores": {
+        "B": "Confunde causa y efecto: parcialmente válido pero menos preciso que A.",
+        "C": "Lenguaje emocional: no presente en el enunciado.",
+        "D": "Ausencia de datos: no es el defecto principal del argumento."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (lectura crítica: niveles literal, inferencial y crítico); Marco de Referencia ICFES Saber 11 (generalización apresurada)."
+    },
+    {
+      "codigo": "RF-RQ-003",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Problemas multietapa",
+      "nivel": "Avanzado",
+      "caso": "Una institución tiene 1.500 estudiantes. El 50 % son de primaria, el 30 % de secundaria y el 20 % de media. En primaria, el 20 % recibe alimentación. En secundaria, el 15 %. En media, el 10 %.",
+      "enunciado": "¿Cuántos estudiantes en total reciben alimentación?",
+      "opciones": {
+        "A": "195",
+        "B": "210",
+        "C": "240",
+        "D": "270"
+      },
+      "respuesta_correcta": "A",
+      "justificacion": "Primaria: 1.200 × 0,50 = 600. Alimentación: 600 × 0,20 = 120. Secundaria: 1.200 × 0,25 = 300. Alimentación: 300 × 0,15 = 45. Media: 1.200 × 0,25 = 300. Alimentación: 300 × 0,10 = 30. Total: 120 + 45 + 30 = 195.",
+      "distractores": {
+        "B": "Error de generalización: aplica el 20 % a todos.",
+        "C": "Error de porcentaje: aplica el 20 % al total.",
+        "D": "Error de porcentaje: aplica el 22,5 % al total."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (razonamiento cuantitativo: problemas multietapa)."
+    },
+    {
+      "codigo": "RF-CB-003",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Convivencia escolar",
+      "nivel": "Intermedio",
+      "caso": "En una institución educativa, dos estudiantes de grado 10º tienen un conflicto por un trabajo en equipo. Uno de ellos envió mensajes ofensivos al otro a través de redes sociales. El manual de convivencia establece que los conflictos entre estudiantes deben ser atendidos por el Comité de Convivencia Escolar.",
+      "enunciado": "¿Cuál es la actuación más procedente para el docente?",
+      "opciones": {
+        "A": "Mediar directamente entre los dos estudiantes sin informar a la coordinación.",
+        "B": "Informar al Comité de Convivencia Escolar para que active el protocolo correspondiente.",
+        "C": "Sancionar al estudiante que envió los mensajes ofensivos de acuerdo con el manual de convivencia.",
+        "D": "Ignorar la situación porque ocurrió fuera del horario de clase."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La Ley 1620 de 2013 (convivencia escolar) establece que la institución educativa debe contar con un Comité de Convivencia Escolar que atienda los conflictos entre estudiantes. El docente debe reportar la situación para que el comité active el protocolo correspondiente.",
+      "distractores": {
+        "A": "Mediación sin protocolo: insuficiente para casos de cyberbullying.",
+        "C": "Sanción sin competencia: el docente individual no tiene potestad disciplinaria.",
+        "D": "Inacción: ignora que el cyberbullying afecta la convivencia escolar."
+      },
+      "referencia": "Ley 1620 de 2013 (convivencia escolar); Anexo Técnico 2026, numeral 2.1 (competencias blandas: resolución de conflictos)."
+    },
+    {
+      "codigo": "RF-CP-003",
+      "competencia": "Conocimientos disciplinares y pedagogicos",
+      "subcompetencia": "Evaluación del aprendizaje",
+      "nivel": "Intermedio",
+      "caso": "Un docente de tecnología e informática ha diseñado una rúbrica para evaluar un proyecto de programación en Python. La rúbrica tiene cuatro criterios: (1) funcionalidad del código, (2) calidad del código (legibilidad, comentarios), (3) documentación del proyecto, (4) presentación oral.",
+      "enunciado": "¿Cómo debe el docente aplicar la rúbrica para evaluar a los estudiantes de manera justa?",
+      "opciones": {
+        "A": "Dar la misma nota a todos porque la rúbrica evalúa cuatro criterios y todos cumplen dos.",
+        "B": "Evaluar cada criterio independientemente y sumar los puntajes, sin ajustar por la importancia relativa de cada criterio.",
+        "C": "Aplicar la rúbrica tal como está diseñada, evaluando cada criterio con su peso correspondiente, y documentar la retroalimentación específica para cada estudiante.",
+        "D": "Ajustar los pesos de la rúbrica después de ver los resultados para que el estudiante con código funcional obtenga mejor nota."
+      },
+      "respuesta_correcta": "C",
+      "justificacion": "La evaluación formativa y sumativa (Decreto 1290 de 2009) exige que la evaluación se realice conforme a los criterios previamente establecidos y comunicados a los estudiantes. La opción C respeta este principio.",
+      "distractores": {
+        "A": "Ignora los pesos: no considera la importancia relativa de cada criterio.",
+        "B": "Sin retroalimentación: omite el componente formativo esencial.",
+        "D": "Modificación retroactiva: viola el principio de transparencia y equidad."
+      },
+      "referencia": "Decreto 1290 de 2009 (evaluación del aprendizaje: formativa y sumativa); Anexo Técnico 2026, numeral 2.1 (evaluación: instrumentos, rúbricas, retroalimentación)."
+    },
+    {
+      "codigo": "RF-LC-004",
+      "competencia": "Lectura crítica",
+      "subcompetencia": "Identificación de la intención del autor",
+      "nivel": "Intermedio",
+      "caso": "Un artículo de opinión afirma: 'La educación virtual ha demostrado ser tan efectiva como la presencial. Los estudiantes que tomaron clases virtuales en 2024 obtuvieron resultados similares a los de 2019. Por lo tanto, las instituciones deberían mantener la modalidad virtual como opción permanente.'",
+      "enunciado": "¿Cuál es el propósito principal del autor?",
+      "opciones": {
+        "A": "Informar sobre los resultados de las pruebas de 2024.",
+        "B": "Persuadir a las instituciones de que mantengan la educación virtual.",
+        "C": "Comparar la educación virtual con la presencial.",
+        "D": "Criticar la educación presencial."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "El artículo tiene un propósito persuasivo: concluye que 'las instituciones deberían mantener la modalidad virtual como opción permanente'. Aunque presenta información (resultados similares), la intención principal es persuadir.",
+      "distractores": {
+        "A": "Propósito informativo: parcialmente válido pero no es el principal.",
+        "C": "Comparación: es un medio, no el propósito.",
+        "D": "Crítica: no presente en el texto."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (lectura crítica: identificación de la intención del autor)."
+    },
+    {
+      "codigo": "RF-RQ-004",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Razones y tasas",
+      "nivel": "Intermedio",
+      "caso": "En una institución educativa, la tasa de deserción en 2024 fue de 8 % (240 estudiantes de 3.000). En 2025, la tasa fue de 6 % (180 estudiantes de 3.000). El rector afirma que 'la deserción disminuyó en 2 puntos porcentuales, lo que representa una mejora del 25 %'.",
+      "enunciado": "¿La afirmación del rector es correcta?",
+      "opciones": {
+        "A": "Sí, porque la tasa pasó de 8 % a 6 %, una disminución de 2 puntos porcentuales y del 25 %.",
+        "B": "No, porque la disminución en puntos porcentuales es 2, pero la variación porcentual es del 25 % solo si se calcula sobre la tasa, no sobre el número de estudiantes.",
+        "C": "No, porque la deserción disminuyó en 60 estudiantes, lo que representa una variación del 25 % sobre los 240 estudiantes del año anterior.",
+        "D": "Sí, porque 2 puntos porcentuales equivalen siempre al 25 % de variación."
+      },
+      "respuesta_correcta": "C",
+      "justificacion": "La variación porcentual se calcula sobre el valor inicial: (180 − 240) / 240 = −60 / 240 = −0,25 = −25 %. La afirmación del rector es incorrecta en su formulación: la tasa disminuyó 2 puntos porcentuales (8 % → 6 %), pero la variación porcentual de los estudiantes que desertaron es del 25 % (60 de 240).",
+      "distractores": {
+        "A": "Confusión de conceptos: mezcla puntos porcentuales con variación porcentual.",
+        "B": "Confusa: no aclara el error de cálculo.",
+        "D": "Error conceptual: 2 puntos porcentuales no equivalen siempre al 25 %."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (razonamiento cuantitativo: distinguir porcentajes de puntos porcentuales); Guía de orientación CNSC 2024."
+    },
+    {
+      "codigo": "RF-CB-004",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Participación y ciudadanía democrática",
+      "nivel": "Básico",
+      "caso": "En una institución educativa, el consejo de estudiantes propone realizar una jornada de reflexión sobre los derechos de los niños. El rector responde que 'no hay tiempo en el calendario académico' y que 'eso no es parte del currículo oficial'.",
+      "enunciado": "¿Cuál es la actuación más procedente para el rector?",
+      "opciones": {
+        "A": "Rechazar la propuesta porque no está en el currículo oficial.",
+        "B": "Aprobar la propuesta y asignar un espacio dentro del calendario académico para la jornada.",
+        "C": "Delegar la decisión al consejo directivo sin pronunciarse.",
+        "D": "Sugerir que los estudiantes realicen la jornada en horario extracurricular por su cuenta."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La Ley 115 de 1994 (artículo 142) establece que las instituciones educativas deben promover la participación de los estudiantes en la vida institucional. La Ley 1620 de 2013 y el Decreto 1965 de 2013 refuerzan la importancia de la convivencia y la participación. La opción A es incorrecta porque la participación estudiantil no se limita al currículo oficial. La opción C es una evasión de la responsabilidad del rector. La opción D es insuficiente porque no garantiza el acompañamiento institucional.",
+      "distractores": {
+        "A": "Restricción injustificada: la participación no se limita al currículo oficial.",
+        "C": "Evasión: delega la responsabilidad sin pronunciarse.",
+        "D": "Insuficiente: no garantiza el acompañamiento institucional."
+      },
+      "referencia": "Ley 115 de 1994, art. 142 (participación de los estudiantes); Ley 1620 de 2013 (convivencia escolar); Decreto 1965 de 2013."
+    },
+    {
+      "codigo": "RF-CP-004",
+      "competencia": "Conocimientos disciplinares y pedagogicos",
+      "subcompetencia": "Atención a la diversidad y la inclusión",
+      "nivel": "Avanzado",
+      "caso": "Un docente de tecnología e informática tiene un estudiante con discapacidad visual en su clase de grado 8º. El estudiante utiliza un lector de pantalla y necesita adaptaciones para participar en las actividades de programación. El docente tiene acceso a recursos tecnológicos y tiempo para preparar las adaptaciones.",
+      "enunciado": "¿Cuál es la estrategia más adecuada para garantizar la inclusión del estudiante?",
+      "opciones": {
+        "A": "Permitir que el estudiante no participe en las actividades de programación y evaluarlo solo con preguntas teóricas.",
+        "B": "Adaptar las actividades de programación utilizando herramientas de accesibilidad (lectores de pantalla, editores de código accesibles) y proporcionar instrucciones en formato accesible.",
+        "C": "Pedir a un compañero que realice las actividades de programación por el estudiante.",
+        "D": "Simplificar las actividades de programación para que el estudiante pueda realizarlas sin adaptaciones."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "El Decreto 1421 de 2017 y la Ley 1618 de 2013 establecen el derecho a la educación inclusiva y la obligación de realizar ajustes razonables. La opción B es la única que garantiza la participación activa del estudiante con discapacidad visual mediante adaptaciones tecnológicas.",
+      "distractores": {
+        "A": "Exclusión: no garantiza la participación activa del estudiante.",
+        "C": "Delegación: no garantiza el aprendizaje del estudiante.",
+        "D": "Simplificación sin adaptación: no responde a las necesidades específicas."
+      },
+      "referencia": "Decreto 1421 de 2017 (atención educativa a personas con discapacidad); Ley 1618 de 2013 (discapacidad); Anexo Técnico 2026, numeral 2.1 (atención a la diversidad y a la inclusión)."
+    },
+    {
+      "codigo": "RF-LC-005",
+      "competencia": "Lectura crítica",
+      "subcompetencia": "Evaluación de argumentos",
+      "nivel": "Avanzado",
+      "caso": "En un debate sobre el uso de inteligencia artificial en el aula, un docente afirma: 'Todas las instituciones que han prohibido el uso de IA en evaluaciones han visto disminuir el plagio; por lo tanto, la prohibición es la única medida efectiva para garantizar la integridad académica.'",
+      "enunciado": "¿Cuál es el principal defecto argumentativo del docente?",
+      "opciones": {
+        "A": "Generaliza a partir de un número limitado de casos sin considerar contextos diversos.",
+        "B": "Confunde la causa con el efecto al atribuir la disminución del plagio únicamente a la prohibición.",
+        "C": "Utiliza un lenguaje emocional que descalifica a quienes defienden el uso de IA.",
+        "D": "No presenta datos cuantitativos sobre la reducción del plagio."
+      },
+      "respuesta_correcta": "A",
+      "justificacion": "El docente concluye que la prohibición es 'la única medida efectiva' a partir de la observación de que 'todas las instituciones que han prohibido' han visto disminuir el plagio. Esto es una generalización apresurada: no se consideran instituciones que han implementado medidas alternativas.",
+      "distractores": {
+        "B": "Confunde causa y efecto: parcialmente válido pero menos preciso que A.",
+        "C": "Lenguaje emocional: no presente en el enunciado.",
+        "D": "Ausencia de datos: no es el defecto principal del argumento."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (lectura crítica: niveles literal, inferencial y crítico); Marco de Referencia ICFES Saber 11 (generalización apresurada)."
+    },
+    {
+      "codigo": "RF-RQ-005",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Problemas multietapa",
+      "nivel": "Avanzado",
+      "caso": "Una institución tiene 1.500 estudiantes. El 50 % son de primaria, el 30 % de secundaria y el 20 % de media. En primaria, el 20 % recibe alimentación. En secundaria, el 15 %. En media, el 10 %.",
+      "enunciado": "¿Cuántos estudiantes en total reciben alimentación?",
+      "opciones": {
+        "A": "195",
+        "B": "210",
+        "C": "240",
+        "D": "270"
+      },
+      "respuesta_correcta": "A",
+      "justificacion": "Primaria: 1.200 × 0,50 = 600. Alimentación: 600 × 0,20 = 120. Secundaria: 1.200 × 0,25 = 300. Alimentación: 300 × 0,15 = 45. Media: 1.200 × 0,25 = 300. Alimentación: 300 × 0,10 = 30. Total: 120 + 45 + 30 = 195.",
+      "distractores": {
+        "B": "Error de generalización: aplica el 20 % a todos.",
+        "C": "Error de porcentaje: aplica el 20 % al total.",
+        "D": "Error de porcentaje: aplica el 22,5 % al total."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (razonamiento cuantitativo: problemas multietapa)."
+    },
+    {
+      "codigo": "RF-CB-005",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Convivencia escolar",
+      "nivel": "Intermedio",
+      "caso": "En una institución educativa, dos estudiantes de grado 10º tienen un conflicto por un trabajo en equipo. Uno de ellos envió mensajes ofensivos al otro a través de redes sociales. El manual de convivencia establece que los conflictos entre estudiantes deben ser atendidos por el Comité de Convivencia Escolar.",
+      "enunciado": "¿Cuál es la actuación más procedente para el docente?",
+      "opciones": {
+        "A": "Mediar directamente entre los dos estudiantes sin informar a la coordinación.",
+        "B": "Informar al Comité de Convivencia Escolar para que active el protocolo correspondiente.",
+        "C": "Sancionar al estudiante que envió los mensajes ofensivos de acuerdo con el manual de convivencia.",
+        "D": "Ignorar la situación porque ocurrió fuera del horario de clase."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La Ley 1620 de 2013 (convivencia escolar) establece que la institución educativa debe contar con un Comité de Convivencia Escolar que atienda los conflictos entre estudiantes. El docente debe reportar la situación para que el comité active el protocolo correspondiente.",
+      "distractores": {
+        "A": "Mediación sin protocolo: insuficiente para casos de cyberbullying.",
+        "C": "Sanción sin competencia: el docente individual no tiene potestad disciplinaria.",
+        "D": "Inacción: ignora que el cyberbullying afecta la convivencia escolar."
+      },
+      "referencia": "Ley 1620 de 2013 (convivencia escolar); Anexo Técnico 2026, numeral 2.1 (competencias blandas: resolución de conflictos)."
+    },
+    {
+      "codigo": "RF-CP-005",
       "competencia": "Conocimientos disciplinares y pedagogicos",
       "subcompetencia": "Evaluación del aprendizaje",
       "nivel": "Intermedio",
