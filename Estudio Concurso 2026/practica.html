@@ -57,6 +57,9 @@
 </div>
 
 <script>
+const params = new URLSearchParams(window.location.search);
+const banco = params.get('banco') || 'practica';
+
 let preguntas = [];
 let idx = 0;
 let respuestas = {};
@@ -65,7 +68,7 @@ let errores = 0;
 
 // Cargar progreso desde localStorage
 function cargarProgreso() {
-  const saved = localStorage.getItem('practica_semana1');
+  const saved = localStorage.getItem('practica_semana1_' + banco);
   if (saved) {
     try {
       const data = JSON.parse(saved);
@@ -86,12 +89,19 @@ function guardarProgreso() {
     errores: errores,
     idx: idx
   };
-  localStorage.setItem('practica_semana1', JSON.stringify(data));
+  localStorage.setItem('practica_semana1_' + banco, JSON.stringify(data));
 }
 
 cargarProgreso();
 
-fetch('banco-preguntas-semana1.json')
+let archivo = 'banco-preguntas-semana1.json';
+let titulo = 'Practica - Semana 1';
+if (banco === 'diagnostico') { archivo = 'banco-diagnostico-semana1.json'; titulo = 'Diagnostico - Semana 1'; }
+else if (banco === 'simulacro') { archivo = 'banco-simulacro-final-semana1.json'; titulo = 'Simulacro Final - Semana 1'; }
+else if (banco === 'refuerzo') { archivo = 'banco-refuerzo-semana1.json'; titulo = 'Refuerzo - Semana 1'; }
+document.querySelector('h1').textContent = titulo;
+
+fetch(archivo)
   .then(r => r.json())
   .then(data => {
     preguntas = data.preguntas;

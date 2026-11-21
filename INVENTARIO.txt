@@ -102,7 +102,10 @@ Estudio Concurso 2026\11-modelos-deepseek\deepseek_html_20261121_c47dc9.html
 Estudio Concurso 2026\11-modelos-deepseek\deepseek_html_20261121_cba360.html
 Estudio Concurso 2026\11-modelos-deepseek\deepseek_html_20261121_dda2aa (1).html
 Estudio Concurso 2026\17-guia-integral-competencias\Guia_integral_competencias_ciudadanas_razonamiento_cuantitativo_2026.docx
+Estudio Concurso 2026\banco-diagnostico-semana1.json
 Estudio Concurso 2026\banco-preguntas-semana1.json
+Estudio Concurso 2026\banco-refuerzo-semana1.json
+Estudio Concurso 2026\banco-simulacro-final-semana1.json
 Estudio Concurso 2026\ESTADO-GENERAL.md
 Estudio Concurso 2026\index.html
 Estudio Concurso 2026\practica.html

@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "titulo": "Banco de simulacro final - Semana 1 - Concurso Docente Barranquilla 2026",
+    "proceso": "2948 de 2026",
+    "version": "1.0",
+    "fecha": "2026-11-21",
+    "total_preguntas": 0,
+    "componentes": [
+      "Lectura critica",
+      "Razonamiento cuantitativo",
+      "Competencias blandas",
+      "Conocimientos disciplinares y pedagogicos"
+    ],
+    "nota": "Preguntas originales de simulacro final. No son preguntas oficiales de la CNSC ni del ICFES."
+  },
+  "preguntas": [
+    {
+      "codigo": "SF-LC-001",
+      "competencia": "Lectura crítica",
+      "subcompetencia": "Evaluación de argumentos y supuestos",
+      "nivel": "Avanzado",
+      "caso": "En un debate sobre el uso de inteligencia artificial en el aula, un docente afirma: 'Todas las instituciones que han prohibido el uso de IA en evaluaciones han visto disminuir el plagio; por lo tanto, la prohibición es la única medida efectiva para garantizar la integridad académica.'",
+      "enunciado": "¿Cuál es el principal defecto argumentativo del docente?",
+      "opciones": {
+        "A": "Generaliza a partir de un número limitado de casos sin considerar contextos diversos.",
+        "B": "Confunde la causa con el efecto al atribuir la disminución del plagio únicamente a la prohibición.",
+        "C": "Utiliza un lenguaje emocional que descalifica a quienes defienden el uso de IA.",
+        "D": "No presenta datos cuantitativos sobre la reducción del plagio."
+      },
+      "respuesta_correcta": "A",
+      "justificacion": "El docente concluye que la prohibición es 'la única medida efectiva' a partir de la observación de que 'todas las instituciones que han prohibido' han visto disminuir el plagio. Esto es una generalización apresurada: no se consideran instituciones que han implementado medidas alternativas. La opción B es parcialmente válida pero menos precisa. La opción C es incorrecta porque no hay lenguaje emocional. La opción D es incorrecta porque la ausencia de datos cuantitativos no es el defecto principal.",
+      "distractores": {
+        "B": "Confunde causa y efecto: parcialmente válido pero menos preciso que A.",
+        "C": "Lenguaje emocional: no presente en el enunciado.",
+        "D": "Ausencia de datos: no es el defecto principal del argumento."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (lectura crítica: niveles literal, inferencial y crítico); Marco de Referencia ICFES Saber 11 (generalización apresurada)."
+    },
+    {
+      "codigo": "SF-RQ-001",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Variación porcentual y cambios sucesivos",
+      "nivel": "Intermedio",
+      "caso": "Una institución educativa aumenta su matrícula en 20 % en 2025 y luego disminuye en 20 % en 2026. El rector afirma que la matrícula 'volvió a su valor original'.",
+      "enunciado": "Si la matrícula inicial era de 500 estudiantes, ¿cuál es la matrícula final después de ambos cambios?",
+      "opciones": {
+        "A": "500 estudiantes",
+        "B": "480 estudiantes",
+        "C": "520 estudiantes",
+        "D": "400 estudiantes"
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "Aumento del 20 %: 500 × 1,20 = 600. Disminución del 20 %: 600 × 0,80 = 480. La matrícula final es 480, no 500. El error del rector consiste en sumar porcentajes (+20 % y −20 % = 0 %) sin considerar que los porcentajes se aplican sobre bases diferentes (500 vs. 600).",
+      "distractores": {
+        "A": "Error de suma de porcentajes: +20 % − 20 % = 0 %, ignora que las bases son distintas.",
+        "C": "Error de cálculo: aplica el 20 % de aumento sobre 500 y el 20 % de disminución sobre 500, sumando 500 + 100 − 100 = 500, pero luego suma 20 más por error aritmético.",
+        "D": "Error de resta directa: 500 − 100 = 400, ignora el aumento intermedio."
+      },
+      "referencia": "Guía de orientación CNSC 2024 (razonamiento cuantitativo: interpretación de porcentajes y variaciones); Anexo Técnico 2026, numeral 2.1."
+    },
+    {
+      "codigo": "SF-CB-001",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Juicio situacional y toma de decisiones responsables",
+      "nivel": "Avanzado",
+      "caso": "Un docente de tecnología e informática observa que un estudiante de grado 9º ha compartido en redes sociales un video en el que se burla de un compañero con discapacidad. El docente sabe que el video ya fue visto por varios estudiantes y que el compañero afectado aún no lo ha visto. El docente está considerando tres opciones: (1) hablar directamente con el estudiante que publicó el video y pedirle que lo elimine, (2) informar inmediatamente a la coordinación de convivencia y al orientador escolar, o (3) esperar a que el estudiante afectado se entere para que él mismo denuncie.",
+      "enunciado": "¿Cuál es la actuación más procedente para el docente?",
+      "opciones": {
+        "A": "Hablar directamente con el estudiante que publicó el video y pedirle que lo elimine, sin involucrar a otros.",
+        "B": "Informar inmediatamente a la coordinación de convivencia y al orientador escolar para activar el protocolo institucional.",
+        "C": "Esperar a que el estudiante afectado se entere para que él mismo denuncie, respetando su autonomía.",
+        "D": "Publicar un mensaje en el grupo de clase pidiendo respeto, sin identificar al estudiante afectado."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La Ley 1620 de 2013 (convivencia escolar) y el Decreto 1965 de 2013 establecen que las instituciones educativas deben contar con un Comité de Convivencia Escolar y protocolos para atender casos de acoso escolar y discriminación. El docente tiene el deber de reportar la situación a las autoridades competentes (coordinación de convivencia y orientador) para que se active el protocolo institucional. La opción A es insuficiente porque no activa el protocolo institucional. La opción C es incorrecta porque deja al estudiante afectado expuesto a un daño mayor. La opción D es insuficiente porque un mensaje genérico no activa el protocolo.",
+      "distractores": {
+        "A": "Actuación parcial: falta activar el protocolo institucional y proteger al estudiante afectado.",
+        "C": "Inacción disfrazada de respeto: expone al estudiante a un daño mayor y no cumple el deber de reporte.",
+        "D": "Respuesta genérica: no activa el protocolo ni protege al estudiante afectado."
+      },
+      "referencia": "Ley 1620 de 2013 (convivencia escolar); Decreto 1965 de 2013 (sistema de novedades de nómina docente, incluye deberes docentes); Anexo Técnico 2026, numeral 2.1 (competencias blandas: juicio situacional, responsabilidad, comunicación a tiempo)."
+    },
+    {
+      "codigo": "SF-CP-001",
+      "competencia": "Conocimientos disciplinares y pedagogicos",
+      "subcompetencia": "Uso pedagogico de las TIC",
+      "nivel": "Intermedio",
+      "caso": "Un docente de tecnologia e informatica esta diseñando una actividad para enseñar el concepto de 'variable' en programacion a estudiantes de grado 8º. El docente tiene acceso a computadores con Python instalado y conexion a internet. Los estudiantes tienen conocimientos basicos de ofimatica pero no de programacion.",
+      "enunciado": "¿Cuál es la estrategia pedagogica mas adecuada para introducir el concepto de variable?",
+      "opciones": {
+        "A": "Explicar la teoria de variables en Python con ejemplos de codigo y luego pedir a los estudiantes que escriban un programa simple.",
+        "B": "Comenzar con una analogia cotidiana (una caja con una etiqueta) y luego mostrar como se representa en codigo, usando ejemplos progresivos.",
+        "C": "Pedir a los estudiantes que investiguen en internet que es una variable y luego compartan sus hallazgos.",
+        "D": "Mostrar un video tutorial de YouTube sobre variables en Python y luego aplicar un cuestionario."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La didactica por competencias y el diseño curricular (Anexo Tecnico 2026) enfatizan la progresion de lo concreto a lo abstracto, la activacion de conocimientos previos y la construccion gradual del conocimiento. La opcion B parte de una analogia cotidiana (conocimiento previo) y avanza hacia la representacion formal en codigo, lo que facilita la comprension. La opcion A es demasiado abstracta para estudiantes sin experiencia en programacion. La opcion C delega la construccion del conocimiento sin guia docente. La opcion D es pasiva y no garantiza la comprension conceptual.",
+      "distractores": {
+        "A": "Demasiado abstracto: parte de la teoria sin activar conocimientos previos.",
+        "C": "Delegacion sin guia: no garantiza la comprension conceptual.",
+        "D": "Pasiva: no garantiza la construccion activa del conocimiento."
+      },
+      "referencia": "Anexo Tecnico 2026, numeral 2.1 (conocimientos disciplinares y competencias pedagogicas: didactica por competencias, diseño curricular); Decreto 1290 de 2009 (evaluacion formativa)."
+    },
+    {
+      "codigo": "SF-LC-002",
+      "competencia": "Lectura critica",
+      "subcompetencia": "Identificacion de supuestos implícitos",
+      "nivel": "Experto",
+      "caso": "Un articulo de opinion en un periodico afirma: 'La implementacion de la jornada unica en las instituciones educativas publicas ha mejorado significativamente el rendimiento academico de los estudiantes. Por lo tanto, toda institucion educativa deberia adoptar la jornada unica para garantizar mejores resultados.'",
+      "enunciado": "¿Cuál es el principal defecto logico del argumento?",
+      "opciones": {
+        "A": "La conclusion se basa en una muestra no representativa de instituciones.",
+        "B": "El argumento asume que la jornada unica es la unica causa de la mejora, sin considerar otros factores que pudieron influir.",
+        "C": "La propuesta es inconstitucional porque viola el derecho a la libre eleccion de jornada.",
+        "D": "El articulo no presenta datos cuantitativos sobre la mejora."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "El argumento comete el error de causalidad (post hoc ergo propter hoc): asume que porque la jornada unica se implemento y luego hubo mejora, la jornada unica causo la mejora. No se consideran variables de confusion como la inversion adicional en recursos, la capacitacion docente, el cambio de directivos o las caracteristicas socioeconomicas de los estudiantes. La opcion A es parcialmente valida pero menos precisa que B. La opcion C introduce un argumento juridico sin fundamento en el texto. La opcion D es incorrecta porque la ausencia de datos cuantitativos no es el defecto principal del razonamiento.",
+      "distractores": {
+        "A": "Muestra no representativa: parcialmente valido pero menos preciso que B.",
+        "C": "Inconstitucionalidad: argumento juridico sin fundamento en el texto.",
+        "D": "Ausencia de datos: no es el defecto principal del razonamiento."
+      },
+      "referencia": "Anexo Tecnico 2026, numeral 2.1 (lectura critica: niveles literal, inferencial y critico); Marco de Referencia ICFES Saber 11 (correlacion vs. causalidad, variable de confusion)."
+    },
+    {
+      "codigo": "SF-RQ-002",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Promedios ponderados y analisis de resultados",
+      "nivel": "Avanzado",
+      "caso": "En una institucion educativa, los resultados de una prueba estandarizada son los siguientes: 40 estudiantes obtuvieron 3,6 (peso 30 %), 60 estudiantes obtuvieron 4,0 (peso 50 %) y 20 estudiantes obtuvieron 3,0 (peso 20 %). El coordinador afirma que el promedio institucional es 3,5 porque 'la mayoria obtuvo 4,0'.",
+      "enunciado": "¿Cuál es el promedio ponderado real de la institucion?",
+      "opciones": {
+        "A": "3,50",
+        "B": "3,68",
+        "C": "3,83",
+        "D": "4,00"
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "El promedio ponderado se calcula multiplicando cada nota por su peso y sumando: (3,6 x 0,30) + (4,0 x 0,50) + (3,0 x 0,20) = 1,08 + 2,00 + 0,60 = 3,68. La afirmacion del coordinador de que el promedio es 3,5 es incorrecta porque usa un promedio simple sin considerar los pesos. La opcion A representa el promedio aritmetico simple (3,6+4,0+3,0)/3 = 3,53, que ignora los pesos. La opcion C podria resultar de ponderar incorrectamente. La opcion D es la moda (la nota mas frecuente), no el promedio ponderado.",
+      "distractores": {
+        "A": "Promedio aritmetico simple: ignora los pesos de cada corte.",
+        "C": "Error de ponderacion: asigna pesos incorrectos a las notas.",
+        "D": "Moda: confunde la nota mas frecuente con el promedio ponderado."
+      },
+      "referencia": "Anexo Tecnico 2026, numeral 2.1 (razonamiento cuantitativo: promedios ponderados); Guia de orientacion CNSC 2024 (ejemplo de promedios con pesos de 40 % y 60 %)."
+    },
+    {
+      "codigo": "SF-CB-002",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Dilemas eticos y toma de decisiones",
+      "nivel": "Experto",
+      "caso": "Un docente de tecnologia e informatica ha sido invitado por una empresa privada a dictar un taller sobre programacion para estudiantes de una institucion educativa privada, a cambio de un pago. El taller se realizaria en horario de clase, utilizando las instalaciones de la institucion publica donde labora el docente, y los estudiantes de la institucion publica tambien podrian asistir de forma gratuita. El docente consulta al rector, quien le dice que 'no hay problema'.",
+      "enunciado": "¿Cuál es la actuacion mas procedente para el docente?",
+      "opciones": {
+        "A": "Dictar el taller, ya que el rector autorizo y los estudiantes de la institucion publica tambien se benefician.",
+        "B": "Rechazar la invitacion, porque el uso de las instalaciones publicas para una actividad privada remunerada constituye un conflicto de interes.",
+        "C": "Dictar el taller fuera del horario de clase y sin usar las instalaciones de la institucion publica, para evitar conflictos.",
+        "D": "Solicitar autorizacion por escrito al rector y al secretario de educacion antes de tomar una decision."
+      },
+      "respuesta_correcta": "D",
+      "justificacion": "El Decreto 1278 de 2002 (carrera docente) y la Ley 909 de 2004 (empleo publico) establecen que los docentes deben evitar conflictos de interes y que el uso de bienes publicos para actividades privadas remuneradas requiere autorizacion formal. La opcion A es incorrecta porque la autorizacion verbal del rector no es suficiente. La opcion B es excesivamente restrictiva. La opcion C es incorrecta porque el problema no es solo el horario o las instalaciones, sino el uso de recursos publicos para una actividad privada sin autorizacion formal. La opcion D es la mas procedente porque solicita la autorizacion formal y por escrito.",
+      "distractores": {
+        "A": "Autorizacion verbal insuficiente.",
+        "B": "Excesivamente restrictiva: prohibe toda actividad privada.",
+        "C": "Solucion parcial: resuelve el horario pero no el problema del uso de recursos publicos."
+      },
+      "referencia": "Decreto 1278 de 2002 (carrera docente, deberes docentes); Ley 909 de 2004 (empleo publico, conflictos de interes); Anexo Tecnico 2026, numeral 2.1 (competencias blandas: etica, toma de decisiones)."
+    },
+    {
+      "codigo": "SF-CP-002",
+      "competencia": "Conocimientos disciplinares y pedagogicos",
+      "subcompetencia": "Evaluacion del aprendizaje",
+      "nivel": "Avanzado",
+      "caso": "Un docente de tecnologia e informatica ha diseñado una rubrica para evaluar un proyecto de programacion en Python. La rubrica tiene cuatro criterios: (1) funcionalidad del codigo, (2) calidad del codigo (legibilidad, comentarios), (3) documentacion del proyecto, (4) presentacion oral. Un estudiante entrega un codigo que funciona perfectamente pero no tiene comentarios ni documentacion. Otro estudiante entrega un codigo con errores menores pero con excelente documentacion y presentacion.",
+      "enunciado": "¿Como debe el docente aplicar la rubrica para evaluar ambos estudiantes de manera justa?",
+      "opciones": {
+        "A": "Dar la misma nota a ambos porque la rubrica evalua cuatro criterios y ambos cumplen dos.",
+        "B": "Evaluar cada criterio independientemente y sumar los puntajes, sin ajustar por la importancia relativa de cada criterio.",
+        "C": "Aplicar la rubrica tal como esta diseñada, evaluando cada criterio con su peso correspondiente, y documentar la retroalimentacion especifica para cada estudiante.",
+        "D": "Ajustar los pesos de la rubrica despues de ver los resultados para que el estudiante con codigo funcional obtenga mejor nota."
+      },
+      "respuesta_correcta": "C",
+      "justificacion": "La evaluacion formativa y sumativa (Decreto 1290 de 2009) exige que la evaluacion se realice conforme a los criterios previamente establecidos y comunicados a los estudiantes. La opcion C respeta este principio: aplica la rubrica tal como fue diseñada, con sus pesos correspondientes, y proporciona retroalimentacion especifica. La opcion A es incorrecta porque no considera los pesos de cada criterio. La opcion B es parcialmente valida pero no menciona la retroalimentacion, que es esencial en la evaluacion formativa. La opcion D es incorrecta porque modificar los pesos despues de ver los resultados viola el principio de transparencia y equidad en la evaluacion.",
+      "distractores": {
+        "A": "Ignora los pesos: no considera la importancia relativa de cada criterio.",
+        "B": "Sin retroalimentacion: omite el componente formativo esencial de la evaluacion.",
+        "D": "Modificacion retroactiva: viola el principio de transparencia y equidad."
+      },
+      "referencia": "Decreto 1290 de 2009 (evaluacion del aprendizaje: formativa y sumativa); Anexo Tecnico 2026, numeral 2.1 (evaluacion del aprendizaje: instrumentos, rubricas, retroalimentacion); Ley 115 de 1994 (evaluacion)."
+    }
+  ]
+}

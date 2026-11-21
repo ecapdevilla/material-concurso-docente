@@ -1,0 +1,282 @@
+{
+  "metadata": {
+    "titulo": "Banco de diagnostico - Semana 1 - Concurso Docente Barranquilla 2026",
+    "proceso": "2948 de 2026",
+    "version": "1.0",
+    "fecha": "2026-11-21",
+    "total_preguntas": 0,
+    "componentes": [
+      "Lectura critica",
+      "Razonamiento cuantitativo",
+      "Competencias blandas",
+      "Conocimientos disciplinares y pedagogicos"
+    ],
+    "nota": "Preguntas originales de diagnostico. No son preguntas oficiales de la CNSC ni del ICFES."
+  },
+  "preguntas": [
+    {
+      "codigo": "D1-LC-001",
+      "competencia": "Lectura critica",
+      "subcompetencia": "Comprension literal",
+      "nivel": "Basico",
+      "caso": "Un texto afirma: 'La educacion virtual ha demostrado ser tan efectiva como la presencial.'",
+      "enunciado": "Segun el texto, la educacion virtual es:",
+      "opciones": {
+        "A": "Mas efectiva que la presencial.",
+        "B": "Tan efectiva como la presencial.",
+        "C": "Menos efectiva que la presencial.",
+        "D": "Igual de costosa que la presencial."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "El texto afirma literalmente que la educacion virtual 'ha demostrado ser tan efectiva como la presencial'. La opcion A contradice el texto. La opcion C contradice el texto. La opcion D introduce un tema (costo) no mencionado.",
+      "distractores": {
+        "A": "Contradice el texto.",
+        "C": "Contradice el texto.",
+        "D": "Tema no mencionado."
+      },
+      "referencia": "Anexo Tecnico 2026, numeral 2.1 (lectura critica: nivel literal)."
+    },
+    {
+      "codigo": "D1-RQ-001",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Porcentajes basicos",
+      "nivel": "Basico",
+      "caso": "Una institucion tiene 200 estudiantes. El 30 % son de primaria.",
+      "enunciado": "Cuantos estudiantes son de primaria?",
+      "opciones": {
+        "A": "50",
+        "B": "60",
+        "C": "70",
+        "D": "80"
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "200 x 0,30 = 60. La opcion A resulta de aplicar el 25 %. La opcion C resulta de aplicar el 35 %. La opcion D resulta de aplicar el 40 %.",
+      "distractores": {
+        "A": "Error de porcentaje: aplica el 25 %.",
+        "C": "Error de porcentaje: aplica el 35 %.",
+        "D": "Error de porcentaje: aplica el 40 %."
+      },
+      "referencia": "Anexo Tecnico 2026, numeral 2.1 (razonamiento cuantitativo: porcentajes)."
+    },
+    {
+      "codigo": "D1-CB-001",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Etica profesional",
+      "nivel": "Basico",
+      "caso": "Un docente observa que un estudiante copia en un examen. El docente no dice nada y permite que el estudiante continúe.",
+      "enunciado": "¿Cuál es el principal problema de la actuacion del docente?",
+      "opciones": {
+        "A": "El docente no aplico la sancion correspondiente.",
+        "B": "El docente no cumplio con su deber de garantizar la integridad academica.",
+        "C": "El docente fue demasiado permisivo.",
+        "D": "El docente no informo al rector."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "El docente tiene el deber de garantizar la integridad académica. Permitir el copio sin actuar viola este deber. La opción A es parcialmente válida pero menos precisa. La opción C es subjetiva. La opción D es incorrecta porque el reporte al rector no es el primer paso.",
+      "distractores": {
+        "A": "Sanción: parcialmente válido pero menos preciso.",
+        "C": "Permisivo: subjetivo.",
+        "D": "Reporte al rector: no es el primer paso."
+      },
+      "referencia": "Decreto 1278 de 2002 (deberes docentes); Anexo Técnico 2026, numeral 2.1 (competencias blandas: ética)."
+    },
+    {
+      "codigo": "D1-CP-001",
+      "competencia": "Conocimientos disciplinares y pedagogicos",
+      "subcompetencia": "Diseño curricular",
+      "nivel": "Basico",
+      "caso": "Un docente de tecnologia e informatica debe diseñar una actividad para enseñar el concepto de 'variable' en programacion. Los estudiantes tienen conocimientos basicos de ofimatica pero no de programacion.",
+      "enunciado": "¿Cuál es la estrategia pedagogica mas adecuada?",
+      "opciones": {
+        "A": "Explicar la teoria de variables en Python con ejemplos de codigo y luego pedir a los estudiantes que escriban un programa simple.",
+        "B": "Comenzar con una analogia cotidiana (una caja con una etiqueta) y luego mostrar como se representa en codigo, usando ejemplos progresivos.",
+        "C": "Pedir a los estudiantes que investiguen en internet que es una variable y luego compartan sus hallazgos.",
+        "D": "Mostrar un video tutorial de YouTube sobre variables en Python y luego aplicar un cuestionario."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La didactica por competencias y el diseño curricular (Anexo Técnico 2026) enfatizan la progresion de lo concreto a lo abstracto. La opcion B parte de una analogia cotidiana y avanza hacia la representacion formal en codigo. La opcion A es demasiado abstracta. La opcion C delega la construccion del conocimiento sin guia docente. La opcion D es pasiva.",
+      "distractores": {
+        "A": "Demasiado abstracto: parte de la teoria sin activar conocimientos previos.",
+        "C": "Delegacion sin guia: no garantiza la comprension conceptual.",
+        "D": "Pasiva: no garantiza la construccion activa del conocimiento."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (conocimientos disciplinares: didactica por competencias, diseño curricular)."
+    },
+    {
+      "codigo": "D1-LC-002",
+      "competencia": "Lectura crítica",
+      "subcompetencia": "Inferencia",
+      "nivel": "Intermedio",
+      "caso": "Un texto afirma: 'La implementacion de la jornada unica en las instituciones educativas publicas ha mejorado significativamente el rendimiento academico de los estudiantes.'",
+      "enunciado": "¿Que se puede inferir del texto?",
+      "opciones": {
+        "A": "La jornada unica es la unica causa de la mejora.",
+        "B": "Existe una asociacion entre la jornada unica y la mejora del rendimiento, pero no se puede atribuir causalidad.",
+        "C": "La jornada unica no tiene ningun efecto sobre el rendimiento.",
+        "D": "La mejora del rendimiento se debe exclusivamente a la jornada unica."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "El texto establece una asociacion entre dos variables, pero no controla variables de confusion. Por lo tanto, no se puede atribuir causalidad. La opcion A confunde correlacion con causalidad. La opcion C contradice el texto. La opcion D tambien confunde correlacion con causalidad.",
+      "distractores": {
+        "A": "Confunde correlacion con causalidad.",
+        "C": "Contradice el texto.",
+        "D": "Confunde correlacion con causalidad."
+      },
+      "referencia": "Anexo Tecnico 2026, numeral 2.1 (lectura critica: inferencia)."
+    },
+    {
+      "codigo": "D1-RQ-002",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Porcentajes y variaciones",
+      "nivel": "Intermedio",
+      "caso": "Una matricula cae 20 % y luego sube 20 %.",
+      "enunciado": "¿Vuelve al valor inicial?",
+      "opciones": {
+        "A": "Si, porque +20 % y -20 % se cancelan.",
+        "B": "No, porque los porcentajes se aplican sobre bases diferentes.",
+        "C": "Si, porque 0,8 x 1,2 = 0,96, que es aproximadamente 1.",
+        "D": "No, porque la matricula siempre disminuye."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "0,8 x 1,2 = 0,96. La matricula queda 4 % por debajo del valor inicial. El error consiste en sumar porcentajes sin considerar que se aplican sobre bases diferentes. La opcion A es el error clasico. La opcion C es incorrecta porque 0,96 no es 1. La opcion D es incorrecta porque no siempre disminuye.",
+      "distractores": {
+        "A": "Error de suma de porcentajes.",
+        "C": "Error de aproximacion: 0,96 no es 1.",
+        "D": "Error de generalizacion."
+      },
+      "referencia": "Anexo Tecnico 2026, numeral 2.1 (razonamiento cuantitativo: variaciones porcentuales)."
+    },
+    {
+      "codigo": "D1-CB-002",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Convivencia escolar",
+      "nivel": "Intermedio",
+      "caso": "En una institucion educativa, dos estudiantes tienen un conflicto por un trabajo en equipo. Uno de ellos envio mensajes ofensivos al otro a traves de redes sociales.",
+      "enunciado": "¿Cuál es la actuacion mas procedente para el docente?",
+      "opciones": {
+        "A": "Mediar directamente entre los dos estudiantes sin informar a la coordinacion.",
+        "B": "Informar al Comite de Convivencia Escolar para que active el protocolo correspondiente.",
+        "C": "Sancionar al estudiante que envio los mensajes ofensivos de acuerdo con el manual de convivencia.",
+        "D": "Ignorar la situacion porque ocurrio fuera del horario de clase."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La Ley 1620 de 2013 (convivencia escolar) establece que la institucion educativa debe contar con un Comite de Convivencia Escolar que atienda los conflictos entre estudiantes. El docente debe reportar la situacion para que el comite active el protocolo correspondiente. La opcion A es insuficiente porque no activa el protocolo institucional. La opcion C es incorrecta porque la sancion disciplinaria es competencia del comite. La opcion D es incorrecta porque el cyberbullying entre estudiantes de la misma institucion afecta la convivencia escolar.",
+      "distractores": {
+        "A": "Mediacion sin protocolo: insuficiente para casos de cyberbullying.",
+        "C": "Sancion sin competencia: el docente individual no tiene potestad disciplinaria.",
+        "D": "Inaccion: ignora que el cyberbullying afecta la convivencia escolar."
+      },
+      "referencia": "Ley 1620 de 2013 (convivencia escolar); Anexo Tecnico 2026, numeral 2.1 (competencias blandas: resolucion de conflictos)."
+    },
+    {
+      "codigo": "D1-CP-002",
+      "competencia": "Conocimientos disciplinares y pedagogicos",
+      "subcompetencia": "Evaluacion del aprendizaje",
+      "nivel": "Intermedio",
+      "caso": "Un docente de tecnologia e informatica ha diseñado una rubrica para evaluar un proyecto de programacion en Python. La rubrica tiene cuatro criterios: (1) funcionalidad del codigo, (2) calidad del codigo (legibilidad, comentarios), (3) documentacion del proyecto, (4) presentacion oral.",
+      "enunciado": "¿Como debe el docente aplicar la rubrica para evaluar a los estudiantes de manera justa?",
+      "opciones": {
+        "A": "Dar la misma nota a todos porque la rubrica evalua cuatro criterios y todos cumplen dos.",
+        "B": "Evaluar cada criterio independientemente y sumar los puntajes, sin ajustar por la importancia relativa de cada criterio.",
+        "C": "Aplicar la rubrica tal como esta diseñada, evaluando cada criterio con su peso correspondiente, y documentar la retroalimentacion especifica para cada estudiante.",
+        "D": "Ajustar los pesos de la rubrica despues de ver los resultados para que el estudiante con codigo funcional obtenga mejor nota."
+      },
+      "respuesta_correcta": "C",
+      "justificacion": "La evaluacion formativa y sumativa (Decreto 1290 de 2009) exige que la evaluacion se realice conforme a los criterios previamente establecidos y comunicados a los estudiantes. La opcion C respeta este principio. La opcion A es incorrecta porque no considera los pesos. La opcion B es parcialmente valida pero no menciona la retroalimentacion. La opcion D es incorrecta porque modificar los pesos despues de ver los resultados viola el principio de transparencia.",
+      "distractores": {
+        "A": "Ignora los pesos: no considera la importancia relativa de cada criterio.",
+        "B": "Sin retroalimentacion: omite el componente formativo esencial.",
+        "D": "Modificacion retroactiva: viola el principio de transparencia y equidad."
+      },
+      "referencia": "Decreto 1290 de 2009 (evaluacion del aprendizaje: formativa y sumativa); Anexo Tecnico 2026, numeral 2.1 (evaluacion: instrumentos, rubricas, retroalimentacion)."
+    },
+    {
+      "codigo": "D1-LC-003",
+      "competencia": "Lectura critica",
+      "subcompetencia": "Evaluacion de argumentos",
+      "nivel": "Avanzado",
+      "caso": "En un debate sobre el uso de inteligencia artificial en el aula, un docente afirma: 'Todas las instituciones que han prohibido el uso de IA en evaluaciones han visto disminuir el plagio; por lo tanto, la prohibicion es la unica medida efectiva para garantizar la integridad academica.'",
+      "enunciado": "¿Cuál es el principal defecto argumentativo del docente?",
+      "opciones": {
+        "A": "Generaliza a partir de un numero limitado de casos sin considerar contextos diversos.",
+        "B": "Confunde la causa con el efecto al atribuir la disminucion del plagio unicamente a la prohibicion.",
+        "C": "Utiliza un lenguaje emocional que descalifica a quienes defienden el uso de IA.",
+        "D": "No presenta datos cuantitativos sobre la reduccion del plagio."
+      },
+      "respuesta_correcta": "A",
+      "justificacion": "El docente concluye que la prohibicion es 'la unica medida efectiva' a partir de la observacion de que 'todas las instituciones que han prohibido' han visto disminuir el plagio. Esto es una generalizacion apresurada: no se consideran instituciones que han implementado medidas alternativas. La opcion B es parcialmente valida pero menos precisa. La opcion C es incorrecta porque no hay lenguaje emocional. La opcion D es incorrecta porque la ausencia de datos cuantitativos no es el defecto principal.",
+      "distractores": {
+        "B": "Confunde causa y efecto: parcialmente valido pero menos preciso que A.",
+        "C": "Lenguaje emocional: no presente en el enunciado.",
+        "D": "Ausencia de datos: no es el defecto principal del argumento."
+      },
+      "referencia": "Anexo Tecnico 2026, numeral 2.1 (lectura critica: niveles literal, inferencial y critico); Marco de Referencia ICFES Saber 11 (generalizacion apresurada)."
+    },
+    {
+      "codigo": "D1-RQ-003",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Interpretacion de tablas",
+      "nivel": "Basico",
+      "caso": "La siguiente tabla muestra la distribucion de estudiantes por grado: 6º: 45 (15%), 7º: 60 (20%), 8º: 75 (25%), 9º: 60 (20%), 10º: 45 (15%), 11º: 15 (5%). Total: 300 (100%).",
+      "enunciado": "¿Cual es el porcentaje correcto para el 8º grado?",
+      "opciones": {
+        "A": "20 %",
+        "B": "25 %",
+        "C": "30 %",
+        "D": "15 %"
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "75 ÷ 300 = 0,25 = 25 %. La tabla ya muestra 25 %, que es correcto. La opcion A (20 %) corresponde al 7º y 9º grado. La opcion C (30 %) seria si se calculara 75 ÷ 250. La opcion D (15 %) corresponde al 6º y 10º grado.",
+      "distractores": {
+        "A": "Porcentaje del 7º/9º grado: confunde el grado.",
+        "C": "Error de base: divide entre 250 en lugar de 300.",
+        "D": "Porcentaje del 6º/10º grado: confunde el grado."
+      },
+      "referencia": "Anexo Tecnico 2026, numeral 2.1 (razonamiento cuantitativo: lectura de tablas y graficos); Guia de orientacion CNSC 2024 (interpretacion de datos)."
+    },
+    {
+      "codigo": "D1-CB-003",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Convivencia escolar",
+      "nivel": "Intermedio",
+      "caso": "En una institucion educativa, dos estudiantes de grado 10º tienen un conflicto por un trabajo en equipo. Uno de ellos envio mensajes ofensivos al otro a traves de redes sociales. El manual de convivencia establece que los conflictos entre estudiantes deben ser atendidos por el Comite de Convivencia Escolar.",
+      "enunciado": "¿Cuál es la actuacion mas procedente para el docente?",
+      "opciones": {
+        "A": "Mediar directamente entre los dos estudiantes sin informar a la coordinacion.",
+        "B": "Informar al Comite de Convivencia Escolar para que active el protocolo correspondiente.",
+        "C": "Sancionar al estudiante que envio los mensajes ofensivos de acuerdo con el manual de convivencia.",
+        "D": "Ignorar la situacion porque ocurrio fuera del horario de clase."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La Ley 1620 de 2013 (convivencia escolar) establece que la institucion educativa debe contar con un Comite de Convivencia Escolar que atienda los conflictos entre estudiantes. El docente debe reportar la situacion para que el comite active el protocolo correspondiente. La opcion A es insuficiente porque no activa el protocolo institucional. La opcion C es incorrecta porque la sancion disciplinaria es competencia del comite. La opcion D es incorrecta porque el cyberbullying entre estudiantes de la misma institucion afecta la convivencia escolar.",
+      "distractores": {
+        "A": "Mediacion sin protocolo: insuficiente para casos de cyberbullying.",
+        "C": "Sancion sin competencia: el docente individual no tiene potestad disciplinaria.",
+        "D": "Inaccion: ignora que el cyberbullying afecta la convivencia escolar."
+      },
+      "referencia": "Ley 1620 de 2013 (convivencia escolar); Anexo Tecnico 2026, numeral 2.1 (competencias blandas: resolucion de conflictos)."
+    },
+    {
+      "codigo": "D1-CP-003",
+      "competencia": "Conocimientos disciplinares y pedagogicos",
+      "subcompetencia": "Diseño curricular",
+      "nivel": "Intermedio",
+      "caso": "Un docente de tecnologia e informatica debe diseñar el plan de estudios para el area de tecnologia e informatica en grado 9º. El docente cuenta con 2 horas semanales durante 36 semanas. El PEI de la institucion establece como prioridad el desarrollo del pensamiento computacional y la ciudadania digital.",
+      "enunciado": "¿Cuál es la distribucion mas adecuada del tiempo para el semestre?",
+      "opciones": {
+        "A": "18 semanas de pensamiento computacional y 18 semanas de ciudadania digital.",
+        "B": "24 semanas de pensamiento computacional y 12 semanas de ciudadania digital.",
+        "C": "12 semanas de pensamiento computacional y 24 semanas de ciudadania digital.",
+        "D": "36 semanas integrando ambos temas de forma transversal en cada sesion."
+      },
+      "respuesta_correcta": "D",
+      "justificacion": "El diseño curricular por competencias (Anexo Tecnico 2026) y el PEI establecen prioridades, pero no requieren una separacion rigida de contenidos. La integracion transversal de pensamiento computacional y ciudadania digital en cada sesion permite desarrollar ambos de forma simultanea y coherente. La opcion A divide el tiempo de forma equitativa pero artificial. La opcion B prioriza el pensamiento computacional. La opcion C prioriza la ciudadania digital.",
+      "distractores": {
+        "A": "Division artificial: separa temas que deben integrarse.",
+        "B": "Priorizacion desequilibrada: favorece el pensamiento computacional.",
+        "C": "Priorizacion desequilibrada: favorece la ciudadania digital."
+      },
+      "referencia": "Anexo Tecnico 2026, numeral 2.1 (conocimientos disciplinares: diseño curricular, planeacion); Ley 115 de 1994 (curriculo)."
+    }
+  ]
+}
