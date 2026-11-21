@@ -1,34 +1,40 @@
-# Material de concurso docente
+# Material de estudio - Concurso Docente (Barranquilla, Proceso 2948 de 2026)
 
-Repositorio público con material de estudio y preparación para el concurso de méritos docente (CNSC), incluyendo el Proceso de Selección Docentes y Directivos Docentes 2026 (Barranquilla, Proceso 2948) y material histórico de 2016 y 2022.
+Repositorio público con todo el material de estudio organizado para el concurso docente.
 
 ## Estructura
 
-| Carpeta | Qué contiene |
-|---|---|
-| `Estudio Concurso 2026/` | Ruta de estudio completa: ficha del concurso, temario, plan de 16 semanas, simulacros HTML de nivel alto, tablas de valoración de antecedentes, pendientes y fechas |
-| `Bancos de Preguntas/` | Bancos de preguntas de diagnóstico (30 y 50 preguntas) y simulacro de 100 preguntas |
-| `Material Pedagogico/` | Material de aptitud verbal, pedagogía, tecnología, cuadernillos y presentaciones |
-| `Concurso Docente 2016/` | Cuadernillos de preguntas Saber Pro (enseñar, evaluar, formar, razonamiento cuantitativo) |
-| `Guias y Orientaciones/` | Guías docentes, ajustes razonables, instructivos |
-| `SIMO/` | Documentos de inscripción y soportes personales |
-| `Evidencias y Certificados/` | Hojas de vida y certificaciones personales |
-| `Presentaciones/` | Pitch deck y presentaciones |
-| `Otros/` | Proyecto del anexo técnico, horarios, cartas |
+- `Estudio Concurso 2026/` — Material de estudio organizado por tema (normas, temario, simulacros, plan de estudio, lectura crítica, razonamiento cuantitativo, inglés, tecnología, competencias blandas).
+- `SIMO/` — Documentos de candidatos, certificados, experiencia, formación.
+- `Bancos de Preguntas/` — Diagnósticos 30/50 preguntas mérito docente.
+- `Material Pedagogico/` — Diseño instruccional, práctica docente, aptitud verbal, pedagogía.
+- `Presentaciones/` — Pitch mérito docente, presentación Areandina.
+- `Documentos Recibidos y Oficiales/` — PDFs recibidos, decretos, convocatorias, instructivos.
+- `Evidencias y Certificados/` — HV, certificados laborales.
+- `Legislacion y Normativa/` — Leyes y decretos (115, 715, 909, 1098, 1618, 1620, 2216, 1075, 1278, 1290, 1421, 1965, 2277, 3842, código de ética, guía de integración).
+- `Asenso Docente/` — Documentos de ascenso.
+- `Concurso Docente 2016/` — Material del concurso 2016.
+- `INVENTARIO.txt` — Lista de todos los archivos (593+) para comparar entre máquinas.
 
-## Cómo empezar
+## Cómo usar en otra máquina
 
-1. Abre `Estudio Concurso 2026/index.html` en tu navegador.
-2. Lee `Estudio Concurso 2026/00-ficha-del-concurso.md`.
-3. Descarga las normas listadas en `Estudio Concurso 2026/02-normas/NORMAS.md`.
-4. Empieza la Semana 1 del plan (`Estudio Concurso 2026/05-plan-estudio/plan-16-semanas.md`).
+```bash
+git clone https://github.com/ecapdevilla/material-concurso-docente.git
+```
 
-## Notas
+Comparar el `INVENTARIO.txt` con los archivos locales para ver qué falta.
 
-- Las fuentes oficiales (Acuerdo 239 de 2026 y Anexo Técnico) están en `Estudio Concurso 2026/01-fuentes-oficiales/`.
-- Los simulacros HTML (`Estudio Concurso 2026/10-simulacros/`) son de nivel alto, con respuestas justificadas.
-- Las preguntas de los bancos de `Bancos de Preguntas/` son de procesos anteriores; úsalas para practicar formato, no para predecir contenido.
+## Normativa principal (ya completa)
 
-## Aviso
+Ley 115/94, 715/01, 909/04, 1098/06, 1618/13, 1620/13, 2216/22; Decretos 1075/15, 1278/02, 1290/09, 1421/17, 1965/13, 2277/79; Resolución 3842/22; Código de ética.
 
-Este repositorio es material de estudio. No garantiza resultado en el concurso. Las fechas y el temario oficial deben verificarse en `cnsc.gov.co`.
+## Lo que falta
+
+- Resolución 1197/24 (certificado de discapacidad, solo si aplica reserva PCD).
+- Guía de orientación CNSC 2026 (pendiente de publicación).
+- Ejes temáticos oficiales (pendiente de publicación).
+- Más ejercicios de razonamiento cuantitativo, competencias ciudadanas, informática/tecnología.
+
+## Nota
+
+El desarrollo de software (mooc docente, proyectos, etc.) NO se incluye en este repositorio. Se deja intacto en su ubicación original.
