@@ -20,7 +20,7 @@ Prioridad: **A** = imprescindible esta semana. **B** = antes de la prueba. **C**
 | **Ley 115 de 1994** (Ley General de Educación) | Fines de la educación, currículo, PEI, gobierno escolar | Base de casi todas las preguntas de competencias pedagógicas y de conocimientos disciplinares generales. Art. 116 es requisito general de participación (citado en Art. 7 del Acuerdo). |
 | **Ley 715 de 2001** | Sistema General de Participaciones; competencias de las entidades territoriales certificadas | Citada en el Acuerdo como marco de competencias de la entidad. Preguntas sobre quién hace qué en el sistema educativo. |
 | **Decreto 1075 de 2015** (Único Reglamentario Sector Educación) | Capítulo 1 del Título 1, Parte 4, Libro 2 (procesos de selección) | Arts. 2.4.1.1.x citados en el Acuerdo. Base de las etapas. |
-| **Ley 909 de 2004** | Empleo público y carrera administrativa | Art. 27, 28 (mérito), 31 (pruebas reservadas), citados en el Acuerdo. |
+| **Ley 909 de 2004** | Empleo público y carrera administrativa | Art. 27, 28 (mérito), 31 (pruebas reservadas), citados en el Acuerdo. | ✅ descargada (ley-909-2004-funcionpublica.pdf) |
 | **Ley 2418 de 2024** | Reserva del 7 % para personas con discapacidad | Citada en el Acuerdo (Art. 6 y 8). Relevante si aplicas por reserva. |
 | **Decreto 1743 de 1994** | Proyecto de Educación Ambiental (PRAE) | Aparece en ejemplos oficiales de la prueba psicotécnica. |
 
@@ -31,7 +31,7 @@ Prioridad: **A** = imprescindible esta semana. **B** = antes de la prueba. **C**
 | Constitución Política, arts. 67, 68, 125, 130, 209 | Educación, educadores, carrera administrativa, función pública | El Acuerdo cita arts. 125, 130 y 209. Los arts. 67 y 68 son la base del derecho a la educación y de los educadores. |
 | **Ley 1620 de 2013** | Sistema Nacional de Convivencia Escolar y acoso | Frecuente en competencias blandas y ética. No aparece en el Acuerdo; verificar. |
 | **Ley 1098 de 2006** (Código de Infancia y Adolescencia) | Derechos de niños, niñas y adolescentes | Base ética de la práctica docente. Verificar. |
-| **Ley 1581 de 2012** | Protección de datos | Citada en el Acuerdo (uso de datos en SIMO). |
+| **Ley 1581 de 2012** | Protección de datos | Citada en el Acuerdo (uso de datos en SIMO). | ✅ descargada (norma-49981-funcionpublica.pdf) |
 | **Ley 1346 de 2009** y **Ley 1618 de 2013** | Discapacidad | Citadas en el Acuerdo. |
 | **Decreto Legislativo 1384 de 2026** | Medidas por el sismo de agosto de 2026; aplazamiento de procesos | Citado en el Acuerdo. Puede afectar fechas. Ver `07-pendientes`. |
 
