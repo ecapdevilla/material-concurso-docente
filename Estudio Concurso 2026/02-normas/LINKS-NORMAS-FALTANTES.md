@@ -8,7 +8,7 @@ Abre estos enlaces en tu navegador y descarga cada norma en PDF. Guárdalas en e
 |---|---|---|---|
 | 1 | **Ley 1098 de 2006** (Código de Infancia y Adolescencia) | https://www.mineducacion.gov.co/portal/normativa/ → buscar "Ley 1098" | `ley-1098-2006.pdf` |
 | 2 | **Ley 1618 de 2013** (Discapacidad) | ✅ descargada (ley-1618-2013-funcionpublica.pdf) | `ley-1618-2013.pdf` |
-| 3 | **Decreto 1290 de 2009** (SIEE) | https://www.mineducacion.gov.co/portal/normativa/ → buscar "Decreto 1290" | `decreto-1290-2009.pdf` |
+| 3 | **Decreto 1290 de 2009** (SIEE) | ✅ descargada (articles-187765_archivo_pdf_decreto_1290.pdf / Decreto 1290 de 2009.pdf) | `decreto-1290-2009.pdf` |
 | 4 | **Decreto 1965 de 2013** (Manual de Convivencia) | ✅ descargada (decreto-1965-2013-funcionpublica.pdf) | `decreto-1965-2013.pdf` |
 | 5 | **Decreto 1421 de 2017** (Inclusión educativa) | ✅ descargada (decreto-1421-2017-funcionpublica.pdf) | `decreto-1421-2017.pdf` |
 | 6 | **Constitución Política** (arts. 67, 68, 125, 130, 209) | https://www.constitucioncolombia.com/ | `constitucion-politica.pdf` |
