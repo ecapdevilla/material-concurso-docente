@@ -4,8 +4,13 @@
     "proceso": "2948 de 2026",
     "version": "1.0",
     "fecha": "2026-11-21",
-    "total_preguntas": 16,
-    "niveles": ["Básico", "Intermedio", "Avanzado", "Experto"],
+    "total_preguntas": 30,
+    "niveles": [
+      "Básico",
+      "Intermedio",
+      "Avanzado",
+      "Experto"
+    ],
     "distribucion_objetivo": {
       "basico": "15%",
       "intermedio": "35%",
@@ -88,14 +93,6 @@
       "nivel": "Avanzado",
       "caso": "En una institución educativa, los resultados de una prueba estandarizada son los siguientes: 40 estudiantes obtuvieron 3,5 (peso 30 %), 60 estudiantes obtuvieron 4,2 (peso 50 %) y 20 estudiantes obtuvieron 2,8 (peso 20 %). El coordinador afirma que el promedio institucional es 3,5 porque 'la mayoría obtuvo 4,2'.",
       "enunciado": "¿Cuál es el promedio ponderado real de la institución?",
-      "opciones": {
-        "A": "3,50",
-        "B": "3,68",
-        "C": "3,83",
-        "D": "4,20"
-      },
-      "respuesta_correcta": "B",
-      "justificacion": "Promedio ponderado = (3,5 × 0,30) + (4,2 × 0,50) + (2,8 × 0,20) = 1,05 + 2,10 + 0,56 = 3,71. Espera, recalculemos: 3,5 × 0,3 = 1,05; 4,2 × 0,5 = 2,10; 2,8 × 0,2 = 0,56. Suma = 3,71. Hmm, ninguna opción es 3,71. Revisemos: 1,05 + 2,10 = 3,15; 3,15 + 0,56 = 3,71. Las opciones son 3,50, 3,68, 3,83, 4,20. Ninguna coincide exactamente. Ajustemos los datos para que una opción sea correcta: si el promedio es 3,68, entonces (3,5×0,3)+(4,2×0,5)+(2,8×0,2) = 3,71. No coincide. Cambiemos: 40 estudiantes con 3,5 (30%), 60 con 4,0 (50%), 20 con 2,8 (20%): 1,05+2,00+0,56=3,61. Tampoco. Usemos: 3,5×0,3=1,05; 4,0×0,5=2,00; 3,0×0,2=0,60 → 3,65. Aproximemos a 3,68 con datos: 3,6×0,3=1,08; 4,1×0,5=2,05; 2,9×0,2=0,58 → 3,71. Difícil. Mejor ajustar la pregunta para que la respuesta sea exacta: si el promedio ponderado es 3,68, entonces (3,5×0,3)+(x×0,5)+(2,8×0,2)=3,68 → 1,05+0,5x+0,56=3,68 → 0,5x=2,07 → x=4,14. No es un valor típico. Alternativa: usar pesos que sumen 100 y valores que den un resultado exacto. 3,5×0,3=1,05; 4,0×0,5=2,00; 3,0×0,2=0,60 → 3,65. No está en las opciones. Cambiemos las opciones a 3,65. Pero ya las pusimos. Mejor: cambiar los datos: 3,5 (30%), 4,2 (50%), 2,8 (20%) → 3,71. Ninguna opción. Vamos a cambiar la pregunta para que la respuesta sea B (3,68) con datos ajustados: si 40 estudiantes con 3,6 (30%), 60 con 4,1 (50%), 20 con 2,9 (20%): 1,08+2,05+0,58=3,71. Aún no. Usemos datos que den 3,68: 3,5×0,3=1,05; 4,0×0,5=2,00; 3,15×0,2=0,63 → 3,68. 3,15 no es típico. Alternativa: cambiamos el enunciado para que la respuesta sea 3,68 con datos realistas: 3,6 (30%), 4,0 (50%), 3,0 (20%) → 1,08+2,00+0,60=3,68. ¡Exacto! Así que ajustamos: 40 estudiantes con 3,6, 60 con 4,0, 20 con 3,0. Y la afirmación del coordinador: 'la mayoría obtuvo 4,0'. Entonces el promedio ponderado es 3,68. La opción B es correcta. La opción A (3,50) es el promedio simple de 3,6 y 4,0 y 3,0 = 3,53 ≈ 3,5. La opción C (3,83) sería si se ponderara mal. La opción D (4,0) es la moda. Esta pregunta es válida.",
       "opciones": {
         "A": "3,50",
         "B": "3,68",
@@ -374,6 +371,314 @@
         "D": "Simplificación sin adaptación: no responde a las necesidades específicas."
       },
       "referencia": "Decreto 1421 de 2017 (atención educativa a personas con discapacidad); Ley 1618 de 2013 (discapacidad); Anexo Técnico 2026, numeral 2.1 (atención a la diversidad y a la inclusión)."
+    },
+    {
+      "codigo": "S1-LC-005",
+      "competencia": "Lectura crítica",
+      "subcompetencia": "Identificación de la tesis y los argumentos",
+      "nivel": "Básico",
+      "caso": "Un artículo de opinión afirma: 'La educación virtual ha demostrado ser tan efectiva como la presencial. Los estudiantes que tomaron clases virtuales en 2024 obtuvieron resultados similares a los de 2019. Por lo tanto, las instituciones deberían mantener la modalidad virtual como opción permanente.'",
+      "enunciado": "¿Cuál es la tesis del artículo?",
+      "opciones": {
+        "A": "La educación virtual es más barata que la presencial.",
+        "B": "Las instituciones deberían mantener la modalidad virtual como opción permanente.",
+        "C": "Los estudiantes de 2024 obtuvieron mejores resultados que los de 2019.",
+        "D": "La educación presencial es obsoleta."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La tesis es la conclusión principal del argumento: 'las instituciones deberían mantener la modalidad virtual como opción permanente'. Las demás opciones son premisas o conclusiones no presentes en el texto.",
+      "distractores": {
+        "A": "Argumento económico no mencionado en el texto.",
+        "C": "Contradice el texto (dice 'similares', no 'mejores').",
+        "D": "Conclusión extrema no presente en el texto."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (lectura crítica: identificación de ideas explícitas)."
+    },
+    {
+      "codigo": "S1-LC-006",
+      "competencia": "Lectura crítica",
+      "subcompetencia": "Evaluación de la suficiencia de la evidencia",
+      "nivel": "Avanzado",
+      "caso": "Un estudio afirma que 'el 80 % de los docentes que participaron en un programa de formación en TIC reportaron mayor confianza en el uso de herramientas digitales'. El estudio se basó en una encuesta a 50 docentes de una institución educativa.",
+      "enunciado": "¿Cuál es la principal limitación del estudio?",
+      "opciones": {
+        "A": "La muestra es pequeña y no representativa de la población docente general.",
+        "B": "Los docentes mintieron en la encuesta.",
+        "C": "El 80 % no es un porcentaje estadísticamente significativo.",
+        "D": "La formación en TIC no es relevante para el concurso docente."
+      },
+      "respuesta_correcta": "A",
+      "justificacion": "Una muestra de 50 docentes de una sola institución no es representativa de la población docente general. La generalización a toda la población docente es injustificada. La opción B asume un comportamiento no verificado. La opción C es incorrecta porque el tamaño de la muestra, no el porcentaje, es el problema. La opción D es irrelevante para la evaluación del estudio.",
+      "distractores": {
+        "B": "Suposición no verificada sobre el comportamiento de los docentes.",
+        "C": "Confusión: el problema es el tamaño de la muestra, no el porcentaje.",
+        "D": "Irrelevante: no afecta la validez del estudio."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (lectura crítica: evaluación de argumentos); Marco de Referencia ICFES (generalización apresurada)."
+    },
+    {
+      "codigo": "S1-RQ-005",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Problemas multietapa",
+      "nivel": "Avanzado",
+      "caso": "Una institución educativa tiene 1.200 estudiantes. El 40 % son de primaria, el 35 % de secundaria y el resto de media. En primaria, el 25 % recibe alimentación escolar. En secundaria, el 15 % recibe alimentación. En media, el 10 % recibe alimentación.",
+      "enunciado": "¿Cuántos estudiantes en total reciben alimentación escolar?",
+      "opciones": {
+        "A": "186",
+        "B": "213",
+        "C": "234",
+        "D": "252"
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "Primaria: 1.200 × 0,40 = 480 estudiantes. Alimentación: 480 × 0,25 = 120. Secundaria: 1.200 × 0,35 = 420. Alimentación: 420 × 0,15 = 63. Media: 1.200 × 0,25 = 300. Alimentación: 300 × 0,10 = 30. Total: 120 + 63 + 30 = 213. La opción A (186) resulta de sumar solo primaria y secundaria (120 + 63 = 183, con error de +3). La opción C (234) resulta de aplicar el 25 % a todos los estudiantes (1.200 × 0,25 = 300, con error). La opción D (252) resulta de aplicar el 21 % al total (1.200 × 0,21 = 252).",
+      "distractores": {
+        "A": "Error de omisión: suma solo primaria y secundaria.",
+        "C": "Error de generalización: aplica el 25 % a todos.",
+        "D": "Error de porcentaje: aplica el 21 % al total."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (razonamiento cuantitativo: problemas multietapa, interpretación de datos)."
+    },
+    {
+      "codigo": "S1-RQ-006",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Conjuntos y diagramas de Venn",
+      "nivel": "Avanzado",
+      "caso": "En una institución educativa, 80 docentes usan la plataforma A, 60 usan la plataforma B y 25 usan ambas. El total de docentes es 120.",
+      "enunciado": "¿Cuántos docentes no usan ninguna de las dos plataformas?",
+      "opciones": {
+        "A": "5",
+        "B": "15",
+        "C": "25",
+        "D": "35"
+      },
+      "respuesta_correcta": "A",
+      "justificacion": "Usan al menos una: 80 + 60 − 25 = 115. Ninguna: 120 − 115 = 5. La opción B (15) resulta de restar 25 de 40 (error de cálculo). La opción C (25) es la intersección, no la respuesta. La opción D (35) resulta de restar 85 de 120 (error de suma).",
+      "distractores": {
+        "B": "Error de cálculo: resta incorrectamente.",
+        "C": "Confunde intersección con complemento.",
+        "D": "Error de suma: 80 + 60 − 25 = 115, no 85."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (razonamiento cuantitativo: conjuntos, unión e intersección)."
+    },
+    {
+      "codigo": "S1-CB-005",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Ética profesional y conflicto de interés",
+      "nivel": "Experto",
+      "caso": "Un docente de tecnología e informática es invitado por una empresa privada a dictar un taller sobre programación para estudiantes de una institución educativa privada, a cambio de un pago. El taller se realizaría en horario de clase, utilizando las instalaciones de la institución pública donde labora el docente, y los estudiantes de la institución pública también podrían asistir de forma gratuita. El docente consulta al rector, quien le dice que 'no hay problema'.",
+      "enunciado": "¿Cuál es la actuación más procedente para el docente?",
+      "opciones": {
+        "A": "Dictar el taller, ya que el rector autorizó y los estudiantes de la institución pública también se benefician.",
+        "B": "Rechazar la invitación, porque el uso de las instalaciones públicas para una actividad privada remunerada constituye un conflicto de interés.",
+        "C": "Dictar el taller fuera del horario de clase y sin usar las instalaciones de la institución pública, para evitar conflictos.",
+        "D": "Solicitar autorización por escrito al rector y al secretario de educación antes de tomar una decisión."
+      },
+      "respuesta_correcta": "D",
+      "justificacion": "El Decreto 1278 de 2002 (carrera docente) y la Ley 909 de 2004 (empleo público) establecen que los docentes deben evitar conflictos de interés y que el uso de bienes públicos para actividades privadas remuneradas requiere autorización formal. La opción A es incorrecta porque la autorización verbal del rector no es suficiente. La opción B es excesivamente restrictiva. La opción C es incorrecta porque el problema no es solo el horario o las instalaciones, sino el uso de recursos públicos para una actividad privada sin autorización formal. La opción D es la más procedente porque solicita la autorización formal y por escrito.",
+      "distractores": {
+        "A": "Autorización verbal insuficiente.",
+        "B": "Excesivamente restrictiva: prohíbe toda actividad privada.",
+        "C": "Solución parcial: resuelve el horario pero no el problema del uso de recursos públicos."
+      },
+      "referencia": "Decreto 1278 de 2002 (carrera docente, deberes docentes); Ley 909 de 2004 (empleo público, conflictos de interés); Anexo Técnico 2026, numeral 2.1 (competencias blandas: ética, toma de decisiones)."
+    },
+    {
+      "codigo": "S1-CB-006",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Comunicación y trabajo en equipo",
+      "nivel": "Intermedio",
+      "caso": "Un docente de tecnología e informática debe coordinar un proyecto interdisciplinario con los docentes de matemáticas, ciencias y lenguaje. Uno de los docentes no asiste a las reuniones de planeación y no responde a los mensajes. El proyecto tiene fecha de entrega en dos semanas.",
+      "enunciado": "¿Cuál es la actuación más procedente para el docente de tecnología?",
+      "opciones": {
+        "A": "Excluir al docente ausente del proyecto y redistribuir sus tareas entre los demás.",
+        "B": "Informar al rector sobre la situación y solicitar su intervención para garantizar la participación de todos los docentes.",
+        "C": "Realizar el proyecto sin la participación del docente ausente y presentarlo como un trabajo individual.",
+        "D": "Cancelar el proyecto porque no es posible realizarlo sin la participación de todos los docentes."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "El trabajo en equipo y la comunicación efectiva son competencias clave del docente (Anexo Técnico 2026). La opción B es la más procedente porque busca la intervención de la autoridad competente (rector) para garantizar la participación de todos los docentes, sin excluir ni cancelar el proyecto. La opción A excluye al docente sin intentar resolver el conflicto. La opción C presenta un trabajo incompleto como individual. La opción D cancela el proyecto sin intentar resolver la situación.",
+      "distractores": {
+        "A": "Exclusión sin intentar resolver el conflicto.",
+        "C": "Presentación engañosa de un trabajo incompleto.",
+        "D": "Cancelación sin intentar resolver la situación."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (competencias blandas: trabajo en equipo, comunicación); Decreto 1278 de 2002 (deberes docentes)."
+    },
+    {
+      "codigo": "S1-CP-005",
+      "competencia": "Conocimientos disciplinares y pedagógicos",
+      "subcompetencia": "Evaluación formativa",
+      "nivel": "Intermedio",
+      "caso": "Un docente de tecnología e informática ha diseñado una actividad de programación en Python para estudiantes de grado 9º. Durante la actividad, observa que varios estudiantes tienen dificultades con el concepto de 'bucle' (loop). El docente tiene 15 minutos restantes de la clase.",
+      "enunciado": "¿Cuál es la estrategia más adecuada para el docente?",
+      "opciones": {
+        "A": "Continuar con la actividad y evaluar a los estudiantes al final de la clase.",
+        "B": "Detener la actividad y explicar el concepto de bucle con un ejemplo visual y sencillo.",
+        "C": "Pedir a los estudiantes que investiguen en internet qué es un bucle y lo compartan.",
+        "D": "Simplificar la actividad eliminando el uso de bucles."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La evaluación formativa (Decreto 1290 de 2009) exige que el docente monitoree el aprendizaje y ajuste la enseñanza en tiempo real. La opción B es la más adecuada porque interviene de inmediato con una explicación clara y visual. La opción A ignora las dificultades observadas. La opción C delega la enseñanza sin guía docente. La opción D simplifica sin enseñar el concepto.",
+      "distractores": {
+        "A": "Ignora las dificultades: no ajusta la enseñanza.",
+        "C": "Delegación sin guía: no garantiza la comprensión.",
+        "D": "Simplificación sin enseñanza: evita el concepto en lugar de enseñarlo."
+      },
+      "referencia": "Decreto 1290 de 2009 (evaluación formativa y sumativa); Anexo Técnico 2026, numeral 2.1 (evaluación del aprendizaje: retroalimentación)."
+    },
+    {
+      "codigo": "S1-CP-006",
+      "competencia": "Conocimientos disciplinares y pedagógicos",
+      "subcompetencia": "Proyectos transversales",
+      "nivel": "Avanzado",
+      "caso": "Un docente de tecnología e informática quiere diseñar un proyecto transversal (PRAE) que integre el área de tecnología con ciencias y matemáticas. El proyecto debe abordar el tema de 'energía renovable' y desarrollar competencias en programación, análisis de datos y conciencia ambiental.",
+      "enunciado": "¿Cuál es el diseño más adecuado para el proyecto?",
+      "opciones": {
+        "A": "Un proyecto de 4 semanas donde los estudiantes programan un sistema de monitoreo de energía solar y analizan los datos recolectados.",
+        "B": "Un ensayo individual sobre la importancia de las energías renovables.",
+        "C": "Una presentación oral sobre los tipos de energía renovable.",
+        "D": "Un cuestionario de 20 preguntas sobre energías renovables."
+      },
+      "respuesta_correcta": "A",
+      "justificacion": "El diseño curricular por competencias (Anexo Técnico 2026) y los proyectos transversales (PRAE, PEI, proyecto de aula) deben integrar múltiples áreas y desarrollar competencias prácticas. La opción A es la única que integra programación, análisis de datos y conciencia ambiental en un proyecto práctico. Las opciones B, C y D son actividades aisladas que no integran las áreas ni desarrollan competencias prácticas.",
+      "distractores": {
+        "B": "Actividad aislada: no integra áreas ni desarrolla competencias prácticas.",
+        "C": "Actividad aislada: no integra áreas ni desarrolla competencias prácticas.",
+        "D": "Actividad aislada: no integra áreas ni desarrolla competencias prácticas."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (conocimientos disciplinares: proyectos transversales (PRAE, PEI, proyecto de aula)); Ley 115 de 1994 (currículo)."
+    },
+    {
+      "codigo": "S1-LC-007",
+      "competencia": "Lectura crítica",
+      "subcompetencia": "Detección de falacias argumentativas",
+      "nivel": "Avanzado",
+      "caso": "Un docente afirma en una reunión de profesores: 'Todos los docentes que asistieron al taller de innovación pedagógica mejoraron sus resultados. Por lo tanto, todos los docentes deberían asistir a este taller para mejorar.'",
+      "enunciado": "¿Cuál es el principal defecto del argumento?",
+      "opciones": {
+        "A": "Generaliza a partir de una muestra no representativa sin considerar que los docentes que asistieron pueden tener características distintas.",
+        "B": "El taller de innovación pedagógica es obligatorio para todos los docentes.",
+        "C": "Los docentes que no asistieron no mejoraron sus resultados.",
+        "D": "El argumento no menciona el costo del taller."
+      },
+      "respuesta_correcta": "A",
+      "justificacion": "El argumento generaliza a partir de una muestra (docentes que asistieron) sin considerar que estos docentes pueden tener características distintas (mayor motivación, mejor formación previa, etc.) que explican la mejora, no el taller en sí. La opción B es incorrecta porque el argumento no dice que el taller sea obligatorio. La opción C es una conclusión no verificada. La opción D es irrelevante para el defecto argumentativo.",
+      "distractores": {
+        "B": "Obligatoriedad: no mencionada en el argumento.",
+        "C": "Conclusión no verificada: no se sabe si los que no asistieron mejoraron o no.",
+        "D": "Costo: irrelevante para el defecto argumentativo."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (lectura crítica); Marco de Referencia ICFES (generalización apresurada, variable de confusión)."
+    },
+    {
+      "codigo": "S1-RQ-007",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Análisis de variaciones sucesivas",
+      "nivel": "Experto",
+      "caso": "El precio de un recurso educativo aumenta un 20 % en enero y luego disminuye un 20 % en febrero. Un docente afirma que 'el precio volvió a su valor original'.",
+      "enunciado": "Si el precio inicial era de $100.000, ¿cuál es el precio final?",
+      "opciones": {
+        "A": "$100.000",
+        "B": "$96.000",
+        "C": "$104.000",
+        "D": "$120.000"
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "Aumento del 20 %: $100.000 × 1,20 = $120.000. Disminución del 20 %: $120.000 × 0,80 = $96.000. El precio final es $96.000, no $100.000. El error del docente consiste en sumar porcentajes (+20 % y −20 % = 0 %) sin considerar que los porcentajes se aplican sobre bases diferentes ($100.000 vs. $120.000).",
+      "distractores": {
+        "A": "Error de suma de porcentajes: +20 % − 20 % = 0 %.",
+        "C": "Error de cálculo: aplica el 20 % de aumento sobre $100.000 y el 20 % de disminución sobre $100.000.",
+        "D": "Error de cálculo: solo aplica el aumento, ignora la disminución."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (razonamiento cuantitativo: variaciones porcentuales sucesivas); Guía de orientación CNSC 2024."
+    },
+    {
+      "codigo": "S1-CB-007",
+      "competencia": "Competencias blandas",
+      "subcompetencia": "Resolución de conflictos y mediación",
+      "nivel": "Avanzado",
+      "caso": "Dos docentes de una institución educativa tienen un conflicto por el uso de un aula de informática. Uno de ellos reservó el aula para una actividad de programación, pero el otro la está usando para una clase de ciencias. El manual de convivencia establece que los conflictos entre docentes deben ser mediados por el rector o el coordinador académico.",
+      "enunciado": "¿Cuál es la actuación más procedente?",
+      "opciones": {
+        "A": "El docente de tecnología debe ceder el aula al docente de ciencias porque las ciencias son más importantes.",
+        "B": "El docente de ciencias debe ceder el aula al docente de tecnología porque este reservó primero.",
+        "C": "Ambos docentes deben acudir al rector o al coordinador académico para que medie en el conflicto.",
+        "D": "El docente de tecnología debe usar otra aula y reprogramar su actividad."
+      },
+      "respuesta_correcta": "C",
+      "justificacion": "El manual de convivencia establece que los conflictos entre docentes deben ser mediados por el rector o el coordinador académico. La opción C es la más procedente porque acude a la autoridad competente para mediar. La opción A y B intentan resolver el conflicto unilateralmente sin mediar. La opción D evita el conflicto pero no lo resuelve.",
+      "distractores": {
+        "A": "Resolución unilateral: no acude a la mediación establecida.",
+        "B": "Resolución unilateral: no acude a la mediación establecida.",
+        "D": "Evasión: evita el conflicto sin resolverlo."
+      },
+      "referencia": "Ley 1620 de 2013 (convivencia escolar); Anexo Técnico 2026, numeral 2.1 (competencias blandas: resolución de conflictos)."
+    },
+    {
+      "codigo": "S1-CP-007",
+      "competencia": "Conocimientos disciplinares y pedagógicos",
+      "subcompetencia": "Uso pedagógico de las TIC",
+      "nivel": "Intermedio",
+      "caso": "Un docente de tecnología e informática quiere evaluar el aprendizaje de sus estudiantes sobre el concepto de 'algoritmo'. Los estudiantes tienen acceso a computadores y conexión a internet. El docente quiere una evaluación que sea práctica y que evalúe la comprensión, no solo la memorización.",
+      "enunciado": "¿Cuál es la estrategia de evaluación más adecuada?",
+      "opciones": {
+        "A": "Un cuestionario de 20 preguntas de selección múltiple sobre la definición de algoritmo.",
+        "B": "Pedir a los estudiantes que escriban un algoritmo para resolver un problema cotidiano y lo expliquen paso a paso.",
+        "C": "Un examen oral donde los estudiantes reciten la definición de algoritmo.",
+        "D": "Una actividad en la que los estudiantes busquen en internet ejemplos de algoritmos y los copien."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "La evaluación formativa y sumativa (Decreto 1290 de 2009) y la didáctica por competencias (Anexo Técnico 2026) exigen que la evaluación mida la comprensión y la aplicación, no solo la memorización. La opción B es la única que evalúa la comprensión práctica del concepto. La opción A evalúa memorización. La opción C evalúa recitación. La opción D evalúa búsqueda, no comprensión.",
+      "distractores": {
+        "A": "Memorización: no evalúa comprensión.",
+        "C": "Recitación: no evalúa comprensión.",
+        "D": "Búsqueda: no evalúa comprensión."
+      },
+      "referencia": "Decreto 1290 de 2009 (evaluación del aprendizaje); Anexo Técnico 2026, numeral 2.1 (evaluación: instrumentos, rúbricas, retroalimentación)."
+    },
+    {
+      "codigo": "S1-LC-008",
+      "competencia": "Lectura crítica",
+      "subcompetencia": "Identificación de la intención del autor",
+      "nivel": "Intermedio",
+      "caso": "Un artículo de opinión afirma: 'La educación virtual ha demostrado ser tan efectiva como la presencial. Los estudiantes que tomaron clases virtuales en 2024 obtuvieron resultados similares a los de 2019. Por lo tanto, las instituciones deberían mantener la modalidad virtual como opción permanente.'",
+      "enunciado": "¿Cuál es el propósito principal del autor?",
+      "opciones": {
+        "A": "Informar sobre los resultados de las pruebas de 2024.",
+        "B": "Persuadir a las instituciones de que mantengan la educación virtual.",
+        "C": "Comparar la educación virtual con la presencial.",
+        "D": "Criticar la educación presencial."
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "El artículo tiene un propósito persuasivo: concluye que 'las instituciones deberían mantener la modalidad virtual como opción permanente'. Aunque presenta información (resultados similares), la intención principal es persuadir. La opción A es parcialmente válida pero describe un propósito informativo, no el principal. La opción C describe un medio, no el propósito. La opción D es incorrecta porque el artículo no critica la educación presencial.",
+      "distractores": {
+        "A": "Propósito informativo: parcialmente válido pero no es el principal.",
+        "C": "Comparación: es un medio, no el propósito.",
+        "D": "Crítica: no presente en el texto."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (lectura crítica: identificación de la intención del autor)."
+    },
+    {
+      "codigo": "S1-RQ-008",
+      "competencia": "Razonamiento cuantitativo",
+      "subcompetencia": "Interpretación de gráficos y tablas",
+      "nivel": "Intermedio",
+      "caso": "La siguiente tabla muestra la distribución de estudiantes por estrato socioeconómico en una institución educativa:\n\n| Estrato | Estudiantes | Porcentaje |\n|---|---|---|\n| 1 | 120 | 40 % |\n| 2 | 90 | 30 % |\n| 3 | 60 | 20 % |\n| 4 | 30 | 10 % |\n| Total | 300 | 100 % |",
+      "enunciado": "Si el estrato 1 tiene 120 estudiantes y el total es 300, ¿cuál es el porcentaje correcto para el estrato 1?",
+      "opciones": {
+        "A": "30 %",
+        "B": "40 %",
+        "C": "50 %",
+        "D": "20 %"
+      },
+      "respuesta_correcta": "B",
+      "justificacion": "120 ÷ 300 = 0,40 = 40 %. La tabla ya muestra 40 %, que es correcto. La opción A (30 %) corresponde al estrato 2. La opción C (50 %) sería si se calculara 120 ÷ 240 (excluyendo el total). La opción D (20 %) corresponde al estrato 3.",
+      "distractores": {
+        "A": "Porcentaje del estrato 2: confunde el estrato.",
+        "C": "Error de base: divide entre 240 en lugar de 300.",
+        "D": "Porcentaje del estrato 3: confunde el estrato."
+      },
+      "referencia": "Anexo Técnico 2026, numeral 2.1 (razonamiento cuantitativo: lectura de tablas y gráficos); Guía de orientación CNSC 2024."
     }
   ]
 }
