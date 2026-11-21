@@ -18,7 +18,7 @@ Prioridad: **A** = imprescindible esta semana. **B** = antes de la prueba. **C**
 | Norma | Tema | Por qué |
 |---|---|---|
 | **Ley 115 de 1994** (Ley General de Educación) | Fines de la educación, currículo, PEI, gobierno escolar | Base de casi todas las preguntas de competencias pedagógicas y de conocimientos disciplinares generales. Art. 116 es requisito general de participación (citado en Art. 7 del Acuerdo). | ✅ descargada (Ley 115 de 1994.pdf) |
-| **Ley 715 de 2001** | Sistema General de Participaciones; competencias de las entidades territoriales certificadas | Citada en el Acuerdo como marco de competencias de la entidad. Preguntas sobre quién hace qué en el sistema educativo. | ⏳ pendiente |
+| **Ley 715 de 2001** | Sistema General de Participaciones; competencias de las entidades territoriales certificadas | Citada en el Acuerdo como marco de competencias de la entidad. Preguntas sobre quién hace qué en el sistema educativo. | ✅ descargada (Ley 715 de 2001.pdf) |
 | **Decreto 1075 de 2015** (Único Reglamentario Sector Educación) | Capítulo 1 del Título 1, Parte 4, Libro 2 (procesos de selección) | Arts. 2.4.1.1.x citados en el Acuerdo. Base de las etapas. | ✅ descargada (articles-86098_archivo_pdf.pdf) |
 | **Ley 909 de 2004** | Empleo público y carrera administrativa | Art. 27, 28 (mérito), 31 (pruebas reservadas), citados en el Acuerdo. | ✅ descargada (ley-909-2004-funcionpublica.pdf) |
 | **Ley 2418 de 2024** | Reserva del 7 % para personas con discapacidad | Citada en el Acuerdo (Art. 6 y 8). Relevante si aplicas por reserva. |
