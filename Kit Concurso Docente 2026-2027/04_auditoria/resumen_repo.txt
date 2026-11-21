@@ -1,0 +1,24 @@
+Ruta: C:\Users\capde\Documents\Concurso Docente
+Archivos: 721
+.pdf: 467
+.docx: 58
+.jpeg: 48
+.html: 32
+.md: 22
+.doc: 21
+.zip: 16
+.xls: 11
+.ini: 10
+.pptx: 6
+.csv: 5
+.pps: 5
+.txt: 4
+.jpg: 3
+.png: 3
+.xlsx: 2
+.ppt: 2
+.pptm: 2
+(sin extension): 1
+.py: 1
+.mp4: 1
+.htm: 1

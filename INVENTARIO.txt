@@ -44,6 +44,7 @@ Documentos Recibidos y Oficiales\SIMULACRO PRUEBA GENERAL.pdf
 Documentos Recibidos y Oficiales\simulacro-aptitud-verbal-general.pdf
 Documentos Recibidos y Oficiales\Solicitud Interrapidisimo.pdf
 Estudio Concurso 2026\00-ficha-del-concurso.md
+Estudio Concurso 2026\01-fuentes-oficiales\anexo-tecnico-docentes-y-directivos-docentes-2026.pdf
 Estudio Concurso 2026\01-fuentes-oficiales\barranquilla\acuerdo-239-barranquilla-2948-2026.pdf
 Estudio Concurso 2026\01-fuentes-oficiales\cnsc\anexo-tecnico-docentes-directivos-2026.pdf
 Estudio Concurso 2026\01-fuentes-oficiales\cnsc\guia-orientacion-aptitudes-psicotecnica-poblacion-mayoritaria-2024.pdf
@@ -139,7 +140,18 @@ Evidencias y Certificados\hv Docente Ingeniero de sistemas Estiben Capdevilla (1
 Evidencias y Certificados\hv Docente Ingeniero de sistemas Estiben Capdevilla (1).pdf
 Evidencias y Certificados\hv Docente Ingeniero de sistemas Estiben Capdevilla.pdf
 INVENTARIO.txt
+Kit Concurso Docente 2026-2027\01_fuentes_oficiales\FUENTES_POR_DESCARGAR.csv
+Kit Concurso Docente 2026-2027\02_banco_preguntas\banco_preguntas_plantilla.csv
+Kit Concurso Docente 2026-2027\02_banco_preguntas\registro_errores.csv
+Kit Concurso Docente 2026-2027\03_plan_estudio\cronograma_17_semanas.csv
+Kit Concurso Docente 2026-2027\03_plan_estudio\seguimiento.csv
+Kit Concurso Docente 2026-2027\04_auditoria\auditar_repo.py
+Kit Concurso Docente 2026-2027\04_auditoria\INSTRUCCIONES.md
+Kit Concurso Docente 2026-2027\04_auditoria\inventario_repo.csv
+Kit Concurso Docente 2026-2027\04_auditoria\resumen_repo.txt
+Kit Concurso Docente 2026-2027\README.md
 Legislacion y Normativa\_decreto_1290 Evaluación.pdf
+Legislacion y Normativa\anexo-tecnico-docentes-y-directivos-docentes-2026.pdf
 Legislacion y Normativa\articles-172061_archivo_pdf_decreto1860_94 (1).pdf
 Legislacion y Normativa\articles-373226_recurso_2.pdf
 Legislacion y Normativa\articles-85906_archivo_pdf.pdf
@@ -147,8 +159,12 @@ Legislacion y Normativa\decreto 1075-2015unico de educación.pdf
 Legislacion y Normativa\decreto 1278 (1).pdf
 Legislacion y Normativa\decreto 1278.pdf
 Legislacion y Normativa\decreto 2277.pdf
+Legislacion y Normativa\Decreto_1075_de_2015_Sector_Educación.pdf
+Legislacion y Normativa\Decreto_2277_de_1979.pdf
 Legislacion y Normativa\Guia_de_integracion_normativa.pdf
+Legislacion y Normativa\Ley_1098_de_2006 (1).pdf
 Legislacion y Normativa\Ley_1098_de_2006.pdf
+Legislacion y Normativa\Ley_1620_de_2013 (1).pdf
 Legislacion y Normativa\Ley_2216_de_2022.pdf
 Material Pedagogico\Actividad_Eje_3_Diseno_Instruccional_Meritodocente_1A.docx
 Material Pedagogico\Actividad_Eje_3_Diseno_Instruccional_Meritodocente_ASSURE_1A.docx
