@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kit de Estudio - Contratación Estatal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#DC2626',
+                        secondary: '#B91C1C',
+                        accent: '#EA580C',
+                        dark: '#1F2937',
+                        light: '#FEF2F2'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #FEF2F2;
+            color: #1F2937;
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Merriweather', serif;
+        }
+        
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        
+        .section-icon {
+            font-size: 2.5rem;
+            color: #DC2626;
+            margin-bottom: 1rem;
+        }
+        
+        .mnemonic-box {
+            background-color: #FEE2E2;
+            border-left: 4px solid #DC2626;
+        }
+        
+        .key-concept {
+            background-color: #FECACA;
+            border-radius: 0.5rem;
+        }
+        
+        .interactive-element {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .interactive-element:hover {
+            background-color: #FECACA;
+        }
+        
+        .flip-card {
+            perspective: 1000px;
+        }
+        
+        .flip-card-inner {
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        
+        .flip-card-front, .flip-card-back {
+            backface-visibility: hidden;
+        }
+        
+        .flip-card-back {
+            transform: rotateY(180deg);
+        }
+        
+        .progress-bar {
+            height: 8px;
+            border-radius: 4px;
+            background-color: #E5E7EB;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            border-radius: 4px;
+            background-color: #DC2626;
+            transition: width 0.5s ease;
+        }
+        
+        .timeline {
+            border-left: 3px solid #DC2626;
+            border-bottom-right-radius: 4px;
+            border-top-right-radius: 4px;
+            position: relative;
+            margin: 2em auto;
+        }
+        
+        .timeline-item {
+            padding-left: 2em;
+            margin-bottom: 2em;
+            position: relative;
+        }
+        
+        .timeline-item:before {
+            content: '';
+            width: 16px;
+            height: 16px;
+            background: white;
+            border: 2px solid #DC2626;
+            border-radius: 50%;
+            position: absolute;
+            left: -9.5px;
+            top: 0;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 50;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.5);
+        }
+        
+        .modal-content {
+            background-color: #fefefe;
+            margin: 10% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 8px;
+        }
+        
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-light">
+    <div class="container mx-auto px-4 py-8 max-w-5xl">
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-primary mb-4">Contratación Estatal</h1>
+            <p class="text-xl text-dark">Material de estudio para concurso CNSC - Contraloría General de la Nación</p>
+            <div class="mt-6 bg-accent text-white p-4 rounded-lg shadow-md">
+                <p class="font-semibold"><i class="fas fa-lightbulb mr-2"></i>Normas, procedimientos y manuales de contratación pública</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- El Sistema de Compras Públicas -->
+            <section class="mb-12">
+                <div class="text-center mb-8">
+                    <i class="fas fa-file-contract section-icon"></i>
+                    <h2 class="text-3xl font-bold text-secondary">El Sistema de Compras Públicas</h2>
+                    <p class="text-gray-600">Analogía para entender la Contratación Estatal</p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-6 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-balance-scale text-3xl text-red-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary mb-3">Las Reglas</h3>
+                        <p class="mb-4">Marco normativo - Las leyes que rigen las compras públicas</p>
+                        <div class="key-concept p-3 mb-3">
+                            <h4 class="font-semibold">Base Legal Principal:</h4>
+                            <p class="font-semibold text-accent">Ley 80 de 1993</p>
+                            <p class="text-sm">(Estatuto General de Contratación)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-route text-3xl text-red-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary mb-3">Los Caminos</h3>
+                        <p class="mb-4">Modalidades de selección - Rutas para contratar</p>
+                        <div class="key-concept p-3">
+                            <h4 class="font-semibold">Modalidades:</h4>
+                            <ul class="list-disc list-inside mt-2 ml-2">
+                                <li>Licitación Pública</li>
+                                <li>Selección Abreviada</li>
+                                <li>Contratación Directa</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-clipboard-list text-3xl text-red-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary mb-3">Los Procedimientos</h3>
+                        <p class="mb-4">Etapas del proceso - Cómo se realiza una contratación</p>
+                        <div class="key-concept p-3">
+                            <h4 class="font-semibold">Etapas:</h4>
+                            <ul class="list-disc list-inside mt-2 ml-2">
+                                <li>Preparación</li>
+                                <li>Convocatoria</li>
+                                <li>Ejecución</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mnemonic-box p-6 rounded-lg mb-8">
+                    <h3 class="text-xl font-bold text-secondary mb-3"><i class="fas fa-brain mr-2"></i>Mnemotecnia Visual</h3>
+                    <p>Imagina la contratación estatal como un sistema de compras públicas con reglas claras (leyes), caminos definidos (modalidades) y procedimientos establecidos (etapas). Cada compra debe seguir este sistema para garantizar transparencia y eficiencia.</p>
+                </div>
+            </section>
+
+            <!-- Las Reglas: Marco Normativo -->
+            <section class="mb-12">
+                <div class="text-center mb-8">
+                    <i class="fas fa-gavel section-icon"></i>
+                    <h2 class="text-3xl font-bold text-secondary">Las Reglas: Marco Normativo</h2>
+                    <p class="text-gray-600">Bases legales de la contratación estatal</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-scale-balanced text-red-500 mr-2"></i>Ley 80 de 1993</h3>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Objeto:</h4>
+                            <p>Establecer los principios generales de la contratación administrativa</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Principios (Art. 3):</h4>
+                            <ul class="list-disc list-inside ml-4 mt-2">
+                                <li>Transparencia</li>
+                                <li>Economía</li>
+                                <li>Responsabilidad</li>
+                                <li>Eficacia</li>
+                                <li>Imparcialidad</li>
+                                <li>Publicidad</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4 p-3 bg-red-50 rounded-lg">
+                            <h4 class="font-semibold">Frase para recordar:</h4>
+                            <p>"La Ley 80 es la base de toda contratación estatal"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-book-law text-red-500 mr-2"></i>Otras Normas Relevantess</h3>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Ley 1150 de 2007:</h4>
+                            <p>Introduce medidas para eficiencia y transparencia en la contratación</p>
+                            <ul class="list-disc list-inside ml-4 mt-1 text-sm">
+                                <li>Regula la MIPYME en contratación</li>
+                                <li>Establece subcontratación</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Decreto 1082 de 2015:</h4>
+                            <p>Decreto Único del Sector Administrativo de la Función Pública</p>
+                            <p class="text-sm">(Libro 2, Parte 2 - Contratación)</p>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Ley 1882 de 2018:</h4>
+                            <p>Actualización del estatuto de contratación</p>
+                        </div>
+                        
+                        <div class="mt-4 p-3 bg-red-50 rounded-lg">
+                            <h4 class="font-semibold">Mnemotecnia:</h4>
+                            <p>"Ley 80 base, Ley 1150 complementa"</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-exclamation-triangle text-red-500 mr-2"></i>Prohibiciones e Inhabilidades</h3>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="font-semibold text-primary mb-2">Prohibiciones (Ley 80, Art. 24):</h4>
+                            <ul class="list-disc list-inside ml-4 mt-2">
+                                <li>Contratar con quien tenga conflicto de interés</li>
+                                <li>Contratar con funcionario público</li>
+                                <li>Contratar con deudor moroso de la entidad</li>
+                                <li>Contratar con quien haya incumplido contratos anteriores</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-primary mb-2">Causalidad de los Contratos:</h4>
+                            <p>El objeto del contrato debe estar alineado con las funciones y el presupuesto de la entidad</p>
+                            <div class="mt-2 p-2 bg-red-50 rounded">
+                                <p class="text-sm"><i class="fas fa-info-circle text-red-600 mr-1"></i> Ejemplo: Una universidad no puede contratar servicios de explotación petrolera</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Los Caminos: Modalidades de Contratación -->
+            <section class="mb-12">
+                <div class="text-center mb-8">
+                    <i class="fas fa-route section-icon"></i>
+                    <h2 class="text-3xl font-bold text-secondary">Los Caminos: Modalidades de Contratación</h2>
+                    <p class="text-gray-600">Rutas para realizar contrataciones estatales</p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-6 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-users text-3xl text-green-500"></i>
+                            <h3 class="text-xl font-bold text-secondary mt-2">Licitación Pública (LP)</h3>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Aplicación:</h4>
+                            <p>Contrataciones de mayor cuantía y complejidad</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Características:</h4>
+                            <ul class="list-disc list-inside ml-4">
+                                <li>Mínimo 3 proponentes</li>
+                                <li>Mayores requisitos y formalidades</li>
+                                <li>Plazos más extensos</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4 p-3 bg-green-50 rounded-lg">
+                            <h4 class="font-semibold">Mnemotecnia:</h4>
+                            <p>"Licitación Pública = Libre participación"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-user-friends text-3xl text-blue-500"></i>
+                            <h3 class="text-xl font-bold text-secondary mt-2">Selección Abreviada (SA)</h3>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Aplicación:</h4>
+                            <p>Contrataciones de mediana cuantía</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Características:</h4>
+                            <ul class="list-disc list-inside ml-4">
+                                <li>Mínimo 3 proponentes</li>
+                                <li>Procedimiento más ágil</li>
+                                <li>Menores plazos</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4 p-3 bg-blue-50 rounded-lg">
+                            <h4 class="font-semibold">Mnemotecnia:</h4>
+                            <p>"Selección Abreviada = Solución ágil"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-user text-3xl text-purple-500"></i>
+                            <h3 class="text-xl font-bold text-secondary mt-2">Contratación Directa (CD)</h3>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Aplicación:</h4>
+                            <p>Casos excepcionales definidos por la ley</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Características:</h4>
+                            <ul class="list-disc list-inside ml-4">
+                                <li>Un solo proponente</li>
+                                <li>Procedimiento excepcional</li>
+                                <li>Justificación estricta</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4 p-3 bg-purple-50 rounded-lg">
+                            <h4 class="font-semibold">Mnemotecnia:</h4>
+                            <p>"Contratación Directa = Casos definidos"</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-tools text-red-500 mr-2"></i>Mecanismos de Selección</h3>
+                    <div class="grid md:grid-cols-3 gap-4 text-center">
+                        <div>
+                            <div class="bg-red-100 p-4 rounded-lg">
+                                <i class="fas fa-trophy text-2xl text-red-700 mb-2"></i>
+                                <h4 class="font-semibold">Concurso de Méritos</h4>
+                                <p class="text-sm">Selección basada en capacidades y experiencia</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-red-100 p-4 rounded-lg">
+                                <i class="fas fa-chart-line text-2xl text-red-700 mb-2"></i>
+                                <h4 class="font-semibold">Subasta Inversa</h4>
+                                <p class="text-sm">Adjudicación al menor precio</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-red-100 p-4 rounded-lg">
+                                <i class="fas fa-file-signature text-2xl text-red-700 mb-2"></i>
+                                <h4 class="font-semibold">Licitación</h4>
+                                <p class="text-sm">Evaluación integral de ofertas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Los Procedimientos: Etapas Contractuales -->
+            <section class="mb-12">
+                <div class="text-center mb-8">
+                    <i class="fas fa-clipboard-list section-icon"></i>
+                    <h2 class="text-3xl font-bold text-secondary">Los Procedimientos: Etapas Contractuales</h2>
+                    <p class="text-gray-600">Proceso completo de una contratación estatal</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+                    <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-project-diagram text-red-500 mr-2"></i>Etapas del Proceso de Contratación</h3>
+                    
+                    <div class="timeline mt-8">
+                        <div class="timeline-item">
+                            <h4 class="font-semibold">1. Preparación</h4>
+                            <p class="text-sm">Identificación de necesidades, estudios previos y elaboración de pliegos de condiciones</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4 class="font-semibold">2. Convocatoria</h4>
+                            <p class="text-sm">Publicación, recepción de ofertas y aclaraciones</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4 class="font-semibold">3. Evaluación y Adjudicación</h4>
+                            <p class="text-sm">Análisis de ofertas, selección y adjudicación</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4 class="font-semibold">4. Celebración</h4>
+                            <p class="text-sm">Firma del contrato y legalización</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4 class="font-semibold">5. Ejecución</h4>
+                            <p class="text-sm">Desarrollo del objeto contractual</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4 class="font-semibold">6. Liquidación</h4>
+                            <p class="text-sm">Terminación y liquidación del contrato</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-file-invoice-dollar text-red-500 mr-2"></i>Plan Anual de Adquisiciones (PAA)</h3>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Definición:</h4>
+                            <p>Instrumento de planeación que contiene todas las adquisiciones que una entidad planea realizar durante un año</p>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Objetivos:</h4>
+                            <ul class="list-disc list-inside ml-4">
+                                <li>Optimizar recursos públicos</li>
+                                <li>Garantizar transparencia</li>
+                                <li>Permitir planeación estratégica</li>
+                                <li>Facilitar participación</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mt-4 p-3 bg-red-50 rounded-lg">
+                            <h4 class="font-semibold">Importancia:</h4>
+                            <p>Toda contratación debe estar incluida en el PAA</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-exclamation-circle text-red-500 mr-2"></i>Nulidades y Sanciones</h3>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Causales de Nulidad (Ley 80, Art. 35):</h4>
+                            <ul class="list-disc list-inside ml-4 mt-2">
+                                <li>Celebrar contrato prohibido por la ley</li>
+                                <li>Incumplir requisitos esenciales</li>
+                                <li>Contratar sin disponibilidad presupuestal</li>
+                                <li>Vulnerar principios constitucionales</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Sanciones:</h4>
+                            <ul class="list-disc list-inside ml-4 mt-2">
+                                <li>Inhabilidad para contratar con el Estado</li>
+                                <li>Multas</li>
+                                <li>Responsabilidad fiscal</li>
+                                <li>Responsabilidad disciplinaria</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Resumen Ejecutivo -->
+            <section class="mb-12">
+                <div class="text-center mb-8">
+                    <i class="fas fa-file-alt section-icon"></i>
+                    <h2 class="text-3xl font-bold text-secondary">Resumen Ejecutivo</h2>
+                    <p class="text-gray-600">Para repasar en 2 minutos antes del examen</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-list-ol text-primary mr-2"></i>Los 5 Puntos Clave</h3>
+                        <ol class="list-decimal list-inside space-y-3">
+                            <li><span class="font-semibold">Base legal:</span> Ley 80 de 1993 es el estatuto general de contratación</li>
+                            <li><span class="font-semibold">Principios:</span> Transparencia, economía, responsabilidad, eficacia</li>
+                            <li><span class="font-semibold">Modalidades:</span> Licitación Pública, Selección Abreviada, Contratación Directa</li>
+                            <li><span class="font-semibold">Planificación:</span> Todo contrato debe estar en el Plan Anual de Adquisiciones</li>
+                            <li><span class="font-semibold">Causalidad:</span> El objeto debe estar alineado con las funciones de la entidad</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-check-circle text-accent mr-2"></i>Checklist de Conceptos Dominados</h3>
+                        <div class="space-y-3">
+                            <div class="flex items-center">
+                                <input type="checkbox" class="mr-3 h-5 w-5 text-primary">
+                                <label>Principios de la contratación estatal (Ley 80, Art. 3)</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" class="mr-3 h-5 w-5 text-primary">
+                                <label>Diferencia entre modalidades de contratación</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" class="mr-3 h-5 w-5 text-primary">
+                                <label>Etapas del proceso contractual</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" class="mr-3 h-5 w-5 text-primary">
+                                <label>Causales de nulidad de los contratos</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" class="mr-3 h-5 w-5 text-primary">
+                                <label>Importancia del Plan Anual de Adquisiciones</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center mt-12 pt-8 border-t border-gray-200">
+            <p class="text-gray-600">© 2023 Material de Estudio para CNSC - Contraloría General de la Nación</p>
+            <p class="text-gray-500 text-sm mt-2">Técnicas de aprendizaje acelerado y memoria visual</p>
+        </footer>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="text-xl font-bold text-secondary mb-4" id="modal-title">Título</h2>
+            <p id="modal-content">Contenido</p>
+        </div>
+    </div>
+
+    <script>
+        // Funcionalidad simple para los elementos interactivos
+        document.querySelectorAll('.interactive-element').forEach(element => {
+            element.addEventListener('click', function() {
+                this.classList.toggle('bg-red-100');
+            });
+        });
+        
+        // Simular checkboxes como interactivos
+        document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+            checkbox.addEventListener('click', function() {
+                const label = this.nextElementSibling;
+                if (this.checked) {
+                    label.classList.add('line-through', 'text-gray-400');
+                } else {
+                    label.classList.remove('line-through', 'text-gray-400');
+                }
+            });
+        });
+        
+        // Funcionalidad del modal
+        const modal = document.getElementById("modal");
+        const span = document.getElementsByClassName("close")[0];
+        
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        
+        // Función para abrir modal (puedes agregar esta funcionalidad a elementos específicos)
+        function openModal(title, content) {
+            document.getElementById("modal-title").innerHTML = title;
+            document.getElementById("modal-content").innerHTML = content;
+            modal.style.display = "block";
+        }
+    </script>
+</body>
+</html>

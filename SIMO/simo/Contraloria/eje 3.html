@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kit de Estudio - Control Gubernamental</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#8B5CF6',
+                        secondary: '#7C3AED',
+                        accent: '#F59E0B',
+                        dark: '#1F2937',
+                        light: '#F3F4F6'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #F3F4F6;
+            color: #1F2937;
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Merriweather', serif;
+        }
+        
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        
+        .section-icon {
+            font-size: 2.5rem;
+            color: #8B5CF6;
+            margin-bottom: 1rem;
+        }
+        
+        .mnemonic-box {
+            background-color: #F5F3FF;
+            border-left: 4px solid #8B5CF6;
+        }
+        
+        .key-concept {
+            background-color: #EDE9FE;
+            border-radius: 0.5rem;
+        }
+        
+        .interactive-element {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .interactive-element:hover {
+            background-color: #EDE9FE;
+        }
+        
+        .flip-card {
+            perspective: 1000px;
+        }
+        
+        .flip-card-inner {
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        
+        .flip-card-front, .flip-card-back {
+            backface-visibility: hidden;
+        }
+        
+        .flip-card-back {
+            transform: rotateY(180deg);
+        }
+        
+        .progress-bar {
+            height: 8px;
+            border-radius: 4px;
+            background-color: #E5E7EB;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            border-radius: 4px;
+            background-color: #8B5CF6;
+            transition: width 0.5s ease;
+        }
+        
+        .timeline {
+            border-left: 3px solid #8B5CF6;
+            border-bottom-right-radius: 4px;
+            border-top-right-radius: 4px;
+            position: relative;
+            margin: 2em auto;
+        }
+        
+        .timeline-item {
+            padding-left: 2em;
+            margin-bottom: 2em;
+            position: relative;
+        }
+        
+        .timeline-item:before {
+            content: '';
+            width: 16px;
+            height: 16px;
+            background: white;
+            border: 2px solid #8B5CF6;
+            border-radius: 50%;
+            position: absolute;
+            left: -9.5px;
+            top: 0;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-light">
+    <div class="container mx-auto px-4 py-8 max-w-5xl">
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-primary mb-4">Control Gubernamental</h1>
+            <p class="text-xl text-dark">Material de estudio para concurso CNSC - Contraloría General de la Nación</p>
+            <div class="mt-6 bg-accent text-white p-4 rounded-lg shadow-md">
+                <p class="font-semibold"><i class="fas fa-lightbulb mr-2"></i>Principios, tipos y mecanismos del control fiscal y la gestión pública</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- El Sistema de Vigilancia -->
+            <section class="mb-12">
+                <div class="text-center mb-8">
+                    <i class="fas fa-search-dollar section-icon"></i>
+                    <h2 class="text-3xl font-bold text-secondary">El Sistema de Vigilancia del Estado</h2>
+                    <p class="text-gray-600">Analogía para entender el Control Gubernamental</p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-6 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-eye text-3xl text-purple-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary mb-3">Los Vigilantes</h3>
+                        <p class="mb-4">Órganos de control - Quiénes ejercen la vigilancia</p>
+                        <div class="key-concept p-3 mb-3">
+                            <h4 class="font-semibold">Base Legal Principal:</h4>
+                            <p class="font-semibold text-accent">Ley 42 de 1993</p>
+                            <p class="text-sm">(Ley de Control Fiscal)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-binoculars text-3xl text-purple-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary mb-3">Los Instrumentos</h3>
+                        <p class="mb-4">Tipos de control - Herramientas de vigilancia</p>
+                        <div class="key-concept p-3">
+                            <h4 class="font-semibold">Enfoques de Control:</h4>
+                            <ul class="list-disc list-inside mt-2 ml-2">
+                                <li>Control financiero</li>
+                                <li>Control de gestión</li>
+                                <li>Control de resultados</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-clipboard-check text-3xl text-purple-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary mb-3">Los Protocolos</h3>
+                        <p class="mb-4">Mecanismos y procedimientos - Cómo se ejerce la vigilancia</p>
+                        <div class="key-concept p-3">
+                            <h4 class="font-semibold">Mecanismos Clave:</h4>
+                            <ul class="list-disc list-inside mt-2 ml-2">
+                                <li>Control previo</li>
+                                <li>Control posterior</li>
+                                <li>Auditorías</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mnemonic-box p-6 rounded-lg mb-8">
+                    <h3 class="text-xl font-bold text-secondary mb-3"><i class="fas fa-brain mr-2"></i>Mnemotecnia Visual</h3>
+                    <p>Imagina el control gubernamental como un sistema de vigilancia de alta tecnología. Los órganos de control son los vigilantes, los tipos de control son sus instrumentos de observación, y los mecanismos son los protocolos que siguen para garantizar que todo funcione correctamente.</p>
+                </div>
+            </section>
+
+            <!-- Los Vigilantes: Órganos de Control -->
+            <section class="mb-12">
+                <div class="text-center mb-8">
+                    <i class="fas fa-user-shield section-icon"></i>
+                    <h2 class="text-3xl font-bold text-secondary">Los Vigilantes: Órganos de Control</h2>
+                    <p class="text-gray-600">Quiénes ejercen el control gubernamental</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-search-dollar text-purple-500 mr-2"></i>Contraloría General de la Nación</h3>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Función Principal:</h4>
+                            <p class="font-semibold text-accent">Control Fiscal</p>
+                            <p>Vigila la gestión fiscal de la administración y de los particulares que manejen fondos o bienes del Estado.</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Atribuciones (Art. 267 CP):</h4>
+                            <ul class="list-disc list-inside ml-4 mt-2">
+                                <li>Vigilar el cumplimiento de las disposiciones fiscales</li>
+                                <li>Examinar la contabilidad oficial</li>
+                                <li>Establecer responsabilidades fiscales</li>
+                                <li>Expedir reglamentos para su funcionamiento</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4 p-3 bg-purple-50 rounded-lg">
+                            <h4 class="font-semibold">Frase para recordar:</h4>
+                            <p>"La Contraloría es el vigilante del dinero público"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-balance-scale text-purple-500 mr-2"></i>Otros Órganos de Control</h3>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Contralorías Territoriales:</h4>
+                            <p>Ejercen control fiscal en departamentos, distritos y municipios</p>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Procuraduría General de la Nación:</h4>
+                            <p class="font-semibold text-accent">Control Disciplinario</p>
+                            <p>Vigila la conducta oficial de los servidores públicos</p>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Auditorías Internas:</h4>
+                            <p>Unidades de control interno en cada entidad pública</p>
+                        </div>
+                        
+                        <div class="mt-4 p-3 bg-purple-50 rounded-lg">
+                            <h4 class="font-semibold">Mnemotecnia:</h4>
+                            <p>"Contraloría vigila el dinero, Procuraduría vigila la conducta"</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-gavel text-purple-500 mr-2"></i>Responsabilidad Fiscal</h3>
+                    <div class="grid md:grid-cols-3 gap-4">
+                        <div class="text-center">
+                            <div class="bg-purple-100 p-4 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-700 mb-2">1</div>
+                                <h4 class="font-semibold">Daño al Erario</h4>
+                                <p class="text-sm">Perjuicio económico al Estado</p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-purple-100 p-4 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-700 mb-2">2</div>
+                                <h4 class="font-semibold">Proceso de Responsabilidad Fiscal</h4>
+                                <p class="text-sm">Indagación, investigación y juicio</p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-purple-100 p-4 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-700 mb-2">3</div>
+                                <h4 class="font-semibold">Prescripción</h4>
+                                <p class="text-sm">Extinción de la acción después de cierto tiempo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Los Instrumentos: Tipos de Control -->
+            <section class="mb-12">
+                <div class="text-center mb-8">
+                    <i class="fas fa-tools section-icon"></i>
+                    <h2 class="text-3xl font-bold text-secondary">Los Instrumentos: Tipos de Control</h2>
+                    <p class="text-gray-600">Las herramientas del control gubernamental</p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-6 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-file-invoice-dollar text-3xl text-green-500"></i>
+                            <h3 class="text-xl font-bold text-secondary mt-2">Control Financiero</h3>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Enfoque:</h4>
+                            <p>Verificación de la razonabilidad de los estados financieros</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">¿Qué evalúa?</h4>
+                            <ul class="list-disc list-inside ml-4">
+                                <li>Legalidad de las transacciones</li>
+                                <li>Exactitud de registros contables</li>
+                                <li>Consistencia de la información</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4 p-3 bg-green-50 rounded-lg">
+                            <h4 class="font-semibold">Pregunta clave:</h4>
+                            <p>"¿Los recursos se registraron correctamente?"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-chart-line text-3xl text-blue-500"></i>
+                            <h3 class="text-xl font-bold text-secondary mt-2">Control de Gestión</h3>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Enfoque:</h4>
+                            <p>Evaluación de eficacia, eficiencia y economía</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">¿Qué evalúa?</h4>
+                            <ul class="list-disc list-inside ml-4">
+                                <li>Uso óptimo de recursos</li>
+                                <li>Cumplimiento de objetivos</li>
+                                <li>Calidad de los procesos</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4 p-3 bg-blue-50 rounded-lg">
+                            <h4 class="font-semibold">Pregunta clave:</h4>
+                            <p>"¿Se utilizaron bien los recursos?"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-bullseye text-3xl text-orange-500"></i>
+                            <h3 class="text-xl font-bold text-secondary mt-2">Control de Resultados</h3>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Enfoque:</h4>
+                            <p>Verificación del cumplimiento de metas e impactos</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">¿Qué evalúa?</h4>
+                            <ul class="list-disc list-inside ml-4">
+                                <li>Logro de objetivos institucionales</li>
+                                <li>Impacto social de las acciones</li>
+                                <li>Efectividad de los programas</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4 p-3 bg-orange-50 rounded-lg">
+                            <h4 class="font-semibold">Pregunta clave:</h4>
+                            <p>"¿Se lograron los resultados esperados?"</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-balance-scale-left text-purple-500 mr-2"></i>Principios del Control Fiscal (Art. 3, Ley 42/93)</h3>
+                    <div class="grid md:grid-cols-4 gap-4 text-center">
+                        <div>
+                            <div class="bg-purple-100 p-4 rounded-lg">
+                                <i class="fas fa-bolt text-2xl text-purple-700 mb-2"></i>
+                                <h4 class="font-semibold">Eficiencia</h4>
+                                <p class="text-sm">Lograr objetivos con mínimo de recursos</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-purple-100 p-4 rounded-lg">
+                                <i class="fas fa-coins text-2xl text-purple-700 mb-2"></i>
+                                <h4 class="font-semibold">Economía</h4>
+                                <p class="text-sm">Adquirir recursos al menor costo posible</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-purple-100 p-4 rounded-lg">
+                                <i class="fas fa-scale-balanced text-2xl text-purple-700 mb-2"></i>
+                                <h4 class="font-semibold">Equidad</h4>
+                                <p class="text-sm">Distribución justa de beneficios y cargas</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-purple-100 p-4 rounded-lg">
+                                <i class="fas fa-leaf text-2xl text-purple-700 mb-2"></i>
+                                <h4 class="font-semibold">Valoración Costos Ambientales</h4>
+                                <p class="text-sm">Considerar impactos ambientales</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Los Protocolos: Mecanismos de Control -->
+            <section class="mb-12">
+                <div class="text-center mb-8">
+                    <i class="fas fa-clipboard-list section-icon"></i>
+                    <h2 class="text-3xl font-bold text-secondary">Los Protocolos: Mecanismos de Control</h2>
+                    <p class="text-gray-600">Cómo se ejerce el control gubernamental</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-clock text-purple-500 mr-2"></i>Por Oportunidad</h3>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Control Previo:</h4>
+                            <p class="font-semibold text-accent">Ejercido ANTES de la ejecución</p>
+                            <p>Se realiza sobre proyectos de actos administrativos que implican erogación de fondos públicos</p>
+                            <div class="mt-2 p-2 bg-purple-50 rounded">
+                                <p class="text-sm"><i class="fas fa-info-circle text-purple-600 mr-1"></i> Ejemplo: Visto bueno sobre procesos de contratación</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Control Posterior:</h4>
+                            <p class="font-semibold text-accent">Ejercido DESPUÉS de la ejecución</p>
+                            <p>Se realiza sobre actos ya ejecutados para verificar su legalidad y eficiencia</p>
+                            <div class="mt-2 p-2 bg-purple-50 rounded">
+                                <p class="text-sm"><i class="fas fa-info-circle text-purple-600 mr-1"></i> Ejemplo: Auditorías a estados financieros</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-chart-bar text-purple-500 mr-2"></i>Auditoría Gubernamental</h3>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Definición:</h4>
+                            <p>Examen sistemático de operaciones para determinar su corrección</p>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Fases:</h4>
+                            <div class="timeline mt-4">
+                                <div class="timeline-item">
+                                    <h4 class="font-semibold">Planeación</h4>
+                                    <p class="text-sm">Definir objetivos, alcance y metodología</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <h4 class="font-semibold">Ejecución</h4>
+                                    <p class="text-sm">Aplicar pruebas y recoger evidencia</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <h4 class="font-semibold">Informe</h4>
+                                    <p class="text-sm">Comunicar hallazgos y recomendaciones</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <h4 class="font-semibold">Seguimiento</h4>
+                                    <p class="text-sm">Verificar implementación de recomendaciones</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-exclamation-triangle text-purple-500 mr-2"></i>Régimen de Inhabilidades e Incompatibilidades</h3>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="font-semibold text-primary mb-2">Inhabilidades (Ley 1474/2011):</h4>
+                            <p>Impedimentos para ejercer cargos o funciones públicas</p>
+                            <ul class="list-disc list-inside ml-4 mt-2">
+                                <li>Condena penal</li>
+                                <li>Sanción disciplinaria</li>
+                                <li>Parentesco con otros servidores</li>
+                                <li>Conflictos de interés</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-primary mb-2">Incompatibilidades:</h4>
+                            <p>Imposibilidad de ejercer simultáneamente dos cargos o actividades</p>
+                            <ul class="list-disc list-inside ml-4 mt-2">
+                                <li>Dos cargos públicos simultáneos</li>
+                                <li>Ejercer cargo público y actividad privada incompatible</li>
+                                <li>Contratar con entidades donde se tenga injerencia</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Resumen Ejecutivo -->
+            <section class="mb-12">
+                <div class="text-center mb-8">
+                    <i class="fas fa-file-alt section-icon"></i>
+                    <h2 class="text-3xl font-bold text-secondary">Resumen Ejecutivo</h2>
+                    <p class="text-gray-600">Para repasar en 2 minutos antes del examen</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-list-ol text-primary mr-2"></i>Los 5 Puntos Clave</h3>
+                        <ol class="list-decimal list-inside space-y-3">
+                            <li><span class="font-semibold">Base legal:</span> Ley 42 de 1993 es la norma principal de control fiscal</li>
+                            <li><span class="font-semibold">Órgano rector:</span> Contraloría General ejerce control fiscal a nivel nacional</li>
+                            <li><span class="font-semibold">Tipos de control:</span> Financiero, de gestión y de resultados</li>
+                            <li><span class="font-semibold">Mecanismos:</span> Control previo (antes) y posterior (después)</li>
+                            <li><span class="font-semibold">Principios:</span> Eficiencia, economía, equidad y valoración ambiental</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-check-circle text-accent mr-2"></i>Checklist de Conceptos Dominados</h3>
+                        <div class="space-y-3">
+                            <div class="flex items-center">
+                                <input type="checkbox" class="mr-3 h-5 w-5 text-primary">
+                                <label>Diferencia entre control financiero, de gestión y de resultados</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" class="mr-3 h-5 w-5 text-primary">
+                                <label>Atribuciones de la Contraloría General de la Nación</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" class="mr-3 h-5 w-5 text-primary">
+                                <label>Diferencia entre control previo y posterior</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" class="mr-3 h-5 w-5 text-primary">
+                                <label>Principios del control fiscal según Ley 42/93</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" class="mr-3 h-5 w-5 text-primary">
+                                <label>Proceso de responsabilidad fiscal</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center mt-12 pt-8 border-t border-gray-200">
+            <p class="text-gray-600">© 2023 Material de Estudio para CNSC - Contraloría General de la Nación</p>
+            <p class="text-gray-500 text-sm mt-2">Técnicas de aprendizaje acelerado y memoria visual</p>
+        </footer>
+    </div>
+
+    <script>
+        // Funcionalidad simple para los elementos interactivos
+        document.querySelectorAll('.interactive-element').forEach(element => {
+            element.addEventListener('click', function() {
+                this.classList.toggle('bg-purple-100');
+            });
+        });
+        
+        // Simular checkboxes como interactivos
+        document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+            checkbox.addEventListener('click', function() {
+                const label = this.nextElementSibling;
+                if (this.checked) {
+                    label.classList.add('line-through', 'text-gray-400');
+                } else {
+                    label.classList.remove('line-through', 'text-gray-400');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kit de Estudio - Gestión Documental</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0D9488',
+                        secondary: '#0F766E',
+                        accent: '#F59E0B',
+                        dark: '#1F2937',
+                        light: '#F0FDFA'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #F0FDFA;
+            color: #1F2937;
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Merriweather', serif;
+        }
+        
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        
+        .section-icon {
+            font-size: 2.5rem;
+            color: #0D9488;
+            margin-bottom: 1rem;
+        }
+        
+        .mnemonic-box {
+            background-color: #CCFBF1;
+            border-left: 4px solid #0D9488;
+        }
+        
+        .key-concept {
+            background-color: #99F6E4;
+            border-radius: 0.5rem;
+        }
+        
+        .interactive-element {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .interactive-element:hover {
+            background-color: #99F6E4;
+        }
+        
+        .flip-card {
+            perspective: 1000px;
+        }
+        
+        .flip-card-inner {
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        
+        .flip-card-front, .flip-card-back {
+            backface-visibility: hidden;
+        }
+        
+        .flip-card-back {
+            transform: rotateY(180deg);
+        }
+        
+        .progress-bar {
+            height: 8px;
+            border-radius: 4px;
+            background-color: #E5E7EB;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            border-radius: 4px;
+            background-color: #0D9488;
+            transition: width 0.5s ease;
+        }
+        
+        .timeline {
+            border-left: 3px solid #0D9488;
+            border-bottom-right-radius: 4px;
+            border-top-right-radius: 4px;
+            position: relative;
+            margin: 2em auto;
+        }
+        
+        .timeline-item {
+            padding-left: 2em;
+            margin-bottom: 2em;
+            position: relative;
+        }
+        
+        .timeline-item:before {
+            content: '';
+            width: 16px;
+            height: 16px;
+            background: white;
+            border: 2px solid #0D9488;
+            border-radius: 50%;
+            position: absolute;
+            left: -9.5px;
+            top: 0;
+        }
+        
+        .flow-chart {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 2rem 0;
+            position: relative;
+        }
+        
+        .flow-step {
+            flex: 1;
+            text-align: center;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            z-index: 2;
+        }
+        
+        .flow-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #0D9488;
+            font-size: 1.5rem;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-light">
+    <div class="container mx-auto px-4 py-8 max-w-5xl">
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-primary mb-4">Gestión Documental</h1>
+            <p class="text-xl text-dark">Material de estudio para concurso CNSC - Contraloría General de la Nación</p>
+            <div class="mt-6 bg-accent text-white p-4 rounded-lg shadow-md">
+                <p class="font-semibold"><i class="fas fa-lightbulb mr-2"></i>Procedimientos y normativas para la gestión de documentos y correspondencia</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- La Biblioteca del Estado -->
+            <section class="mb-12">
+                <div class="text-center mb-8">
+                    <i class="fas fa-archive section-icon"></i>
+                    <h2 class="text-3xl font-bold text-secondary">La Biblioteca del Estado</h2>
+                    <p class="text-gray-600">Analogía para entender la Gestión Documental</p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-6 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-book text-3xl text-teal-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary mb-3">Los Libros</h3>
+                        <p class="mb-4">Documentos y registros - La materia prima de la gestión</p>
+                        <div class="key-concept p-3 mb-3">
+                            <h4 class="font-semibold">Base Legal Principal:</h4>
+                            <p class="font-semibold text-accent">Ley 594 de 2000</p>
+                            <p class="text-sm">(Ley General de Archivos)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-sitemap text-3xl text-teal-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary mb-3">El Sistema</h3>
+                        <p class="mb-4">Organización y clasificación - Cómo se organiza la información</p>
+                        <div class="key-concept p-3">
+                            <h4 class="font-semibold">Componentes:</h4>
+                            <ul class="list-disc list-inside mt-2 ml-2">
+                                <li>Clasificación documental</li>
+                                <li>Tablas de Retención Documental</li>
+                                <li>Sistema Nacional de Archivos</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-history text-3xl text-teal-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary mb-3">El Ciclo Vital</h3>
+                        <p class="mb-4">Fases de la gestión - Desde la creación hasta la disposición final</p>
+                        <div class="key-concept p-3">
+                            <h4 class="font-semibold">Etapas:</h4>
+                            <ul class="list-disc list-inside mt-2 ml-2">
+                                <li>Archivo de Gestión</li>
+                                <li>Archivo Central</li>
+                                <li>Archivo Histórico</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mnemonic-box p-6 rounded-lg mb-8">
+                    <h3 class="text-xl font-bold text-secondary mb-3"><i class="fas fa-brain mr-2"></i>Mnemotecnia Visual</h3>
+                    <p>Imagina la gestión documental como una gran biblioteca estatal. Los documentos son los libros, el sistema de organización son los estantes y catálogos, y el ciclo vital es el proceso que sigue un libro desde que llega a la biblioteca hasta que se define su destino final.</p>
+                </div>
+            </section>
+
+            <!-- Los Libros: Marco Normativo -->
+            <section class="mb-12">
+                <div class="text-center mb-8">
+                    <i class="fas fa-gavel section-icon"></i>
+                    <h2 class="text-3xl font-bold text-secondary">Los Libros: Marco Normativo</h2>
+                    <p class="text-gray-600">Bases legales de la gestión documental</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-scale-balanced text-teal-500 mr-2"></i>Ley 594 de 2000</h3>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Objeto:</h4>
+                            <p>Establecer las reglas y principios generales que regulan la función archivística</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Principios (Art. 3):</h4>
+                            <ul class="list-disc list-inside ml-4 mt-2">
+                                <li>Función archivística como política de Estado</li>
+                                <li>Gestión integral de archivos</li>
+                                <li>Acceso a la información</li>
+                                <li>Protección del patrimonio documental</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4 p-3 bg-teal-50 rounded-lg">
+                            <h4 class="font-semibold">Frase para recordar:</h4>
+                            <p>"La Ley 594 es la base de la gestión documental en Colombia"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-book-law text-teal-500 mr-2"></i>Otras Normas Relevantess</h3>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Ley 1712 de 2014:</h4>
+                            <p class="font-semibold text-accent">Ley de Transparencia y Acceso a la Información Pública</p>
+                            <ul class="list-disc list-inside ml-4 mt-1 text-sm">
+                                <li>Garantiza el acceso a la información pública</li>
+                                <li>Establece excepciones al acceso</li>
+                                <li>Promueve la transparencia</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Decreto 2609 de 2012:</h4>
+                            <p>Reglamenta la Ley 594 de 2000 (Ley General de Archivos)</p>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Norma Técnica Colombiana NTC-ISO 15489:</h4>
+                            <p>Norma internacional sobre gestión de documentos</p>
+                        </div>
+                        
+                        <div class="mt-4 p-3 bg-teal-50 rounded-lg">
+                            <h4 class="font-semibold">Mnemotecnia:</h4>
+                            <p>"Ley 594 archivos, Ley 1712 transparencia"</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-university text-teal-500 mr-2"></i>Sistema Nacional de Archivos (SNA)</h3>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="font-semibold text-primary mb-2">Composición:</h4>
+                            <ul class="list-disc list-inside ml-4 mt-2">
+                                <li>Archivo General de la Nación (AGN)</li>
+                                <li>Archivos de las entidades del Estado</li>
+                                <li>Archivos de las territoriales</li>
+                                <li>Archivos privados que revistan interés público</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-primary mb-2">Funciones del AGN:</h4>
+                            <ul class="list-disc list-inside ml-4 mt-2">
+                                <li>Establecer políticas archivísticas</li>
+                                <li>Promover la organización de archivos</li>
+                                <li>Vigilar la gestión documental</li>
+                                <li>Fomentar la investigación</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- El Sistema: Organización Documental -->
+            <section class="mb-12">
+                <div class="text-center mb-8">
+                    <i class="fas fa-sitemap section-icon"></i>
+                    <h2 class="text-3xl font-bold text-secondary">El Sistema: Organización Documental</h2>
+                    <p class="text-gray-600">Cómo se organiza y clasifica la información</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-table text-teal-500 mr-2"></i>Tablas de Retención Documental (TRD)</h3>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Definición:</h4>
+                            <p>Instrumento archivístico que establece el tiempo de permanencia de los documentos en cada fase del archivo</p>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Contenido:</h4>
+                            <ul class="list-disc list-inside ml-4">
+                                <li>Series y subseries documentales</li>
+                                <li>Tiempos de retención por fase</li>
+                                <li>Disposición final (conservación o eliminación)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mt-4 p-3 bg-teal-50 rounded-lg">
+                            <h4 class="font-semibold">Importancia:</h4>
+                            <p>Sin TRD aprobada no se puede eliminar documento alguno</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-tasks text-teal-500 mr-2"></i>Clasificación Documental</h3>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Series Documentales:</h4>
+                            <p>Conjunto de documentos con características comunes</p>
+                            <ul class="list-disc list-inside ml-4 mt-1 text-sm">
+                                <li>Correspondencia</li>
+                                <li>Actas</li>
+                                <li>Informes</li>
+                                <li>Contratos</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Cuadro de Clasificación:</h4>
+                            <p>Esquema que organiza los documentos de acuerdo con la estructura de la entidad</p>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Inventario Documental:</h4>
+                            <p>Relación detallada de los documentos de una entidad</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-database text-teal-500 mr-2"></i>Tipos de Documentos</h3>
+                    <div class="grid md:grid-cols-3 gap-4 text-center">
+                        <div>
+                            <div class="bg-teal-100 p-4 rounded-lg">
+                                <i class="fas fa-file-alt text-2xl text-teal-700 mb-2"></i>
+                                <h4 class="font-semibold">Documentos de Archivo</h4>
+                                <p class="text-sm">Registros generados o recibidos en ejercicio de funciones</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-teal-100 p-4 rounded-lg">
+                                <i class="fas fa-file-contract text-2xl text-teal-700 mb-2"></i>
+                                <h4 class="font-semibold">Documentos de Gestión</h4>
+                                <p class="text-sm">En trámite o uso cotidiano para actividades</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-teal-100 p-4 rounded-lg">
+                                <i class="fas fa-file-archive text-2xl text-teal-700 mb-2"></i>
+                                <h4 class="font-semibold">Documentos Históricos</h4>
+                                <p class="text-sm">Conservación permanente por valor cultural</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- El Ciclo Vital: Fases de la Gestión Documental -->
+            <section class="mb-12">
+                <div class="text-center mb-8">
+                    <i class="fas fa-history section-icon"></i>
+                    <h2 class="text-3xl font-bold text-secondary">El Ciclo Vital: Fases de la Gestión Documental</h2>
+                    <p class="text-gray-600">Desde la creación hasta la disposición final</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+                    <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-project-diagram text-teal-500 mr-2"></i>Ciclo Vital de los Documentos</h3>
+                    
+                    <div class="flow-chart">
+                        <div class="flow-step">
+                            <i class="fas fa-pen-fancy text-2xl text-teal-600 mb-2"></i>
+                            <h4 class="font-semibold">Creación</h4>
+                            <p class="text-sm">Generación o recepción del documento</p>
+                        </div>
+                        <div class="flow-arrow" style="left: 25%;">→</div>
+                        
+                        <div class="flow-step">
+                            <i class="fas fa-folder-open text-2xl text-teal-600 mb-2"></i>
+                            <h4 class="font-semibold">Archivo de Gestión</h4>
+                            <p class="text-sm">Uso administrativo frecuente (hasta 5 años)</p>
+                        </div>
+                        <div class="flow-arrow" style="left: 50%;">→</div>
+                        
+                        <div class="flow-step">
+                            <i class="fas fa-archive text-2xl text-teal-600 mb-2"></i>
+                            <h4 class="font-semibold">Archivo Central</h4>
+                            <p class="text-sm">Consulta esporádica (hasta 30 años)</p>
+                        </div>
+                        <div class="flow-arrow" style="left: 75%;">→</div>
+                        
+                        <div class="flow-step">
+                            <i class="fas fa-landmark text-2xl text-teal-600 mb-2"></i>
+                            <h4 class="font-semibold">Archivo Histórico</h4>
+                            <p class="text-sm">Conservación permanente</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-file-export text-teal-500 mr-2"></i>Expendio de Documentos</h3>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Definición:</h4>
+                            <p>Procedimiento para la eliminación de documentos cuya retención ya cumplió</p>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-primary">Requisitos:</h4>
+                            <ul class="list-disc list-inside ml-4">
+                                <li>TRD aprobada por el AGN</li>
+                                <li>Comité de Archivo</li>
+                                <li>Inventario documental</li>
+                                <li>Acta de eliminación</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mt-4 p-3 bg-teal-50 rounded-lg">
+                            <h4 class="font-semibold">Importancia:</h4>
+                            <p>Garantiza que solo se eliminen documentos sin valor</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md card">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-envelope-open-text text-teal-500 mr-2"></i>Gestión de Correspondencia</h3>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Derecho de Petición (Art. 23 CP):</h4>
+                            <p class="font-semibold text-accent">Mecanismo fundamental</p>
+                            <ul class="list-disc list-inside ml-4 mt-1 text-sm">
+                                <li>Tipos: Queja, reclamo, solicitud de información</li>
+                                <li>Término de respuesta: 15 días prorrogables</li>
+                                <li>Forma: Escrita, verbal, electrónica</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Radicación:</h4>
+                            <p>Asignación de número único a cada documento recibido</p>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-primary">Distribución:</h4>
+                            <p>Dirigir el documento a la dependencia competente</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Resumen Ejecutivo -->
+            <section class="mb-12">
+                <div class="text-center mb-8">
+                    <i class="fas fa-file-alt section-icon"></i>
+                    <h2 class="text-3xl font-bold text-secondary">Resumen Ejecutivo</h2>
+                    <p class="text-gray-600">Para repasar en 2 minutos antes del examen</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-list-ol text-primary mr-2"></i>Los 5 Puntos Clave</h3>
+                        <ol class="list-decimal list-inside space-y-3">
+                            <li><span class="font-semibold">Base legal:</span> Ley 594 de 2000 es la ley general de archivos</li>
+                            <li><span class="font-semibold">Ciclo vital:</span> Gestión, Central e Histórico son las tres fases</li>
+                            <li><span class="font-semibold">Instrumento clave:</span> TRD define tiempos de retención</li>
+                            <li><span class="font-semibold">Derecho fundamental:</span> Derecho de Petición (15 días para respuesta)</li>
+                            <li><span class="font-semibold">Organización:</span> AGN dirige el Sistema Nacional de Archivos</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold text-secondary mb-4"><i class="fas fa-check-circle text-accent mr-2"></i>Checklist de Conceptos Dominados</h3>
+                        <div class="space-y-3">
+                            <div class="flex items-center">
+                                <input type="checkbox" class="mr-3 h-5 w-5 text-primary">
+                                <label>Fases del ciclo vital de los documentos</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" class="mr-3 h-5 w-5 text-primary">
+                                <label>Importancia de las Tablas de Retención Documental</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" class="mr-3 h-5 w-5 text-primary">
+                                <label>Derecho de Petición y sus características</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" class="mr-3 h-5 w-5 text-primary">
+                                <label>Composición del Sistema Nacional de Archivos</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" class="mr-3 h-5 w-5 text-primary">
+                                <label>Procedimiento de expendio documental</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center mt-12 pt-8 border-t border-gray-200">
+            <p class="text-gray-600">© 2023 Material de Estudio para CNSC - Contraloría General de la Nación</p>
+            <p class="text-gray-500 text-sm mt-2">Técnicas de aprendizaje acelerado y memoria visual</p>
+        </footer>
+    </div>
+
+    <script>
+        // Funcionalidad simple para los elementos interactivos
+        document.querySelectorAll('.interactive-element').forEach(element => {
+            element.addEventListener('click', function() {
+                this.classList.toggle('bg-teal-100');
+            });
+        });
+        
+        // Simular checkboxes como interactivos
+        document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+            checkbox.addEventListener('click', function() {
+                const label = this.nextElementSibling;
+                if (this.checked) {
+                    label.classList.add('line-through', 'text-gray-400');
+                } else {
+                    label.classList.remove('line-through', 'text-gray-400');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

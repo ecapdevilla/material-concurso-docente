@@ -1,0 +1,16 @@
+# Temporales y cache
+~$*
+*.tmp
+*.temp
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de desarrollo (no incluir)
+node_modules/
+*.exe
+*.msi
+*.zip
+*.rar
+*.7z
