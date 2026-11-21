@@ -1,0 +1,940 @@
+﻿	
+﻿<!doctype html>
+<html lang="es">
+<head>
+
+
+
+<!-- Required meta tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Decreto 1965 de 2013 - Gestor Normativo" />
+<meta property="og:description" content="Reglamenta el funcionamiento del Sistema Nacional de Convivencia Escolar y Formación para el Ejercicio de los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar; sus herramientas; los lineamientos generales bajo los cuales se deben ajustar los Manuales de Convivencia de los Establecimientos Educativos, de acuerdo con lo ordenado en la Ley 1620 de 2013 y otros aspectos relacionados con incentivos y la participación de las entidades del orden nacional y territorial, establecimientos educativos, la familia y la sociedad dentro del Sistema Nacional de Convivencia Escolar." />
+<meta property="og:image" content="https://www.funcionpublica.gov.co/documents/28587425/35428802/Logo_gestor_normativo_iconos.jpg/704e6daf-bdde-be35-374c-dee67809d4d1?t=1654122375247" />
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="keywords" content="escolar,comité,sexuales,reproductivos,atención,comités,prevención,formación,unificado,protocolos,entidades,territoriales,consejos,política,social,sistemas,nacionales,sistema,nacional,convivencia,derechos,humanos,la,educación,sexualidad,mitigación,violencia">    <meta itemprop="dateModified" content="2015-12-01">
+<title>Decreto 1965 de 2013 - Gestor Normativo - Función Pública</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="Expires" content="0">
+<!-- <meta> -->
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="css_nuevo/style_gn.css"/>
+<!--Fontawesome-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+
+<script>
+	//Cambiar tamaño fuente
+	function cambia_tamano_fuente(accion){
+		<!-- console.log('Entró a cambia_tamano_fuente'); -->
+		var vcontenido;
+		
+		//div que contiene el texto de la norma
+		var divspag = document.getElementsByTagName('div'); //descripcion-contenido
+		for ( var j = 0; j < divspag.length; j++) {
+			<!-- console.log('className: ' + divspag[j].className); -->
+			if(divspag[j].className == 'descripcion-contenido'){
+				vcontenido = divspag[j];
+			}
+		}
+		
+		<!-- console.log('ENCONTRADO!!!!: ' + vcontenido.className); -->
+		
+		
+		var elementos_parrafo = vcontenido.getElementsByTagName('p');
+		var tam_actual;
+		for ( var i = 0; i < elementos_parrafo.length; i++) {
+			<!-- console.log(elementos_parrafo[i].style.fontSize); -->
+			tam_actual = parseInt(elementos_parrafo[i].style.fontSize.replace('px',''));
+			<!-- console.log('tam_actual:' + tam_actual); -->
+			if(Number.isNaN(tam_actual))
+				tam_actual = 16;
+			<!-- console.log('tam_actual:' + tam_actual); -->
+			if(accion=='aumenta'){
+					elementos_parrafo[i].style.fontSize = (tam_actual + 1) + 'px';
+			}
+			if(accion=='reduce'){
+					elementos_parrafo[i].style.fontSize = (tam_actual - 1) + 'px';
+			}
+		}
+	}
+	
+	
+
+	
+</script>
+<style>
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+</style>
+
+</head>
+<body>
+
+  
+
+
+<!--header-->
+<header class="header" style="margin-top:-28px;">
+  <div class="header-top d-none d-lg-block">
+    <div class="container logo-nav-container"> <a href="https://www.gov.co/home/" class="img-fluid"><img src="img_nuevo/logo-gov1.png" alt="Logo gov.co"/></a>
+      <nav class="navigation accesibilidad">
+        <ul>
+          <li class="mr-5" style="font-size: 15px;"><a href="https://www.funcionpublica.gov.co/inicio?p_p_id=com_liferay_login_web_portlet_LoginPortlet&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&saveLastPath=false&_com_liferay_login_web_portlet_LoginPortlet_mvcRenderCommandName=%2Flogin%2Flogin">INGRESAR A LA INTRANET</a></li>
+          <li class="mr-1"> <button href="https://www.funcionpublica.gov.co/rss" type="button" role="button" class="btn btn-white" alt="Página principal de Función Pública"><i class="fa fa-rss pr-1 pl-1" aria-hidden="true"></i></button> </li>
+          <li class="mr-1">
+            <button type="button" class="btn btn-white" onclick="cambia_tamano_fuente('aumenta')">A+</button>
+          </li>
+          <li>
+            <button type="button" class="btn btn-white" onclick="cambia_tamano_fuente('reduce')">A-</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!-- 
+  <div class="navbar-right">
+		<div id="iconos_barra">
+			<a class="navbar-link link-intranet" href="/web/intranet/inicio" title="Ingresar a la intranet">INGRESAR A LA INTRANET</a>
+			<a class="opcion" href="/rss" aria-label="Rss" target="_blank"><i class="icon-rss" aria-hidden="true"></i><span class="sr-only">RSS</span></a>
+			<a class="opcion" onclick="aumentarTexto()">A+</a>
+			<a class="opcion" onclick="reducirTexto()">A-</a>
+			<a title="Reestablecer el tama?o de la fuente" class="opcion" onclick="reducirTexto()"><i class="fa fa-refresh" aria-hidden="true"></i></a>
+		</div>					
+	</div> -->
+  
+  
+  <!--Reemplazar img Banner acÃ¡-->
+  <!-- <div class="banner  d-none d-lg-block"><a href="#"><img src="img_nuevo/banner1.png" alt="" width="1440" class="img-fluid" height="120" border="0"/></a></div> -->
+  <!--fin banner--> 
+  <!--logo y buscador-->
+  <div class="container ">
+    <div class="row align-items-center logo2-search">
+      <div class="col-lg-4 col-md-6"> 
+		<a href="https://www.funcionpublica.gov.co" class="logo">
+			<!--<img src="https://www.funcionpublica.gov.co/documents/418537/37421537/logo-CP-2023.png/63ca9626-0978-03ad-1312-b0050ab726b0?t=1684959039170" width="285px" class="img-fluid" alt="Logo Función Pública"/>-->
+			<img src="https://www.funcionpublica.gov.co/image/layout_set_logo?img_id=224510&t=1718837174316" width="285px" class="img-fluid" alt="Logo Función Pública"/>
+		</a> 
+	  </div>
+      <div class="col-lg-4 col-md-6"> 
+		<!--<a href="https://www.funcionpublica.gov.co/" class="logo">
+			<img src="https://www.funcionpublica.gov.co/documents/418537/37421537/layout_set_logo_FP.png/0587270b-880a-4f78-9b74-aaf988700c87?t=1659904736491" width="285px" class="img-fluid" alt="Logo Función Pública"/>
+		</a>--> 
+	  </div>      
+	  <form action="/web/eva/curso-para-veedurias-ciudadanas?p_p_id=com_liferay_portal_search_web_portlet_SearchPortlet&amp;p_p_lifecycle=0&amp;p_p_state=maximized&amp;p_p_mode=view&amp;_com_liferay_portal_search_web_portlet_SearchPortlet_mvcPath=%2Fsearch.jsp&amp;_com_liferay_portal_search_web_portlet_SearchPortlet_redirect=http%3A%2F%2Fwww.funcionpublica.gov.co%2Fweb%2Feva%2Fcurso-para-veedurias-ciudadanas%3Fp_p_id%3Dcom_liferay_portal_search_web_portlet_SearchPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview" class="form " data-fm-namespace="_com_liferay_portal_search_web_portlet_SearchPortlet_" id="_com_liferay_portal_search_web_portlet_SearchPortlet_fm" method="get" name="_com_liferay_portal_search_web_portlet_SearchPortlet_fm"> 
+	  <div class="col d-none d-lg-block  mt-md-4 align-self-end "> <span name="btnsearch" style="cursor: pointer;" class="g-pos-abs g-right-20 d-block g-width-50 h-100"> <i class="admin-search g-absolute-centered"></i> </span>
+	    <input class="field form-control" id="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate" name="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate" value="1535491536559" type="hidden"> 
+		<input name="p_p_id" value="com_liferay_portal_search_web_portlet_SearchPortlet" type="hidden">
+		<input name="p_p_lifecycle" value="0" type="hidden">
+		<input name="p_p_state" value="maximized" type="hidden">
+		<input name="p_p_mode" value="view" type="hidden">
+		<input name="_com_liferay_portal_search_web_portlet_SearchPortlet_mvcPath" value="/search.jsp" type="hidden">
+		<input name="_com_liferay_portal_search_web_portlet_SearchPortlet_redirect" value="/web/eva/curso-para-veedurias-ciudadanas?p_p_id=com_liferay_portal_search_web_portlet_SearchPortlet&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view" type="hidden"> 
+        <input name="_com_liferay_portal_search_web_portlet_SearchPortlet_keywords" class="form-control mr-sm-2 buscador_fp" type="search" placeholder="Buscar..." aria-label="Search">
+		</div>
+	  </form>
+      
+    </div>
+  </div>
+  
+  <!--menu principal-->
+  <div class="container">
+  
+
+  
+  
+  
+  
+    <nav class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand" href="https://www.funcionpublica.gov.co/web/eva">EVA</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item "> <a class="nav-link" href="https://www.funcionpublica.gov.co/web/eva/publicaciones">Publicaciones </a> </li>
+          <li class="nav-item active"> <a class="nav-link" href="https://www.funcionpublica.gov.co/web/eva/gestor-normativo">Gestor Normativo</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="https://www.funcionpublica.gov.co/eva/red">Red de servidores</a> </li>
+          <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Cursos virtuales </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/curso-integridad">Curso de integridad</a> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/programa-de-induccion-y-reinduccion">Programa de inducción y reinducción</a> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/curso-para-veedurias-ciudadanas">Curso para Veedurías Ciudadanas</a> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/curso-gerentes-publicos">Curso para Gerentes PÃºblicos</a> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/curso-mipg">Curso MIPG</a> <a class="dropdown-item" href="https://www.funcionpublica.gov.co/web/eva/curso-de-empleo-publico">Curso de Empleo PÃºblico</a> </div>
+          </li>
+          <li class="nav-item"> <a class="nav-link" href="https://www.funcionpublica.gov.co/eva/es/formatos-administracion-publica">Formatos</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="https://www.funcionpublica.gov.co/web/eva/contactenos">Contáctenos</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="https://www.funcionpublica.gov.co/web/eva/preguntas-frecuentes">Preguntas frecuentes</a> </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  
+  <!---breadcrumb-->
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb"  id="spanmiga" >
+        <li class="breadcrumb-item"><a href="https://www.funcionpublica.gov.co/web/eva">EVA</a></li>
+        <li class="breadcrumb-item"><a href="https://www.funcionpublica.gov.co/web/eva/gestor-normativo">Gestor Normativo</a></li>
+		<li class="breadcrumb-item active" aria-current="page">Normas de la Función Pública</li>
+      </ol>
+    </nav>
+  </div>
+  </div>
+  <!-- End Breadcrumbs --> 
+
+</header>
+
+<!---End header-->
+	
+	<script>
+	
+
+
+	
+	
+	
+	function Scrolldown() {
+			window.scroll(0,-30); 
+	}
+	function eliminateDuplicates(arr) {
+				//console.log(arr);
+			  var i,
+				  len=arr.length,
+				  out=[],
+				  obj={};
+
+			  for (i=len-1;i>=0;i--) {
+					obj[arr[i]]=0;
+			  }
+			  //console.log(obj);
+			  for (i in obj) {
+					out.push(i);
+					//console.log(i);
+			  }
+			  out.reverse();
+			  return out;
+	}
+		
+	function mostrar_ocultar_jurisprudencia(iddiv){
+		if(document.getElementById("juris"+iddiv).style.display=='none'){
+			document.getElementById("juris"+iddiv).style.display='block';
+		}else{
+			document.getElementById("juris"+iddiv).style.display='none';
+		}
+	}
+	
+	if (sessionStorage.migapan) {
+				sessionStorage.migapan = sessionStorage.migapan + '+Decreto 1965/13|54537';
+				var normas = sessionStorage.migapan.split('+');
+				normas = eliminateDuplicates(normas);
+				sessionStorage.migapan = normas.join('+');
+	} else {
+				sessionStorage.migapan = 'Decreto 1965/13|54537';
+	}
+	var migadepan = sessionStorage.migapan.split("+");
+	var txt_miga='<li class="breadcrumb-item"><a href="https://www.funcionpublica.gov.co/web/eva">EVA</a></li>'+
+        '<li class="breadcrumb-item"><a href="https://www.funcionpublica.gov.co/web/eva/gestor-normativo">Gestor Normativo</a></li>'+
+	    '<li class="breadcrumb-item"><a href="https://www.funcionpublica.gov.co/eva/gestornormativo/consulta_avanzada.php">Consulta</a></li>';
+	for (j=0;j<migadepan.length;j++) {
+		var xnorma=migadepan[j].split("|");
+		txt_miga+='<li class="breadcrumb-item"><a href="/eva/gestornormativo/norma.php?i='+xnorma[1]+'">'+xnorma[0]+'</a></li>'; 
+	}
+	document.getElementById("spanmiga").innerHTML=txt_miga;
+	//document.getElementById("result").innerHTML = "You have clicked the button " +
+	//sessionStorage.migapan + " time(s) in this session.";
+
+	function mostrarMensajeNoDisponible() {
+		alert("Esta funcionalidad no está disponible por el momento.");
+	}
+	
+	</script>
+	<style>
+		h2,h3,h4 {
+			  text-align: center;
+			      font-size: 1em;
+			}
+		.titulo-norma{
+			  font-size: 2.441em;
+			  text-align: left;
+			}
+		h1 {
+			  text-align: center;
+			      font-size: 1em;
+			}
+		.jurisprudencia a {
+			color: #007bff!important;
+		}
+		ol {
+			padding-inline-start: 20px;
+		}
+	</style>
+  	
+  <main class="main"> 
+  <!-- Breadcrumbs -->
+  
+  <!-- getRealIP 186.82.87.20, 54.198.165.25-->  <!-- cache: cache/54537-20151201000000.fp -->  
+  
+  <div class="container">
+    <h2 class="titulo-norma"><strong>Decreto 1965 de 2013</strong></h2>  
+  <div class="row" style="margin-top: 4rem">
+  <!--col left-->
+        <div class="col-lg-3 col-md-12">
+							
+		<a href="norma_pdf.php?i=54537" target="_blank">
+		<!--<a href="#" onclick="mostrarMensajeNoDisponible(); return false;" target="_blank">-->
+			<button type="button" class="btn btn-yellow">Descargar PDF</button>
+		</a>
+					 <!--accordion-->
+      <div class="accordion" id="accordion">
+	  <div class="card-accordion">
+	  <div class="card-header" id="headingOne">
+	  <h5 class="mb-0">
+	  <button class="btn btn-link collapsed  btn-accordion" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Fechas
+        </button>
+	  </h5>
+	  </div>
+	  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+			<p>Fecha de Expedición: 11 de septiembre de 2013</p>
+			<p class="subrayado2"></p>
+			<p>Fecha de Entrada en Vigencia: 11 de septiembre de 2013</p>
+			<p class="subrayado2"></p>
+			<p>Medio de Publicación: Diario Oficial 48910 de septiembre 11 de 2013</p>
+			<p class="subrayado2"></p>
+      </div>
+    </div>
+	  </div>
+	  
+	  <div class="card-accordion">
+			<div class="card-header" id="headingTwo">
+			  <h5 class="mb-0">
+				<button class="btn btn-link collapsed ; btn-accordion" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				 Temas (2)
+				</button>
+			  </h5>
+			</div>
+			
+			<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+			  <div class="card-body">
+			  				  <h5 class="txt-18">ENTIDADES TERRITORIALES</h5> 
+				  <h6>- Subtema: Concejos Territoriales de Política Social</h6>
+				  
+				  				  <p>Reglamenta el funcionamiento del Sistema Nacional de Convivencia Escolar y Formación para el Ejercicio de los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar; sus herramientas; los lineamientos generales bajo los cuales se deben ajustar los Manuales de Convivencia de los Establecimientos Educativos, de acuerdo con lo ordenado en la Ley 1620 de 2013 y otros aspectos relacionados con incentivos y la participación de las entidades del orden nacional y territorial, establecimientos educativos, la familia y la sociedad dentro del Sistema Nacional de Convivencia Escolar.</p>
+										
+								  				  <h5 class="txt-18">SISTEMAS NACIONALES</h5> 
+				  <h6>- Subtema: Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Mitigación de la Violencia Escolar</h6>
+				  
+				  				  <p>Reglamenta el funcionamiento del Sistema Nacional de Convivencia Escolar y Formación para el Ejercicio de los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar; sus herramientas; los lineamientos generales bajo los cuales se deben ajustar los Manuales de Convivencia de los Establecimientos Educativos, de acuerdo con lo ordenado en la Ley 1620 de 2013 y otros aspectos relacionados con incentivos y la participación de las entidades del orden nacional y territorial, establecimientos educativos, la familia y la sociedad dentro del Sistema Nacional de Convivencia Escolar.</p>
+										
+								  			  </div>
+			</div>
+	</div>
+	  
+		
+	
+	 <div class="card-accordion">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+		<button class="btn btn-link collapsed; btn-accordion" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+          Vigencias(0)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse  show" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+	  	  <p class="subrayado2"></p>
+      </div>
+    </div>
+  </div> 
+
+  </div>
+	   <!--end accordion-->
+	  </div>
+	  
+	  <!--end col left-->
+
+<!--col right-->
+<div class="col-lg-9 col-md-12">
+
+			
+											
+						
+						
+											<div class="alert alert-dismissible alert-info">
+												  <!-- <button type="button" class="close" data-dismiss="alert">X</button> -->
+												  <p ><small>Los datos publicados tienen propósitos exclusivamente informativos. El Departamento Administrativo de la Función Pública no se hace responsable de la vigencia de la presente norma. Nos encontramos en un proceso permanente de actualización de los contenidos.</small></p>
+											</div>
+
+
+	<div class="descripcion-contenido">
+		
+
+
+
+
+
+
+
+
+	
+	
+
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>DECRETO 1965 DE 2013 </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>(Septiembre 11) </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm; FONT-STYLE: normal" align=center><FONT face="Arial, sans-serif"><FONT size=3><STRONG>Por el cual se reglamenta la Ley </STRONG><A href="norma.php?i=52287#0">1620</A><STRONG> de 2013, que crea el Sistema Nacional de Convivencia Escolar y Formación para el Ejercicio de los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar. </STRONG></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm; FONT-STYLE: normal" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>EL PRESIDENTE DE LA REPÚBLICA DE COLOMBIA,</B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm; FONT-STYLE: normal" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>en uso de sus atribuciones constitucionales y legales, y en particular las previstas, en el artículo 189 numeral 11 de la Constitución Política, en el artículo 43 de la Ley 489 de 1998 y en desarrollo de la Ley 1620 de 2013, y </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>CONSIDERANDO: </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>Que la Ley 1620 de 2013, creó el Sistema Nacional de Convivencia Escolar y Formación para el ejercicio de los Derechos Humanos, la educación para la sexualidad y la prevención y mitigación de la violencia escolar; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>Que la misma ley establece como herramientas de dicho Sistema: i) el Sistema de Información Unificado de Convivencia Escolar y ii) la Ruta de Atención Integral para la Convivencia Escolar y sus protocolos de atención; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>Que el Gobierno Nacional reconoce que uno de los retos que tiene el país, está en la formación para el ejercicio activo de la ciudadanía y de los derechos humanos, a través de una política que promueva y fortalezca la convivencia escolar, precisando que cada experiencia que los estudiantes vivan en los establecimientos educativos, es definitiva para el desarrollo de su personalidad y marcará sus formas de desarrollar y construir su proyecto de vida; y que de la satisfacción que cada niño y joven alcance y del sentido que, a través del aprendizaje, le dé a su vida, depende no sólo su bienestar sino la prosperidad colectiva. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>Por lo anterior, se requiere de un desarrollo normativo que permita fijar la conformación y funcionamiento del Sistema de Información Unificado y establecer las pautas mínimas sobre cómo aplicar la Ruta de Atención Integral para la Convivencia Escolar y sus protocolos, para prevenir y mitigar las situaciones que afecten la convivencia escolar y el ejercicio de los derechos humanos, sexuales y reproductivos; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>Que adicionalmente, se requiere regular la conformación, organización y funcionamiento del Comité Nacional de Convivencia Escolar; de los Comités Municipales, Distritales y Departamentales de Convivencia Escolar y de los Comités Escolares de Convivencia; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>Que finalmente, es necesario articular las entidades y personas que conforman el Sistema Nacional de Convivencia Escolar, la familia y la sociedad, de tal forma que se creen las condiciones necesarias que permitan contribuir a la promoción y fortalecimiento de la formación para la ciudadanía y el ejercicio de los Derechos Humanos, sexuales y reproductivos de los estudiantes de los niveles educativos de preescolar, básica y media y para prevenir y mitigar la violencia escolar y el embarazo en la adolescencia, todo dentro del marco de las competencias, a ellas asignadas, por la Constitución y la ley. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>DECRETA: </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>TÍTULO I </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>DISPOSICIONES GENERALES </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp1 name=1>&nbsp;</A>Artículo 1°. </B><I><B>Objeto. </B></I>El presente decreto reglamenta el funcionamiento del Sistema Nacional de Convivencia Escolar y Formación para el Ejercicio de los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar; sus herramientas; los lineamientos generales bajo los cuales se deben ajustar los Manuales de Convivencia de los Establecimientos Educativos, de acuerdo con lo ordenado en la Ley 1620 de 2013 y otros aspectos relacionados con incentivos y la participación de las entidades del orden nacional y territorial, establecimientos educativos, la familia y la sociedad dentro del Sistema Nacional de Convivencia Escolar. </FONT></FONT></P>
+<P class=western style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp2 name=2>&nbsp;</A>Artículo 2°. </B><I><B>Ámbito de aplicación. </B></I>El presente decreto se aplicará en todos los establecimientos educativos oficiales y no oficiales de educación preescolar, básica y media del territorio nacional y demás instancias que conforman el Sistema Nacional de Convivencia Escolar y Formación para los Derechos Humanos, la Educación para la Sexualidad y la Prevención y Mitigación de la Violencia Escolar, también a la familia, la sociedad y a los demás actores que participan en la Ruta de Atención Integral.</FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>TÍTULO II </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>ORGANIZACIÓN Y FUNCIONAMIENTO DEL SISTEMA NACIONAL DE CONVI&shy;VENCIA ESCOLAR Y FORMACIÓN PARA EL EJERCICIO DE LOS DERECHOS HUMANOS, LA EDUCACIÓN PARA LA SEXUALIDAD Y LA PREVENCIÓN Y MITIGACIÓN DE LA VIOLENCIA ESCOLAR </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>CAPÍTULO I</B> </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>Funcionamiento del Comité Nacional de Convivencia Escolar </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp3 name=3>&nbsp;</A>Artículo 3°.</B> <I><B>Mesa Técnica del Comité Nacional de Convivencia Escolar.</B></I><I> </I>Para apoyar el desarrollo de las funciones y tareas del Comité Nacional de Convivencia Escolar, los actores que lo conforman crearán, dentro de un término no superior a dos (2) meses contados a partir de la publicación del presente decreto, una mesa técnica que cuente con la participación de un delegado de cada miembro del Comité. Las reglas atinentes al funcionamiento de esta mesa serán determinadas en el reglamento interno del Comité Nacional de Convivencia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp4 name=4>&nbsp;</A>Artículo 4°. </B><I><B>Secretaría Técnica.</B></I><I> </I>El Comité Nacional de Convivencia Escolar tendrá una Secretaría Técnica, que será ejercida por el Director (a) de la Dirección de Calidad del Viceministerio de Educación Preescolar, Básica y Media, o su delegado (a), en los términos que establece el artículo 9° de la Ley 489 de 1998. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp5 name=5>&nbsp;</A>Artículo 5°. </B><I><B>Funciones de la Secretaría Técnica.</B></I><I> </I>La Secretaría Técnica del Comité Nacional de Convivencia Escolar ejercerá las siguientes funciones: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. Solicitar anualmente al ICFES la información sobre los establecimientos educativos oficiales y no oficiales que a nivel nacional, distrital, departamental y municipal hayan obtenido los más altos puntajes en las pruebas SABER 11 del año en curso. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. Comunicar a los Comités Municipales, Distritales y Departamentales de Convivencia Escolar la información sobre los establecimientos educativos oficiales y no oficiales que hayan obtenido los más altos puntajes en las pruebas SABER 11 del año en curso, en su respectiva jurisdicción. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. Citar a los integrantes del Comité a las sesiones ordinarias y extraordinarias convocadas por el Presidente del Comité Nacional de Convivencia Escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>4. Fijar y comunicar la agenda de las sesiones programadas, a los integrantes del Comité Nacional. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>5. Elaborar las actas de las sesiones del Comité Nacional de Convivencia Escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>6. Poner en conocimiento del Comité los informes, estudios, propuestas y demás documentación que haya sido allegada por sus integrantes. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>7. Realizar seguimiento continuo a la implementación de las decisiones y recomendaciones del Comité. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>8. Coordinar logísticamente las reuniones del Comité. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>9. Organizar y mantener un archivo actualizado en medios físico y electrónico, sobre las actas y documentos del Comité. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>10. Comunicar a todos los miembros del Comité Nacional de Convivencia las decisiones adoptadas. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>11. Las demás que defina el Comité Nacional de Convivencia Escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp6 name=6>&nbsp;</A>Artículo 6°. </B><I><B>Designación de los representantes de los rectores ante el Comité Nacional de Convivencia Escolar. </B></I>Para la designación de los representantes de los rectores ante el Comité Nacional de Convivencia Escolar, se seguirá el siguiente procedimiento: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. A más tardar el 30 de noviembre de cada año, el ICFES informará a la Secretaría Técnica del Comité Nacional el nombre de los establecimientos educativos oficial y no oficial que hayan obtenido a nivel nacional, los más altos puntajes de acuerdo con los resultados consolidados de las pruebas SABER 11 del año en curso. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. La Secretaría Técnica comunicará a los rectores de dichos establecimientos educativos, dentro de los cinco (5) días hábiles siguientes, al recibo del reporte de los resultados por parte del ICFES, sobre su designación como integrante del Comité Nacional de Convivencia para la anualidad siguiente. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. El periodo de los representantes, de que trata el presente artículo, será de un año contado a partir del primero (1°) de enero al treinta y uno (31) de diciembre. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><STRONG>Parágrafo transitorio.</STRONG> Respecto del año 2013, la designación de los representantes de los rectores ante el Comité Nacional de Convivencia Escolar se hará de la siguiente manera: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. Dentro de los diez (10) días hábiles siguientes a la entrada en vigencia del presente decreto, el ICFES informará a la Secretaría Técnica del Comité Nacional de Convivencia Escolar el nombre de los establecimientos educativos oficial y no oficial que hayan obtenido a nivel nacional, los más altos puntajes de acuerdo con los resultados consolidados de las pruebas SABER 11 del año 2012. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. La Secretaría Técnica comunicará a los rectores de dichos establecimientos educativos, dentro de los cinco (5) días hábiles siguientes, al recibo del reporte de los resultados por parte del ICFES, sobre su designación como integrante del Comité Nacional de Convivencia para la anualidad siguiente. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. El período de los representantes de que trata el presente parágrafo transitorio, iniciará cuando reciban la comunicación señalada en el numeral anterior y estará vigente hasta el treinta y uno (31) de diciembre de 2013. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp7 name=7>&nbsp;</A>Artículo 7°. </B><I><B>Sesiones. </B></I>El Comité Nacional de Convivencia Escolar sesionará ordinariamente al menos una (1) vez cada seis (6) meses. Las sesiones extraordinarias serán convocadas por el Presidente del Comité Nacional de Convivencia Escolar, cuando las circunstancias lo exijan o por solicitud de cualquiera de los integrantes del mismo. </FONT></FONT></P>
+<P class=western style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B>Parágrafo.</B> Las sesiones del Comité Nacional de Convivencia Escolar podrán ser presenciales o virtuales, siempre y cuando en este último caso, se garantice la participación de todos los integrantes en las deliberaciones y votaciones que se adelanten en las respectivas sesiones.</FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp8 name=8>&nbsp;</A>Artículo 8°. </B><I><B>Citación para sesionar.</B></I><I> </I>La Secretaría Técnica enviará citación a los integrantes del Comité Nacional de Convivencia Escolar, para que asistan a las sesiones ordinarias con una antelación no inferior a diez (10) días a la fecha de celebración de las mismas, acompañada de la información y documentación necesaria, que será tratada en la respectiva sesión. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>Cuando el Presidente del Comité Nacional de Convivencia Escolar convoque a sesiones extraordinarias, la Secretaría Técnica citará de inmediato y por el medio más expedito a los integrantes del Comité y les hará llegar la información y documentación necesaria, que será tratada en la respectiva sesión. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B>Parágrafo.</B> El Comité Nacional de Convivencia Escolar, cuando lo considere necesario para el cumplimiento de sus objetivos y funciones, podrá invitar a miembros de la comunidad educativa, funcionarios o representantes de las entidades públicas o privadas, o personas expertas y otras personas naturales o jurídicas, cuyo aporte pueda ser de utilidad. Los invitados tendrán voz pero no voto dentro de las respectivas sesiones. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp9 name=9>&nbsp;</A>Artículo 9°. </B><I><B>Quórum decisorio.</B></I><I> </I>El Comité Nacional de Convivencia Escolar podrá sesionar con la asistencia de la mitad más uno de sus miembros. Las decisiones se adoptarán por la mayoría de los miembros que asisten a la sesión del Comité y serán de obligatorio cumplimiento para todos sus integrantes. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><STRONG>Parágrafo.</STRONG> La participación de los integrantes en las sesiones del Comité Nacional de Convivencia podrá hacerse de manera presencial o virtual. En este último evento, el integrante deberá informar al Presidente del Comité, quien analizará la viabilidad de que su participación sea virtual e informará de su decisión a través de la Secretaría Técnica. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>En caso de ser autorizado, el respectivo integrante deberá participar tanto en las deli&shy;beraciones como en las votaciones que se realicen en la sesión. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp10 name=10>&nbsp;</A>Artículo 10. </B><I><B>Actas. </B></I>De todas las sesiones que adelante el Comité Nacional de Convivencia Escolar se deberá elaborar un acta, la cual deberá contener como mínimo lo siguiente: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. Lugar, fecha y hora en la cual se efectuó la reunión. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. Registro de los miembros del Comité que asistieron a la sesión, precisando en cada caso la entidad o sector que representan y verificación del quórum. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. Registro de los miembros del Comité que presentaron excusa debidamente justificada para no asistir a la sesión. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>4. Indicación de los medios utilizados para comunicar la citación a los miembros del Comité. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>5. Síntesis de los temas tratados en la reunión, así como de las acciones, medidas reco&shy;mendaciones, conceptos adoptados y sentido de las votaciones. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>6. Firma del Presidente del Comité y del Secretario Técnico, una vez haya sido aprobada por los asistentes. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B>Parágrafo.</B> El Comité Nacional de Convivencia Escolar deberá garantizar el derecho a la intimidad y a la confidencialidad de los datos personales que sean tratados en el marco de las actuaciones que este adelante, conforme a lo dispuesto en la Constitución Política, los tratados internacionales, en la Ley 1098 de 2006, en la Ley Estatutaria número 1581 de 2012, en el Decreto número 1377 de 2013 y demás normas aplicables a la materia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp11 name=11>&nbsp;</A>Artículo 11. </B><I><B>Acciones o decisiones.</B></I><I> </I>El Comité Nacional de Convivencia Escolar armonizará y articulará las políticas, estrategias y programas y emitirá los lineamientos relacionados con la promoción y fortalecimiento de la formación para la ciudadanía, el ejercicio de los Derechos Humanos, sexuales y reproductivos, y la prevención y mitigación de la violencia escolar y el embarazo en la adolescencia de los estudiantes de los niveles educativos de preescolar, básica y media. Lo anterior, a partir de las estadísticas e indicadores que arroje el Sistema de Información Unificado de Convivencia Escolar, de los resultados de la eva&shy;luación de competencias ciudadanas que realizan las pruebas SABER, y otras fuentes de información que se consideren pertinentes. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp12 name=12>&nbsp;</A>Artículo 12. </B><I><B>Conflictos de Interés </B></I><B>y </B><I><B>Causales de Impedimento y Recusación.</B></I><I> </I>Cuando en las actuaciones adelantadas por parte del Comité Nacional de Convivencia Escolar se presenten conflictos de interés o causales de impedimento o recusación, respecto de los integrantes que ostenten la calidad de servidores públicos, los mismos se tramitarán conforme a lo establecido en los artículos 11 y 12 de la Ley 1437 de 2011. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>CAPÍTULO II </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>De los Comités Municipales, Distritales y Departamentales de Convivencia Escolar </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp13 name=13>&nbsp;</A>Artículo 13. </B><I><B>Plazo para la conformación de los Comités Municipales, Distritales y Departamentales de Convivencia Escolar.</B></I><I> </I>De conformidad con el artículo 9° de la Ley 1620 de 2013, los consejos territoriales de política social deberán constituir los Comités Municipales, Distritales y Departamentales de Convivencia Escolar en un plazo no mayor a seis (6) meses, contados a partir de la entrada en vigencia del presente decreto. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp14 name=14>&nbsp;</A>Artículo 14. </B><I><B>Elección del Presidente.</B></I><I> </I>El Presidente del Comité Municipal, Distrital o Departamental de Convivencia Escolar será elegido en los términos fijados en el acto de conformación de los respectivos comités. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp15 name=15>&nbsp;</A>Artículo 15. </B><I><B>Secretaría Técnica. </B></I>Los Comités Municipales, Distritales y Departamentales de Convivencia Escolar tendrán una secretaría técnica, que será establecida en los términos fijados en el acto de conformación de los respectivos comités, la cual desarrollará las siguientes funciones: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. Citar a los integrantes del Comité a las sesiones ordinarias y extraordinarias convocadas por el Presidente del Comité Municipal, Distrital o Departamental de Convivencia Escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. Fijar y comunicar la agenda de las sesiones programadas, a los integrantes del Comité Municipal, Distrital o Departamental de Convivencia Escolar. </FONT></FONT></P>
+<P class=western style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. Elaborar y suscribir las actas de las sesiones del Comité Municipal, Distrital o Departamental de Convivencia Escolar.</FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>4. Poner en conocimiento del comité los informes, estudios, propuestas y demás documentación que haya sido allegada por sus integrantes. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>5. Realizar seguimiento continuo a la implementación de las decisiones y recomendaciones del comité. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>6. Coordinar logísticamente las reuniones del comité. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>7. Organizar y mantener un archivo actualizado en medios físico y electrónico, sobre las actas y documentos del comité. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>8. Comunicar a todos los miembros del comité las decisiones adoptadas. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>9. Las demás que defina el Comité Municipal, Distrital o Departamental de Convivencia Escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp16 name=16>&nbsp;</A>Artículo 16. </B><I><B>Designación de los representantes de los rectores ante los Comités Mun</B></I><I><B>i</B></I><I><B>cipales, Distritales o Departamentales de Convivencia Escolar.</B></I><I> </I>Para la designación de los representantes de los rectores ante los Comités Municipales, Distritales o Departamentales de Convivencia Escolar, se seguirá el siguiente procedimiento: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. La Secretaría Técnica del Comité Nacional de Convivencia Escolar informará dentro de los diez (10) primeros días hábiles del mes de diciembre de cada año, a la Secretaría Técnica de los Comités Municipales, Distritales y Departamentales de Convivencia Escolar, el nombre de los establecimientos educativos oficiales y no oficiales que a nivel municipal, distrital o departamental, hayan obtenido a nivel municipal, distrital o departamental los más altos puntajes en las pruebas SABER 11 del año en curso. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. La Secretaría Técnica del Comité Municipal, Distrital y Departamental de Convi&shy;vencia Escolar comunicará a los rectores de dichos establecimientos educativos, dentro de los cinco (5) días hábiles siguientes al recibo del reporte de los resultados por parte de la Secretaría Técnica del Comité Nacional de Convivencia Escolar, sobre su designación como integrante del comité municipal, distrital o departamental de convivencia para la anualidad siguiente. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. El período de los representantes, de que trata el presente artículo, será de un año contado a partir del primero (1°) de enero al treinta y uno (31) de diciembre. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp17 name=17>&nbsp;</A>Artículo 17. </B><I><B>Sesiones. </B></I>Los Comités Municipales, Distritales y Departamentales de Convivencia Escolar sesionarán como mínimo cuatro (4) veces al año, como parte de los Consejos Territoriales de Política Social y deberán remitir a la Secretaría Técnica del Comité Nacional de Convivencia Escolar, dentro de los cinco (5) días hábiles siguientes a cada sesión, un informe acerca de los temas tratados y decisiones adoptadas. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>Las sesiones extraordinarias serán convocadas por el Presidente del Comité, cuando las circunstancias lo exijan o por solicitud de cualquiera de los integrantes del mismo. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B>Parágrafo 1°. </B>Las sesiones de los Comités Municipales, Distritales y Departamentales de Convivencia Escolar podrán ser presenciales o virtuales, siempre y cuando en este último caso, se garantice la participación de todos los integrantes en las deliberaciones y votaciones que se adelanten en las respectivas sesiones. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B>Parágrafo 2°.</B> Los Comités Municipales, Distritales y Departamentales de Convivencia Escolar, cuando lo consideren necesario para el cumplimiento de sus objetivos y funciones, podrán invitar a sus sesiones a los miembros de la comunidad educativa, funcionarios o representantes de las entidades públicas o privadas, o personas expertas y otras personas naturales o jurídicas, cuyo aporte pueda ser de utilidad. Los invitados tendrán voz pero no voto dentro de las respectivas sesiones. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp18 name=18>&nbsp;</A>Artículo 18. </B><I><B>Quórum decisorio.</B></I><I> </I>Los Comités Municipales, Distritales y Departamentales de Convivencia Escolar, podrán sesionar con la asistencia de la mitad más uno de sus miembros. Las decisiones se adoptarán por la mayoría de los miembros que asistan a la sesión del comité y serán de obligatorio cumplimiento para todos sus integrantes. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>En caso de ser autorizado, el respectivo integrante deberá participar tanto en las deliberaciones como en las votaciones que se realicen en la sesión. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><STRONG>Parágrafo.</STRONG> La participación de los integrantes en las sesiones del Comité Municipal, Distrital y Departamental de Convivencia Escolar podrá hacerse de manera presencial o virtual. En este último evento, el integrante deberá informar al Presidente del Comité, quien analizará la viabilidad de que su participación sea virtual e informará de su decisión a través de la Secretaría Técnica. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp19 name=19>&nbsp;</A>Artículo 19. </B><I><B>Actas.</B></I><I> </I>De todas las sesiones que adelanten los Comités Municipales, Distritales y Departamentales de Convivencia Escolar se deberá elaborar un acta, la cual deberá contener como mínimo los requisitos establecidos en el artículo 10 del presente decreto. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B>Parágrafo.</B> Los Comités Municipales, Distritales y Departamentales de Convivencia Escolar deberán garantizar el derecho a la intimidad y a la confidencialidad de los datos personales que sean tratados en el marco de las actuaciones que estos adelanten, conforme a lo dispuesto en la Constitución Política, los tratados internacionales, en la Ley 1098 de 2006, en la Ley Estatutaria número 1581 de 2012, en el Decreto número 1377 de 2013 y demás normas aplicables a la materia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp20 name=20>&nbsp;</A>Artículo 20. </B><I><B>Acciones o decisiones.</B></I><I> </I>Los Comités Municipales, Distritales y Departamentales de Convivencia Escolar armonizarán, articularán, implementarán y evaluarán, en su respectiva jurisdicción, las políticas, estrategias y programas relacionados con la promoción y fortalecimiento de la formación para la ciudadanía, el ejercicio de los derechos humanos, sexuales y reproductivos, y la prevención y mitigación de la violencia escolar y el embarazo en la adolescencia, de los estudiantes de los niveles educativos de preescolar, básica y media. Lo anterior, a partir de las estadísticas e indicadores que arroje el Sistema de Información Unificado de Convivencia Escolar, de los lineamientos trazados por el Comité Nacional de Convivencia Escolar, de los resultados de la evaluación de competencias ciudadanas que realizan las pruebas SABER, y de otras fuentes de información pertinentes. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp21 name=21>&nbsp;</A>Artículo 21. </B><I><B>Conflictos de Interés </B></I><B>y </B><I><B>Causales de Impedimento y Recusación.</B></I><I> </I>Cuando en las actuaciones adelantadas por parte de los comités municipales, distritales o departamentales de convivencia escolar se presenten conflictos de interés o causales de impedimento o recusación, respecto de los integrantes que ostenten la calidad de servidores públicos, los mismos se tramitarán conforme a lo establecido en los artículos 11 y 12 de la Ley 1437 de 2011. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>CAPÍTULO III </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>De los Comités Escolares de Convivencia </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp22 name=22>&nbsp;</A>Artículo 22. </B><I><B>Conformación de los Comités Escolares de Convivencia. </B></I>Todas las instituciones educativas y centros educativos oficiales y no oficiales del país deberán conformar el Comité Escolar de Convivencia, encargado de apoyar la labor de promoción y seguimiento a la convivencia escolar, a la educación para el ejercicio de los derechos humanos, sexuales y reproductivos, así como del desarrollo y aplicación del Manual de Convivencia y de la Prevención y Mitigación de la Violencia Escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>El respectivo consejo directivo de las referidas instituciones y centros educativos dispondrá de un plazo no mayor a seis (6) meses, contados a partir de la publicación del presente decreto, para conformar el Comité Escolar de Convivencia y elaborar su reglamento, el cual deberá hacer parte integral del Manual de Convivencia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B>Parágrafo 1°. </B>Para el caso de los centros educativos, el Director será el Presidente del Comité Escolar de Convivencia. En ausencia del director, presidirá el docente que lidera procesos o estrategias de convivencia y que hace parte del respectivo comité. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B>Parágrafo 2°. </B>Para el caso de los centros educativos donde no se cuenta con los integrantes para conformar el Comité Escolar de Convivencia, este será integrado como mínimo por el representante de los docentes, el Presidente del Consejo de Padres de Familia y el representante de los estudiantes. En este caso, el docente será quien presida el comité. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp23 name=23>&nbsp;</A>Artículo 23. </B><I><B>Sesiones. </B></I>El Comité Escolar de Convivencia sesionará como mínimo una vez cada dos (2) meses. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>Las sesiones extraordinarias serán convocadas por el Presidente del Comité Escolar de Convivencia, cuando las circunstancias lo exijan o por solicitud de cualquiera de los integrantes del mismo. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp24 name=24>&nbsp;</A>Artículo 24. </B><I><B>Quórum decisorio.</B></I><I> </I>El quórum decisorio del Comité Escolar de Convivencia será el establecido en su reglamento. En cualquier caso, este comité no podrá sesionar sin la presencia del Presidente. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp25 name=25>&nbsp;</A>Artículo 25. </B><I><B>Actas.</B></I><I> </I>De todas las sesiones que adelante el Comité Escolar de Convivencia se deberá elaborar un acta, la cual deberá contener como mínimo los requisitos establecidos en el artículo 10 del presente decreto. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><STRONG>Parágrafo. </STRONG>El Comité Escolar de Convivencia deberá garantizar el derecho a la intimidad y a la confidencialidad de los datos personales que sean tratados en el marco de las actuaciones que este adelante, conforme a lo dispuesto en la Constitución Política, los tratados internacionales, en la Ley 1098 de 2006, en la Ley Estatutaria número 1581 de 2012, en el Decreto número 1377 de 2013 y demás normas aplicables a la materia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp26 name=26>&nbsp;</A>Artículo 26. </B><I><B>Acciones o decisiones. </B></I>El Comité Escolar de Convivencia, en el ámbito de sus competencias, desarrollará acciones para la promoción y fortalecimiento de la formación para la ciudadanía y el ejercicio de los derechos humanos, sexuales y reproductivos; para la prevención y mitigación de la violencia escolar y el embarazo en la adolescencia; y para la atención de las situaciones que afectan la convivencia escolar y el ejercicio de los derechos humanos, sexuales y reproductivos a partir de la implementación, desarrollo y aplicación de las estrategias y programas trazados por el Comité Nacional de Convivencia Escolar y por el respectivo Comité Municipal, Distrital o Departamental de Convivencia Escolar, dentro del respeto absoluto de la Constitución y la ley. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp27 name=27>&nbsp;</A>Artículo 27. </B><I><B>Conflictos de Interés y Causales de Impedimento y Recusación.</B></I><I> </I>Cuando en las actuaciones adelantadas por parte de los Comités Escolares de Convivencia de los establecimientos educativos oficiales se presenten conflictos de interés o causales de impedimento o recusación, respecto de los integrantes que ostenten la calidad de servidores públicos, los mismos se tramitarán conforme a lo establecido en el artículo 11 y 12 de la Ley 1437 de 2011. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>Tratándose de los establecimientos educativos no oficiales, los respectivos reglamentos de los Comités Escolares de Convivencia deberán definir los conflictos de interés, las casuales de impedimento y de recusación así como el procedimiento para resolverlos, de tal forma que se garantice la imparcialidad de los integrantes de los referidos comités. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>TÍTULO III </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>LINEAMIENTOS GENERALES PARA INCORPORAR EN EL MANUAL DE CONVIVENCIA DE LOS ESTABLECIMIENTOS EDUCATIVOS LAS DISPOSICIONES SOBRE MANEJO DE SITUACIONES QUE AFECTAN LA CONVIVENCIA ESCOLAR, LOS DERECHOS HUMANOS, SEXUALES Y REPRODUCTIVOS </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B>Artículo 28. </B><I><B>Incorporación en el Manual de Convivencia de las Definiciones, Principios y Responsabilidades.</B></I><I> </I>En el manual de convivencia se incluirán las definiciones, principios y responsabilidades que para todos los miembros de la comunidad educativa establece la Ley 1620 de 2013, los cuales servirán de base para que dentro del mismo manual se desarrollen los componentes de promoción, prevención, atención y seguimiento de la Ruta de Atención Integral para la Convivencia Escolar, de que trata el Capítulo II del Título IV del presente decreto, sin perjuicio de los demás aspectos que deben ser regulados en dichos manuales, de acuerdo con lo establecido en la Ley 115 de 1994 y en el Decreto número 1860 de 1994. </FONT></FONT></P>
+<P class=western style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp29 name=29>&nbsp;</A>Artículo 29. </B><I><B>Lineamientos Generales para la Actualización del Manual de Convivencia.</B></I><I> </I>Los establecimientos educativos oficiales y no oficiales deberán asegurarse de que en el Manual de Convivencia, y respecto al manejo de los conflictos y conductas que afectan la convivencia escolar y los derechos humanos, sexuales y reproductivos, y para la participación de la familia de que trata el artículo 22 de la Ley 1620 de 2013, se incluyan como mínimo los siguientes aspectos:</FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. Las situaciones más comunes que afectan la convivencia escolar y el ejercicio de los derechos humanos, sexuales y reproductivos, las cuales deben ser identificadas y valoradas dentro del contexto propio del establecimiento educativo. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. Las pautas y acuerdos que deben atender todos los integrantes de la comunidad educativa para garantizar la convivencia escolar y el ejercicio de los derechos humanos, sexuales y reproductivos. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. La clasificación de las situaciones consagradas el artículo 40 del presente decreto. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>4. Los protocolos de atención integral para la convivencia escolar de que tratan los artículos 42, 43 y 44 del presente decreto. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>5. Las medidas pedagógicas y las acciones que contribuyan a la promoción de la convivencia escolar, a la prevención de las situaciones que la afectan y a la reconciliación, la reparación de los daños causados y el restablecimiento de un clima de relaciones constructivas en el establecimiento educativo cuando estas situaciones ocurran. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>6. Las estrategias pedagógicas que permitan y garanticen la divulgación y socialización de los contenidos del Manual de Convivencia a la comunidad educativa, haciendo énfasis en acciones dirigidas a los padres y madres de familia o acudientes. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B>Parágrafo 1°. </B>Acorde con lo establecido en la Ley 115 de 1994, en el artículo 21 de la Ley 1620 de 2013 y en el Decreto número 1860 de 1994, los establecimientos educativos en el marco del proyecto educativo institucional deberán revisar y ajustar el manual de convivencia y dar plena aplicación a los principios de participación, corresponsabilidad, autonomía, diversidad e integralidad que establece la Ley 1620 de 2013. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B>Parágrafo 2°. </B>El Manual de Convivencia deberá ser construido, evaluado y ajustado por la comunidad educativa integrada por los estudiantes, padres y madres de familia, docentes y directivos docentes, bajo la coordinación del Comité Escolar de Convivencia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp30 name=30>&nbsp;</A>Artículo 30. </B><I><B>Plazo para la actualización de los Manuales de Convivencia de los Esta</B></I><I><B>b</B></I><I><B>lecimientos Educativos Oficiales y No Oficiales</B></I><I>. </I>Los establecimientos educativos en un plazo no superior a seis (6) meses contados a partir de la publicación del presente decreto, deberán ajustar los manuales de convivencia, conforme lo señalado en este título. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>TÍTULO IV </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>HERRAMIENTAS DEL SISTEMA NACIONAL DE CONVIVENCIA ESCOLAR Y FORMACIÓN PARA LOS DERECHOS HUMANÓS, LA EDUCACIÓN PARA LA SEXUALIDAD Y LA PREVENCIÓN Y MITIGACIÓN DE LA VIOLENCIA ESCOLAR </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>CAPÍTULO I </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>Del Sistema de Información Unificado de Convivencia Escolar </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp31 name=31>&nbsp;</A>Artículo 31. </B><I><B>Mesa Técnica del Sistema de Información Unificado de Convivencia Escolar.</B></I><I> </I>En cumplimiento de lo dispuesto en el artículo 28 de la Ley 1620 de 2013, el Ministerio de Educación Nacional, el Ministerio de Salud y Protección Social, el Ministerio de Tec&shy;nologías de la Información y las Comunicaciones, el Instituto Colombiano de Bienestar Familiar y la Policía Nacional, crearán dentro de un término no superior a dos (2) meses contados a partir de la publicación del presente decreto, una mesa técnica en el marco del Comité Nacional de Convivencia Escolar, la cual se encargará del diseño, implementación, operación y funcionamiento del Sistema de Información Unificado de Convivencia Escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp32 name=32>&nbsp;</A>Artículo 32. </B><I><B>Funciones de la Mesa Técnica del Sistema de Información Unificado de Convivencia Escolar.</B></I><I> </I>La Mesa Técnica del Sistema de Información Unificado de Convivencia Escolar tendrá como funciones las siguientes: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. Diseñar la estructura del Sistema de Información Unificado de Convivencia Escolar en cuanto a la información contenida, usuarios autorizados para el registro y seguimiento de la información, niveles de seguridad para el acceso a la información y generación de reportes. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. Prever en la estructura del Sistema de Información Unificado de Convivencia Escolar su articulación con los sistemas de información de las entidades que hacen parte del Sistema Nacional de Convivencia Escolar y de las demás entidades que se requiera, de tal manera que se garantice el seguimiento de las situaciones que afectan la convivencia escolar de los estudiantes de los establecimientos educativos. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. Definir el responsable de la administración del Sistema de Información Unificado de Convivencia y de su protocolo técnico de operación. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>4. Diseñar y formular los indicadores para el seguimiento de las situaciones que afectan la convivencia escolar de los estudiantes de los establecimientos educativos. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>5. Definir los lineamientos, aplicativos y formatos a través de los cuales se deberá reportar la información al Sistema de Información Unificado de Convivencia Escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>6. Realizar el seguimiento al funcionamiento del Sistema de Información Unificado de Convivencia Escolar y adoptar los ajustes que sean necesarios. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>7. Las demás que le sean asignadas por el Comité Nacional de Convivencia Escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp33 name=33>&nbsp;</A>Artículo 33. </B><I><B>Operación del Sistema de Información Unificado de Convivencia Escolar. </B></I>Para la operación del Sistema de Información Unificado de Convivencia Escolar la Mesa Técnica deberá garantizar lo siguiente: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. La identificación, registro y seguimiento de las situaciones de tipo II y III de las que trata el artículo 40 del presente decreto. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. Que todas las entidades involucradas en la atención de las situaciones tipo III, a las que se refiere el numeral 3 del artículo 40 del presente decreto, cuenten con un acceso oportuno que permita el registro y seguimiento de las acciones adelantadas frente a dichas situaciones. </FONT></FONT></P>
+<P class=western style="MARGIN-BOTTOM: 0cm"><FONT face="Arial, sans-serif"><FONT size=3>3. El derecho a la intimidad, la confidencialidad y la protección de datos personales de las personas involucradas, de acuerdo con los parámetros de protección fijados en la Constitución Política, en los tratados internacionales, en la Ley 1098 de 2006, en la Ley Estatutaria número 1581 de 2012, en el Decreto número 1377 de 2013 y demás normas aplicables a la materia.</FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp34 name=34>&nbsp;</A>Artículo 34. </B><I><B>Información para el reporte al Sistema de Información Unificado de Convivencia Escolar.</B></I><I> </I>Para garantizar la identificación, registro y seguimiento, de las situaciones de tipo II y III de las que trata el artículo 40 del presente decreto, el Sistema de Información deberá, sin perjuicio de la información adicional que sea identificada como necesaria en su proceso de diseño, contener como mínimo los siguientes datos: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. Lugar, fecha y forma en que fue reportado el caso a las entidades que conforman el Sistema Nacional de Convivencia Escolar, (verbal o escrita). </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. Entidad del Sistema Nacional de Convivencia Escolar que asumió el conocimiento del caso. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. Identificación y datos generales de las partes involucradas. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>4. Descripción de los hechos que incluya condiciones de tiempo, modo y lugar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>5. Acciones y medidas de atención adoptadas por las entidades del Sistema Nacional de Convivencia Escolar frente a las situaciones reportadas. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>6. Seguimientos programados y realizados, al caso concreto, por parte de las entidades que integran el Sistema Nacional de Convivencia Escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>CAPÍTULO II </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>De la ruta de atención integral para la convivencia escolar </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp35 name=35>&nbsp;</A>Artículo 35. </B><I><B>Garantía de derechos </B></I><B>y </B><I><B>aplicación de principios.</B></I><I> </I>En todas las acciones que se realicen en el marco de los diversos componentes de la Ruta de Atención Integral para la Convivencia Escolar, debe garantizarse la aplicación de los principios de protección integral, incluyendo el derecho a no ser revictimizado; el interés superior de los niños, las niñas y los adolescentes; la prevalencia de los derechos; la corresponsabilidad; la exigibilidad de los derechos: la perspectiva de género y los derechos de los niños, las niñas y los adolescentes de los grupos étnicos, como se definen en los artículos 7° al 13 de la Ley 1098 de 2006. Así mismo, se deberá garantizar el principio de proporcionalidad en las medidas adoptadas en las situaciones que afecten la convivencia, y la protección de datos contenida en la Constitución, los tratados internacionales y la Ley 1581 de 2012. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp36 name=36>&nbsp;</A>Artículo 36. </B><I><B>Acciones del Componente de Promoción. </B></I>Se consideran acciones de promoción las políticas institucionales que se concentran en el fomento de la convivencia y en el mejoramiento del clima escolar, con el fin de generar un entorno para el ejercicio real y efectivo de los derechos humanos, sexuales y reproductivos en los términos establecidos en la Ley 1620 de 2013. En virtud del componente de promoción, las entidades que integran el Sistema Nacional de Convivencia Escolar deberán adelantar las siguientes acciones: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. Por parte del Comité Nacional de Convivencia Escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>a) Promover la puesta en marcha y el cumplimiento de la Ruta de Atención Integral por parte de cada una de las instancias del Sistema Nacional de Convivencia Escolar; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>b) Diseñar y divulgar las estrategias que permitan a los Comités Municipales, Distritales y Departamentales de Convivencia Escolar la implementación de los lineamientos consignados en este decreto, en relación con el ajuste de los manuales de convivencia y el desarrollo de proyectos pedagógicos en competencias ciudadanas y formación para el ejercicio de los derechos humanos, sexuales y reproductivos; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>c) Coordinar la armonización y articulación de políticas e implementación de planes, programas y acciones relacionadas con la promoción, ejercicio y garantía de los derechos sexuales y reproductivos, con la Comisión Nacional Intersectorial para la Promoción de los Derechos Sexuales y Reproductivos; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>d) Promover y liderar estrategias y acciones de comunicación, vinculando a los medios nacionales, que fomenten la convivencia escolar, contribuyan a la prevención y mitigación de la violencia en el ámbito escolar y promuevan el desarrollo progresivo de las competencias frente al ejercicio de la sexualidad y la realización de proyectos de vida. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. Por parte de los Comités Municipales, Distritales y Departamentales de Convivencia Escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>a) Acompañar a los establecimientos educativos de su respectiva jurisdicción, desde el ámbito del desarrollo de las competencias de cada uno de los integrantes de los comités, en el ajuste de los manuales de convivencia; el desarrollo de proyectos pedagógicos en competencias ciudadanas y formación para el ejercicio de los derechos humanos, sexuales y reproductivos; y la adopción de la Ruta de Atención Integral y sus protocolos; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>b) Desarrollar iniciativas de formación de la comunidad educativa en temáticas tales como derechos humanos, sexuales y reproductivos, sexualidad, competencias ciudadanas, desarrollo infantil y adolescente, convivencia, y mediación y conciliación, para fortalecer el Sistema Nacional de Convivencia Escolar; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>c) Promover y liderar estrategias y acciones de comunicación vinculando a los medios regionales y comunitarios, que fomenten la convivencia escolar, contribuyan a la prevención y mitigación de la violencia en el ámbito escolar, y promuevan el desarrollo progresivo de las competencias que facilitan la toma de decisiones autónomas frente al ejercicio y la realización de proyectos de vida. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. Por parte del Comité Escolar de Convivencia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>a) Liderar el ajuste de los manuales de convivencia, conforme a lo establecido en el artículo 21 de la Ley 1620 de 2013 y en el Título III del presente decreto; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>b) Proponer políticas institucionales que favorezcan el bienestar individual y colectivo, que puedan ser desarrolladas en el marco del Proyecto Educativo Institucional (PEI), atendiendo a lo dispuesto en el artículo 73 de la Ley 115 de 1994; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>c) Liderar el desarrollo de iniciativas de formación de la comunidad educativa en temáticas tales como derechos humanos, sexuales y reproductivos, sexualidad, competencias ciudadanas, desarrollo infantil y adolescente, convivencia, y mediación y conciliación, para fortalecer el Sistema Nacional de Convivencia Escolar; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>d) Fortalecer la implementación y evaluación de proyectos pedagógicos de educación para la sexualidad y construcción de ciudadanía desde preescolar, que correspondan a las particularidades socioculturales del contexto en el que se encuentra el establecimiento educativo. Estos proyectos deben garantizar el derecho que tienen niñas, niños y adolescentes de recibir información fundamentada en evidencia científica con el fin de que, progresivamente, vayan desarrollando las competencias que facilitan la toma de decisiones autónomas frente al ejercicio de la sexualidad y la realización de proyectos de vida; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>e) Articular el diseño, implementación, seguimiento y evaluación de proyectos para el desarrollo de competencias ciudadanas orientados a fortalecer un clima escolar y de aula positivos que aborden como mínimo temáticas relacionadas con la clarificación de normas, la definición de estrategias para la toma de decisiones, la concertación y la negociación de intereses y objetivos, el ejercicio de habilidades comunicativas, emocionales y cognitivas a favor de la convivencia escolar, entre otros; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>f) Generar mecanismos y herramientas para que el desarrollo de competencias ciudadanas y la formación para el ejercicio de los derechos humanos, sexuales y reproductivos se lleve a cabo de manera transversal en todas las áreas obligatorias y fundamentales del conocimiento y de la formación establecidas en el proyecto educativo institucional. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><STRONG>Parágrafo. </STRONG>Los establecimientos educativos deben implementar los proyectos pedagógicos conforme a los parámetros dispuestos en el artículo 20 de la Ley 1620 de 2013, dentro del marco de lo establecido en los artículos 14, 77, 78 y 79 de la Ley 115 de 1994. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp37 name=37>&nbsp;</A>Artículo 37. </B><I><B>Acciones del componente de prevención. </B></I>Se consideran acciones de prevención las que buscan intervenir oportunamente en los comportamientos que podrían afectar la realización efectiva de los derechos humanos, sexuales y reproductivos con el fin de evitar que se constituyan en patrones de interacción que alteren la convivencia de los miembros de la comunidad educativa. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>Hacen parte de las acciones de prevención: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. La identificación de los riesgos de ocurrencia de las situaciones más comunes que afectan la convivencia escolar y el ejercicio de los derechos humanos, sexuales y reproductivos, a partir de las particularidades del clima escolar y del análisis de las características familiares, sociales, políticas, económicas y culturales externas, que inciden en las relaciones interpersonales de la comunidad educativa, de acuerdo con lo establecido en el numeral 5 del artículo 17 de la Ley 1620 de 2013. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. El fortalecimiento de las acciones que contribuyan a la mitigación de las situaciones que afectan la convivencia escolar y el ejercicio de los derechos humanos, sexuales y reproductivos; identificadas a partir de las particularidades mencionadas en el numeral 1 de este artículo. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. El diseño de protocolos para la atención oportuna e integral de las situaciones más comunes que afectan la convivencia escolar y el ejercicio de los derechos humanos, sexuales y reproductivos. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><STRONG>Parágrafo. </STRONG>Para disminuir los riesgos de ocurrencia de situaciones que afectan la convivencia escolar, los comités que conforman el Sistema Nacional de Convivencia Escolar, en el ámbito de sus competencias y a partir de la información generada por el Sistema Unificado de Convivencia Escolar y otras fuentes de información, armonizarán y articu&shy;larán las políticas, estrategias y métodos; y garantizarán su implementación, operación y desarrollo dentro del marco de la Constitución y la ley. Lo anterior, conlleva la revisión de las políticas; la actualización y ajuste permanente de los manuales de convivencia, de los programas educativos institucionales y de los protocolos de la Ruta de Atención Integral, por parte de las entidades que conforman el Sistema Nacional de Convivencia Escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp38 name=38>&nbsp;</A>Artículo 38. </B><I><B>Acciones del componente de atención.</B></I><I> </I>Se consideran acciones de atención aquellas que permitan asistir a los miembros de la comunidad educativa frente a las situaciones que afectan la convivencia escolar y el ejercicio de los derechos humanos, sexuales y reproductivos, mediante la implementación y aplicación de los protocolos internos de los establecimientos educativos y la activación cuando fuere necesario, de los protocolos de atención que para el efecto se tengan implementados por parte de los demás actores que integran el Sistema Nacional de Convivencia Escolar en el ámbito de su competencia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp39 name=39>&nbsp;</A>Artículo 39. </B><I><B>Definiciones. </B></I>Para efectos del presente decreto se entiende por: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. <B>Conflictos. </B>Son situaciones que se caracterizan porque hay una incompatibilidad real o percibida entre una o varias personas frente a sus intereses. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. <B>Conflictos manejados inadecuadamente. </B>Son situaciones en las que los conflictos no son resueltos de manera constructiva y dan lugar a hechos que afectan la convivencia escolar, como altercados, enfrentamientos o riñas entre dos o más miembros de la comunidad educativa de los cuales por lo menos uno es estudiante y siempre y cuando no exista una afectación al cuerpo o a la salud de cualquiera de los involucrados. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. <B>Agresión escolar. </B>Es toda acción realizada por uno o varios integrantes de la comunidad educativa que busca afectar negativamente a otros miembros de la comunidad educativa, de los cuales por lo menos uno es estudiante. La agresión escolar puede ser física, verbal, gestual, relacional y electrónica. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>a) <B>Agresión física. </B>Es toda acción que tenga como finalidad causar daño al cuerpo o a la salud de otra persona. Incluye puñetazos, patadas, empujones, cachetadas, mordiscos, rasguños, pellizcos, jalón de pelo, entre otras; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>b) <B>Agresión verbal. </B>Es toda acción que busque con las palabras degradar, humillar, atemorizar, descalificar a otros. Incluye insultos, apodos ofensivos, burlas y amenazas; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>c) <B>Agresión gestual. </B>Es toda acción que busque con los gestos degradar, humillar, atemorizar o descalificar a otros; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>d) <B>Agresión relacional. </B>Es toda acción que busque afectar negativamente las relaciones que otros tienen. Incluye excluir de grupos, aislar deliberadamente y difundir rumores o se&shy;cretos buscando afectar negativamente el estatus o imagen que tiene la persona frente a otros; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>e) <B>Agresión electrónica. </B>Es toda acción que busque afectar negativamente a otros a través de medios electrónicos. Incluye la divulgación de fotos o videos íntimos o humillantes en Internet, realizar comentarios insultantes u ofensivos sobre otros a través de redes sociales y enviar correos electrónicos o mensajes de texto insultantes u ofensivos, tanto de manera anónima como cuando se revela la identidad de quien los envía. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>4. <B>Acoso escolar (bullying). </B>De acuerdo con el artículo 2° de la Ley 1620 de 2013, es toda conducta negativa, intencional metódica y sistemática de agresión, intimidación, humillación, ridiculización, difamación, coacción, aislamiento deliberado, amenaza o incitación a la violencia o cualquier forma de maltrato psicológico, verbal, físico o por medios electrónicos contra un niño, niña o adolescente, por parte de un estudiante o varios de sus pares con quienes mantiene una relación de poder asimétrica, que se presenta de forma reiterada o a lo largo de un tiempo determinado. También puede ocurrir por parte de docentes contra estudiantes, o por parte de estudiantes contra docentes, ante la indiferencia o complicidad de su entorno. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>5. <B>Ciberacoso escolar (ciberbullying). </B>De acuerdo con el artículo 2° de la Ley 1620 de 2013, es toda forma de intimidación con uso deliberado de tecnologías de información (Internet, redes sociales virtuales, telefonía móvil y videojuegos online) para ejercer maltrato psicológico y continuado. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>6. <B>Violencia sexual. </B>De acuerdo con lo establecido en el artículo 2° de la Ley 1146 de 2007, &#8220;se entiende por violencia sexual contra niños, niñas y adolescentes todo acto o com&shy;portamiento de tipo sexual ejercido sobre un niño, niña o adolescente, utilizando la fuerza o cualquier forma de coerción física, psicológica o emocional, aprovechando las condiciones de indefensión, de desigualdad y las relaciones de poder existentes entre víctima y agresor&#8221;. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>7. <B>Vulneración de los derechos de los niños, niñas y adolescentes. </B>Es toda situación de daño, lesión o perjuicio que impide el ejercicio pleno de los derechos de los niños, niñas y adolescentes. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>8. <B>Restablecimiento de los derechos de los niños, niñas y adolescentes</B>. Es el conjunto de actuaciones administrativas y de otra naturaleza, que se desarrollan para la restauración de su dignidad e integridad como sujetos de derechos, y de su capacidad para disfrutar efectivamente de los derechos que le han sido vulnerados. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp40 name=40>&nbsp;</A>Artículo 40. </B><I><B>Clasificación de las situaciones.</B></I><I> </I>Las situaciones que afectan la convivencia escolar y el ejercicio de los derechos humanos, sexuales y reproductivos, se clasifican en tres tipos: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. <B>Situaciones Tipo I. </B>Corresponden a este tipo los conflictos manejados inadecuadamente y aquellas situaciones esporádicas que inciden negativamente en el clima escolar, y que en ningún caso generan daños al cuerpo o a la salud. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. <B>Situaciones Tipo II. </B>Corresponden a este tipo las situaciones de agresión escolar, acoso escolar (bullying) y ciberacoso (Ciberbullying), que no revistan las características de la comisión de un delito y que cumplan con cualquiera de las siguientes características: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>a) Que se presenten de manera repetida o sistemática; </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>b) Que causen daños al cuerpo o a la salud sin generar incapacidad alguna para cualquiera de los involucrados. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. <B>Situaciones Tipo III. </B>Corresponden a este tipo las situaciones de agresión escolar que sean constitutivas de presuntos delitos contra la libertad, integridad y formación sexual, referidos en el Título IV del Libro II de la Ley 599 de 2000, o cuando constituyen cualquier otro delito establecido en la ley penal colombiana vigente. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp41 name=41>&nbsp;</A>Artículo 41. </B><I><B>De los protocolos de los establecimientos educativos, finalidad, contenido y aplicación.</B></I><I> </I>Los protocolos de los establecimientos educativos estarán orientados a fijar los procedimientos necesarios para asistir oportunamente a la comunidad educativa frente a las situaciones que afectan la convivencia escolar y el ejercicio de los derechos humanos, sexuales y reproductivos. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>Estos protocolos deberán definir, como mínimo los siguientes aspectos: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. La forma de iniciación, recepción y radicación de las quejas o informaciones sobre situaciones que afectan la convivencia escolar y el ejercicio de los derechos humanos, sexuales y reproductivos. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. Los mecanismos para garantizar el derecho a la intimidad y a la confidencialidad de los documentos en medio físico o electrónico, así como de las informaciones suministradas por las personas que intervengan en las actuaciones y de toda la información que se genere dentro de las mismas, en los términos establecidos en la Constitución Política, los tratados internacionales, en la Ley 1098 de 2006, en la Ley Estatutaria número 1581 de 2012, en el Decreto número 1377 de 2013 y demás normas aplicables a la materia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. Los mecanismos mediante los cuales se proteja a quien informe sobre la ocurrencia de situaciones que afecten la convivencia escolar y el ejercicio de los derechos humanos, sexuales y reproductivos, de posibles acciones en su contra. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>4. Las estrategias y alternativas de solución, incluyendo entre ellas los mecanismos pedagógicos para tomar estas situaciones como oportunidades para el aprendizaje y la práctica de competencias ciudadanas de la comunidad educativa. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>5. Las consecuencias aplicables, las cuales deben obedecer al principio de proporcionalidad entre la situación y las medidas adoptadas, y deben estar en concordancia con la Constitución, los tratados internacionales, la ley y los manuales de convivencia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>6. Las formas de seguimiento de los casos y de las medidas adoptadas, a fin de verificar si la solución fue efectiva. </FONT></FONT></P>
+<P class=western style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>7. Un directorio que contenga los números telefónicos actualizados de las siguientes entidades y personas: Policía Nacional, del responsable de seguridad de la Secretaría de Gobierno Municipal, Distrital o Departamental, Fiscalía General de la Nación Unidad de Infancia y Adolescencia, Policía de Infancia y Adolescencia, Defensoría de Familia, Comisaría de Familia, Inspector de Policía, ICBF - Instituto Colombiano de Bienestar Familiar, del puesto de salud u Hospital más cercano, Bomberos, Cruz Roja, Defensa Civil, Medicina Legal, de las entidades que integran el Sistema Nacional de Convivencia Escolar, de los padres de familia o acudientes de los niños, niñas y adolescentes matriculados en el establecimiento educativo.</FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>Parágrafo. La aplicación de los protocolos tendrá lugar frente a las situaciones que se presenten de estudiantes hacia otros miembros de la comunidad educativa, o de otros miembros de la comunidad educativa hacia estudiantes. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp42 name=42>&nbsp;</A>Artículo 42. </B><I><B>De los protocolos para la atención de Situaciones Tipo I.</B></I><I> </I>Los protocolos de los establecimientos educativos para la atención de las situaciones tipo I, a que se refiere el numeral 1 del artículo 40 del presente decreto, deberán desarrollar como mínimo el siguiente procedimiento: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. Reunir inmediatamente a las partes involucradas en el conflicto y mediar de manera pedagógica para que estas expongan sus puntos de vista y busquen la reparación de los daños causados, el restablecimiento de los derechos y la reconciliación dentro de un clima de relaciones constructivas en el establecimiento educativo. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. Fijar la forma de solución de manera imparcial, equitativa y justa, encaminada a buscar la reparación de los daños causados, el restablecimiento de los derechos y la reconciliación dentro de un clima de relaciones constructivas en el grupo involucrado o en el establecimiento educativo. De esta actuación se dejará constancia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. Realizar seguimiento del caso y de los compromisos a fin de verificar si la solución fue efectiva o si se requiere acudir a los protocolos consagrados en los artículos 43 y 44 del presente decreto. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B>Parágrafo.</B> Los estudiantes que hayan sido capacitados como mediadores o conciliadores escolares podrán participar en el manejo de estos casos en los términos fijados en el Manual de Convivencia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp43 name=43>&nbsp;</A>Artículo 43. </B><I><B>De los protocolos para la atención de Situaciones Tipo II.</B></I><I> </I>Los protocolos de los establecimientos educativos para la atención de las situaciones tipo II, a que se refiere el numeral 2 del artículo 40 del presente decreto, deberán desarrollar como mínimo el siguiente procedimiento: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. En casos de daño al cuerpo o a la salud, garantizar la atención inmediata en salud física y mental de los involucrados, mediante la remisión a las entidades competentes, actuación de la cual se dejará constancia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. Cuando se requieran medidas de restablecimiento de derechos, remitir la situación a las autoridades administrativas, en el marco de la Ley 1098 de 2006, actuación de la cual se dejará constancia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. Adoptar las medidas para proteger a los involucrados en la situación de posibles acciones en su contra, actuación de la cual se dejará constancia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>4. Informar de manera inmediata a los padres, madres o acudientes de todos los estudiantes involucrados, actuación de la cual se dejará constancia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>5. Generar espacios en los que las partes involucradas y los padres, madres o acudientes de los estudiantes, puedan exponer y precisar lo acontecido, preservando, en cualquier caso, el derecho a la intimidad, confidencialidad y demás derechos. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>6. Determinar las acciones restaurativas que busquen la reparación de los daños causados, el restablecimiento de los derechos y la reconciliación dentro de un clima de relaciones constructivas en el establecimiento educativo; así como las consecuencias aplicables a quienes han promovido, contribuido o participado en la situación reportada. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>7. El Presidente del Comité Escolar de Convivencia informará a los demás integrantes de este comité, sobre la situación ocurrida y las medidas adoptadas. El comité realizará el análisis y seguimiento, a fin de verificar si la solución fue efectiva o si se requiere acudir al protocolo consagrado en el artículo 44 del presente decreto. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>8. El Comité Escolar de Convivencia dejará constancia en acta de todo lo ocurrido y de las decisiones adoptadas, la cual será suscrita por todos los integrantes e intervinientes. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>9. El Presidente del Comité Escolar de Convivencia reportará la información del caso al aplicativo que para el efecto se haya implementado en el Sistema de Información Unificado de Convivencia Escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B>Parágrafo.</B> Cuando el Comité Escolar de Convivencia adopte como acciones o medidas la remisión de la situación al Instituto Colombiano de Bienestar Familiar para el restablecimiento de derechos, o al Sistema de Seguridad Social para la atención en salud integral, estas entidades cumplirán con lo dispuesto en el artículo 45 del presente decreto. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp44 name=44>&nbsp;</A>Artículo 44. </B><I><B>Protocolo para la atención de Situaciones Tipo III.</B></I><I> </I>Los protocolos de los establecimientos educativos para la atención de las situaciones tipo III a que se refiere el numeral 3 del artículo 40 del presente decreto, deberán desarrollar como mínimo el siguiente procedimiento: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. En casos de daño al cuerpo o a la salud, garantizar la atención inmediata en salud física y mental de los involucrados, mediante la remisión a las entidades competentes, actuación de la cual se dejará constancia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. Informar de manera inmediata a los padres, madres o acudientes de todos los estu&shy;diantes involucrados, actuación de la cual se dejará constancia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. El Presidente del Comité Escolar de Convivencia de manera inmediata y por el medio más expedito, pondrá la situación en conocimiento de la Policía Nacional, actuación de la cual se dejará constancia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>4. No obstante, lo dispuesto en el numeral anterior, se citará a los integrantes del Comité Escolar de Convivencia en los términos fijados en el manual de convivencia. De la citación se dejará constancia. </FONT></FONT></P>
+<P class=western style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>5. El Presidente del Comité Escolar de Convivencia informará a los participantes en el comité, de los hechos que dieron lugar a la convocatoria, guardando reserva de aquella información que pueda atentar contra el derecho a la intimidad y confidencialidad de las partes involucradas, así como del reporte realizado ante la autoridad competente.</FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>6. Pese a que una situación se haya puesto en conocimiento de las autoridades competentes, el Comité Escolar de Convivencia adoptará, de manera inmediata, las medidas propias del establecimiento educativo, tendientes a proteger dentro del ámbito de sus competencias a la víctima, a quien se le atribuye la agresión y a las personas que hayan informado o hagan parte de la situación presentada, actuación de la cual se dejará constancia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>7. El Presidente del Comité Escolar de Convivencia reportará la información del caso al aplicativo que para el efecto se haya implementado en el Sistema de Información Unificado de Convivencia Escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>8. Los casos sometidos a este protocolo serán objeto de seguimiento por parte del Comité Escolar de Convivencia, de la autoridad que asuma el conocimiento y del Comité Municipal, Distrital o Departamental de Convivencia Escolar que ejerza jurisdicción sobre el establecimiento educativo en el cual se presentó el hecho. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp45 name=45>&nbsp;</A>Artículo 45. </B><I><B>Activación de los protocolos de otras entidades.</B></I><I> </I>Las autoridades que reciban por competencia las situaciones reportadas por los Comités Escolares de Convivencia deberán cumplir con lo siguiente: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. Adelantar la actuación e imponer de inmediato las medidas de verificación, prevención o de restablecimiento de derechos de las partes involucradas en la situación reportada a que hubiere lugar, acorde con las facultades que para tal efecto les confiera la Constitución y la ley, y conforme a los protocolos internos o procedimientos que para el efecto tengan implementados las respectivas entidades. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. Realizar el reporte en el aplicativo que para el efecto se haya implementado en el Sistema de Información Unificado de Convivencia Escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. Realizar el seguimiento a la situación puesta bajo su conocimiento hasta que se logre el restablecimiento de los derechos de los involucrados. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>En aquellos lugares en donde no exista Policía de Infancia y Adolescencia para la atención de las situaciones tipo III, de que trata el numeral 3 del artículo 40 de este decreto, las mismas serán reportadas o puestas en conocimiento ante la Policía de Vigilancia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>Frente a las situaciones que requieran atención en salud se deberá acudir al prestador del servicio de salud más cercano, el cual en ningún caso podrá abstenerse de prestar el servicio, conforme a lo dispuesto en el artículo 27 de la Ley 1098 de 2006, en el Título III &#8220;Atención Preferente y Diferencial para la Infancia y la Adolescencia&#8221; de la Ley 1438 de 2011 y sus normas concordantes. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>En los municipios en donde no haya Defensor de Familia, las funciones que la Ley 1098 de 2006 le atribuye serán cumplidas por el Comisario de Familia. En ausencia de este último, las funciones asignadas al Defensor y al Comisario de Familia corresponderán al Inspector de Policía, de conformidad con lo establecido en el Decreto número 4807 de 2007, o la norma que lo modifique, sustituya o derogue. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>En los municipios en donde exista Defensoría de Familia y Comisaría de Familia o Comisaría de Familia e Inspección de Policía, cualquiera de estas autoridades competentes asumirá a prevención, el conocimiento del caso de inobservancia, amenaza o vulneración; verificará inmediatamente el estado de derechos; protegerá al niño, niña o adolescente a través de una medida provisional, si es del caso, y a la primera hora hábil siguiente remitirá las diligencias a la autoridad competente. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B>Parágrafo 1°. </B>En materia de prevención de la violencia sexual y atención integral de los niños, niñas y adolescentes abusados sexualmente, además de la aplicación del protocolo correspondiente, se deberá aplicar lo contemplado en la Ley 1146 de 2007 y en su reglamentación. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B>Parágrafo 2°.</B> Cuando surjan conflictos de competencia administrativa estos se superarán conforme a lo establecido en el artículo 39 de la Ley 1437 de 2011. Las actuaciones administrativas de las autoridades deberán desarrollarse acorde con los principios Constitucionales y los consagrados en el artículo 3° de la Ley 1437 de 2011. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B>Parágrafo 3°. </B>Cuando la Policía Nacional tenga conocimiento de las situaciones tipo III de que trata el numeral 3 del artículo 40 del presente decreto, deberá informar a las autoridades administrativas competentes, de acuerdo con lo dispuesto en el Decreto número 4840 de 2007, con el fin de que estas adopten las medidas de restablecimiento de derechos a que haya lugar. De esta actuación se deberá dejar constancia. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp46 name=46>&nbsp;</A>Artículo 46. </B><I><B>Garantía del restablecimiento de derechos.</B></I><I> </I>Lo dispuesto en los artículos 41, 42, 43 y 44 del presente decreto se aplicará sin perjuicio de las competencias que les corresponden a las autoridades administrativas frente al restablecimiento de derechos de los niños, niñas y adolescentes, en el marco de la Ley 1098 de 2006. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp47 name=47>&nbsp;</A>Artículo 47. </B><I><B>Informes o quejas. </B></I>Cualquiera de las partes involucradas en una situación que afecte la convivencia escolar, o los padres o madres de familia o acudientes, o cualquier otra persona, pueden informar o presentar queja ante la secretaría de educación municipal, distrital o departamental, a la que pertenezca el establecimiento educativo donde se generó la situación; sobre los casos en los cuales las autoridades educativas o los funcionarios responsables no adelanten las acciones pertinentes, no adopten las medidas necesarias o estas sean desproporcionadas, o apliquen el protocolo equivocado respecto de situaciones que afecten la convivencia escolar y el ejercicio de los derechos humanos, sexuales y reproductivos. Recibida la información o la queja la entidad adelantará las acciones a que hubiere lugar e informará a las autoridades que se requieran a fin de verificar y solucionar de fondo la situación informada. </FONT></FONT></P>
+<P class=western style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp48 name=48>&nbsp;</A>Artículo 48. </B><I><B>Acciones del componente de seguimiento. </B></I>El componente de seguimiento se centrará en el registro y seguimiento de las situaciones de tipo II y III de que trata el artículo 40 del presente decreto a través del Sistema de Información Unificado de Convivencia Escolar.</FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>Sin perjuicio de lo anterior, los Comités Escolares de Convivencia harán seguimiento y evaluación de las acciones para la promoción y fortalecimiento de la formación para la ciudadanía y el ejercicio de los derechos humanos, sexuales y reproductivos; para la prevención y mitigación de la violencia escolar y el embarazo en la adolescencia; y para la atención de las situaciones que afectan la convivencia escolar, los derechos humanos, sexuales y reproductivos. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>TÍTULO V </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>DEL RECONOCIMIENTO A LOS ESTABLECIMIENTOS EDUCATIVOS EN EL MARCO DEL FORO EDUCATIVO NACIONAL</B> </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp49 name=49>&nbsp;</A>Artículo 49. </B><I><B>Reconocimientos.</B></I><I> </I>El Ministerio de Educación Nacional seleccionará anualmente las cinco mejores estrategias de mejoramiento orientadas a cualificar la convivencia escolar, la educación para los derechos humanos, la educación para la sexualidad y la prevención y mitigación de la violencia escolar de establecimientos educativos para que presenten, a manera de reconocimiento, su experiencia en el marco del Foro Educativo Nacional. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp50 name=50>&nbsp;</A>Artículo 50. </B><I><B>Sobre la participación.</B></I><I> </I>Para el reconocimiento previsto en el artículo 39 de la Ley 1620 de 2013, podrán participar todos los establecimientos educativos oficiales y no oficiales que demuestren un impacto positivo con la implementación y desarrollo de estrategias de mejoramiento orientadas a cualificar la convivencia escolar, la educación para los derechos humanos, la educación para la sexualidad y la prevención y mitigación de la violencia escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>Los establecimientos educativos deberán postularse, cada uno con una única estrategia, ante las Secretarías de Educación, quienes preseleccionarán cinco estrategias que participarán en los foros educativos departamentales, distritales o municipales, descritos en el artículo 18 del Decreto número 1581 de 1994. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>En el marco de los foros educativos departamentales, distritales o municipales, se seleccionará una estrategia que será presentada al Ministerio de Educación Nacional para ser reconocida en el marco del Foro Educativo Nacional. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp51 name=51>&nbsp;</A>Artículo 51. </B><I><B>Criterios de selección.</B></I><I> </I>Los criterios que las secretarías de educación y el Ministerio de Educación Nacional, deberán considerar para la selección de estrategias que participen en los foros educativos departamentales, distritales o municipales y que sean reconocidas en el Foro Educativo Nacional, serán los siguientes: </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>1. Que la estrategia presentada cuente con el apoyo y reconocimiento del Comité de Convivencia Escolar. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>2. Que la estrategia presentada involucre acciones orientadas a la promoción de la convivencia escolar y a la prevención de los riesgos de ocurrencia de situaciones que afectan la convivencia escolar y el ejercicio de los derechos humanos, sexuales y reproductivos en el contexto del establecimiento educativo. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>3. Que la estrategia presentada evidencie la manera como desarrolla y fortalece las competencias ciudadanas y el ejercicio de los derechos humanos, sexuales y reproductivos. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>4. Que la estrategia presentada cuente con un proceso de sistematización que permita verificar su incidencia positiva en el establecimiento educativo. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>TÍTULO VI </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>DISPOSICIONES FINALES </B></FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp52 name=52>&nbsp;</A>Artículo 52. </B><I><B>Orientación escolar.</B></I><I> </I>La orientación escolar de que trata el artículo 32 de la Ley 1620 de 2013 estará garantizada a través de los docentes orientadores pertenecientes a las plantas globales de las entidades territoriales certificadas y su incremento se efectuará conforme a lo establecido en los procedimientos para realizar modificaciones en las plantas de cargos del personal docente, directivo docente y administrativo financiadas con cargo al Sistema General de Participaciones, consagrados en el Decreto número 1494 de 2005 y demás normas concordantes o modificatorias. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3>Las entidades territoriales podrán adelantar las gestiones necesarias y las alianzas estratégicas a través de convenios interadministrativos con las instituciones de educación superior, tendientes a lograr que estudiantes de último semestre de las carreras de psicología, psiquiatría y programas afines, realicen sus prácticas de orientación escolar en los establecimientos educativos, de manera que contribuyan a fortalecer la convivencia escolar, a prevenir y mitigar la violencia escolar; y apoyen la formación para el ejercicio de los derechos humanos, sexuales y reproductivos, y la educación para la sexualidad. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp53 name=53>&nbsp;</A>Artículo 53. </B><I><B>Participación de la familia. </B></I>La familia como núcleo fundamental de la sociedad es parte esencial del fortalecimiento de la formación para la ciudadanía y el ejercicio de los derechos humanos, sexuales y reproductivos, tiene un papel central en la prevención y mitigación de la violencia escolar y el embarazo en la adolescencia, y le asisten todos los deberes, obligaciones y funciones consagradas en el artículo 7° de la Ley 115 de 1994, en el artículo 39 de la Ley 1098 de 2006, en la Ley 1404 de 2010, en el artículo 3° del Decreto número 1860 de 1994, en el Decreto número 1286 de 2005, en el artículo 15 del Decreto número 1290 de 2009 y demás normas concordantes. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp54 name=54>&nbsp;</A>Artículo 54. </B><I><B>Participación de la sociedad. </B></I>La sociedad deberá contribuir al fortalecimiento de la formación para la ciudadanía y el ejercicio de los derechos humanos, sexuales y reproductivos de los estudiantes, y en la prevención y mitigación de la violencia escolar y el embarazo en la adolescencia, en cumplimiento de lo establecido en el artículo 42 de la Constitución Política. En virtud de ello, las organizaciones de la sociedad civil, las asocia&shy;ciones, las empresas, el comercio organizado, los gremios económicos y demás personas jurídicas, así como las personas naturales deberán cumplir con las obligaciones establecidas en el artículo 8° de la Ley 115 de 1994, en el artículo 40 de la Ley 1098 de 2006, y demás normas reglamentarias y concordantes. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B><A id=sp55 name=55>&nbsp;</A>Artículo 55. </B><I><B>Participación honoraria de los miembros de los Comités Nacional, Territorial y Escolar de Convivencia.</B></I><I> </I>Los miembros del Comité Nacional de Convivencia Escolar; de los Comités Municipales, Distritales y Departamentales de Convivencia Escolar; y del Comité Escolar de Convivencia de los establecimientos educativos, no percibirán honorarios por su participación en el mismo. </FONT></FONT></P>
+<P style="MARGIN-BOTTOM: 0cm" align=justify><FONT face="Arial, sans-serif"><FONT size=3><B>Artículo 56. </B><I><B>Vigencias y derogatorias. </B></I>El presente decreto rige a partir de su publicación y deroga todas las normas que le sean contrarias. </P>
+<P align=left></P></FONT></FONT>
+<P style="MARGIN-BOTTOM: 0.04cm; MARGIN-TOP: 0.04cm; LINE-HEIGHT: 0.34cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>Publíquese y cúmplase. </P>
+<P align=left></P></B></FONT></FONT>
+<P style="MARGIN-BOTTOM: 0.04cm; MARGIN-TOP: 0.04cm; LINE-HEIGHT: 0.34cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>Dado en Bogotá, D. C., a 11 de septiembre de 2013. </P>
+<P align=left></P></B></FONT></FONT>
+<P style="MARGIN-BOTTOM: 0.04cm; MARGIN-TOP: 0.04cm; LINE-HEIGHT: 0.34cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>JUAN MANUEL SANTOS CALDERÓN </P>
+<P align=left></P></B></FONT></FONT>
+<P style="MARGIN-BOTTOM: 0.04cm; MARGIN-TOP: 0.04cm; LINE-HEIGHT: 0.34cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>El Ministro de Salud y Protección Social, </P>
+<P align=left></P></B></FONT></FONT>
+<P style="MARGIN-BOTTOM: 0.04cm; MARGIN-TOP: 0.04cm; FONT-STYLE: normal; LINE-HEIGHT: 0.34cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B><I>Alejandro Gaviria Uribe.</P>
+<P align=left></P>
+<P style="MARGIN-BOTTOM: 0.04cm; MARGIN-TOP: 0.04cm; FONT-STYLE: normal; LINE-HEIGHT: 0.34cm" align=center></I>&nbsp;</B></FONT></FONT><FONT face="Arial, sans-serif"><FONT size=3><B>La Ministra de Educación Nacional, </P>
+<P align=left></P></B></FONT></FONT>
+<P style="MARGIN-BOTTOM: 0.04cm; MARGIN-TOP: 0.04cm; LINE-HEIGHT: 0.34cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><I><B>María Fernanda Campo Saavedra. </P>
+<P align=left></P></B></I></FONT></FONT>
+<P style="MARGIN-BOTTOM: 0.04cm; MARGIN-TOP: 0.04cm; LINE-HEIGHT: 0.34cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>El Ministro de Tecnologías de la Información y las Comunicaciones, </P>
+<P align=left></P></B></FONT></FONT>
+<P style="MARGIN-BOTTOM: 0.04cm; MARGIN-TOP: 0.04cm; LINE-HEIGHT: 0.34cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><I><B>Diego Molano Vega. </P>
+<P align=left></P></B></I></FONT></FONT>
+<P style="MARGIN-BOTTOM: 0.04cm; MARGIN-TOP: 0.04cm; FONT-STYLE: normal; LINE-HEIGHT: 0.34cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><B>La Ministra de Cultura, </B></FONT></FONT></P>
+<P class=western style="MARGIN-BOTTOM: 0.35cm" align=center><FONT face="Arial, sans-serif"><FONT size=3><I><B>Mariana Garcés Córdoba.</B></I></FONT></FONT></P>
+<P class=western style="MARGIN-BOTTOM: 0.35cm; FONT-STYLE: normal"><FONT face="Arial, sans-serif"><FONT size=3><B>NOTA: Publicado en el Diario Oficial 48910 de septiembre 11 de 2013</B></FONT></FONT></P>	</div>
+	
+		
+</div>
+<!--end col right-->
+	  
+  </div>
+    </div>
+  
+  </main>
+	
+	
+    <div class="container">
+
+		<style type="text/css">
+		.stl-1-white-blue-second {
+			background-color: transparent;
+			border: 2px solid #1E3559 !important;
+			color: #1E3559;
+			transition-duration: .4s;
+			border-radius: 3px;
+			padding: 10px 30px;
+			font-size: 1.0em;
+			font-weight: 700;
+			display: inline-block;
+		}
+
+		.stl-1-white-blue-second:hover {
+			background-color: #1E3559;
+			color: #fff;
+			border: 2px solid #1E3559;
+			border-radius: 3px;
+			padding: 10px 30px;
+			font-weight: 700;
+			text-decoration: none;
+		}
+
+		.stl-1-white-blue-second:active {
+			background-color: #bfbfbf;
+			color: white;
+		}
+
+		</style>
+		<a href="javascript:history.back(1)">
+			<div class="col-md-4"><button type="submit" class="stl-1-white-blue-second mtop20">Volver Atrás</button>
+			</div>
+		</a>
+</div>
+
+
+<footer class="footer">
+  <div class="menu-gobierno">
+    <div class="container">
+      <div class="row" style="align-items: center">
+        <div class="col-lg-4 col-md-12 text-center mb-5"> <a href="https://www.presidencia.gov.co/" class="logo img-fluid"><img width="40%" src="https://www.funcionpublica.gov.co/documents/418537/37421537/logo-gobierno.png/af775a00-cdd7-3268-7e00-d2d89fabf76b?t=1659904736649" alt="Gobierno de Colombia"/></a> </div>
+        <div class="col-lg-2 col-md-3">
+          <ul>
+            <!-- <li><a href="https://www.presidencia.gov.co/">Presidencia</a></li> -->
+            <li><a href="https://www.vicepresidencia.gov.co/">Vicepresidencia</a></li>
+            <li><a href="https://www.minjusticia.gov.co/">MinJusticia</a></li>
+            <li><a href="https://www.mindefensa.gov.co/irj/portal/Mindefensa">MinDefensa</a></li>
+            <li><a href="https://www.mintrabajo.gov.co/web/guest/inicio">MinTrabajo</a></li>
+            <li><a href="https://www.mininterior.gov.co/">MinInterior</a></li>
+            <li><a href="https://minciencias.gov.co/">MinCiencias</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <ul>
+            <li><a href="https://www.cancilleria.gov.co/">MinRelaciones</a></li>
+            <li><a href="https://www.minhacienda.gov.co/">MinHacienda</a></li>
+            <li><a href="https://www.minsalud.gov.co/portada-covid-19.html">MinSalud</a></li>
+            <li><a href="https://www.minenergia.gov.co/">MinEnergía</a></li>
+            <li><a href="https://www.mincit.gov.co/">MinComercio</a></li>
+            <li><a href="https://www.mindeporte.gov.co/">MinDeporte</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <ul>
+            <li><a href="https://www.mintic.gov.co/portal/inicio/">MinTIC</a></li>
+            <li><a href="https://www.mineducacion.gov.co/portal/">MinEducacion</a></li>
+            <li><a href="https://www.mincultura.gov.co/Paginas/Inicio.aspx">MinCultura</a></li>
+            <li><a href="https://www.minagricultura.gov.co/paginas/default.aspx">MinAgricultura</a></li>
+            <li><a href="https://www.minambiente.gov.co">MinAmbiente</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <ul>
+            <li><a href="https://www.mintransporte.gov.co/">MinTransporte</a></li>
+            <li><a href="http://www.minvivienda.gov.co/">MinVivienda</a></li>
+            <li><a href="https://www.urnadecristal.gov.co/">Urna de Cristal</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2">
+          <div class="row text-center align-items-center">
+            <div class="col-lg-12 col-sm-6 mb-5">
+              <p><a haref="#"><img src="https://www.funcionpublica.gov.co/o/Fpublica-2021-theme/images/logos/logofinal_gov.png" class="img-fluid p-2" alt="Logo gov.co"/></a></p>
+            </div>
+            <div class="col-lg-12 col-sm-6 mb-5">
+              <p><a haref="#"><img src="img_nuevo/colombia-co.png" class="img-fluid" alt="Logo Marca Pais Colombia"/></a></p>
+            </div>
+          </div>
+          <div class="d-none d-lg-block">
+            <p style="text-align: left; text-transform: uppercase; font-size: 17px;">entidad del sector</p>
+            <p class="subrayado1"></p>
+            <br>
+            <br>
+            <p><a haref="#"><img src="img_nuevo/logo-esap.png" class="img-fluid" alt="Logo ESAP"/></a></p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-7">
+          <p style="text-align: left; text-transform: uppercase; font-size: 17px;">función publica</p>
+          <p class="subrayado1"></p>
+          <!--direccion-->
+          <div style="background-image: url(img_nuevo/map2.png); background-repeat: no-repeat;background-position: center top;">
+            <div class="d-flex">
+              <div class="mr-2"> <i class="fa fa-map-marker bg-white-opacity-0_1 g-color-white-opacity-0_6"></i> </div>
+              <p class="ml-1">Carrera 6 # 12-62,<br>
+                Bogotá D.C.</p>
+            </div>
+            <!--phone-->
+            <div class="d-flex mt-1">
+              <div class="mr-2"> <i class="fa fa-phone bg-white-opacity-0_1 g-color-white-opacity-0_6"></i> </div>
+              <p class="ml-1"><strong>Código Postal: </strong>111711<br>
+                <strong>Teléfono Conmutador::</strong> (+57) 601 5956600 <br>
+                <strong>Línea gratuita nacional:</strong> 018000931186 <br>
+              </p>
+            </div>
+          </div>
+          <!--url-->
+          <div class="d-flex">
+            <div class="mr-2"> <i class="fa fa-globe bg-white-opacity-0_1 g-color-white-opacity-0_6"></i> </div>
+            <p class="ml-1" style="word-wrap: break-word"><a href="#">www.funcionpublica.gov.co</a> <br>
+              Correo de Contacto: <a href="mailto:eva@funcionpublica.gov.co">eva@funcionpublica.gov.co</a><br>
+              <span class="d-none d-lg-block d-lg-block d-md-block"> Notificaciones judiciales:<br>
+              <a style="word-wrap: break-word" href="mailto:notificacionesjudiciales@funcionpublica.gov.co?Subject=Notificación%20judicial" target="_top">notificacionesjudiciales@funcionpublica.gov.co</a></span> <br>
+            </p>
+          </div>
+          <p class="mt-2" style="text-align: left; text-transform: uppercase; font-size: 17px;">contacto</p>
+          <p class="subrayado1"></p>
+          <p>Horario de atención presencial grupo de Servicio al ciudadano:<br>
+            Lunes a Viernes, 7:30 a.m a 6:00 p.m</p>
+          <p class="border-footer"></p>
+          <p>Recepción de correspondencia:<br>
+            Lunes a viernes, 8:00 am a 4:00 pm Jornada Continua</p>
+          <p class="subrayado2"></p>
+          <!--<p>Línea gratuita nacional: 018000917770</p>-->
+          <p class="subrayado2"></p>
+        </div>
+        <div class="col-lg-4 col-md-5">
+          <p style="text-align: left; text-transform: uppercase; font-size: 17px;">servicios al ciudadano</p>
+          <p class="subrayado1"></p>
+          <p><a href="mailto:notificacionesjudiciales@funcionpublica.gov.co?Subject=Notificación%20judicial" target="_top">Notificaciones judiciales</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="mailto:actosadministrativos@funcionpublica.gov.co?Subject=Notificaciones o comunicaciones de acto administrativo" target="_top">Notificación de actos administrativos</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/notificaciones-a-terceros" target="_top">Notificaciones a terceros</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/denuncias-por-actos-de-corrupci%C3%B3n">Denuncias por actos de corrupción</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/web/intranet/registrosyencuestas">Participación ciudadana</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/preguntas-frecuentes">Preguntas frecuentes</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/formule-su-peticion">Formule su petición PQRS</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/mapa-del-sitio">Mapa del sitio</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://mail.office365.com/">Ingreso correo institucional</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/estadisticas-sitio">Estadísticas del sitio</a></p>
+          <p class="subrayado2"></p>
+          <p><a href="https://www.funcionpublica.gov.co/inicio?p_p_id=com_liferay_login_web_portlet_LoginPortlet&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&saveLastPath=false&_com_liferay_login_web_portlet_LoginPortlet_mvcRenderCommandName=%2Flogin%2Flogin">Acceder</a></p>
+          <p class="subrayado2"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--redes sociales-->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-lg-6"> <a href="https://www.funcionpublica.gov.co/politica-de-privacidad-y-condiciones-de-uso">Política de Privacidad &nbsp; | &nbsp; </a><a href="https://www.funcionpublica.gov.co/politica-de-privacidad-y-condiciones-de-uso"> Términos y condiciones de uso</a> </div>
+        <div class="col-sm-4 col-lg-6 text-left  text-md-right text-xl-right">
+          <nav class="navigation">
+            <ul>
+              <li class="mr-2"><a href="https://www.facebook.com/FuncionPublica" target="_blank" title="Icono facebook"> <i class="fa fa-facebook fa-2x g-color-white-opacity-0_6 link-footer-img"></i></a></li>
+              <li class="mr-2"><a href="https://www.linkedin.com/company/departamento-administrativo-de-la-funci%C3%B3n-p%C3%BAblica" target="_blank" title="Icono Linkedin"> <i class="fa fa-linkedin fa-2x g-color-white-opacity-0_6 link-footer-img" ></i> </a></li>
+              <li class="mr-2"><a href="https://twitter.com/dafp_colombia"  target="_blank" title="Icono Twitter"> <i class="fa fa-twitter fa-2x g-color-white-opacity-0_6 link-footer-img" ></i> </a></li>
+              <li><a href="https://www.instagram.com/funcionpublicacolombia/" target="_blank" title="Icono Instagram"> <i class="fa fa fa-instagram fa-2x g-color-white-opacity-0_6 link-footer-img"></i> </a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Optional JavaScript --> 
+<!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  -->
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  -->
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  <!-- Script para mostrar el modal al cargar la página -->
+  <script>
+    $(document).ready(function(){
+      // Verificar si el sessionStorage tiene la fecha guardada
+      var modalShownTime = sessionStorage.getItem('modalShownTime');
+      if (!modalShownTime) {
+        // Si no hay fecha guardada, guardar la fecha actual
+        sessionStorage.setItem('modalShownTime', new Date().getTime());
+      } else {
+        // Si hay fecha guardada, verificar si han pasado 2 minutos desde entonces
+        var currentTime = new Date().getTime();
+		sessionStorage.setItem('modalShownTimeresta', (currentTime - modalShownTime));
+        if ((currentTime - modalShownTime) < (15 * 1000)) {
+          // Si han pasado menos de 2 minutos, no mostrar el modal
+          return;
+        }
+      }
+      // Verificar si el modal existe antes de mostrarlo
+      if ($('#exampleModal').length) {
+        $('#exampleModal').modal('show');
+		sessionStorage.setItem('modalShownTime', new Date().getTime());
+		
+      }
+    });
+  </script>
+  <!-- Lupa del buscador del Header -->
+<script>
+	 $('[name="btnsearch"]').click(function(){
+	  $('[name="_com_liferay_portal_search_web_portlet_SearchPortlet_fm"]').submit();
+	});
+</script>
+
+<!-- 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'anteriorUA-///71957172-1', 'anteriorUA-///71957172-1');
+  ga('send', 'pageview');
+
+</script>
+-->
+
+			
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DVZ2E88S6R"></script>
+<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-DVZ2E88S6R');
+</script>
+
+
+
+
+</body>
+</html>
+

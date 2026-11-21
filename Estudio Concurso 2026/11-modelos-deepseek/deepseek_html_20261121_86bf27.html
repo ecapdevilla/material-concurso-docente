@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concurso Docente Colombia — SGP y Fondo de Servicios Educativos</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; line-height: 1.6; color: #1a1a1a; max-width: 980px; margin: 0 auto; padding: 2rem; background-color: #f8f9fa; }
+        h1 { color: #0b3d62; border-bottom: 3px solid #0b3d62; padding-bottom: 0.5rem; font-size: 1.8rem; }
+        h2 { color: #0b3d62; margin-top: 2.5rem; font-size: 1.4rem; }
+        .marco-normativo { background-color: #e8f0f8; border-left: 5px solid #0b3d62; padding: 1.2rem 1.5rem; margin: 1.5rem 0; border-radius: 0 6px 6px 0; }
+        .marco-normativo p { margin: 0.6rem 0; }
+        .marco-normativo strong { color: #0b3d62; }
+        .nota-diseno { background-color: #fff8e6; border-left: 5px solid #d4ac0d; padding: 1rem 1.4rem; margin: 1.5rem 0; border-radius: 0 6px 6px 0; font-size: 0.95rem; }
+        .pregunta { background-color: #ffffff; border: 1px solid #d0d7de; border-radius: 8px; padding: 1.5rem; margin: 2rem 0; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+        .pregunta-numero { font-weight: 700; color: #0b3d62; font-size: 1.05rem; margin-bottom: 0.8rem; }
+        .situacion { background-color: #fef9e7; border-left: 4px solid #d4ac0d; padding: 0.9rem 1.2rem; margin: 1rem 0; font-style: italic; border-radius: 0 4px 4px 0; }
+        .opciones { list-style: none; padding: 0; margin: 1.2rem 0 0 0; }
+        .opciones li { background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 0.9rem 1rem; margin: 0.6rem 0; text-align: justify; min-height: 6.4em; }
+        .opciones li strong { color: #0b3d62; }
+        .clave { background-color: #ffffff; border: 2px solid #0b3d62; border-radius: 8px; padding: 1.5rem; margin-top: 3rem; }
+        .clave h2 { margin-top: 0; border-bottom: 2px solid #0b3d62; padding-bottom: 0.5rem; }
+        .respuesta-item { margin: 1.5rem 0; padding-bottom: 1.2rem; border-bottom: 1px dashed #c0c7d0; }
+        .respuesta-item:last-child { border-bottom: none; }
+        .letra-correcta { display: inline-block; background-color: #0b3d62; color: #ffffff; font-weight: 700; padding: 0.2rem 0.7rem; border-radius: 4px; margin-right: 0.5rem; }
+        .justificacion { margin-top: 0.6rem; font-size: 0.95rem; text-align: justify; }
+        .nota-final { font-size: 0.9rem; color: #57606a; margin-top: 2rem; padding: 1rem; background-color: #f0f3f6; border-radius: 6px; }
+    </style>
+</head>
+<body>
+
+    <h1>Concurso Docente Colombia — Financiación educativa, SGP y Fondo de Servicios Educativos</h1>
+
+    <div class="marco-normativo">
+        <h2 style="margin-top:0; font-size:1.2rem; border:none; padding:0;">Contexto normativo del eje evaluado</h2>
+        <p><strong>1. Destinación específica del SGP educativo (art. 15, Ley 715 de 2001).</strong> Los recursos de la participación para educación del SGP se destinan a financiar <strong>la prestación del servicio educativo</strong> (pago de docentes y personal administrativo, según tipología) y <strong>calidad matrícula oficial</strong> (construcción, mantenimiento, dotación, servicios públicos, gastos de funcionamiento). No son de libre destinación.</p>
+        <p><strong>2. Prohibición de gastos de personal con recursos de calidad (art. 17, Ley 715 de 2001).</strong> Los recursos de <strong>calidad</strong> no pueden destinarse a <strong>gastos de personal de cualquier naturaleza</strong> (salarios, prestaciones, bonificaciones, horas extras, etc.). Esta prohibición es taxativa y ha sido reiterada por la Contraloría General de la República.</p>
+        <p><strong>3. Naturaleza y administración del Fondo de Servicios Educativos (FSE) (arts. 2.3.1.6.3.2 a 2.3.1.6.3.4, Decreto 1075 de 2015).</strong> El FSE <strong>no tiene personería jurídica</strong>. Lo <strong>administra el rector en coordinación con el Consejo Directivo</strong>. El rector es el <strong>ordenador del gasto</strong> y su ejercicio <strong>no implica representación legal</strong>.</p>
+        <p><strong>4. Aprobación del presupuesto del FSE (art. 2.3.1.6.3.3, Decreto 1075; Decreto 4791 de 2008, compilado).</strong> El rector <strong>elabora</strong> el proyecto anual de presupuesto y lo <strong>presenta para aprobación al Consejo Directivo</strong>. El Consejo Directivo <strong>aprueba</strong>; el rector <strong>ordena el gasto</strong>. No hay aprobación por parte de la secretaría de educación ni del Consejo Académico.</p>
+        <p><strong>5. Publicidad y transparencia (art. 2.3.1.6.3.3, Decreto 1075).</strong> El rector debe <strong>publicar en el sitio web del establecimiento</strong> el informe de ejecución de los recursos y los estados contables del FSE, para garantizar el control social.</p>
+        <p><strong>6. Competencia de la secretaría de educación en materia financiera.</strong> La secretaría <strong>no administra</strong> el FSE ni <strong>ordena el gasto</strong>. Sus funciones son de <strong>inspección, vigilancia y seguimiento</strong> (art. 2.3.7.1.4 y ss., Decreto 1075; art. 6 y 7, Ley 715 de 2001).</p>
+        <p><strong>7. Distinción entre recursos de prestación de servicio y recursos de calidad.</strong> Los primeros financian la nómina docente y administrativa según la tipología; los segundos financian infraestructura, dotación, servicios públicos y funcionamiento, <strong>pero nunca personal</strong>. Confundir ambas bolsas es el error técnico más frecuente.</p>
+    </div>
+
+    <div class="nota-diseno">
+        <strong>Nota sobre el diseño:</strong> las opciones incorrectas confunden la <strong>naturaleza jurídica del FSE</strong>, atribuyen la <strong>aprobación del presupuesto</strong> al órgano equivocado, invierten la regla de <strong>prohibición de gastos de personal con recursos de calidad</strong> o trasladan a la <strong>secretaría de educación</strong> funciones que corresponden al rector o al Consejo Directivo. Todas las opciones tienen una extensión comparable; la correcta solo se distingue por su precisión normativa.
+    </div>
+
+    <!-- PREGUNTA 1 -->
+    <div class="pregunta">
+        <div class="pregunta-numero">PREGUNTA 1</div>
+        <p>El rector de una institución educativa oficial considera que, como el Fondo de Servicios Educativos (FSE) maneja recursos públicos y ejecuta gastos, tiene personería jurídica propia y puede contratar a nombre del fondo, sin necesidad de que la institución educativa actúe como contratante. Un asesor jurídico le indica que esa apreciación es incorrecta.</p>
+        <p><strong>Según el artículo 2.3.1.6.3.4 del Decreto 1075 de 2015, la afirmación del asesor es:</strong></p>
+        <ul class="opciones">
+            <li><strong>A.</strong> Correcta, porque el FSE carece de personería jurídica, y los contratos los celebra la institución educativa, mientras el rector ordena el gasto sin representación legal.</li>
+            <li><strong>B.</strong> Incorrecta, porque el FSE tiene personería jurídica desde su creación legal y el rector actúa como su representante legal para todos los efectos contractuales y presupuestales.</li>
+            <li><strong>C.</strong> Correcta parcialmente, porque el FSE carece de personería, pero la contratación la asume la secretaría de educación en calidad de entidad territorial certificada que ejerce la tutela financiera.</li>
+            <li><strong>D.</strong> Incorrecta, porque el FSE tiene personería jurídica limitada a la ejecución presupuestal, y el rector es su ordenador del gasto con capacidad para comprometer obligaciones a nombre propio.</li>
+        </ul>
+    </div>
+
+    <!-- PREGUNTA 2 -->
+    <div class="pregunta">
+        <div class="pregunta-numero">PREGUNTA 2</div>
+        <p>En la elaboración del presupuesto anual del Fondo de Servicios Educativos de un colegio oficial, el rector prepara el proyecto y lo remite directamente a la secretaría de educación para su aprobación, sin someterlo al Consejo Directivo. Argumenta que “la secretaría es la autoridad educativa y la que finalmente vigila los recursos”.</p>
+        <p><strong>Según el artículo 2.3.1.6.3.3 del Decreto 1075 de 2015, la actuación del rector es:</strong></p>
+        <ul class="opciones">
+            <li><strong>A.</strong> Correcta, porque la secretaría de educación es la autoridad competente para aprobar el presupuesto del FSE y el Consejo Directivo solo cumple una función consultiva.</li>
+            <li><strong>B.</strong> Incorrecta, porque el rector debe presentar el proyecto de presupuesto al Consejo Directivo para su aprobación, y la secretaría ejerce seguimiento, no aprobación.</li>
+            <li><strong>C.</strong> Correcta parcialmente, porque la secretaría aprueba el presupuesto, pero el Consejo Directivo debe emitir un concepto previo de legalidad y pertinencia del gasto.</li>
+            <li><strong>D.</strong> Incorrecta, porque el presupuesto del FSE lo aprueba el Consejo Académico y la secretaría solo refrenda la decisión con un acto de validación.</li>
+        </ul>
+    </div>
+
+    <!-- PREGUNTA 3 -->
+    <div class="pregunta">
+        <div class="pregunta-numero">PREGUNTA 3</div>
+        <p>Con recursos del componente de <strong>calidad matrícula oficial</strong> del SGP, el rector de una institución educativa paga <strong>horas extras</strong> a los docentes que participaron en una jornada de refuerzo académico. La secretaría de educación objeta el gasto y señala que esos recursos tienen una destinación específica.</p>
+        <p><strong>Según el artículo 17 de la Ley 715 de 2001, la objeción de la secretaría es:</strong></p>
+        <ul class="opciones">
+            <li><strong>A.</strong> Correcta, porque los recursos de calidad no pueden destinarse a gastos de personal de ninguna naturaleza, y el pago de horas extras es un gasto de personal.</li>
+            <li><strong>B.</strong> Incorrecta, porque los recursos de calidad pueden financiar horas extras docentes cuando estén asociadas a proyectos pedagógicos aprobados por el Consejo Directivo.</li>
+            <li><strong>C.</strong> Correcta parcialmente, porque los recursos de calidad pueden financiar horas extras, pero solo si la secretaría autoriza previamente el gasto mediante resolución motivada.</li>
+            <li><strong>D.</strong> Incorrecta, porque la prohibición solo aplica a salarios permanentes, y las horas extras son un gasto ocasional que puede cubrirse con calidad.</li>
+        </ul>
+    </div>
+
+    <!-- PREGUNTA 4 -->
+    <div class="pregunta">
+        <div class="pregunta-numero">PREGUNTA 4</div>
+        <p>Una secretaría de educación envía una circular a todos los rectores ordenando que, a partir del siguiente mes, los pagos de servicios públicos (agua, energía, internet) de las instituciones educativas se carguen directamente a la <strong>bolsa de prestación del servicio</strong> y no a la de calidad, “para unificar la ejecución y evitar dispersión de recursos”.</p>
+        <p><strong>Frente al artículo 15 de la Ley 715 de 2001, la circular de la secretaría es:</strong></p>
+        <ul class="opciones">
+            <li><strong>A.</strong> Válida, porque la secretaría puede reorganizar las bolsas del SGP para garantizar eficiencia administrativa, y los servicios públicos pueden financiarse con cualquier componente.</li>
+            <li><strong>B.</strong> Inválida, porque los servicios públicos hacen parte de la destinación del componente de calidad matrícula oficial, y la secretaría no puede reasignarlos a la bolsa de prestación del servicio.</li>
+            <li><strong>C.</strong> Válida parcialmente, porque la secretaría puede reasignar los servicios públicos a prestación del servicio, pero solo para instituciones rurales y previa aprobación del Consejo Directivo.</li>
+            <li><strong>D.</strong> Inválida, porque los servicios públicos solo pueden pagarse con recursos propios de la institución y no con ninguna bolsa del SGP educativo.</li>
+        </ul>
+    </div>
+
+    <!-- PREGUNTA 5 -->
+    <div class="pregunta">
+        <div class="pregunta-numero">PREGUNTA 5</div>
+        <p>El rector de una institución educativa considera que, como es el ordenador del gasto del FSE, puede comprometer recursos y firmar contratos en nombre del fondo sin consultar al Consejo Directivo, argumentando que “la ordenación del gasto implica representación legal y autonomía contractual”.</p>
+        <p><strong>Según los artículos 2.3.1.6.3.3 y 2.3.1.6.3.4 del Decreto 1075 de 2015, la afirmación del rector es:</strong></p>
+        <ul class="opciones">
+            <li><strong>A.</strong> Correcta, porque el ordenador del gasto tiene representación legal del FSE y puede celebrar contratos sin autorización del Consejo Directivo.</li>
+            <li><strong>B.</strong> Incorrecta, porque el rector administra el FSE en coordinación con el Consejo Directivo, y su calidad de ordenador del gasto no implica representación legal.</li>
+            <li><strong>C.</strong> Correcta parcialmente, porque el rector puede contratar sin el Consejo Directivo cuando el gasto esté previamente incluido en el presupuesto aprobado.</li>
+            <li><strong>D.</strong> Incorrecta, porque la representación legal del FSE corresponde al personero estudiantil y al Consejo Directivo de manera conjunta.</li>
+        </ul>
+    </div>
+
+    <!-- PREGUNTA 6 -->
+    <div class="pregunta">
+        <div class="pregunta-numero">PREGUNTA 6</div>
+        <p>Una secretaría de educación departamental, en ejercicio de sus funciones de inspección y vigilancia, ordena al rector de un colegio oficial que <strong>modifique el presupuesto del FSE</strong> para incluir una partida de mantenimiento de infraestructura que el rector había excluido. El rector se niega, argumentando que la secretaría no tiene competencia para modificar el presupuesto.</p>
+        <p><strong>Frente al régimen de competencias del Decreto 1075 de 2015 y la Ley 715 de 2001, la posición del rector es:</strong></p>
+        <ul class="opciones">
+            <li><strong>A.</strong> Correcta, porque el presupuesto del FSE lo aprueba el Consejo Directivo a propuesta del rector, y la secretaría ejerce seguimiento, no modificación.</li>
+            <li><strong>B.</strong> Incorrecta, porque la secretaría de educación es la autoridad superior y puede modificar el presupuesto del FSE cuando lo considere necesario.</li>
+            <li><strong>C.</strong> Correcta parcialmente, porque la secretaría puede modificar el presupuesto, pero solo si existe un hallazgo fiscal previo de la Contraloría.</li>
+            <li><strong>D.</strong> Incorrecta, porque el presupuesto del FSE lo modifica el Consejo Académico y la secretaría solo expide el acto de ejecución.</li>
+        </ul>
+    </div>
+
+    <!-- PREGUNTA 7 -->
+    <div class="pregunta">
+        <div class="pregunta-numero">PREGUNTA 7</div>
+        <p>El rector de una institución educativa utiliza recursos del componente de <strong>calidad matrícula oficial</strong> para pagar la <strong>bonificación anual</strong> de un docente destacado, argumentando que se trata de un incentivo al mérito y que la bonificación no es un salario permanente.</p>
+        <p><strong>Según el artículo 17 de la Ley 715 de 2001, la actuación del rector es:</strong></p>
+        <ul class="opciones">
+            <li><strong>A.</strong> Válida, porque la bonificación no es un gasto de personal permanente y puede financiarse con recursos de calidad como incentivo al desempeño.</li>
+            <li><strong>B.</strong> Inválida, porque los recursos de calidad no pueden destinarse a gastos de personal de cualquier naturaleza, y la bonificación es un gasto de personal.</li>
+            <li><strong>C.</strong> Válida parcialmente, porque la bonificación puede pagarse con calidad si el Consejo Directivo la aprueba y la secretaría la avala.</li>
+            <li><strong>D.</strong> Inválida, porque las bonificaciones solo pueden pagarse con recursos de prestación del servicio y no con calidad ni con recursos propios.</li>
+        </ul>
+    </div>
+
+    <!-- PREGUNTA 8 -->
+    <div class="pregunta">
+        <div class="pregunta-numero">PREGUNTA 8</div>
+        <p>Un rector no publica en el sitio web de la institución el informe de ejecución de los recursos del FSE, argumentando que “esa información es reservada y que solo la secretaría de educación puede acceder a ella en ejercicio de su función de control”.</p>
+        <p><strong>Según el artículo 2.3.1.6.3.3 del Decreto 1075 de 2015, la omisión del rector es:</strong></p>
+        <ul class="opciones">
+            <li><strong>A.</strong> Correcta, porque la información financiera del FSE es reservada y solo se comparte con la secretaría y la Contraloría en el marco del control fiscal.</li>
+            <li><strong>B.</strong> Incorrecta, porque el rector debe publicar en el sitio web el informe de ejecución y los estados contables del FSE para garantizar transparencia y control social.</li>
+            <li><strong>C.</strong> Correcta parcialmente, porque la publicación es obligatoria solo cuando la institución recibe recursos de calidad superiores a un umbral definido por la secretaría.</li>
+            <li><strong>D.</strong> Incorrecta, porque la publicación la realiza la secretaría de educación y no el rector, quien solo remite la información a esa entidad.</li>
+        </ul>
+    </div>
+
+    <!-- PREGUNTA 9 -->
+    <div class="pregunta">
+        <div class="pregunta-numero">PREGUNTA 9</div>
+        <p>Una institución educativa oficial recibe recursos del SGP para <strong>prestación del servicio</strong> y para <strong>calidad matrícula oficial</strong>. El rector decide usar el saldo de la bolsa de prestación del servicio para comprar computadores, argumentando que “la tecnología mejora la calidad y, además, la bolsa de prestación tiene saldo disponible”.</p>
+        <p><strong>Frente al artículo 15 de la Ley 715 de 2001, la decisión del rector es:</strong></p>
+        <ul class="opciones">
+            <li><strong>A.</strong> Válida, porque los recursos de prestación del servicio pueden destinarse a cualquier gasto educativo cuando existe saldo disponible y la compra mejora la calidad.</li>
+            <li><strong>B.</strong> Inválida, porque los recursos de prestación del servicio financian nómina y personal, mientras la dotación de computadores corresponde al componente de calidad.</li>
+            <li><strong>C.</strong> Válida parcialmente, porque la compra de computadores puede financiarse con prestación del servicio si el Consejo Directivo lo aprueba por unanimidad.</li>
+            <li><strong>D.</strong> Inválida, porque la compra de computadores solo puede hacerse con recursos propios y no con ninguna bolsa del SGP.</li>
+        </ul>
+    </div>
+
+    <!-- PREGUNTA 10 -->
+    <div class="pregunta">
+        <div class="pregunta-numero">PREGUNTA 10</div>
+        <p>El Consejo Directivo de una institución educativa aprueba el presupuesto del FSE, pero el rector, al momento de ejecutarlo, decide <strong>reasignar partidas</strong> entre rubros (por ejemplo, trasladar dinero de dotación a mantenimiento) sin informar ni solicitar una nueva aprobación al Consejo Directivo. Argumenta que “la ejecución presupuestal es competencia del ordenador del gasto y que las reasignaciones son un acto de administración ordinaria”.</p>
+        <p><strong>Según el artículo 2.3.1.6.3.3 del Decreto 1075 de 2015, la actuación del rector es:</strong></p>
+        <ul class="opciones">
+            <li><strong>A.</strong> Correcta, porque el rector es el ordenador del gasto y puede reasignar partidas sin consultar al Consejo Directivo, siempre que no supere el 20 % del rubro.</li>
+            <li><strong>B.</strong> Incorrecta, porque el presupuesto lo aprueba el Consejo Directivo y las reasignaciones que modifican lo aprobado requieren su autorización.</li>
+            <li><strong>C.</strong> Correcta parcialmente, porque el rector puede reasignar partidas, pero debe informar posteriormente a la secretaría de educación para su convalidación.</li>
+            <li><strong>D.</strong> Incorrecta, porque las reasignaciones presupuestales corresponden al Consejo Académico y no al rector ni al Consejo Directivo.</li>
+        </ul>
+    </div>
+
+    <!-- CLAVE DE RESPUESTAS -->
+    <div class="clave">
+        <h2>Clave de respuestas y justificación técnica</h2>
+
+        <div class="respuesta-item">
+            <p><span class="letra-correcta">Pregunta 1 → A</span></p>
+            <div class="justificacion">
+                <p>El FSE <strong>no tiene personería jurídica</strong> (art. 2.3.1.6.3.4). Los contratos los celebra la institución educativa. El rector es ordenador del gasto y su ejercicio <strong>no implica representación legal</strong>. <strong>B</strong> atribuye personería al FSE. <strong>C</strong> traslada la contratación a la secretaría, lo cual es falso. <strong>D</strong> inventa una “personería limitada” que no existe.</p>
+            </div>
+        </div>
+
+        <div class="respuesta-item">
+            <p><span class="letra-correcta">Pregunta 2 → B</span></p>
+            <div class="justificacion">
+                <p>El rector <strong>elabora</strong> el proyecto y lo <strong>presenta al Consejo Directivo para su aprobación</strong>. La secretaría ejerce seguimiento, no aprobación. <strong>A</strong> atribuye la aprobación a la secretaría. <strong>C</strong> convierte al Consejo Directivo en emisor de un concepto previo, cuando es el órgano que aprueba. <strong>D</strong> atribuye la aprobación al Consejo Académico, que es un órgano pedagógico.</p>
+            </div>
+        </div>
+
+        <div class="respuesta-item">
+            <p><span class="letra-correcta">Pregunta 3 → A</span></p>
+            <div class="justificacion">
+                <p>El artículo 17 de la Ley 715 prohíbe destinar recursos de <strong>calidad</strong> a <strong>gastos de personal de cualquier naturaleza</strong>. Las horas extras son gasto de personal. <strong>B</strong> permite horas extras con calidad bajo aprobación del Consejo Directivo, lo cual no está en la norma. <strong>C</strong> exige autorización de la secretaría que la ley no contempla. <strong>D</strong> distingue entre salario permanente y ocasional, distinción que la prohibición no hace.</p>
+            </div>
+        </div>
+
+        <div class="respuesta-item">
+            <p><span class="letra-correcta">Pregunta 4 → B</span></p>
+            <div class="justificacion">
+                <p>Los <strong>servicios públicos</strong> son un gasto propio del componente de <strong>calidad matrícula oficial</strong> (art. 15, Ley 715). La secretaría no puede reasignarlos a prestación del servicio. <strong>A</strong> atribuye a la secretaría una potestad de reorganización de bolsas que no tiene. <strong>C</strong> introduce una excepción rural y aprobación del Consejo Directivo que la norma no contempla. <strong>D</strong> niega que los servicios públicos puedan pagarse con SGP, lo cual es falso.</p>
+            </div>
+        </div>
+
+        <div class="respuesta-item">
+            <p><span class="letra-correcta">Pregunta 5 → B</span></p>
+            <div class="justificacion">
+                <p>El rector administra el FSE <strong>en coordinación con el Consejo Directivo</strong>, y su calidad de ordenador del gasto <strong>no implica representación legal</strong>. <strong>A</strong> le atribuye representación legal. <strong>C</strong> admite contratación sin Consejo Directivo si el gasto está presupuestado, lo cual desconoce la coordinación. <strong>D</strong> atribuye la representación al personero y al Consejo Directivo conjuntamente, lo cual es absurdo.</p>
+            </div>
+        </div>
+
+        <div class="respuesta-item">
+            <p><span class="letra-correcta">Pregunta 6 → A</span></p>
+            <div class="justificacion">
+                <p>El presupuesto del FSE lo aprueba el <strong>Consejo Directivo</strong> a propuesta del rector. La secretaría ejerce <strong>seguimiento</strong>, no modificación. <strong>B</strong> atribuye a la secretaría una potestad de modificación que no tiene. <strong>C</strong> condiciona la modificación a un hallazgo fiscal previo, lo cual no está en la norma. <strong>D</strong> atribuye la modificación al Consejo Académico, que no tiene competencia financiera.</p>
+            </div>
+        </div>
+
+        <div class="respuesta-item">
+            <p><span class="letra-correcta">Pregunta 7 → B</span></p>
+            <div class="justificacion">
+                <p>La <strong>bonificación</strong> es un gasto de personal y, por tanto, está prohibida con recursos de calidad (art. 17, Ley 715). <strong>A</strong> distingue entre bonificación y salario permanente, distinción que la norma no hace. <strong>C</strong> permite la bonificación con aprobación del Consejo Directivo y aval de la secretaría, lo cual no está en la norma. <strong>D</strong> afirma que las bonificaciones solo pueden pagarse con prestación del servicio, lo cual es incorrecto: también pueden pagarse con recursos propios, pero no con calidad.</p>
+            </div>
+        </div>
+
+        <div class="respuesta-item">
+            <p><span class="letra-correcta">Pregunta 8 → B</span></p>
+            <div class="justificacion">
+                <p>El rector debe <strong>publicar en el sitio web</strong> el informe de ejecución y los estados contables del FSE (art. 2.3.1.6.3.3). <strong>A</strong> alega reserva de la información, lo cual contradice la norma de transparencia. <strong>C</strong> condiciona la publicación a un umbral de recursos, lo cual no está previsto. <strong>D</strong> atribuye la publicación a la secretaría, cuando es obligación del rector.</p>
+            </div>
+        </div>
+
+        <div class="respuesta-item">
+            <p><span class="letra-correcta">Pregunta 9 → B</span></p>
+            <div class="justificacion">
+                <p>Los recursos de <strong>prestación del servicio</strong> financian nómina y personal; la <strong>dotación</strong> (computadores) corresponde al componente de <strong>calidad</strong>. <strong>A</strong> permite usar prestación para cualquier gasto si hay saldo, lo cual desconoce la destinación específica. <strong>C</strong> admite la compra con prestación si el Consejo Directivo lo aprueba por unanimidad, lo cual no está en la norma. <strong>D</strong> niega que la dotación pueda financiarse con SGP, lo cual es falso: corresponde a calidad.</p>
+            </div>
+        </div>
+
+        <div class="respuesta-item">
+            <p><span class="letra-correcta">Pregunta 10 → B</span></p>
+            <div class="justificacion">
+                <p>El presupuesto lo aprueba el <strong>Consejo Directivo</strong>. Las reasignaciones que modifican lo aprobado requieren su autorización. <strong>A</strong> permite reasignaciones unilaterales con un límite del 20 % que la norma no contempla. <strong>C</strong> admite reasignación con convalidación posterior de la secretaría, lo cual desconoce la competencia del Consejo Directivo. <strong>D</strong> atribuye las reasignaciones al Consejo Académico, que no tiene competencia financiera.</p>
+            </div>
+        </div>
+
+        <div class="nota-final">
+            <strong>Nota metodológica:</strong> este bloque evalúa la distinción entre las <strong>bolsas del SGP</strong> (prestación del servicio vs. calidad), la <strong>naturaleza jurídica del FSE</strong> (sin personería), la <strong>distribución de competencias</strong> (rector ordena el gasto, Consejo Directivo aprueba el presupuesto, secretaría hace seguimiento) y la <strong>prohibición taxativa</strong> de gastos de personal con recursos de calidad. Las opciones incorrectas incorporan normas reales, pero las aplican de manera torcida: invierten la regla, atribuyen la competencia al órgano equivocado o inventan excepciones que la ley no contempla.
+        </div>
+    </div>
+
+</body>
+</html>
