@@ -107,7 +107,9 @@ Estudio Concurso 2026\11-modelos-deepseek\deepseek_html_20261121_c47dc9.html
 Estudio Concurso 2026\11-modelos-deepseek\deepseek_html_20261121_cba360.html
 Estudio Concurso 2026\11-modelos-deepseek\deepseek_html_20261121_dda2aa (1).html
 Estudio Concurso 2026\17-guia-integral-competencias\Guia_integral_competencias_ciudadanas_razonamiento_cuantitativo_2026.docx
+Estudio Concurso 2026\banco-preguntas-semana1.json
 Estudio Concurso 2026\index.html
+Estudio Concurso 2026\practica.html
 Estudio Concurso 2026\PROMPT-OTRA-MAQUINA.md
 Estudio Concurso 2026\README.md
 Evidencias y Certificados\Evidencia Docente Estiben Rafael Capdevilla NSCL 240201056.pdf

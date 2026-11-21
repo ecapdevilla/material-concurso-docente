@@ -35,6 +35,12 @@ Ley 115/94, 715/01, 909/04, 1098/06, 1618/13, 1620/13, 2216/22; Decretos 1075/15
 - Ejes temáticos oficiales (pendiente de publicación).
 - Más ejercicios de razonamiento cuantitativo, competencias ciudadanas, informática/tecnología.
 
+## Práctica interactiva
+
+- `Estudio Concurso 2026/practica.html` - Interfaz web para practicar con el banco de preguntas.
+- `Estudio Concurso 2026/banco-preguntas-semana1.json` - Banco de 12 preguntas de alta exigencia (lectura crítica, razonamiento cuantitativo, competencias blandas, pedagogía).
+- Retroalimentación inmediata con análisis de distractores y referencias normativas.
+
 ## Nota
 
 El desarrollo de software (mooc docente, proyectos, etc.) NO se incluye en este repositorio. Se deja intacto en su ubicación original.

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Práctica - Semana 1 - Concurso Docente Barranquilla 2026</title>
+<style>
+  body { font-family: system-ui, Segoe UI, Arial, sans-serif; max-width: 960px; margin: 2rem auto; padding: 0 1rem; color: #1d2430; line-height: 1.6; }
+  h1 { color: #0b3d62; border-bottom: 3px solid #0b3d62; padding-bottom: .4rem; }
+  h2 { color: #0b3d62; margin-top: 2rem; }
+  .card { border: 1px solid #d5dde6; border-radius: 8px; padding: 1.2rem; margin: 1rem 0; background: #fff; }
+  .meta { font-size: .85rem; color: #555; margin-bottom: .5rem; }
+  .tag { display: inline-block; font-size: .75rem; padding: .15rem .5rem; border-radius: 4px; margin-right: .3rem; }
+  .tag-comp { background: #eef4fa; color: #0b3d62; }
+  .tag-nivel { background: #fff3d6; color: #8a5a00; }
+  .caso { background: #f7f9fb; border-left: 3px solid #888; padding: .6rem .9rem; margin: .8rem 0; font-size: .97rem; }
+  .enunciado { font-weight: 600; margin: .8rem 0; }
+  .op { margin: .4rem 0 .4rem 1.2rem; cursor: pointer; padding: .3rem .5rem; border-radius: 4px; }
+  .op:hover { background: #f1f3f5; }
+  .op.selected { background: #dce8f5; border: 1px solid #0b3d62; }
+  .btn { background: #0b3d62; color: #fff; border: none; padding: .5rem 1.2rem; border-radius: 6px; cursor: pointer; font-size: 1rem; margin: .5rem .3rem; }
+  .btn:hover { background: #083050; }
+  .btn:disabled { background: #aaa; cursor: not-allowed; }
+  .feedback { margin-top: 1rem; padding: 1rem; border-radius: 6px; display: none; }
+  .feedback.correcto { background: #eaf7ee; border: 1px solid #1d6b3a; }
+  .feedback.incorrecto { background: #fdecea; border: 1px solid #b00020; }
+  .feedback h3 { margin-top: 0; }
+  .distractor { margin: .3rem 0; font-size: .9rem; }
+  .nav { display: flex; justify-content: space-between; margin: 1.5rem 0; }
+  .progress { background: #eef4fa; border-radius: 8px; padding: .8rem; margin: 1rem 0; }
+  .bar { background: #0b3d62; height: 8px; border-radius: 4px; transition: width .3s; }
+  .stats { display: flex; gap: 1rem; flex-wrap: wrap; }
+  .stat { background: #f7f9fb; padding: .5rem 1rem; border-radius: 6px; }
+  .stat strong { color: #0b3d62; }
+</style>
+</head>
+<body>
+
+<h1>Práctica - Semana 1</h1>
+<p>Concurso Docente Barranquilla 2026. Preguntas originales de práctica. No son preguntas oficiales de la CNSC ni del ICFES.</p>
+
+<div class="progress">
+  <div class="stats">
+    <div class="stat">Pregunta: <strong id="qnum">1</strong> / <strong id="qtotal">12</strong></div>
+    <div class="stat">Aciertos: <strong id="aciertos">0</strong></div>
+    <div class="stat">Errores: <strong id="errores">0</strong></div>
+    <div class="stat">Sin responder: <strong id="pendientes">12</strong></div>
+  </div>
+  <div style="margin-top:.5rem;"><div class="bar" id="bar" style="width:0%"></div></div>
+</div>
+
+<div id="pregunta-container"></div>
+
+<div class="nav">
+  <button class="btn" id="btn-prev" onclick="prev()">Anterior</button>
+  <button class="btn" id="btn-next" onclick="next()">Siguiente</button>
+</div>
+
+<script>
+let preguntas = [];
+let idx = 0;
+let respuestas = {};
+let aciertos = 0;
+let errores = 0;
+
+fetch('banco-preguntas-semana1.json')
+  .then(r => r.json())
+  .then(data => {
+    preguntas = data.preguntas;
+    document.getElementById('qtotal').textContent = preguntas.length;
+    document.getElementById('pendientes').textContent = preguntas.length;
+    render();
+  })
+  .catch(e => {
+    document.getElementById('pregunta-container').innerHTML = '<p style="color:red">Error al cargar el banco de preguntas: ' + e.message + '</p>';
+  });
+
+function render() {
+  const q = preguntas[idx];
+  const container = document.getElementById('pregunta-container');
+  const yaRespondida = respuestas[q.codigo];
+  let html = '<div class="card">';
+  html += '<div class="meta">';
+  html += '<span class="tag tag-comp">' + q.competencia + '</span>';
+  html += '<span class="tag tag-nivel">' + q.nivel + '</span>';
+  html += '<span style="margin-left:.5rem;">Código: ' + q.codigo + '</span>';
+  html += '</div>';
+  html += '<p class="caso"><strong>Caso:</strong> ' + q.caso + '</p>';
+  html += '<p class="enunciado">' + q.enunciado + '</p>';
+  for (const [letra, texto] of Object.entries(q.opciones)) {
+    const sel = yaRespondida && yaRespondida.letra === letra ? 'selected' : '';
+    html += '<div class="op ' + sel + '" onclick="seleccionar(\'' + letra + '\')">' + letra + ') ' + texto + '</div>';
+  }
+  html += '<button class="btn" id="btn-confirmar" onclick="confirmar()" ' + (yaRespondida ? 'disabled' : '') + '>Confirmar respuesta</button>';
+  if (yaRespondida) {
+    const correcto = yaRespondida.letra === q.respuesta_correcta;
+    html += '<div class="feedback ' + (correcto ? 'correcto' : 'incorrecto') + '" style="display:block">';
+    html += '<h3>' + (correcto ? '✅ Correcto' : '❌ Incorrecto') + '</h3>';
+    html += '<p><strong>Respuesta correcta:</strong> ' + q.respuesta_correcta + '</p>';
+    html += '<p><strong>Justificación:</strong> ' + q.justificacion + '</p>';
+    html += '<p><strong>Análisis de distractores:</strong></p>';
+    for (const [letra, analisis] of Object.entries(q.distractores)) {
+      html += '<div class="distractor"><strong>' + letra + ':</strong> ' + analisis + '</div>';
+    }
+    html += '<p><strong>Referencia:</strong> ' + q.referencia + '</p>';
+    html += '</div>';
+  } else {
+    html += '<div class="feedback" id="feedback"></div>';
+  }
+  html += '</div>';
+  container.innerHTML = html;
+  document.getElementById('qnum').textContent = idx + 1;
+  document.getElementById('btn-prev').disabled = idx === 0;
+  document.getElementById('btn-next').disabled = idx === preguntas.length - 1;
+}
+
+let seleccion = null;
+function seleccionar(letra) {
+  if (respuestas[preguntas[idx].codigo]) return;
+  seleccion = letra;
+  document.querySelectorAll('.op').forEach(op => op.classList.remove('selected'));
+  document.querySelectorAll('.op').forEach(op => {
+    if (op.textContent.startsWith(letra + ')')) op.classList.add('selected');
+  });
+}
+
+function confirmar() {
+  if (!seleccion) { alert('Selecciona una opción primero.'); return; }
+  const q = preguntas[idx];
+  const correcto = seleccion === q.respuesta_correcta;
+  respuestas[q.codigo] = { letra: seleccion, correcto: correcto };
+  if (correcto) aciertos++; else errores++;
+  actualizarStats();
+  render();
+}
+
+function actualizarStats() {
+  document.getElementById('aciertos').textContent = aciertos;
+  document.getElementById('errores').textContent = errores;
+  document.getElementById('pendientes').textContent = preguntas.length - Object.keys(respuestas).length;
+  const pct = (Object.keys(respuestas).length / preguntas.length) * 100;
+  document.getElementById('bar').style.width = pct + '%';
+}
+
+function prev() { if (idx > 0) { idx--; render(); } }
+function next() { if (idx < preguntas.length - 1) { idx++; render(); } }
+</script>
+</body>
+</html>
