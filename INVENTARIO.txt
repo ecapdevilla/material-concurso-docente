@@ -4,6 +4,51 @@ Bancos de Preguntas\diagnostico_merito_docente_2026-10-31.md
 Bancos de Preguntas\Diagnostico_Merito_Docente_50_Preguntas_Revision.docx
 Bancos de Preguntas\merito_docente_ejemplo_2_preguntas.xlsx
 Bancos de Preguntas\MeritoDocente_Diagnostico50_Paquete.zip
+Complemento Documental Procuraduria 2026\01-fuentes-oficiales\CATALOGO.md
+Complemento Documental Procuraduria 2026\01-fuentes-oficiales\CONTROL_VERSIONES.csv
+Complemento Documental Procuraduria 2026\02-normas\DECRETO 1851 DEL 24 DE DICIEMBRE DE 2021.pdf
+Complemento Documental Procuraduria 2026\02-normas\Decreto 262  29-4-26 digital.pdf
+Complemento Documental Procuraduria 2026\02-normas\GUIA-ESTRUCTURA-Y-PENDIENTES.pdf
+Complemento Documental Procuraduria 2026\02-normas\Ley_1437_de_2011.pdf
+Complemento Documental Procuraduria 2026\02-normas\Ley_1952_de_2019.pdf
+Complemento Documental Procuraduria 2026\02-normas\Ley_2094_de_2021.pdf
+Complemento Documental Procuraduria 2026\02-normas\Ley_2220_de_2022.pdf
+Complemento Documental Procuraduria 2026\02-normas\Ley_594_de_2000.pdf
+Complemento Documental Procuraduria 2026\02-normas\MATRIZ_NORMATIVA.md
+Complemento Documental Procuraduria 2026\03-temario\MAPA_COMPETENCIAS.md
+Complemento Documental Procuraduria 2026\04-valoracion-antecedentes\GUIA.md
+Complemento Documental Procuraduria 2026\05-plan-estudio\PLAN_8_SEMANAS.md
+Complemento Documental Procuraduria 2026\06-banco-practica\preguntas_ejemplo.csv
+Complemento Documental Procuraduria 2026\06-banco-practica\README.md
+Complemento Documental Procuraduria 2026\07-pendientes\SEGUIMIENTO.md
+Complemento Documental Procuraduria 2026\08-estudio-general\PLANTILLA_SESION.md
+Complemento Documental Procuraduria 2026\09-simulacros\GUIA.md
+Complemento Documental Procuraduria 2026\09-simulacros\registro_resultados.csv
+Complemento Documental Procuraduria 2026\AUDITORIA.md
+Complemento Documental Procuraduria 2026\CHANGELOG.md
+Complemento Documental Procuraduria 2026\COMANDOS-INTEGRACION.md
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026.zip
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\01-fuentes-oficiales\CATALOGO.md
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\01-fuentes-oficiales\CONTROL_VERSIONES.csv
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\02-normas\MATRIZ_NORMATIVA.md
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\03-temario\MAPA_COMPETENCIAS.md
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\04-valoracion-antecedentes\GUIA.md
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\05-plan-estudio\PLAN_8_SEMANAS.md
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\06-banco-practica\preguntas_ejemplo.csv
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\06-banco-practica\README.md
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\07-pendientes\SEGUIMIENTO.md
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\08-estudio-general\PLANTILLA_SESION.md
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\09-simulacros\GUIA.md
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\09-simulacros\registro_resultados.csv
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\AUDITORIA.md
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\CHANGELOG.md
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\COMANDOS-INTEGRACION.md
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\CONTRIBUTING.md
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\LEEME-PRIMERO.md
+Complemento Documental Procuraduria 2026\complemento-documental-procuraduria-2026\MANIFIESTO.json
+Complemento Documental Procuraduria 2026\CONTRIBUTING.md
+Complemento Documental Procuraduria 2026\LEEME-PRIMERO.md
+Complemento Documental Procuraduria 2026\MANIFIESTO.json
 Concurso Docente 2016\1_4985880508605923976.pdf
 Concurso Docente 2016\1_4985880508605923977.pdf
 Concurso Docente 2016\concurso nacional 2016 2 sesion.pdf
@@ -54,9 +99,11 @@ Estudio Concurso 2026\01-fuentes-oficiales\FUENTES.md
 Estudio Concurso 2026\02-normas\_decreto_1290 Evaluación.pdf
 Estudio Concurso 2026\02-normas\articles-187765_archivo_pdf_decreto_1290.pdf
 Estudio Concurso 2026\02-normas\articles-86098_archivo_pdf.pdf
+Estudio Concurso 2026\02-normas\Constitucion-Politica-Colombia-1991.pdf
 Estudio Concurso 2026\02-normas\Decreto 1278 de 2002,.pdf
 Estudio Concurso 2026\02-normas\Decreto 1290 de 2009.pdf
 Estudio Concurso 2026\02-normas\decreto 2277.pdf
+Estudio Concurso 2026\02-normas\decreto_1384_2026.pdf
 Estudio Concurso 2026\02-normas\decreto-1421-2017-funcionpublica.html
 Estudio Concurso 2026\02-normas\decreto-1421-2017-funcionpublica.pdf
 Estudio Concurso 2026\02-normas\decreto-1965-2013-funcionpublica.html
@@ -67,7 +114,10 @@ Estudio Concurso 2026\02-normas\INVENTARIO-NORMAS.md
 Estudio Concurso 2026\02-normas\Ley 115 de 1994.pdf
 Estudio Concurso 2026\02-normas\Ley 715 de 2001.pdf
 Estudio Concurso 2026\02-normas\Ley_1098_de_2006.pdf
+Estudio Concurso 2026\02-normas\Ley_1346_de_2009.pdf
+Estudio Concurso 2026\02-normas\Ley_1437_de_2011.pdf
 Estudio Concurso 2026\02-normas\Ley_2216_de_2022.pdf
+Estudio Concurso 2026\02-normas\Ley_2418_de_2024.pdf
 Estudio Concurso 2026\02-normas\ley-1618-2013-funcionpublica.html
 Estudio Concurso 2026\02-normas\ley-1618-2013-funcionpublica.pdf
 Estudio Concurso 2026\02-normas\ley-1620-2013-funcionpublica.html
@@ -155,17 +205,28 @@ Legislacion y Normativa\anexo-tecnico-docentes-y-directivos-docentes-2026.pdf
 Legislacion y Normativa\articles-172061_archivo_pdf_decreto1860_94 (1).pdf
 Legislacion y Normativa\articles-373226_recurso_2.pdf
 Legislacion y Normativa\articles-85906_archivo_pdf.pdf
+Legislacion y Normativa\Constitucion-Politica-Colombia-1991.pdf
 Legislacion y Normativa\decreto 1075-2015unico de educación.pdf
 Legislacion y Normativa\decreto 1278 (1).pdf
 Legislacion y Normativa\decreto 1278.pdf
+Legislacion y Normativa\DECRETO 1851 DEL 24 DE DICIEMBRE DE 2021.pdf
 Legislacion y Normativa\decreto 2277.pdf
+Legislacion y Normativa\Decreto 262  29-4-26 digital.pdf
 Legislacion y Normativa\Decreto_1075_de_2015_Sector_Educación.pdf
+Legislacion y Normativa\decreto_1384_2026.pdf
 Legislacion y Normativa\Decreto_2277_de_1979.pdf
 Legislacion y Normativa\Guia_de_integracion_normativa.pdf
 Legislacion y Normativa\Ley_1098_de_2006 (1).pdf
 Legislacion y Normativa\Ley_1098_de_2006.pdf
+Legislacion y Normativa\Ley_1346_de_2009.pdf
+Legislacion y Normativa\Ley_1437_de_2011.pdf
 Legislacion y Normativa\Ley_1620_de_2013 (1).pdf
+Legislacion y Normativa\Ley_1952_de_2019.pdf
+Legislacion y Normativa\Ley_2094_de_2021.pdf
 Legislacion y Normativa\Ley_2216_de_2022.pdf
+Legislacion y Normativa\Ley_2220_de_2022.pdf
+Legislacion y Normativa\Ley_2418_de_2024.pdf
+Legislacion y Normativa\Ley_594_de_2000.pdf
 Material Pedagogico\Actividad_Eje_3_Diseno_Instruccional_Meritodocente_1A.docx
 Material Pedagogico\Actividad_Eje_3_Diseno_Instruccional_Meritodocente_ASSURE_1A.docx
 Material Pedagogico\Actividad_Eje_3_Diseno_Instruccional_Meritodocente_SAM_1A.docx
