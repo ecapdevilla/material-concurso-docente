@@ -1,5 +1,4 @@
 ﻿Asenso Docente\formulario.pdf
-Bancos de Preguntas\100 PREGUNTAS SIMULACRO CONCURSO DOCENTE.pdf
 Bancos de Preguntas\Banco_Diagnostico_30_Preguntas_Concurso_Docente_2026_2027.txt
 Bancos de Preguntas\diagnostico_merito_docente_2026-10-31.md
 Bancos de Preguntas\Diagnostico_Merito_Docente_50_Preguntas_Revision.docx
@@ -12,6 +11,38 @@ Concurso Docente 2016\Cuadernillo de preguntas ensenar - saber pro 2018.pdf
 Concurso Docente 2016\Cuadernillo de preguntas evaluar - saber pro 2018.pdf
 Concurso Docente 2016\Cuadernillo de preguntas formar - saber pro 2018.pdf
 Concurso Docente 2016\Cuadernillo de preguntas razonamiento cuantitativo saber pro 2018.pdf
+Documentos Recibidos y Oficiales\1. CARTA AL DOCENTE.jpg
+Documentos Recibidos y Oficiales\100 PREGUNTAS SIMULACRO CONCURSO DOCENTE.pdf
+Documentos Recibidos y Oficiales\2. CARTA AL DOCENTE.jpg
+Documentos Recibidos y Oficiales\2-prueba-competencias-pedagogicas-oro-y-bronce1.pdf
+Documentos Recibidos y Oficiales\3.SIMULACRO.PSICOLOGIA EDUCATIVA.pdf
+Documentos Recibidos y Oficiales\6 simulacro pruebas icfes.doc
+Documentos Recibidos y Oficiales\Borrador HORARIO DOCENTES 2026 - FEBRERO 10.pdf
+Documentos Recibidos y Oficiales\carta renuncia modelo sr simon.docx
+Documentos Recibidos y Oficiales\Ensayo Prueba de Estado[1]. Normatividad.doc
+Documentos Recibidos y Oficiales\evaluacic3b3n-de-competencias-e-ingreso.pdf
+Documentos Recibidos y Oficiales\Guia para docentes Ajustes Razonables..docx
+Documentos Recibidos y Oficiales\guia tecnología.doc
+Documentos Recibidos y Oficiales\Guia_Docente_Bug_Hunters_9th_Ciclo5.docx
+Documentos Recibidos y Oficiales\HORARIO DOCENTES 2026 - ENERO 23.pdf
+Documentos Recibidos y Oficiales\HORARIO DOCENTES 2026 - FEBRERO 12 Primer Semestre (1).pdf
+Documentos Recibidos y Oficiales\HORARIO DOCENTES 2026 - FEBRERO 12 Primer Semestre.pdf
+Documentos Recibidos y Oficiales\instructivo_pedagogia_2012 (1).pdf
+Documentos Recibidos y Oficiales\instructivo_pedagogia_2012.pdf
+Documentos Recibidos y Oficiales\instructivo_pines_concurso_mixto.pdf
+Documentos Recibidos y Oficiales\merit-lab-starter.zip
+Documentos Recibidos y Oficiales\merit-lab-v0.2.0.zip
+Documentos Recibidos y Oficiales\MéritoDocente_ Plataforma para Avanzar.png
+Documentos Recibidos y Oficiales\Modeloseducativos.pdf
+Documentos Recibidos y Oficiales\Modelospedagogicos.pdf
+Documentos Recibidos y Oficiales\Paradigmas, Modelos, Enfoques(2).doc
+Documentos Recibidos y Oficiales\proyecto_anexo_tecnico_docentes_2026.md
+Documentos Recibidos y Oficiales\proyecto_anexo_tecnico_docentes_2026.pdf
+Documentos Recibidos y Oficiales\REctor- DOcentes-CARTA INVITACION A LOS SKILLS 2025.pdf
+Documentos Recibidos y Oficiales\Resumen de Práctica Reflexiva Docente Transformadora.html
+Documentos Recibidos y Oficiales\SIMULACRO PRUEBA GENERAL.pdf
+Documentos Recibidos y Oficiales\simulacro-aptitud-verbal-general.pdf
+Documentos Recibidos y Oficiales\Solicitud Interrapidisimo.pdf
 Evidencias y Certificados\Evidencia Docente Estiben Rafael Capdevilla NSCL 240201056.pdf
 Evidencias y Certificados\Hv Docente Estiben Capdevilla Pacheco act.pdf
 Evidencias y Certificados\Hv Docente Estiben Capdevilla Pacheco.docx
@@ -19,10 +50,10 @@ Evidencias y Certificados\Hv Docente Estiben Capdevilla Pacheco.pdf
 Evidencias y Certificados\hv Docente Ingeniero de sistemas Estiben Capdevilla (1).docx
 Evidencias y Certificados\hv Docente Ingeniero de sistemas Estiben Capdevilla (1).pdf
 Evidencias y Certificados\hv Docente Ingeniero de sistemas Estiben Capdevilla.pdf
-Guias y Orientaciones\Guia para docentes Ajustes Razonables..docx
-Guias y Orientaciones\Guia_Docente_Bug_Hunters_9th_Ciclo5.docx
-Guias y Orientaciones\instructivo_pines_concurso_mixto.pdf
 INVENTARIO.txt
+Legislacion y Normativa\decreto 1075-2015unico de educación.pdf
+Legislacion y Normativa\decreto 1278 (1).pdf
+Legislacion y Normativa\decreto 1278.pdf
 Material Pedagogico\Actividad_Eje_3_Diseno_Instruccional_Meritodocente_1A.docx
 Material Pedagogico\Actividad_Eje_3_Diseno_Instruccional_Meritodocente_ASSURE_1A.docx
 Material Pedagogico\Actividad_Eje_3_Diseno_Instruccional_Meritodocente_SAM_1A.docx
@@ -67,16 +98,13 @@ Material Pedagogico\Preparacion Concurso Docente\APTITUD VERBAL\ORDENAMIENTO DE 
 Material Pedagogico\Preparacion Concurso Docente\APTITUD VERBAL\ordenoraciones.doc
 Material Pedagogico\Preparacion Concurso Docente\APTITUD VERBAL\Preguntas lenguaje.pdf
 Material Pedagogico\Preparacion Concurso Docente\APTITUD VERBAL\preguntasdirectas2.doc
-Material Pedagogico\Preparacion Concurso Docente\APTITUD VERBAL\simulacro-aptitud-verbal-general.pdf
 Material Pedagogico\Preparacion Concurso Docente\APTITUD VERBAL-20241112T163818Z-001.zip
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\1.PRUEBA DE PEDAGOGA.pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\1-prueba_de_pedagogia (1).pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\1-prueba_de_pedagogia.pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\2.Respuestas Prueba Pedagogica.pdf
-Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\2-prueba-competencias-pedagogicas-oro-y-bronce1.pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\2-respuestas-prueba-pedagogica (1).pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\2-respuestas-prueba-pedagogica.pdf
-Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\3.SIMULACRO.PSICOLOGIA EDUCATIVA.pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\3-prueba-psicologia-educativa (1).pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\3-prueba-psicologia-educativa.pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\3-respuestaspsicologia-educativa-2.xls
@@ -84,18 +112,13 @@ Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\4.SIMULACRO.Psicolog
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\4.SIMULACRO.Psicologa Educatival.xls
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\5. PEDAGOGÍA. PRUEBA PEDAGÓGICA 2 CON RESPUESTAS (1).pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\5. PEDAGOGÍA. PRUEBA PEDAGÓGICA 2 CON RESPUESTAS.pdf
-Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\6 simulacro pruebas icfes.doc
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\7 documento concurso docente.doc
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\APRENDIZAJE SIGNIFICATIVO.pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\cuestionario-didactica.docx
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\Desarrollo_Profesional_Docente (1).pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\Desarrollo_Profesional_Docente.pdf
-Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\Ensayo Prueba de Estado[1]. Normatividad.doc
-Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\evaluacic3b3n-de-competencias-e-ingreso.pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\evaluacioncompetencias1278.pps
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\indicadores de logro curriculares.pdf
-Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\instructivo_pedagogia_2012 (1).pdf
-Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\instructivo_pedagogia_2012.pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 1 ADEMACOR\EVAL. POR COMP - Didáctica 1.pptx
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 1 ADEMACOR\INTELIGENCIAS_MULTIPLES - 4.ppt
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 1 ADEMACOR\MODULO CONCEPTO DIDACTICA.pdf
@@ -109,10 +132,8 @@ Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 2 ADEMA
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 2 ADEMACOR\DIA PRIMERO GINA\MATERIAL DE CURRICULO\DIAPOSITIVAS CURRICULO.pptx
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 2 ADEMACOR\DIA PRIMERO GINA\MATERIAL DE CURRICULO\La Complejidad y la Educación Integradora y Desarrolladora (2).doc
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 2 ADEMACOR\DIA PRIMERO GINA\MATERIAL DE CURRICULO\La transposición didáctica.doc
-Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 2 ADEMACOR\DIA PRIMERO GINA\MATERIAL DE CURRICULO\Paradigmas, Modelos, Enfoques(2).doc
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 2 ADEMACOR\DIA PRIMERO GINA\MATERIAL DE CURRICULO\TALLER INDEPENDIENTE SESION 1 CURRICULO.doc
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 2 ADEMACOR\DIA PRIMERO GINA\MATERIAL DE CURRICULO\TALLER N°1 CURRICULO CURSO ASCENSO DOCENTES 1278.doc
-Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 2 ADEMACOR\DIA PRIMERO GINA\Paradigmas, Modelos, Enfoques(2).doc
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 2 ADEMACOR\DIA PRIMERO GINA\TALLER N°1 CURRICULO CURSO ASCENSO DOCENTES 1278.docx
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 2 ADEMACOR\EVAL. POR COMP - Didáctica 2.pptx
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 2 ADEMACOR\las_7_maravillas.pps
@@ -124,15 +145,12 @@ Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 2 ADEMA
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 3\capacitacion docentes 1278 TERCERA SESION.pptm
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 3\PREGUNTAS DE APOYO.docx
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\LECTURAS\DIA 3\Sabiduria.pps
-Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\Modeloseducativos.pdf
-Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\Modelospedagogicos.pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\pedagogica_upn prueba.pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\Preguntas pedagogía..pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\Preguntas pedagogía..pdf.pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\PREGUNTAS_CONCURSO_DOCENTE_2016.pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\SIMULACRO DE PRACTICA1.xls
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\Simulacro Practica 2 PEDAGOGÍA.xls
-Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\SIMULACRO PRUEBA GENERAL.pdf
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\test_pedagc3b3gico-2.xls
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\test-pedagogico-1 (1).xls
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\test-pedagogico-1 (2).xls
@@ -141,25 +159,9 @@ Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\test-pedagogico-1 (4
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA\test-pedagogico-1.xls
 Material Pedagogico\Preparacion Concurso Docente\PEDAGOGÍA-20241112T155731Z-001.zip
 Material Pedagogico\Preparacion Concurso Docente\TECNOLOGÍA\cuestionario-de-tecnologc3ada.docx
-Material Pedagogico\Preparacion Concurso Docente\TECNOLOGÍA\guia tecnología.doc
 Material Pedagogico\Preparacion Concurso Docente\TECNOLOGÍA\tecnologiaestandar.pdf
 Material Pedagogico\Preparacion Concurso Docente\TECNOLOGÍA-20241112T155253Z-001.zip
 Material Pedagogico\Propuesta_Mejoras_MOOC_MeritoDocente.pdf
-Otros\1. CARTA AL DOCENTE.jpg
-Otros\2. CARTA AL DOCENTE.jpg
-Otros\Borrador HORARIO DOCENTES 2026 - FEBRERO 10.pdf
-Otros\carta renuncia modelo sr simon.docx
-Otros\HORARIO DOCENTES 2026 - ENERO 23.pdf
-Otros\HORARIO DOCENTES 2026 - FEBRERO 12 Primer Semestre (1).pdf
-Otros\HORARIO DOCENTES 2026 - FEBRERO 12 Primer Semestre.pdf
-Otros\merit-lab-starter.zip
-Otros\merit-lab-v0.2.0.zip
-Otros\MéritoDocente_ Plataforma para Avanzar.png
-Otros\proyecto_anexo_tecnico_docentes_2026.md
-Otros\proyecto_anexo_tecnico_docentes_2026.pdf
-Otros\REctor- DOcentes-CARTA INVITACION A LOS SKILLS 2025.pdf
-Otros\Resumen de Práctica Reflexiva Docente Transformadora.html
-Otros\Solicitud Interrapidisimo.pdf
 Presentaciones\MéritoDocente_Pitch_Deck.pdf
 Presentaciones\MeritoDocente_Pitch_Vertical_Actualizado.pptx
 Presentaciones\MeritoDocente_Presentacion_Final.pptx
