@@ -120,8 +120,10 @@ Estudio Concurso 2026\15-tecnologia-informatica\Orientaciones_Curricures_Tecnolo
 Estudio Concurso 2026\15-tecnologia-informatica\Orientaciones_Curricures_Tecnologia_ACTUALIZADO.pdf
 Estudio Concurso 2026\15-tecnologia-informatica\tecnologiaestandar.pdf
 Estudio Concurso 2026\16-competencias-blandas\Codigo-Etica-Backup-28022021.pdf
+Estudio Concurso 2026\16-competencias-blandas\etica.pdf
 Estudio Concurso 2026\16-competencias-blandas\seminario liderazgo y motivacion.pdf
 Estudio Concurso 2026\index.html
+Estudio Concurso 2026\PROMPT-IA-AYUDA.md
 Estudio Concurso 2026\PROMPT-OTRA-MAQUINA.md
 Estudio Concurso 2026\README.md
 Evidencias y Certificados\Evidencia Docente Estiben Rafael Capdevilla NSCL 240201056.pdf
