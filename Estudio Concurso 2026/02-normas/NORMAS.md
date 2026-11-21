@@ -10,16 +10,16 @@ Prioridad: **A** = imprescindible esta semana. **B** = antes de la prueba. **C**
 |---|---|---|---|
 | **Acuerdo CNSC 239 de 2026** (Barranquilla) | Reglas del proceso | Es la norma principal | Arts. 3, 6, 7, 8, 13, 16, 19, 20, 25, 30, 33 |
 | **Anexo Técnico 2917 a 3006 de 2026** | Condiciones de cada etapa | Complementa el Acuerdo | Numerales 1.2 (inscripción), 2 (pruebas), 4 (VRM), 5 (VA), 6 (entrevista) |
-| **Resolución MEN 3842 de 2022** | Manual de Funciones, Requisitos y Competencias | Define los requisitos mínimos por cargo y las competencias de la prueba psicotécnica | Requisitos del cargo que elegiste y el listado de competencias comportamentales |
-| **Decreto Ley 1278 de 2002** | Estatuto de profesionalización docente | Cita el Acuerdo en arts. 4, 5, 6 (psicotécnica), 8 (concurso), 15 (nueva convocatoria), 31 (período de prueba) | Qué es el concurso, qué mide la psicotécnica, el período de prueba |
+| **Resolución MEN 3842 de 2022** | Manual de Funciones, Requisitos y Competencias | Define los requisitos mínimos por cargo y las competencias de la prueba psicotécnica | Requisitos del cargo que elegiste y el listado de competencias comportamentales | ✅ descargada (Resolución 3842 de 2022.pdf) |
+| **Decreto Ley 1278 de 2002** | Estatuto de profesionalización docente | Cita el Acuerdo en arts. 4, 5, 6 (psicotécnica), 8 (concurso), 15 (nueva convocatoria), 31 (período de prueba) | Qué es el concurso, qué mide la psicotécnica, el período de prueba | ✅ descargada (Decreto 1278 de 2002,.pdf) |
 
 ## Prioridad B
 
 | Norma | Tema | Por qué |
 |---|---|---|
-| **Ley 115 de 1994** (Ley General de Educación) | Fines de la educación, currículo, PEI, gobierno escolar | Base de casi todas las preguntas de competencias pedagógicas y de conocimientos disciplinares generales. Art. 116 es requisito general de participación (citado en Art. 7 del Acuerdo). |
-| **Ley 715 de 2001** | Sistema General de Participaciones; competencias de las entidades territoriales certificadas | Citada en el Acuerdo como marco de competencias de la entidad. Preguntas sobre quién hace qué en el sistema educativo. |
-| **Decreto 1075 de 2015** (Único Reglamentario Sector Educación) | Capítulo 1 del Título 1, Parte 4, Libro 2 (procesos de selección) | Arts. 2.4.1.1.x citados en el Acuerdo. Base de las etapas. |
+| **Ley 115 de 1994** (Ley General de Educación) | Fines de la educación, currículo, PEI, gobierno escolar | Base de casi todas las preguntas de competencias pedagógicas y de conocimientos disciplinares generales. Art. 116 es requisito general de participación (citado en Art. 7 del Acuerdo). | ✅ descargada (Ley 115 de 1994.pdf) |
+| **Ley 715 de 2001** | Sistema General de Participaciones; competencias de las entidades territoriales certificadas | Citada en el Acuerdo como marco de competencias de la entidad. Preguntas sobre quién hace qué en el sistema educativo. | ⏳ pendiente |
+| **Decreto 1075 de 2015** (Único Reglamentario Sector Educación) | Capítulo 1 del Título 1, Parte 4, Libro 2 (procesos de selección) | Arts. 2.4.1.1.x citados en el Acuerdo. Base de las etapas. | ✅ descargada (articles-86098_archivo_pdf.pdf) |
 | **Ley 909 de 2004** | Empleo público y carrera administrativa | Art. 27, 28 (mérito), 31 (pruebas reservadas), citados en el Acuerdo. | ✅ descargada (ley-909-2004-funcionpublica.pdf) |
 | **Ley 2418 de 2024** | Reserva del 7 % para personas con discapacidad | Citada en el Acuerdo (Art. 6 y 8). Relevante si aplicas por reserva. |
 | **Decreto 1743 de 1994** | Proyecto de Educación Ambiental (PRAE) | Aparece en ejemplos oficiales de la prueba psicotécnica. |
