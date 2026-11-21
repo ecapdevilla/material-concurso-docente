@@ -31,7 +31,7 @@
 | **Ley 2418 de 2024** | Reserva del 7 % para personas con discapacidad | mineducacion.gov.co > Normatividad | B |
 | **Decreto 1743 de 1994** | Proyecto de Educación Ambiental (PRAE) | mineducacion.gov.co > Normatividad | C |
 | **Decreto Legislativo 1384 de 2026** | Medidas por el sismo de agosto de 2026 | cnsc.gov.co > Avisos | C |
-| **Ley 1437 de 2011** | CPACA (Código de Procedimiento Administrativo) | funcionpublica.gov.co | B |
+| **Ley 1437 de 2011** | CPACA (Código de Procedimiento Administrativo) | ✅ descargada (SIMO/Contraloria/LEY 1437 DEL 2011.docx) | B |
 | **Constitución Política** (arts. 67, 68, 125, 130, 209) | Educación, educadores, carrera, función pública | constitucioncolombia.com | A |
 
 ## Normas que tenemos (del repo remoto, en `Material Pedagogico/`)

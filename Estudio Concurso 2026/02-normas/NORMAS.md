@@ -22,6 +22,7 @@ Prioridad: **A** = imprescindible esta semana. **B** = antes de la prueba. **C**
 | **Decreto 1075 de 2015** (Único Reglamentario Sector Educación) | Capítulo 1 del Título 1, Parte 4, Libro 2 (procesos de selección) | Arts. 2.4.1.1.x citados en el Acuerdo. Base de las etapas. | ✅ descargada (articles-86098_archivo_pdf.pdf) |
 | **Decreto 1290 de 2009** (SIEE) | Sistema Institucional de Evaluación de Estudiantes | Escala de valoración, promoción, seguimiento. | ✅ descargada (articles-187765_archivo_pdf_decreto_1290.pdf / Decreto 1290 de 2009.pdf) |
 | **Ley 909 de 2004** | Empleo público y carrera administrativa | Art. 27, 28 (mérito), 31 (pruebas reservadas), citados en el Acuerdo. | ✅ descargada (ley-909-2004-funcionpublica.pdf) |
+| **Ley 1437 de 2011** | CPACA (Código de Procedimiento Administrativo y de lo Contencioso Administrativo) | Actos administrativos, procedimiento, notificación, recursos, silencio administrativo, caducidad, nulidad | ✅ descargada (SIMO/Contraloria/LEY 1437 DEL 2011.docx) |
 | **Ley 2418 de 2024** | Reserva del 7 % para personas con discapacidad | Citada en el Acuerdo (Art. 6 y 8). Relevante si aplicas por reserva. |
 | **Decreto 1743 de 1994** | Proyecto de Educación Ambiental (PRAE) | Aparece en ejemplos oficiales de la prueba psicotécnica. |
 
